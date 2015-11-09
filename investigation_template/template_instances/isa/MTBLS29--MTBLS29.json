@@ -1,0 +1,1131 @@
+{
+  "info": {
+    "template_title": "isa--MTBLS29", 
+    "template_description": "Investigation instance", 
+    "creation_date": "2015-11-08 21:39:51"
+  }, 
+  "description": {
+    "_value": ""
+  }, 
+  "study": [
+    {
+      "studyProtocol": [
+        {
+          "name": {
+            "_value": "Sample collection"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDbeb2e2dd-70df-4bdb-b10d-80d85515d518", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Sample collection"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "Cell culture Cells of the YSBN.6 strain were grown in minimal medium with 10g/L glucose (either 12C- or 13C-labelled glucose). The minimal medium was prepared according to Verduyn et al. with 10mM phthalate buffer to maintain a pH value of 5.0 [Yeast 8:501-517] Cells were always grown at 30\u00b0C while shaking with 300 rpm. Pre-cultures were inoculated from YPD plates and grown in 5ml medium for approximately 9 hours to a maximum OD600 of 1.5. The pre-culture was used to inoculate the main culture with a start OD600 of 0.005 in 25 mL of Verduyn minimal medium. Cells of the main culture were harvested between an OD600 of 1.0 and 1.2."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Extraction"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID8678d848-0f7b-45df-b205-1fa23bcda80e", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID5ff344c9-81bc-4acb-8ff8-d84a6d53bb91", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Post Extraction"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID5f2ea07b-e979-4633-8287-c37c32f4e21b", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Derivatization"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Extraction"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": ""
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Chromatography"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID806ae8d6-71ef-42d0-a228-8d3ccf8c7a01", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID3238d93e-1dee-4991-af70-76c8feeea0a2", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Chromatography Instrument"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID2db4bccf-5491-46d5-a240-76a2bd873de1", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Column type"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID83f72c17-499e-41b9-8b08-69894f7b492e", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Column model"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Chromatography"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": ""
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Mass spectrometry"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDb0642f4e-f158-4aa0-ab04-ff65562860ff", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID9529a41d-fe1e-4d59-95c8-701d4a3819ba", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Scan polarity"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID313004e9-3579-4da8-88f1-3d0319bedb12", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Scan m/z range"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID1d878add-4f54-4ea1-b44d-28595bbaa42f", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Instrument"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID3b74eb8f-3ba2-46e7-81e6-92109cd74a73", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Mass analyzer"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDa283af4b-d13c-43b4-93f6-3f31fc4df5e8", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Ion source"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Mass spectrometry"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "MS measurement The MALDI MS measurements were carried out on a commercial MALDI-TOF/TOF mass spectrometer (ABI4800 Plus, AB Sciex, Concord/ON, Canada). This instrument is equipped with a 355-nm solid-state laser. Measurements were conducted in the negative-ion reflectron mode, analyzing a mass range between 70 and 1100 m/z, and using 100 shots (10 subspectra x 10 shots) with center biased rastering. In our measurements, we heavily rely on the accuracy of the mass measurements for confidence on the metabolite identity. In order to exclude any possible mass shifts that may be caused by slightly tilted surfaces or in homogeneity of the conductivity of the MAMS coating and therefore irregular electric fields, we introduced evenly spaced calibration spots surrounding the 100 um array. Prior each MS measurement, the MS instrument was calibrated using 13 metabolite standards evenly distributed in the mass range of interest. MS/MS analyses were conducted using the collision-induced dissociation (CID) cell in the ABI4800 instrument and air as the collision gas. Unfortunately, tandem mass spectrometry on the same cell sample is not possible in our case, due to limited amount of material present within one microwell. Therefore, we normally carried out tandem MS measurements on different wells to the one in which the parent ions were originally measured. Some times, it was necessary to combine the MS/MS measurements of a whole MAMS chip to obtain a suitable tandem MS spectrum. Therefore, it was critically also for our purposes to align the MAMS plate (i.e. the microwells) with the laser ionization spots using optical marks. By using the alignment marks, it was possible to run automated measurements, using the ABI mass spectrometer software, in a reproducible manner."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Data transformation"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID196142e9-f036-4d47-a0dd-84ed7ab1d85c", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Data transformation"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "Data treatment and data analysis software Spectral data (i.e. accurate mass, signal intensity, peak resolution) were calculated from the raw spectra using the ABI4800 software package (4000 Series Explorer V3.5.3, and Data Explorer Software Version 4.9). Chemical assignments (identities) of 26 metabolites were made on the basis of accurate mass measurements (accuracy of 20 ppm or better), the isotope ratios of the corresponding signals, and metabolic databases (ChemBioFinder [http://chembiofinder.cambridgesoft.com/]; Chemspider [http://www.chemspider.com/]; Kegg [http://www.genome.jp/kegg/]; Metlin [http://metlin.scripps.edu/]; and Yeastnet [http://www.comp-sys-bio.org/yeastnet/]). The chemical assignments were verified by comparing the respective tandem MS/MS spectra to the ones obtained from commercially available standards, and by using 13C-labeled cells, which were obtained by growing the yeast cells in 13C-labeled glucose. In order to exclude data with faulty assignments, the masses of at least 24 metabolites must be present in the spectrum with a mass deviation lower than 20 ppm (ideally lower than 15 ppm). Phosphoglyceric acid and Acetyl-Coenzyme A were not considered for further data analysis due to their constant mass deviation of 20 ppm or higher. Any spectra that did not contain all 24 metabolites signals within this mass error were discarded. If the ABI4800 software package was unable to recognize a precise peak (even if the S/N ratio was higher than 3), the peak resolution was calculated manually, and the mass intensity as well as its mass-to-charge ratio were calculated from ASCII files using a MATLAB peak recognition software (version 7.6.0.324 (R2010a), MathWorks, Natick, MA, USA). The ASCII files were generated using macros written within the ABI Data Explorer Software. All data from the ABI software packages were then exported to Microsoft Excel(TM). In Excel, the signal intensities for each metabolite in one MAMS microwell, were divided by a known 9-amino acridine unsaturated background signal ([C4H2O4 - H]-, m/z 112.98933) and the number of cells counted within that well, providing us with the relative signal intensity for each metabolite at the single-cell level. This simple procedure allowed us to compensate for any inconsistencies in the matrix deposition, shot-to-shot and spot-to-spot variation, as well as in differences in the number of trapped cells (biomass) between MAMS microwells. However, to avoid other unexpected sources of variation (e.g. signal suppression, inefficient metabolite extraction, etc) between MAMS substrates, we used the signal of one of the measured metabolite as internal standard. In our case, we selected glutamate (C5H9NO4 - H]-, m/z 146.04588) as an internal standard, since its relative signal intensity for a whole MAMS plate remains constant, within the time frame of our study and for the different measured sample treatment if the cells originated from the same colony innoculation. Therefore, all metabolite signals obtained from one MAMS chip were adjusted by one single factor, if the average glutamate signal in the whole MAMS plate had a deviation of 10% or more from the expected value. Such complex data processing is necessary to reduce the technical variability between measurements, which if not removed or minimize could later been misinterpretate as cell-to-cell variability."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Metabolite identification"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID51e16338-fbc7-4f95-89af-6c26807be917", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Metabolite identification"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": ""
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Cell counting"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDef62f445-49a1-420c-9a34-a24c7d2e2198", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "cell counting technique"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "Cell counting Prior to spotting the cells on the MAMS target for the MALDI MS measurement, the cells were reconstituted in 500 \u00b5L of a MeOH/ddH2O mixture (60:40) + 0.85% (w/V) ammonium bicarbon ate buffer, pre-cooled at -40\u00b0C, and carefully shaken to avoid cell aggregation. The samples were transferred to pre-cooled Eppendorf vials (2 mL). The Eppendorf vials were centrifuged at -10\u25e6C for 1 min at 1000 g (fixed rotor). The supernatant was removed to avoid any remaining growth medium to be trapped in the cell pellet. The cell pellet was reconstituted in \u224850 \u00b5L of 60% MeOH in ddH2O (-40\u00b0C) and slightly shaken. Then, 2 \u00b5L of the cell suspension (\u22482,500,000 cells per mL) was spread over a cooled MAMS plate (-4\u00b0C). The distribution of the number of cells per well is stochastic (i.e. Poisson distribution). After the cells were distributed on the MAMS chip, the rest of the reconstituted yeast sample was once more centrifuged and shock frozen for population-level (bulk sample) control measurements at a later time point. To avoid any changes to the metabolism during the cell counting step, the MAMS plate was cooled using liquid nitrogen in a nitrogen-rich atmosphere (with a constant flow of N2 gas) to avoid condensation of moisture from air on the surfaces of the MAMS chip and the microscope optics. To avoid any cross-contamination between empty- and cell-containing-wells in the MAMS, the chip was placed in a dry-freezing cham ber for 15 min, after counting the cells. This step allowed us to remove residual moisture that remains on the surface of the MAMS chip prior the matrix deposi tion step. Most of the metabolites that were detected in this publication, using the MAMS platform, are the most abundant metabolites found within S. cerevisiae cells."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Cell handling"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID4a56b19d-6e3f-4ae4-9ae5-41670447b32f", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Cell handling"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "Cell handling The cell handling protocol was adapted from Ewald et al.[Anal Chem 81:3623-3629]. In brief the workflow consisted on the following: 1 mL from the main culture of yeast cells (YSBN.6) was quenched in 4 mL of a MeOH/ddH2O mixture (60:40) + 0.85% (w/V) ammonium bicarbonate buffer, and pre-cooled at -40\u00b0C. Three types of aliquots were prepared from the main culture of yeast cells: Reference samples were untreated aliquots; Control samples were aliquots treated with 500 \u00b5L of HPLC-MS grade water (ddH2O) at 4\u00b0C; and Treated samples were aliquots treated with 500 \u00b5L of a 2% (mg/mL) solution of 2-deoxy-d-glucose (HPLC-MS grade water). The falcon tubes containing the different aliquots were immediately submerged in a -40\u00b0C glycerol bath for 1 minute to ensure quenching of the metabolism. The samples were then centrifuged for 1 minute at -10\u00b0C at 1000 g in a non-fixed rotor centrifuge. The supernatant (growth medium) was removed, and the falcon tube containing the cell pellet was then shock-frozen in liquid nitrogen and stored at -80\u00b0C until the measurement."
+          }
+        }
+      ], 
+      "description": {
+        "_value": "Single-cell level measurements are necessary to characterize the intrinsic biological variability in a population of cells. In a study of the metabolic response of a clonal Saccharomyces cerevisiae population challenged by the glycolytic inhibitor 2-deoxy-D-glucose (2-DG), this variability is shown here, by comparing measurements at the population and the single-cell level. A novel microarray platform and MALDI mass spectrometric read-out allow us to follow 24 parameters simultaneously, in up to 100 single-cell measurements. Correlation plots for metabolites from the glycolytic pathway, the pentose phosphate pathway, and the observed ATP/ADP ratio as a measure of cellular energy charge give new insight into biochemical and metabolic pathways, which would not be accessible from population-level metabolomics data. Single-cell level measurements are necessary to characterize the intrinsic biological variability in a population of cells. In this study we demonstrate that with the Microarrays for Mass Spectrometry (MAMS) platform we are able to observe this variability. We monitor environmentally-(2-deoxy-d-glucose) and genetically-(\u2206PFK2) perturbed Saccharomyces cerevisiae cells both at the population and near single-cell levels. Correlation plots between metabolites from the glycolytic pathway, as well as with the observed ATP/ADP ratio as a measure of cellular energy charge give new biological insight that is not accessible from population-level metabolomic data."
+      }, 
+      "title": {
+        "_value": "Single-cell and bulk level metabolomic study of the glycolysis inhibition by 2-deoxy-d-glucose in Saccharomyces cerevisiae"
+      }, 
+      "process": [
+        {
+          "type": {
+            "_value": "Sample collection"
+          }, 
+          "output": {
+            "sample": [
+              {
+                "description": {
+                  "_value": ""
+                }, 
+                "characteristic": [
+                  {
+                    "name": {
+                      "_value": "Organism"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "reference compound "
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID646e2e13-7118-41bb-9728-81bfbc3dcdec", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID409e646e-4c55-4255-a799-c0ef5abaf970", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "Organism part"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "reference compound "
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID1beda3ef-8b37-4674-92b7-ce3c180d01de", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDf64aec17-a06f-4333-ab81-2147942503cb", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "studyTime": {
+                  "durationValue": {
+                    "_value": 0
+                  }, 
+                  "isBeforeEvent": {
+                    "_value": false
+                  }, 
+                  "studyEvent": {
+                    "_value": ""
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDb29771a4-67dd-482f-9528-c19d06403cf5", 
+                  "@type": "https://repo.metadatacenter.org/model/StudyTime", 
+                  "unit": {
+                    "_value": ""
+                  }
+                }, 
+                "source": {
+                  "_value": ""
+                }, 
+                "type": {
+                  "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Sample", 
+                "name": {
+                  "_value": "sample-29_MSMS_Std_Acetyl coenzyme A"
+                }
+              }
+            ]
+          }, 
+          "input": {
+            "studySubject": [
+              {
+                "characteristic": [
+                  {
+                    "name": {
+                      "_value": "Organism"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "reference compound "
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUIDd98ba4e6-c3f3-412c-adf3-fbe40c554075", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID53488992-6056-4ab3-b3d9-4ea05b8b40bc", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "Organism part"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "reference compound "
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID5ea29a76-a71e-48fa-951b-0abd1aef14e1", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID1de46254-f909-4426-a567-fd3d1fd9f9fb", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/StudySubject", 
+                "name": {
+                  "_value": "source-29_19"
+                }
+              }
+            ]
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID8164a2ea-8ff4-4b9d-bb0a-92d21b28c428", 
+          "@type": "https://repo.metadatacenter.org/model/Process"
+        }
+      ], 
+      "studyDesignType": {
+        "_value": ""
+      }, 
+      "submissionDate": {
+        "_value": "2013-05-10"
+      }, 
+      "contact": [
+        {
+          "fax": {
+            "_value": ""
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@context": "", 
+              "@id": "https://repo.metadatacenter.org/UUIDb6c9b801-b49d-4d29-a0cf-b70d2f65638d", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "Department of Chemistry and Applied Biosciences, ETH Zurich, CH-8093 Zurich, Switzerland"
+              }
+            }
+          ], 
+          "firstName": {
+            "_value": "Alfredo"
+          }, 
+          "lastName": {
+            "_value": "Ib\u00e1\u00f1ez"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": ""
+          }, 
+          "role": {
+            "_value": ""
+          }, 
+          "address": {
+            "_value": ""
+          }, 
+          "middleInitial": {
+            "_value": "J."
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID31c0d379-110a-46cb-937e-20fd5b87d361", 
+          "email": {
+            "_value": "ibanez@org.chem.ethz.ch"
+          }
+        }, 
+        {
+          "fax": {
+            "_value": ""
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@context": "", 
+              "@id": "https://repo.metadatacenter.org/UUIDce056462-7689-4b3d-938d-05775cf3aa0c", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "Department of Chemistry and Applied Biosciences, ETH Zurich, CH-8093 Zurich, Switzerland"
+              }
+            }
+          ], 
+          "firstName": {
+            "_value": "Stephan"
+          }, 
+          "lastName": {
+            "_value": "Fagerer"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": ""
+          }, 
+          "role": {
+            "_value": ""
+          }, 
+          "address": {
+            "_value": ""
+          }, 
+          "middleInitial": {
+            "_value": "R."
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID935a4d01-5c1f-4373-8266-e161e7b5d726", 
+          "email": {
+            "_value": "fagerer@org.chem.ethz.ch"
+          }
+        }
+      ], 
+      "studyFactor": [
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUIDab6fd709-2c6f-45bd-90d0-5238ce63cbb6", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Treatment"
+          }, 
+          "description": {
+            "_value": "treatment protocol"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUID90516301-120e-4053-941c-f34c04968a54", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Level measurement type"
+          }, 
+          "description": {
+            "_value": "Level measurement type"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUIDff5e6695-2d60-486b-86ae-bdb289fd71fd", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Cell number"
+          }, 
+          "description": {
+            "_value": "cell number count"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUID3142daec-ee79-4c69-812c-32c2a6afa969", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Glucose source"
+          }, 
+          "description": {
+            "_value": "isotope label"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUIDfbef746f-9877-4b03-9b79-224d6b93c778", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Cell line"
+          }, 
+          "description": {
+            "_value": "cell by lineage"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUID39daf462-7e07-40b3-ad81-c2d22308a45f", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Scan range m/z"
+          }, 
+          "description": {
+            "_value": "scan m/z range?"
+          }
+        }
+      ], 
+      "publicReleaseDate": {
+        "_value": "2013-05-22"
+      }, 
+      "studyAssay": [
+        {
+          "platform": {
+            "_value": "ABI 4800 Plus MALDI-TOF/TOF MS/MS"
+          }, 
+          "technology": {
+            "_value": "mass spectrometry"
+          }, 
+          "measurementType": {
+            "_value": "0000366"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDf09ec842-603b-409a-adb9-da114fb7a8cd", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }, 
+        {
+          "platform": {
+            "_value": "ABI 4800 Plus MALDI-TOF/TOF"
+          }, 
+          "technology": {
+            "_value": "mass spectrometry"
+          }, 
+          "measurementType": {
+            "_value": "0000366"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID1d6dcd36-7059-4d80-af22-257ff6f7fb03", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }
+      ], 
+      "identifier": {
+        "_value": "MTBLS29"
+      }, 
+      "@id": "https://repo.metadatacenter.org/UUID2adf934b-a816-4bab-abe6-c7ae0c4e57ff", 
+      "@type": "https://repo.metadatacenter.org/model/Study", 
+      "studyGroupPopulation": [
+        {
+          "studySubject": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDa502ada0-213e-4343-8292-357b97acab57", 
+              "name": {
+                "_value": "source-6_60"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "obo:NCBITaxon_4932"
+                    }, 
+                    "value": {
+                      "_value": "Saccharomyces cerevisiae"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID07d7ecb1-37cb-4c72-a6de-bf880ff17215", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID6e68b28d-473d-4787-9c67-9197458610c1", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "EFO_0002906"
+                    }, 
+                    "value": {
+                      "_value": "whole organism"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID15931871-5a6a-4084-8062-0213e99644f3", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDb2b1b76f-45ab-41cd-b795-63186962d132", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID1c61ad6f-6e9a-46ce-838d-b9c079197ec9", 
+              "name": {
+                "_value": "source-6_61"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "obo:NCBITaxon_4932"
+                    }, 
+                    "value": {
+                      "_value": "Saccharomyces cerevisiae"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDdd664f83-e00b-4733-a5b1-ef5cfe874322", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDfb4520b2-b855-4b14-bac8-c66d1c81fc8a", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "EFO_0002906"
+                    }, 
+                    "value": {
+                      "_value": "whole organism"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID55eceeb4-7d9e-4c76-b8a0-edcfae25734f", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDc6991fd3-2b48-4a3a-aa40-51a6e9f1cd4b", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDf360b093-6220-4b1a-94ff-c23eb3c27c76", 
+              "name": {
+                "_value": "source-6_62"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "obo:NCBITaxon_4932"
+                    }, 
+                    "value": {
+                      "_value": "Saccharomyces cerevisiae"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID6d7bfea3-1499-4e44-99b1-fd936eb11a8b", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDdd7514dd-d6ea-4a36-a1fb-951188e6a423", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "EFO_0002906"
+                    }, 
+                    "value": {
+                      "_value": "whole organism"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDb1a2f079-0a37-46a8-bf28-9e8da615cbca", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID34b51861-2e86-45dd-9015-60675037102a", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDba1b928e-6f0d-48ad-8234-04429db68e7a", 
+              "name": {
+                "_value": "source-6_63"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "obo:NCBITaxon_4932"
+                    }, 
+                    "value": {
+                      "_value": "Saccharomyces cerevisiae"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID22636340-7e4d-4325-9e38-6d8e042900c3", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDa848cdf1-c227-49cd-ad9e-22898d3077b2", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "EFO_0002906"
+                    }, 
+                    "value": {
+                      "_value": "whole organism"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDc1d11337-0356-40af-9e6a-afe61f5ac429", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDf57e3f70-7068-4d82-becb-553adf3b44b1", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDfaf761fd-ad8c-441f-aea8-e031b73b2ded", 
+              "name": {
+                "_value": "source-6_64"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "obo:NCBITaxon_4932"
+                    }, 
+                    "value": {
+                      "_value": "Saccharomyces cerevisiae"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID3e9cb6a6-e328-4742-8604-fb1e4f52907e", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID3e7c04e6-c906-42ae-a6e7-d49c5a4281fa", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "EFO_0002906"
+                    }, 
+                    "value": {
+                      "_value": "whole organism"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDfa6a9387-a84a-4a5b-8293-803bed72a468", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID562cace9-4a8f-4252-b69a-f6197dde1161", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID6f86538d-4746-45e7-a864-30f7f09b5e8a", 
+              "name": {
+                "_value": "source-6_65"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "obo:NCBITaxon_4932"
+                    }, 
+                    "value": {
+                      "_value": "Saccharomyces cerevisiae"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID691614f9-d0aa-4aa4-86a6-af7d3589ea71", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID6d6317b1-d73f-4db9-b56e-72c58aaf3983", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "EFO_0002906"
+                    }, 
+                    "value": {
+                      "_value": "whole organism"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDd1928835-3908-4ba4-956a-fb3342e0cbdd", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID5cc6d259-3aa2-45b7-8ad0-d825ba82e218", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID077a66e1-f65a-443c-91c9-af2a8b991001", 
+              "name": {
+                "_value": "source-7_18"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "obo:NCBITaxon_4932"
+                    }, 
+                    "value": {
+                      "_value": "Saccharomyces cerevisiae"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID1cea9b5a-6826-41ba-bd41-16eb3ee91040", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID0c4c6abb-108f-43a1-93ae-28a14f7608e5", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "EFO_0002906"
+                    }, 
+                    "value": {
+                      "_value": "whole organism"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID5a33a4e4-bcfa-406e-960e-8f109a5ddde7", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID73c0a129-7fed-4982-9a72-83e096b5d47e", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDd72eb889-a74f-4975-b14d-3e45082d3870", 
+              "name": {
+                "_value": "source-7_19"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "obo:NCBITaxon_4932"
+                    }, 
+                    "value": {
+                      "_value": "Saccharomyces cerevisiae"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDffb1a13e-e6e9-4608-abf6-b2fc806285ac", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID14a86f80-ad73-4bff-9d98-03b0e3c365f1", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "EFO_0002906"
+                    }, 
+                    "value": {
+                      "_value": "whole organism"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID6fc00b53-d4c8-4d20-b81b-dbe055aa7503", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDcac48aa0-b616-4fda-ba92-acc2428fd128", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }
+          ], 
+          "name": {
+            "_value": "population name"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID0d2a6be7-e40c-4d82-aa43-4ffbbdf65b57", 
+          "selectionRule": {
+            "_value": "selection rule"
+          }, 
+          "type": {
+            "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyGroupPopulation"
+        }
+      ]
+    }
+  ], 
+  "title": {
+    "_value": ""
+  }, 
+  "schemaID": "https://repo.metadatacenter.org/UUID", 
+  "submissionDate": {
+    "_value": ""
+  }, 
+  "template_id": "https://repo.metadatacenter.org/406d3a6d-c264-417a-bf30-bd6273762bd8", 
+  "publicReleaseDate": {
+    "_value": ""
+  }, 
+  "@context": {
+    "model": "https://repo.metadatacenter.org/model/", 
+    "title": "https://repo.metadatacenter.org/model/title", 
+    "description": "https://repo.metadatacenter.org/model/description", 
+    "xsd": "http://www.w3.org/2001/XMLSchema", 
+    "schema": "https://schema.org/"
+  }, 
+  "identifier": {
+    "_value": ""
+  }, 
+  "@id": "https://repo.metadatacenter.org/08336ab9-abf5-446b-9e1a-fac6ffdde17d", 
+  "@type": "https://repo.metadatacenter.org/model/Investigation"
+}

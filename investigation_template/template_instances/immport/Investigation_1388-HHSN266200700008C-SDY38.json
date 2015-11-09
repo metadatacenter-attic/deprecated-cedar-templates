@@ -1,0 +1,1803 @@
+{
+  "info": {
+    "template_title": "immport-HHSN266200700008C-SDY38", 
+    "template_description": "Investigation instance for ImmPort", 
+    "creation_date": "2015-11-08 18:24:05"
+  }, 
+  "description": {
+    "_value": "The New York Influenza Center of Excellence (NYICE) is collaborative, interdisciplinary approach involving investigators in the fields of immunology, virology, biochemistry, medicine, pediatrics, statistics and bioinformatics that will addresss directly the issues of cross-protective immunity and virus adaptation to the mammalian host. Our goal is to provide a truly transforming approach to influenza research.    https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=735406660d0e7582b7937b1d21142d8d"
+  }, 
+  "title": {
+    "_value": "New York Influenza Center of Excellence"
+  }, 
+  "study": [
+    {
+      "studyProtocol": [
+        {
+          "description": {
+            "_value": "None"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Not_Specified"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "name": {
+            "_value": "ks_CD8_T_protocol_Viral_Preparation.doc"
+          }
+        }, 
+        {
+          "description": {
+            "_value": "None"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Not_Specified"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "name": {
+            "_value": "ks_CD8_T_protocol_sampling.doc"
+          }
+        }, 
+        {
+          "description": {
+            "_value": "None"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Not_Specified"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "name": {
+            "_value": "ks_CD8_T_protocol_Flow_Cytometry.doc"
+          }
+        }
+      ], 
+      "description": {
+        "_value": "Flow cytometry was used to measure the expression of IL2, IFN gamma and TNF alpha in CD8+ peripheral blood mononuclear cells isolated from healthy naive donors following stimulation with whole virus."
+      }, 
+      "title": {
+        "_value": "CD8+ T cell immunity to 2009 pandemic and seasonal H1N1 influenza viruses"
+      }, 
+      "process": [
+        {
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "input": {
+            "sample": [
+              {
+                "description": {
+                  "_value": "PBMC + Allantoic Fluid: PBMC from a healthy donor treated with allantoic fluid and assayed for lymphocyte subsets and cytokine expression by flow cytometry"
+                }, 
+                "studyTime": {
+                  "durationValue": {
+                    "_value": 1.0
+                  }, 
+                  "isBeforeEvent": {
+                    "_value": true
+                  }, 
+                  "studyEvent": {
+                    "_value": "Not_Specified"
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/StudyTime", 
+                  "unit": {
+                    "_value": "Days"
+                  }
+                }, 
+                "source": {
+                  "_value": ""
+                }, 
+                "factorValue": [
+                  {
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "value": {
+                      "_value": ""
+                    }, 
+                    "type": {
+                      "_value": "Name"
+                    }, 
+                    "@type": "https://repo.metadatacenter.org/model/FactorValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": "Flow_Cytometry"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Sample", 
+                "name": {
+                  "_value": "HD0003_H160F2HB-01_ALLANTOIC"
+                }
+              }, 
+              {
+                "description": {
+                  "_value": "PBMC + X31: PBMC from a healthy donor treated with H3N2 X31 and assayed for lymphocyte subsets and cytokine expression by flow cytometry"
+                }, 
+                "studyTime": {
+                  "durationValue": {
+                    "_value": 1.0
+                  }, 
+                  "isBeforeEvent": {
+                    "_value": true
+                  }, 
+                  "studyEvent": {
+                    "_value": "Not_Specified"
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/StudyTime", 
+                  "unit": {
+                    "_value": "Days"
+                  }
+                }, 
+                "source": {
+                  "_value": ""
+                }, 
+                "factorValue": [
+                  {
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "value": {
+                      "_value": ""
+                    }, 
+                    "type": {
+                      "_value": "Name"
+                    }, 
+                    "@type": "https://repo.metadatacenter.org/model/FactorValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": "Flow_Cytometry"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Sample", 
+                "name": {
+                  "_value": "HD0003_H160F2HB-01_X31"
+                }
+              }, 
+              {
+                "description": {
+                  "_value": "PBMC + pH1N1: PBMC from a healthy donor treated with pandemic 2009 H1N1 and assayed for lymphocyte subsets and cytokine expression by flow cytometry"
+                }, 
+                "studyTime": {
+                  "durationValue": {
+                    "_value": 1.0
+                  }, 
+                  "isBeforeEvent": {
+                    "_value": true
+                  }, 
+                  "studyEvent": {
+                    "_value": "Not_Specified"
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/StudyTime", 
+                  "unit": {
+                    "_value": "Days"
+                  }
+                }, 
+                "source": {
+                  "_value": ""
+                }, 
+                "factorValue": [
+                  {
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "value": {
+                      "_value": ""
+                    }, 
+                    "type": {
+                      "_value": "Name"
+                    }, 
+                    "@type": "https://repo.metadatacenter.org/model/FactorValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": "Flow_Cytometry"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Sample", 
+                "name": {
+                  "_value": "HD0003_H160F2HB-01_pH1N1"
+                }
+              }, 
+              {
+                "description": {
+                  "_value": "PBMC + sH1N1: PBMC from a healthy donor treated with seasonal H1N1 and assayed for lymphocyte subsets and cytokine expression by flow cytometry"
+                }, 
+                "studyTime": {
+                  "durationValue": {
+                    "_value": 1.0
+                  }, 
+                  "isBeforeEvent": {
+                    "_value": true
+                  }, 
+                  "studyEvent": {
+                    "_value": "Not_Specified"
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/StudyTime", 
+                  "unit": {
+                    "_value": "Days"
+                  }
+                }, 
+                "source": {
+                  "_value": ""
+                }, 
+                "factorValue": [
+                  {
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "value": {
+                      "_value": ""
+                    }, 
+                    "type": {
+                      "_value": "Name"
+                    }, 
+                    "@type": "https://repo.metadatacenter.org/model/FactorValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": "Flow_Cytometry"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Sample", 
+                "name": {
+                  "_value": "HD0003_H160F2HB-01_sH1N1"
+                }
+              }, 
+              {
+                "description": {
+                  "_value": "PBMC + Allantoic Fluid: PBMC from a healthy donor treated with allantoic fluid and assayed for lymphocyte subsets and cytokine expression by flow cytometry"
+                }, 
+                "studyTime": {
+                  "durationValue": {
+                    "_value": 1.0
+                  }, 
+                  "isBeforeEvent": {
+                    "_value": true
+                  }, 
+                  "studyEvent": {
+                    "_value": "Not_Specified"
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/StudyTime", 
+                  "unit": {
+                    "_value": "Days"
+                  }
+                }, 
+                "source": {
+                  "_value": ""
+                }, 
+                "factorValue": [
+                  {
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "value": {
+                      "_value": ""
+                    }, 
+                    "type": {
+                      "_value": "Name"
+                    }, 
+                    "@type": "https://repo.metadatacenter.org/model/FactorValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": "Flow_Cytometry"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Sample", 
+                "name": {
+                  "_value": "HD0007_H160FDKR-01_ALLANTOIC"
+                }
+              }
+            ], 
+            "reagent": [
+              {
+                "characteristic": [
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "IFNr"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "analyte_reported"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "557643"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "catalog_number"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "anti-IFNr antibody"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "detector_name"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "BD Pharmingen"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "manufacturer"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "PE-Cy7"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "reporter_name"
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": ""
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Reagent", 
+                "name": {
+                  "_value": "FlowCyt Anti-IFNr"
+                }
+              }, 
+              {
+                "characteristic": [
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "CD56"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "analyte_reported"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "318308"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "catalog_number"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "anti-CD56 antibody"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "detector_name"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Biolegend"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "manufacturer"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "PE-Cy5"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "reporter_name"
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": ""
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Reagent", 
+                "name": {
+                  "_value": "FlowCyt Anti-CD56"
+                }
+              }, 
+              {
+                "characteristic": [
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "CD19"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "analyte_reported"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "555413"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "catalog_number"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "anti-CD19 antibody"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "detector_name"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "BD Pharmingen"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "manufacturer"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "PE"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "reporter_name"
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": ""
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Reagent", 
+                "name": {
+                  "_value": "FlowCyt Anti-CD19"
+                }
+              }, 
+              {
+                "characteristic": [
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "CD8"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "analyte_reported"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Q10059"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "catalog_number"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "anti-CD8 antibody"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "detector_name"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Invitrogen"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "manufacturer"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Q705"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "reporter_name"
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": ""
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Reagent", 
+                "name": {
+                  "_value": "FlowCyt Anti-CD8"
+                }
+              }, 
+              {
+                "characteristic": [
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "NKp46"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "analyte_reported"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "FAB1850F"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "catalog_number"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "anti-NKp46 antibody"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "detector_name"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "R&D systems"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "manufacturer"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "FITC"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "reporter_name"
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": ""
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Reagent", 
+                "name": {
+                  "_value": "FlowCyt Anti-NKp46"
+                }
+              }
+            ]
+          }, 
+          "type": {
+            "_value": "FCM assessment of CD8+ T cell immunity to 2009 pandemic and seasonal H1N1 influenza viruses"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Process"
+        }
+      ], 
+      "studyDesignType": {
+        "_value": "Observational"
+      }, 
+      "submissionDate": {
+        "_value": ""
+      }, 
+      "contact": [
+        {
+          "fax": {
+            "_value": ""
+          }, 
+          "firstName": {
+            "_value": "David"
+          }, 
+          "lastName": {
+            "_value": "Topham"
+          }, 
+          "middleInitial": {
+            "_value": ""
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": ""
+          }, 
+          "role": {
+            "_value": "Principal Investigator"
+          }, 
+          "address": {
+            "_value": ""
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "New York Influenza Center of Excellence"
+              }
+            }
+          ], 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "email": {
+            "_value": "David_Topham@urmc.rochester.edu"
+          }
+        }, 
+        {
+          "fax": {
+            "_value": ""
+          }, 
+          "firstName": {
+            "_value": "John"
+          }, 
+          "lastName": {
+            "_value": "Treanor"
+          }, 
+          "middleInitial": {
+            "_value": ""
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": ""
+          }, 
+          "role": {
+            "_value": "None"
+          }, 
+          "address": {
+            "_value": ""
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "New York Influenza Center of Excellence, University of Rochester Medical Center"
+              }
+            }
+          ], 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "email": {
+            "_value": "John_Treanor@urmc.rochester.edu"
+          }
+        }
+      ], 
+      "studyFactor": [
+        {
+          "description": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Treatment: pandemic 2009 H1N1"
+          }
+        }, 
+        {
+          "description": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Treatment: seasonal H1N1"
+          }
+        }, 
+        {
+          "description": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Treatment: H3N2 X31"
+          }
+        }, 
+        {
+          "description": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Treatment: Allantoic Fluid"
+          }
+        }
+      ], 
+      "publicReleaseDate": {
+        "_value": "2011-06-01"
+      }, 
+      "publication": [
+        {
+          "status": {
+            "_value": "published"
+          }, 
+          "description": {
+            "_value": ""
+          }, 
+          "title": {
+            "_value": "CD8+ T cell immunity to 2009 pandemic and seasonal H1N1 influenza viruses."
+          }, 
+          "pubMedID": {
+            "_value": "21211588"
+          }, 
+          "authorList": [
+            {
+              "_value": "Scheible K, Zhang G, Baer J, Azadniv M, Lambert K, Pryhuber G, Treanor JJ, Topham DJ"
+            }
+          ], 
+          "dOI": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/Publication"
+        }
+      ], 
+      "studyAssay": [
+        {
+          "platform": {
+            "_value": ""
+          }, 
+          "technology": {
+            "_value": "FCM"
+          }, 
+          "measurementType": {
+            "_value": "Cellular_Phenotype"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }
+      ], 
+      "identifier": {
+        "_value": "SDY38"
+      }, 
+      "@id": "https://repo.metadatacenter.org/UUID", 
+      "@type": "https://repo.metadatacenter.org/model/Study", 
+      "studyGroupPopulation": [
+        {
+          "studySubject": [
+            {
+              "name": {
+                "_value": "SUB103372"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at enrollment "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "44.00 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB103373"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at enrollment "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "33.00 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB103374"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at enrollment "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "23.00 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB103375"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at enrollment "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "19.00 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB103376"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at enrollment "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "40.00 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }
+          ], 
+          "name": {
+            "_value": "FCM_Cohort"
+          }, 
+          "type": {
+            "_value": "Observational"
+          }, 
+          "selectionRule": {
+            "_value": "Healthy adults with ages 18-50"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyGroupPopulation"
+        }
+      ]
+    }
+  ], 
+  "submissionDate": {
+    "_value": ""
+  }, 
+  "@type": "https://repo.metadatacenter.org/model/Investigation", 
+  "publicReleaseDate": {
+    "_value": ""
+  }, 
+  "@context": {
+    "_value": "https://schema.org/value"
+  }, 
+  "identifier": {
+    "_value": "HHSN266200700008C"
+  }, 
+  "@id": "https://repo.metadatacenter.org/72fb2fb4-eb3c-40df-ae47-ea0f4dcf6f80", 
+  "template_id": "https://repo.metadatacenter.org/406d3a6d-c264-417a-bf30-bd6273762bd8"
+}

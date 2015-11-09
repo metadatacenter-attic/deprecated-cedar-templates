@@ -1,0 +1,1324 @@
+{
+  "info": {
+    "template_title": "isa-1402495472345-MTBLS93", 
+    "template_description": "Investigation instance", 
+    "creation_date": "2015-11-08 21:39:39"
+  }, 
+  "description": {
+    "_value": ""
+  }, 
+  "study": [
+    {
+      "studyProtocol": [
+        {
+          "name": {
+            "_value": "Sample collection"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID2eb4520d-f7ac-40f4-9f20-6726c084315a", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Sample collection"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "The Swedish Twin Registry is a population-based national register including over 194,000 Swedish twins born from 1886 to 2008. TwinGene is a longitudinal study nested within the Swedish Twin Register initiated to examine associations between genetic factors and cardiovascular disease in Swedish twins. Twins born before 1958 and who has participated in a telephone screening between 1998 and 2002 were re-contacted between April 2004 and December 2008. Health and medication data were collected from self-reported questionnaires, and a blood sampling kit was mailed to the subject who then contacted a local health care center for blood sampling and a health check-up. Contacts were allowed on Monday to Thursday mornings (not the day before a national holiday), to ensure that the sample would reach the KI Biobank in Stockholm the following day by over night mail. The participants were instructed to fast from 8 PM (20:00) the previous night. A total volume of 50 ml of blood was drawn from each individual by venipuncture. \nFirst, a tube containing Ethylenediaminetetraacetic acid (EDTA) was filled and inverted 5 times immediately. These plasma samples were used for DNA extraction. Second, three gel tubes were filled, inverted 5 times immediately, let stand for 30 minutes for coagulation in room temp, centrifuge for 10-15 minutes at 3800 rpm. Thus, the serum was tapped from the gel tubes to a collection tube and placed in a transport cylinder. These serum samples were used for storage and for the following metabolomics analysis. Serum Samples for biochemical analysis were collected in the same way.\nTubes were sent to Karolinska University Laboratory by overnight post where they were frozen at -80 \u00b0C in liquid nitrogen until analysis.\nIn total, 12,591 individuals (55% women) participated by donating blood to the study, and by answering questionnaires about life style and health.\nMetabolomics was performed in a subsample of TwinGene. Specifically, we utilized a case-cohort design by selecting all the incident cases of coronary heart disease, type 2 diabetes, ischemic strokes and dementia up to 31st December 2010 and a sub-cohort (controls) of 1,643 individuals (43% women). The subcohort was stratified on median age and sex, and for each of the four strata, we randomly selected a number of participants proportional to the corresponding number of cases. In total, 2,139 individuals had metabolomic profiling data available.\n</p>\nRef: </br>\n[1] Magnusson PK, Almqvist C, Rahman I, Ganna A, Viktorin A, Walum H, Halldner L et.al. The Swedish Twin Registry: establishment of a biobank and other recent developments. Twin Res Hum Genet. 2013, 16(1), 317-329."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Extraction"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDe7072c10-83e6-467f-a1d7-efe99a62385f", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID4e6458af-960f-4db8-bc8e-02dc59479608", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Post Extraction"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID9bd0a2f2-9021-472c-ba6e-c2dd916a2479", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Derivatization"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Extraction"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "Serum samples were thawed and 100 microliters of serum was transferred to 400 microliters methanol in 96-well format to precipitate proteins. This 80% methanol solution was stored at -20 \u00baC overnight, and then centrifuged for 30 minutes at 3800g in 4 \u00baC to pellet precipitated protein. The supernatant was aliquoted to three separate 96-well plates, sealed using a heat-seal foil, and stored at -20 \u00baC until analysis.  Plate analysis order was completely randomized for each set of injections, and plates were run in batches of two plates, reflecting the autosampler capacity. Within each set of two plates, the run order was again completely randomized to prevent injection order artifacts. Duplicate injections were performed for all samples, with the second set of injections performed upon completion of the first set of injections for all samples."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Chromatography"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID53f54106-bf24-4bbb-9953-a84734a26d47", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID1a7535fb-3db6-4a0b-8af3-abdcf0eefab9", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Chromatography Instrument"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDa12c0b2e-0274-4db6-a729-b9b8415bb3a0", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Column type"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDc210cac9-2f25-4ae8-a101-af56e1fdc784", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Column model"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Chromatography"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "One microliter injections of protein-precipitated serum were performed on a Waters Acquity UPLC system. Separation was performed using a Waters Acquity UPLC C8 column (1.8 micrometre, 1.0 x 100 mm), using a gradient from solvent A (95% water, 5% methanol, 0.1% formic acid) to solvent B (95% methanol, 5% water, 0.1% formic acid). Injections were made in 100% A, which was held for 0.1 min, ramped to 40% B in 0.9 minutes, to 70% B over two minutes, and to 100% B over 8 minutes. The mobile phase was held at 100% B for 6 minutes, returned to starting conditions over 0.1 minutes, and allowed to re-equilibrate at for 5.9 minutes. Flow rate was constant at 140 microliters/min for the duration of the run. The column was held at 50 \u00baC, while samples were held at 10 \u00baC."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Mass spectrometry"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID08d15206-0ccc-41e0-901a-1d30ec1899f7", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID2e3a77a5-8fec-490c-8c36-c251c9a5b216", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Scan polarity"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDa1ebaae8-001a-413f-ad15-e56828bf22ee", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Scan m/z range"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDa2785f50-b1c3-408c-b9ec-9ebd9d271f44", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Instrument"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID518f2ea7-ec52-4017-9997-99c4e45c707f", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Mass analyzer"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID0d10a2de-9a16-4252-b36c-c8aacca5d9a7", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Ion source"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Mass spectrometry"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "Column eluent was infused into a Waters Xevo G2 TOF MS fitted with an electrospray source. Data was collected in positive ion mode, scanning from 50-1200 at a rate of 5 scans per second. Scans were collected alternatively in MS mode at collision energy of 6 V and in idMS/MS mode using higher collision energy (15-30 V). IdMS/MS (also called MSE or MSn) allows for unbiased view of MS/MS fragmentation without additional experiments5. \n\nCalibration was performed prior to sample analysis via infusion of sodium formate solution, with mass accuracy within 1 ppm. The capillary voltage was held at 2200V, the source temp at 150C, and the desolvation temperature at 350 \u00baC at a nitrogen desolvation gas flow rate of 800 L/hr. The quadrupole was held at collision energy of 6 volts."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Data transformation"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID5c64a4e5-d86b-48c7-8c5b-879febaf78b5", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Data transformation"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "Raw data files were converted to .cdf format using Waters DataBridge software for processing."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Metabolite identification"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID09bed0f9-8246-4bda-925e-77dd58dbb701", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Metabolite identification"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "Raw data were processed using XCMS software. Procedures to perform non-targeted metabolomics in large-population studies have been previously described by our group (Ganna A et al. A workflow for UPLC-MS non-targeted metabolomic profiling in large human population-based studies. bioRxiv. 2014); the code has been made publically available at https://github.com/andgan/metabolomics_pipeline. Metabolic feature detection, alignment, grouping, imputation and normalization were performed separately for each study. Each feature is characterized by a specific mass-to-charge ratio (m/z) and retention time. A single metabolite is normally represented by more than one feature. Indiscriminant (id) MS and idMS/MS spectra were generated for all the significant features. Those with highly similar spectra, strong correlation and similar retention time were deemed to be from the same metabolite. We used the spectra to identify the corresponding metabolite. Four approaches were considered, in agreement with what has been suggested by the Metabolomics Standard Initiative."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Normalization"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID945bdd50-b0f8-4795-b891-bf56c2dae6f0", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Normalize"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "First, feature intensities were transformed to the log2 base scale to approximate normal distribution. Second, potential sample outliers were identified by plotting the total intensity for each sample. Samples with extremes total intensities might indicate sample degradation or technical errors and these samples were excluded.  Third, an ANOVA-type normalization was used to take into account factors of unwanted variation. Specifically, we fitted a linear regression for association between each feature intensity and several factors of unwanted variability. We then used the residuals from the regression as new feature intensities. The factors of unwanted variability can be identified by studying the association between several technical variables and the first principal components. In TwinGene we adjusted for the square root of the sum of the squared differences between original retention time and corrected retention time, analysis date, storage time and unknown cluster effect. Finally, feature intensities were averaged between technical duplicates to reduce the inherent instrumental variability. Features with poor correlation between duplicates were excluded. \n</p>\nRef: </br>\n[1] Kerr MK, Churchill GA. Statistical design and the analysis of gene expression microarray data. Genet Res. 2001, 77(2), 123-128.\n[2] Leek JT, Scharpf RB, Bravo HC, Simcha D, Langmead B, Johnson WE, Geman D, Baggerly K, Irizarry RA. Tackling the widespread and critical impact of batch effects in high-throughput data. Nat Rev Genet. 2010, 11(10), 733-739."
+          }
+        }
+      ], 
+      "description": {
+        "_value": "The TwinGene project, conducted between 2004 and 2008, is a population-based Swedish study of twins born between 1911 and 1958. The study participants have previously participated in a telephone interview called Screening Across the Lifespan Twin Study, conducted between 1998 and 2002. To be included in TwinGene, both twins within a pair had to be alive. In total, 12591 individuals participated by donating blood to the study, and by answering questionnaires about life style and health. For the purpose of metabolomic profiling, we designed a case-cohort of incident coronary heart disease, diabetes, dementia and ischemic stroke events and a matched sub-cohort (controls) stratified on age and sex. In the final analysis we included serum samples from 2,139 individuals."
+      }, 
+      "title": {
+        "_value": "Large-scale non-targeted serum metabolomics in the Swedish Twin Registry"
+      }, 
+      "process": [
+        {
+          "type": {
+            "_value": "Sample collection"
+          }, 
+          "output": {
+            "sample": [
+              {
+                "description": {
+                  "_value": ""
+                }, 
+                "characteristic": [
+                  {
+                    "name": {
+                      "_value": "Organism"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+                      }, 
+                      "value": {
+                        "_value": "Homo sapiens"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID7c53814a-9b46-4fda-8846-9f2858b10eb0", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDc8e870fa-d345-4bb4-8bcf-15512eea3ecb", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "Organism part"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "http://purl.obolibrary.org/obo/BTO_0000133"
+                      }, 
+                      "value": {
+                        "_value": "blood serum"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID3ede73b0-ab41-49e1-901f-9d3e832efcf4", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID97cdf336-1bc8-4cea-b6e7-ce00645089f0", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "studyTime": {
+                  "durationValue": {
+                    "_value": 0
+                  }, 
+                  "isBeforeEvent": {
+                    "_value": false
+                  }, 
+                  "studyEvent": {
+                    "_value": ""
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDfa6c7cd2-fd51-4354-bc68-4a992b96ad34", 
+                  "@type": "https://repo.metadatacenter.org/model/StudyTime", 
+                  "unit": {
+                    "_value": ""
+                  }
+                }, 
+                "source": {
+                  "_value": ""
+                }, 
+                "type": {
+                  "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Sample", 
+                "name": {
+                  "_value": "sample-subject_2282421"
+                }
+              }
+            ]
+          }, 
+          "input": {
+            "studySubject": [
+              {
+                "characteristic": [
+                  {
+                    "name": {
+                      "_value": "Organism"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+                      }, 
+                      "value": {
+                        "_value": "Homo sapiens"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUIDc24588bc-3b3c-483a-89e9-b6b0392ef4b4", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID06648d81-cd10-45a0-9f90-ee178717156c", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "Organism part"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "http://purl.obolibrary.org/obo/BTO_0000133"
+                      }, 
+                      "value": {
+                        "_value": "blood serum"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID0e5c4d5b-3ac4-4555-a291-19467eb806d1", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDeccbc39e-d5a4-4189-aa57-ece95c719d68", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/StudySubject", 
+                "name": {
+                  "_value": "source-subject_2282421"
+                }
+              }
+            ]
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID4cadb7a2-28d9-402a-a76c-4197d7d7680e", 
+          "@type": "https://repo.metadatacenter.org/model/Process"
+        }
+      ], 
+      "studyDesignType": {
+        "_value": ""
+      }, 
+      "submissionDate": {
+        "_value": "2014-06-14"
+      }, 
+      "contact": [
+        {
+          "fax": {
+            "_value": ""
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@context": "", 
+              "@id": "https://repo.metadatacenter.org/UUIDb2599f8e-56f2-41db-b5a3-60a2bbcda695", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "Karolinska Institutet"
+              }
+            }
+          ], 
+          "firstName": {
+            "_value": "Andrea"
+          }, 
+          "lastName": {
+            "_value": "Ganna"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": ""
+          }, 
+          "role": {
+            "_value": ""
+          }, 
+          "address": {
+            "_value": ""
+          }, 
+          "middleInitial": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID7b79a257-ee25-4d81-ba74-b81519a5f713", 
+          "email": {
+            "_value": "andrea.ganna@ki.se"
+          }
+        }, 
+        {
+          "fax": {
+            "_value": ""
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@context": "", 
+              "@id": "https://repo.metadatacenter.org/UUID449fbdfe-992b-4612-a318-2906469bacaf", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "Uppsala University"
+              }
+            }
+          ], 
+          "firstName": {
+            "_value": "Samira"
+          }, 
+          "lastName": {
+            "_value": "Salihovic"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": ""
+          }, 
+          "role": {
+            "_value": ""
+          }, 
+          "address": {
+            "_value": ""
+          }, 
+          "middleInitial": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDd2ec80f0-4d3c-40de-b739-56fecb4d07c9", 
+          "email": {
+            "_value": "Samira.Salihovic@medsci.uu.se"
+          }
+        }, 
+        {
+          "fax": {
+            "_value": ""
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@context": "", 
+              "@id": "https://repo.metadatacenter.org/UUIDe2affcff-3973-481e-8758-60744acc0450", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "Karolinska Institutet"
+              }
+            }
+          ], 
+          "firstName": {
+            "_value": "Patrik"
+          }, 
+          "lastName": {
+            "_value": "Magnusson"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": ""
+          }, 
+          "role": {
+            "_value": ""
+          }, 
+          "address": {
+            "_value": ""
+          }, 
+          "middleInitial": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID9fb1e852-591b-45e5-bd42-063e27af8ea7", 
+          "email": {
+            "_value": "Patrik.Magnusson@ki.se"
+          }
+        }, 
+        {
+          "fax": {
+            "_value": ""
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@context": "", 
+              "@id": "https://repo.metadatacenter.org/UUID5f368474-5e7a-43ed-a875-e99e7134f8d9", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "Uppsala University"
+              }
+            }
+          ], 
+          "firstName": {
+            "_value": "Erik"
+          }, 
+          "lastName": {
+            "_value": "Ingelsson"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": ""
+          }, 
+          "role": {
+            "_value": ""
+          }, 
+          "address": {
+            "_value": ""
+          }, 
+          "middleInitial": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDb8358785-e469-47d9-b54b-4f6c54b2f447", 
+          "email": {
+            "_value": "erik.ingelsson@medsci.uu.se"
+          }
+        }
+      ], 
+      "studyFactor": [
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUIDef96548e-cbac-45e7-a938-091a6261d6a6", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "injection number"
+          }, 
+          "description": {
+            "_value": "technical replicate"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUIDf7ea6130-32e1-42a7-ab3b-6ea5596ef6a8", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "spectrum type"
+          }, 
+          "description": {
+            "_value": "mass spectrum"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUIDda1f7a84-2382-43f7-b547-8cdf287b549c", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Gender"
+          }, 
+          "description": {
+            "_value": "Gender"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUIDbc650f35-8efd-42c6-b3dd-3cef64458aaf", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Age"
+          }, 
+          "description": {
+            "_value": "Age"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUIDb39a4d51-30c9-4e8b-a963-84163852aa98", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Rmsd"
+          }, 
+          "description": {
+            "_value": "Square root of the sum of the squared differences between original retention time and corrected retention time"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUID74738b65-e9e4-48d8-ad40-07c38cb62ddb", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Analysis date"
+          }, 
+          "description": {
+            "_value": "Analysis date"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUID82785de9-ea5b-4bef-acc8-abf60f2b8891", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Cluster effect"
+          }, 
+          "description": {
+            "_value": "Unknown cluster effect"
+          }
+        }
+      ], 
+      "publicReleaseDate": {
+        "_value": "2014-08-30"
+      }, 
+      "publication": [
+        {
+          "status": {
+            "_value": "Published"
+          }, 
+          "authorList": [
+            {
+              "_value": "Andrea Ganna"
+            }, 
+            {
+              "_value": " Tove Fall"
+            }, 
+            {
+              "_value": " Woojoo Lee"
+            }, 
+            {
+              "_value": " Corey D Broeckling"
+            }, 
+            {
+              "_value": " Jitender Kumar"
+            }, 
+            {
+              "_value": " Sara Hagg"
+            }, 
+            {
+              "_value": " Patrik K.E. Magnusson"
+            }, 
+            {
+              "_value": " Jessica Prenni"
+            }
+          ], 
+          "title": {
+            "_value": "A workflow for UPLC-MS non-targeted metabolomic profiling in large human population-based studies"
+          }, 
+          "pubMedID": {
+            "_value": ""
+          }, 
+          "dOI": {
+            "_value": "dx.doi.org/10.1101/002782"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID968ad75e-e8bf-40f0-b564-474dd5c50c6b", 
+          "@type": "https://repo.metadatacenter.org/model/Publication"
+        }, 
+        {
+          "status": {
+            "_value": "Published"
+          }, 
+          "authorList": [
+            {
+              "_value": "Magnusson PK"
+            }, 
+            {
+              "_value": " Almqvist C"
+            }, 
+            {
+              "_value": " Rahman I"
+            }, 
+            {
+              "_value": " Ganna A"
+            }, 
+            {
+              "_value": " Viktorin A"
+            }, 
+            {
+              "_value": " Walum H"
+            }, 
+            {
+              "_value": " Halldner L"
+            }, 
+            {
+              "_value": " Lundstr\u00f6m S"
+            }
+          ], 
+          "title": {
+            "_value": "The Swedish Twin Registry: establishment of a biobank and other recent developments."
+          }, 
+          "pubMedID": {
+            "_value": "23137839"
+          }, 
+          "dOI": {
+            "_value": "10.1017/thg.2012.104"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDb63fc01c-4e3b-4566-88a0-d880908bc1f5", 
+          "@type": "https://repo.metadatacenter.org/model/Publication"
+        }, 
+        {
+          "status": {
+            "_value": "Published"
+          }, 
+          "authorList": [
+            {
+              "_value": "Ganna A"
+            }, 
+            {
+              "_value": " Salihovic S"
+            }, 
+            {
+              "_value": " Sundstr\u00f6m J"
+            }, 
+            {
+              "_value": " Broeckling CD"
+            }, 
+            {
+              "_value": " Hedman AK"
+            }, 
+            {
+              "_value": " Magnusson PK"
+            }, 
+            {
+              "_value": " Pedersen NL"
+            }, 
+            {
+              "_value": " Larsson A"
+            }
+          ], 
+          "title": {
+            "_value": "Large-scale metabolomic profiling identifies novel biomarkers for incident coronary heart disease."
+          }, 
+          "pubMedID": {
+            "_value": "25502724"
+          }, 
+          "dOI": {
+            "_value": "10.1371/journal.pgen.1004801"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID15915529-42b6-41f7-8cea-5ef49661c587", 
+          "@type": "https://repo.metadatacenter.org/model/Publication"
+        }
+      ], 
+      "studyAssay": [
+        {
+          "platform": {
+            "_value": "Xevo G2 QTOF (Waters)"
+          }, 
+          "technology": {
+            "_value": "mass spectrometry"
+          }, 
+          "measurementType": {
+            "_value": "http://purl.obolibrary.org/obo/OBI_0000366"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID96a1cef2-8d16-4f30-935d-c2ade9336771", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }
+      ], 
+      "identifier": {
+        "_value": "MTBLS93"
+      }, 
+      "@id": "https://repo.metadatacenter.org/UUID55796482-65f0-4f09-9aa0-58bc54d828ea", 
+      "@type": "https://repo.metadatacenter.org/model/Study", 
+      "studyGroupPopulation": [
+        {
+          "studySubject": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID84aaa137-76f6-4d54-8669-431b0a14979a", 
+              "name": {
+                "_value": "source-subject_2381521"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+                    }, 
+                    "value": {
+                      "_value": "Homo sapiens"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDeb1848b5-9314-4281-a073-e499b1270165", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDd1028c8a-334b-4eaf-a4f6-e0524d031707", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/BTO_0000133"
+                    }, 
+                    "value": {
+                      "_value": "blood serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID90963207-e98f-4058-a4fe-a0288d827458", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID42a6f3a5-15cd-452b-aea0-cea190523df6", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID4a83257b-e2b1-48eb-b132-4977ab82ddba", 
+              "name": {
+                "_value": "source-subject_236412"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+                    }, 
+                    "value": {
+                      "_value": "Homo sapiens"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID8dcbad44-3ddf-48f0-a4e2-279a86cb124b", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID175ffdf1-579a-46a0-914e-a68c437fe0e4", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/BTO_0000133"
+                    }, 
+                    "value": {
+                      "_value": "blood serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID3af04b1f-fd93-48b0-a7ec-11c1f92c529c", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDcbc3c23a-3ec9-4b8a-bc0e-09d53b88d351", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID8b10229c-6e96-48ae-be2e-a9d9ec712f3c", 
+              "name": {
+                "_value": "source-subject_2155792"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+                    }, 
+                    "value": {
+                      "_value": "Homo sapiens"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID4004b32c-4145-4dad-b0d8-aa6077423bd7", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID911e3034-331d-4ba8-85dd-3259f6d2761b", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/BTO_0000133"
+                    }, 
+                    "value": {
+                      "_value": "blood serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID3a2fa0b9-c9b8-47e2-af2e-1e2b1bc857f1", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDfd751f36-c2db-46cb-a1ca-402253f990c3", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDadd7e646-b948-4f14-b53b-0dd6a568b287", 
+              "name": {
+                "_value": "source-subject_2190352"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+                    }, 
+                    "value": {
+                      "_value": "Homo sapiens"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDace20561-a970-4039-984f-f5da09b6c87a", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID6706671d-72b0-4530-a1ba-76cf3cd2601d", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/BTO_0000133"
+                    }, 
+                    "value": {
+                      "_value": "blood serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID8ac43a22-89ff-41aa-b73f-66ff6ac2799e", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID875abbf1-3803-4eb6-8504-360b1a51a27d", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDb70108e0-84ac-4951-9b5d-840e22677e0d", 
+              "name": {
+                "_value": "source-subject_2196001"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+                    }, 
+                    "value": {
+                      "_value": "Homo sapiens"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID3f2b31bb-e35b-4706-bc4c-f9f0940c961a", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID7ff1c32b-2f38-4660-9150-e2c8a3573abe", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/BTO_0000133"
+                    }, 
+                    "value": {
+                      "_value": "blood serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID973773e5-a9ed-4751-9d84-1647ebc7b1a3", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID18ca9015-845a-415e-a6b8-f2b4c607d317", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDc898ab49-5cde-4973-810b-8c42674b8523", 
+              "name": {
+                "_value": "source-subject_2152032"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+                    }, 
+                    "value": {
+                      "_value": "Homo sapiens"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDd8cb7af8-28d1-4d50-8700-6612fb80608f", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID8714439f-49e1-4360-a1e8-bff6d7f66347", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/BTO_0000133"
+                    }, 
+                    "value": {
+                      "_value": "blood serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID1fd50592-ab7e-4a4e-ba13-710420523df7", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID54f6d130-bdc7-42bb-901b-a11e6ba200e8", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDf24625b6-9807-47ee-9afc-29814f90e960", 
+              "name": {
+                "_value": "source-subject_2258751"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+                    }, 
+                    "value": {
+                      "_value": "Homo sapiens"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID2f929333-174f-4cb3-b580-be64c0e37c67", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDe71e0e7e-3774-46f7-97f0-9b8c2f387721", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/BTO_0000133"
+                    }, 
+                    "value": {
+                      "_value": "blood serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID7e8f3629-696e-44b9-8c86-9d58817f9ea5", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDb3c9c13f-53c9-4baa-aa10-20e7174ba590", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDcdc62e97-018d-41c4-b323-eb5b9941af19", 
+              "name": {
+                "_value": "source-subject_243471"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+                    }, 
+                    "value": {
+                      "_value": "Homo sapiens"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDbb11d41d-47ba-414d-828a-caf3ac6366ec", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID01f756a4-fa03-415b-9734-76b6cb530e40", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/BTO_0000133"
+                    }, 
+                    "value": {
+                      "_value": "blood serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID23104271-f840-463a-a750-b3c2ee076970", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDb0604efc-b40d-409c-bd5c-56c5de862f70", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }
+          ], 
+          "name": {
+            "_value": "population name"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID0dcbbfde-934a-40db-b7cf-0d95f878a405", 
+          "selectionRule": {
+            "_value": "selection rule"
+          }, 
+          "type": {
+            "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyGroupPopulation"
+        }
+      ]
+    }
+  ], 
+  "title": {
+    "_value": "Investigation"
+  }, 
+  "schemaID": "https://repo.metadatacenter.org/UUID", 
+  "provenance": {
+    "hadPrimarySource": "http://www.ebi.ac.uk/metabolights/", 
+    "wasGeneratedBy": "http://www.isa-tools.org"
+  }, 
+  "submissionDate": {
+    "_value": ""
+  }, 
+  "template_id": "https://repo.metadatacenter.org/406d3a6d-c264-417a-bf30-bd6273762bd8", 
+  "publicReleaseDate": {
+    "_value": ""
+  }, 
+  "@context": {
+    "model": "https://repo.metadatacenter.org/model/", 
+    "title": "https://repo.metadatacenter.org/model/title", 
+    "description": "https://repo.metadatacenter.org/model/description", 
+    "xsd": "http://www.w3.org/2001/XMLSchema", 
+    "schema": "https://schema.org/"
+  }, 
+  "identifier": {
+    "_value": "1402495472345"
+  }, 
+  "@id": "https://repo.metadatacenter.org/e86aab8f-5552-4c09-bef4-294325709a16", 
+  "@type": "https://repo.metadatacenter.org/model/Investigation"
+}

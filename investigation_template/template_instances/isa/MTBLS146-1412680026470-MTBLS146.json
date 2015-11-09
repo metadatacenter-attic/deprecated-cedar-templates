@@ -1,0 +1,2293 @@
+{
+  "info": {
+    "template_title": "isa-1412680026470-MTBLS146", 
+    "template_description": "Investigation instance", 
+    "creation_date": "2015-11-08 21:40:19"
+  }, 
+  "description": {
+    "_value": ""
+  }, 
+  "study": [
+    {
+      "studyProtocol": [
+        {
+          "name": {
+            "_value": "Sample collection"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID02af9163-48e3-40e2-b424-e1b966f18928", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID8bdc2f52-9531-44e5-98db-dadd46906b2a", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "collection tube"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID1fbb42cd-25c8-465c-ac09-c4f1e75ac18a", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "physiology at collection"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Sample collection"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "Venous blood was collected using Vacuette EDTA blood collection tubes in the morning before breakfast from all the participants, and then plasma samples were separated at 2200g for 5 min at 4\u00b0C from vein blood and stored at \u221280 \u00b0C until use. Independent samples were collected for each subject in independent class instead of multiple collection for each subject, which more closely reflected pregnancy-related variability larger than intersubject changes in the general population."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Extraction"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID6c7e52e9-032f-4fdd-86fe-913357f1b642", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID190a0cec-cda6-4c21-b260-f9525fe14969", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Post Extraction"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID00378bfa-8f4d-4b05-a428-dc980046949c", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Derivatization"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Extraction"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "For non-targeted metabolic profiling,  50 \u03bcL of thawed plasma samples were collected and then precipitated by 200 \u03bcL of methanol. After centrifugation at 14000g for 10 min at 4 \u00b0C, the supernatant was transferred to a 1.5 mL polypropylene tube and 10 \u03bcL of the supernatant was injected into the HPLC\u2013MS. A \u201cquality control\u201d (QC) sample was also prepared by mixing equal volumes (10 \u03bcL) from each plasma sample before sample preparation as they were aliquoted for analysis. This \u201cpooled\u201d sample was used to estimate a \u201cmean\u201d profile representing all the analytes encountered during the analysis.\nFor shotgun lipidomics and carnitine Profiling 10 \u03bcL of plasma was placed in a 1 mL glass vial. Then 8 \u03bcL of the internal standards mixture consisting of ceramide (Cer, d18:1/17:0), phosphatidylserine (PS, 17:0), phosphatidylcholine (PC, 18:3), l-\u03b1-phosphatidylinositol (Soy PI), phosphoethanolamine (PE, 17:0), and phosphoglycerol (PG, 17:0) with a concentration of 10 \u03bcM for each lipid was added. Afterward, 800 \u03bcL of chloroform/methanol/water (20:10:1, V/V/V) containing 300 mM ammonium acetate was added again and the mixture was vortexed. After centrifuging for 10 min at 14000g, 10 \u00b0C on a centrifuge (Eppendorf, Hamburg, Germany), 100 \u03bcL of the lower organic layer was diluted with 100 \u03bcL of methanol/chloroform (2:1, V/V) containing 10 mM ammonium acetate. The final mixture were transferred into a new vial and stored at \u221220 \u00b0C until analysis."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Chromatography"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDe6269a01-68e8-451b-bb84-5349797660a8", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID880f4e2c-6987-49b9-af23-825653464a60", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Chromatography Instrument"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID294011a0-9db3-4f14-b217-8026d76e99b4", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Column type"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID1a18365e-9fd5-4c41-aa17-88d7ae4aff9c", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Column model"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Chromatography"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "Non-targeted Metabolic Profiling, LC\u2013MS system was run in binary gradient mode. Solvent A was 0.1% (v/v) formic acid/water, and solvent B was 0.1% (v/v) formic acid/methanol. The flow rate was 0.2 mL/min. A C-18 column (150 mm \u00d7 2.1 mm, 3.5 \u03bcm, Agilent, USA) was used for all analysis. The gradient was as follows: 5% B at 0 min, 5% B at 5 min, 100% B at 8 min, 100% B at 9 min, 5% B at 18 min, and 5% B at 20 min. The pooled \u201cQC\u201d sample was injected five times at the beginning of the run to ensure system equilibrium and then every 10 samples to further monitor the stability of the analysis."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Mass spectrometry"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID0d3821b4-3f60-4d63-b7ca-7948413e52a4", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDeffbe43e-7af1-421c-8492-82b31b051abf", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Scan polarity"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID4289b717-d3ea-49c0-a040-c2788d9f3d16", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Scan m/z range"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID2a4f3e78-3b92-4aa6-935d-cbc854484146", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Instrument"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDe101479a-7e7e-4ed6-af3d-9d9e0ae42a93", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Mass analyzer"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID39e6ca8b-3fe6-45cb-9551-bb1914b363a6", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Ion source"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID65eeb300-f79f-4cf6-8839-e86d5b80d714", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "mass resolution"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDc25f9302-8ef2-42d3-b823-e5d66ce0707e", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "run order"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID1cd3dc78-6e84-44cf-939a-5ce845b58c51", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "batch number"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Mass spectrometry"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "LC\u2013MS data was acquired using Shimadzu Prominence HPLC system (Shimadzu) coupled online to a LTQ Orbitrap Velos instrument (Thermo Fisher Scientific, MA, USA) set at 30000 resolution (at m/z 400). Sample analysis was carried out in both positive and negative ion modes. The mass scanning range was 50\u20131500 m/z, and the capillary temperature was 350 \u00b0C. Nitrogen sheath gas was set at a flow rate of 30 L/min. Nitrogen auxiliary gas was set at a flow rate of 10 L/min. Spray voltage was set to 4.5 kV for positive ion mode and 3 kV for negative ion mode.\nLipidome and carnitine profiling were detected by multiplexed precursor ion scanning (MPIS) analysis. First, 100 \u03bcL of final extract was loaded in a well of a 96-well plate (Eppendorf, Hamburg, Germany) and then sealed with aluminum foil. The final extracts were then analyzed using a QTRAP 5500 System equipped with a Shimadzu Prominence HPLC system (Shimadzu). Liquid chromatography and flow injection analysis\u2013mass spectrometry were employed to acquire the data. The electrospray source was operated in the positive ion mode. Optimized source parameters were: ionspray voltage 5.5 kV, source temperature 300 \u00b0C, curtain gas 30. Collision energies ranged from 25 to 30 V for various lipid species in precursor ion or neutral loss scan modes. Flow injections analysis was performed with a mixture of chloroform\u2013methanol\u201310 mM ammonium acetate in water (300/665/35, V/V/V) at a flow rate of 200 \u03bcL/min. Total analysis time per sample was 3.6 min. PC, PE, PS, PI, PG, Cer, and carnitines were monitored by consecutive positive ion mode PIS m/z 184.1, 141.0, 185.0, 277.0, 189.0, 264.2, and 85.1, respectively."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Data transformation"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID1fd7456b-7e85-421f-b29d-a7b78db48d83", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Data transformation"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "Data pretreatment including peak picking, peak grouping, retention time correction, second peak grouping, and annotation of isotopes and adducts was achieved using XCMS and CAMERA software implemented with the freely available R statistical language (v 2.13.1).(24) LC\u2013MS raw data files were initially converted into netCDF format then directly processed by the XCMS and CAMERA toolbox. A list of the ion intensities of each peak detected was generated using retention time (RT) and the m/z data pairs as identifiers for each ion. The resulting three-dimensional matrix contained arbitrarily assigned peak indices (retention time\u2013m/z pairs), sample names (observations), and ion intensity information (variables)."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Metabolite identification"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDd5b45339-c4b8-44c1-ad0c-f13199d5605f", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Metabolite identification"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "Exact molecular mass data (m/z) from significant peaks were used to search the online HMDB database (http://www.hmdb.ca) for metabolite identities. A metabolite name was reported when a mass difference between observed and theoretical mass was <10 ppm. Isotopic distribution measurements were used to further validate the metabolite molecular formula of matched metabolites. The identities of key metabolites were confirmed by comparison of their MS/MS spectra and retention time with those obtained using commercially available reference standards"
+          }
+        }
+      ], 
+      "description": {
+        "_value": "Metabolic variations occur during normal pregnancy to provide the growing fetus with a supply of nutrients required for its development and to ensure the health of the woman during gestation. Mass spectrometry-based metabolomics was employed to study the metabolic phenotype variations in the maternal plasma that are induced by pregnancy in each of its three trimesters. Nontargeted metabolomics analysis showed that pregnancy significantly altered the profile of metabolites in maternal plasma. The levels of six metabolites were found to change significantly throughout pregnancy, with related metabolic pathway variations observed in biopterin metabolism, phospholipid metabolism, amino acid derivatives, and fatty acid oxidation. In particular, there was a pronounced elevation of dihydrobiopterin (BH2), a compound produced in the synthesis of dopa, dopamine, norepinephrine, and epinephrine, in the second trimester, whereas it was markedly decreased in the third trimester. The turnover of BH2 and tryptophan catabolites indicated that the fluctuations of neurotransmitters throughout pregnancy might reveal the metabolic adaption in the maternal body for the growth of the fetus. Furthermore, 11 lipid classes and 41 carnitine species were also determined and this showed variations in the presence of long-chain acylcarnitines and lysophospholipids in later pregnancy, suggesting changes of acylcarnitines and lysophospholipids to meet the energy demands in pregnant women."
+      }, 
+      "title": {
+        "_value": "Pregnancy-Induced Metabolic Phenotype Variations in Maternal Plasma"
+      }, 
+      "process": [
+        {
+          "type": {
+            "_value": "Sample collection"
+          }, 
+          "output": {
+            "sample": [
+              {
+                "description": {
+                  "_value": ""
+                }, 
+                "characteristic": [
+                  {
+                    "name": {
+                      "_value": "Organism"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                      }, 
+                      "value": {
+                        "_value": "Homo sapiens"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID7fb3a203-43e9-495d-89c5-a9c1855d9e13", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDdf5cc390-68b7-4ab1-b782-4fe871e4bd90", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "Current chronological age"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "UO"
+                      }, 
+                      "value": {
+                        "_value": "not available"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID36e80804-8672-4005-85d6-9eb5b1c9e32e", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDacb2dc0d-3898-4bd2-86dc-f0348dd57b1c", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "ethnicity"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "http://www.ebi.ac.uk/efo/EFO_0003161"
+                      }, 
+                      "value": {
+                        "_value": "Han Chinese"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUIDc1dc1d07-7ac7-4355-9fb3-c5726fd1791c", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID59f28aba-c999-4a83-a6b7-f3ccae09e749", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "Organism part"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "http://purl.obolibrary.org/obo/BTO_0000131"
+                      }, 
+                      "value": {
+                        "_value": "blood plasma"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUIDdc115d69-7944-4627-b26e-003027c9ced9", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID6739c309-3ed8-4b87-a913-cb83ef897d8e", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "Gender"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "http://purl.bioontology.org/ontology/RCD/XC00J"
+                      }, 
+                      "value": {
+                        "_value": "female"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUIDeed7ffa0-a96d-4404-abfa-97aa752b7bd9", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID3b1a6b67-fc3a-4a1b-8a11-43d1946fab8f", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "weight"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "UO"
+                      }, 
+                      "value": {
+                        "_value": "not available"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID478e3b7c-eb6f-4b78-bb5a-2c3697bac48a", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID59b7d5a0-1e91-4573-b866-6578c8fc6db9", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "height"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "UO"
+                      }, 
+                      "value": {
+                        "_value": "not available"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID5fdd04f9-bbb4-47c9-af48-3e790ee8772a", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDf15a5114-6865-4ea3-82ac-96e255cc52d1", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "studyTime": {
+                  "durationValue": {
+                    "_value": 0
+                  }, 
+                  "isBeforeEvent": {
+                    "_value": false
+                  }, 
+                  "studyEvent": {
+                    "_value": ""
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID56c9c8f7-adc1-45ee-9bc2-ce4053132a56", 
+                  "@type": "https://repo.metadatacenter.org/model/StudyTime", 
+                  "unit": {
+                    "_value": ""
+                  }
+                }, 
+                "source": {
+                  "_value": ""
+                }, 
+                "type": {
+                  "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Sample", 
+                "name": {
+                  "_value": "sample-QC"
+                }
+              }
+            ]
+          }, 
+          "input": {
+            "studySubject": [
+              {
+                "characteristic": [
+                  {
+                    "name": {
+                      "_value": "Organism"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                      }, 
+                      "value": {
+                        "_value": "Homo sapiens"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID0241a736-50aa-4ce8-9599-b8f3e8713315", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID3029650d-7181-4544-a38e-7d77b7d3ff37", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "Current chronological age"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "UO"
+                      }, 
+                      "value": {
+                        "_value": "not available"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID2e0a0d49-56d4-45d3-bdeb-4a2665f57e36", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDd7ba006b-adcd-4ba0-916b-4c5a98e25f03", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "ethnicity"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "http://www.ebi.ac.uk/efo/EFO_0003161"
+                      }, 
+                      "value": {
+                        "_value": "Han Chinese"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID5818b481-7d67-4726-9ac0-a925700fcfbc", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDff467268-10b1-49fe-8d44-58fe0bedfdb9", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "Organism part"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "http://purl.obolibrary.org/obo/BTO_0000131"
+                      }, 
+                      "value": {
+                        "_value": "blood plasma"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUIDbfdc47e0-6ec2-4229-8c71-477448958141", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID50dca1f3-0a2c-49eb-9f57-e3e2fe9bc3f3", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "Gender"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "http://purl.bioontology.org/ontology/RCD/XC00J"
+                      }, 
+                      "value": {
+                        "_value": "female"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUIDfde7997a-9688-4c5e-a41a-97fab3225ffc", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDf1433806-530a-4ffd-be60-637c52a54fc3", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "weight"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "UO"
+                      }, 
+                      "value": {
+                        "_value": "not available"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID9b33358c-e0f1-4653-88ee-48c390a99851", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDf3a0b7d6-e76b-4814-abc8-eca3afc01062", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "height"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "UO"
+                      }, 
+                      "value": {
+                        "_value": "not available"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUIDdbcbc87e-2ab7-4add-a634-2fe4d327595d", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDd9f0aee9-26f3-4670-962f-103ab52e9668", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/StudySubject", 
+                "name": {
+                  "_value": "source-QC"
+                }
+              }
+            ]
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID0e0e1183-6069-4539-8eb1-55fc76aaa47e", 
+          "@type": "https://repo.metadatacenter.org/model/Process"
+        }
+      ], 
+      "studyDesignType": {
+        "_value": ""
+      }, 
+      "submissionDate": {
+        "_value": ""
+      }, 
+      "contact": [
+        {
+          "fax": {
+            "_value": ""
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@context": "", 
+              "@id": "https://repo.metadatacenter.org/UUID800d048e-a359-4ee0-977e-26db2d0eadd2", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "Hong Kong Baptist University"
+              }
+            }
+          ], 
+          "firstName": {
+            "_value": "Hemi"
+          }, 
+          "lastName": {
+            "_value": "Luan"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": ""
+          }, 
+          "role": {
+            "_value": ""
+          }, 
+          "address": {
+            "_value": ""
+          }, 
+          "middleInitial": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDa3bf611a-6668-42f7-a336-2eb57727b87a", 
+          "email": {
+            "_value": "hemi.luan@gmail.com"
+          }
+        }
+      ], 
+      "studyFactor": [
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUIDcc7b7142-e765-40a5-b277-e98d88dad04f", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "pregnancy duration"
+          }, 
+          "description": {
+            "_value": "time"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUIDa7039379-3519-4c5c-8434-e62df4a66ad9", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Spiking standard"
+          }, 
+          "description": {
+            "_value": "lipid"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUID7074a52d-da7f-4b18-9152-e73dce761d28", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Spiking volume"
+          }, 
+          "description": {
+            "_value": "volume"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUID12b74eea-d783-453f-9ce9-4818417d564b", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Spiking concentration"
+          }, 
+          "description": {
+            "_value": "Concentration"
+          }
+        }
+      ], 
+      "publicReleaseDate": {
+        "_value": ""
+      }, 
+      "publication": [
+        {
+          "status": {
+            "_value": ""
+          }, 
+          "authorList": [
+            {
+              "_value": "Hemi Luan"
+            }, 
+            {
+              "_value": " Nan Meng"
+            }, 
+            {
+              "_value": " Ping Liu"
+            }, 
+            {
+              "_value": " Qiang Feng"
+            }, 
+            {
+              "_value": " Shuhai Lin"
+            }, 
+            {
+              "_value": " Jin Fu"
+            }, 
+            {
+              "_value": " Robert Davidson"
+            }, 
+            {
+              "_value": " Xiaomin Chen"
+            }
+          ], 
+          "title": {
+            "_value": "Pregnancy-Induced Metabolic Phenotype Variations in Maternal Plasma"
+          }, 
+          "pubMedID": {
+            "_value": "24450375"
+          }, 
+          "dOI": {
+            "_value": "10.1021/pr401068k"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDc8bb952e-989d-4634-8991-616334a631b0", 
+          "@type": "https://repo.metadatacenter.org/model/Publication"
+        }
+      ], 
+      "studyAssay": [
+        {
+          "platform": {
+            "_value": "LTQ Orbitrap Velos (Thermo Scientific)"
+          }, 
+          "technology": {
+            "_value": "mass spectrometry"
+          }, 
+          "measurementType": {
+            "_value": "http://purl.obolibrary.org/obo/OBI_0000366"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDb1d2f7a0-3b56-4a0a-ab05-fb93d72dbbab", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }, 
+        {
+          "platform": {
+            "_value": "LTQ Orbitrap Velos (Thermo Scientific)"
+          }, 
+          "technology": {
+            "_value": "mass spectrometry"
+          }, 
+          "measurementType": {
+            "_value": "http://purl.obolibrary.org/obo/OBI_0000366"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID193bfbc8-7b00-492e-8836-e94e45fa5095", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }, 
+        {
+          "platform": {
+            "_value": "API 5500 QTRAP (AB Sciex)"
+          }, 
+          "technology": {
+            "_value": "mass spectrometry"
+          }, 
+          "measurementType": {
+            "_value": "http://purl.obolibrary.org/obo/OBI_0000366"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID0c048666-f442-4bd2-bfec-99443d18d81e", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }
+      ], 
+      "identifier": {
+        "_value": "MTBLS146"
+      }, 
+      "@id": "https://repo.metadatacenter.org/UUID96495ec1-4420-4a8f-9045-0b646bf50ba6", 
+      "@type": "https://repo.metadatacenter.org/model/Study", 
+      "studyGroupPopulation": [
+        {
+          "studySubject": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDd8fefde9-cd9e-4fea-a979-179e1c6fd0cc", 
+              "name": {
+                "_value": "source-PDP12AY02684-4"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                    }, 
+                    "value": {
+                      "_value": "Homo sapiens"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID69854c6a-09a9-4cb4-bd07-a943404c5a27", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID3c8c058b-c42f-43be-b086-f9f95316ce06", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Current chronological age"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "30"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID0093a351-90e6-4a31-83bf-4bcc6d7aa086", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID3a3e47cb-3b10-4490-a846-c545e3b0c150", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "ethnicity"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://www.ebi.ac.uk/efo/EFO_0003161"
+                    }, 
+                    "value": {
+                      "_value": "Han Chinese"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDa2084512-8b60-4f40-98f6-8e307b5e2604", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID2f4d5546-77bc-4b36-8b68-c3a2de2f8052", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/BTO_0000131"
+                    }, 
+                    "value": {
+                      "_value": "blood plasma"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID1da060da-d761-429f-968d-67027ecce597", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID382e32a9-28f3-42cd-81e7-6ccfce1225bd", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Gender"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.bioontology.org/ontology/RCD/XC00J"
+                    }, 
+                    "value": {
+                      "_value": "female"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID00cdf2d4-723b-409d-8e6b-d924d802efda", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID0561f028-7187-4d3e-a890-9d0feb3056c2", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "weight"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "not available"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDde6a712d-d247-4fc5-bb8d-e5e4734ea043", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID5e792e8a-77ea-4aee-ba8c-8e18658a8269", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "height"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "not available"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID0512efd0-de1f-4382-bc72-fc9021161dc2", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID9bce3520-c3f5-49e9-8902-3799f8355108", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID1f23db26-e634-4908-9688-49013bbb1e2c", 
+              "name": {
+                "_value": "source-PDP12AR02347-4"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                    }, 
+                    "value": {
+                      "_value": "Homo sapiens"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID836b43c6-018c-4595-9e94-4d9da97f2812", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID9b150d26-dceb-4885-95e8-ed68f7576450", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Current chronological age"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "29"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID9e93689a-2066-42e5-8a9c-6aa0b2bb2a87", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID8a2d2dc0-8850-4e61-a4c0-420789bf3c52", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "ethnicity"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://www.ebi.ac.uk/efo/EFO_0003161"
+                    }, 
+                    "value": {
+                      "_value": "Han Chinese"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDd422d41c-2c6c-4e10-83cd-3d7b20011cba", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDd1f1cc28-12bd-4d67-97ed-db19d5b71fe5", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/BTO_0000131"
+                    }, 
+                    "value": {
+                      "_value": "blood plasma"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID10dbe380-7b1a-444b-a650-8754a66b2189", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDac5cd5aa-00b0-4324-ace5-f32dcca145ee", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Gender"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.bioontology.org/ontology/RCD/XC00J"
+                    }, 
+                    "value": {
+                      "_value": "female"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDbd49e037-5319-4ba0-84d4-6795de93c68e", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID62ec328b-9846-4370-9543-dfce6d69cf20", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "weight"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "52.5"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDa36018b4-5e09-409f-9c38-31b4e4cf7f5d", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID98dc011f-fe8e-4aa9-a9a7-88bba6a7bf7c", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "height"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "156"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID4ac5800e-0137-4d5c-bf26-9e6a4e2ccb92", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDff2c8846-d924-4432-a653-8dc6c8412bfb", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID68c99803-255a-4780-ac70-c74173b03994", 
+              "name": {
+                "_value": "source-PDP12AR02624-4"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                    }, 
+                    "value": {
+                      "_value": "Homo sapiens"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDe40578c3-5850-4172-9096-de2619077ec4", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID5b2fb61b-8014-4e71-b415-a9f131fb5e7e", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Current chronological age"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "30"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID535c1de0-12e3-4b82-964c-de6f2cf7a5f0", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID55a480ac-ba06-4355-aaeb-9d52b6fd26f1", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "ethnicity"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://www.ebi.ac.uk/efo/EFO_0003161"
+                    }, 
+                    "value": {
+                      "_value": "Han Chinese"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID04bec918-ded2-48f5-a643-40135f6e38d2", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDc09b9bde-b13b-40d4-8900-594cf49785e5", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/BTO_0000131"
+                    }, 
+                    "value": {
+                      "_value": "blood plasma"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID401d0900-e2a1-4d3e-b5ac-f83edb52134a", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDab6009db-e6f7-4294-b259-c367adc0fde1", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Gender"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.bioontology.org/ontology/RCD/XC00J"
+                    }, 
+                    "value": {
+                      "_value": "female"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDc497b3be-e9fb-4c08-9e25-f21b01a91dd9", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID5dbe0725-682c-4463-9c16-6bc037b3cb35", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "weight"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "60.5"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID130b16c3-85ee-4313-81d3-d0e2c4616821", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDda475382-9cb1-4ba9-a0b4-511b38876b5c", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "height"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "160"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDc1aa282b-059f-421e-93a4-b4a846abd403", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDc4b8c2af-e389-49aa-88b0-cda4cf4d5a19", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDfbe3df90-a95d-42cd-824f-b79bf1efc431", 
+              "name": {
+                "_value": "source-PDP12EM00153-4"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                    }, 
+                    "value": {
+                      "_value": "Homo sapiens"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDc6ee51c1-04c4-484f-94f1-e5407aca40bf", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID8b1d027a-2a97-4cf6-b2ec-33e249abe678", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Current chronological age"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "36"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID255413d6-7a4f-40f7-b690-ac43af57b280", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID74da015c-2b03-4944-b5e7-cc3b34ae43b1", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "ethnicity"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://www.ebi.ac.uk/efo/EFO_0003161"
+                    }, 
+                    "value": {
+                      "_value": "Han Chinese"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID7a54dc79-284d-4b49-9898-1d9cffa63cb9", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID50786327-6b79-45cb-a2ac-4ca8717eb9b6", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/BTO_0000131"
+                    }, 
+                    "value": {
+                      "_value": "blood plasma"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID64a44019-6c3e-4bc3-8be3-2a533e8aa601", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDffa789e3-ffde-4892-a30e-6285f74b620f", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Gender"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.bioontology.org/ontology/RCD/XC00J"
+                    }, 
+                    "value": {
+                      "_value": "female"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDbe2fcddf-221f-4f44-b695-2c9752414a4b", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID62ee4068-e1f8-4aa1-8afa-6a03ce67b23e", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "weight"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "not available"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDcf702712-a021-40b8-8b88-0abfba040694", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID4fb1509f-f53b-4b40-9e37-8f161c4510e5", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "height"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "not available"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID65441930-0663-4e90-8007-80bb3d82e81c", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID4c2e58ed-2f6c-44a7-b982-50607197c08c", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID56033c35-b8f5-4f3e-adac-4fa04879f5f1", 
+              "name": {
+                "_value": "source-PDP12AY02598-4"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                    }, 
+                    "value": {
+                      "_value": "Homo sapiens"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID2f8f2288-e063-42dc-8e55-6d5cd30acfbb", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDdfeb0597-d3f9-4e0d-b021-f5504b332bb4", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Current chronological age"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "29"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID39c5694b-29ad-4cb9-9dd9-457ffac131ca", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID13e774a3-36cd-44ec-bb26-22e20d7874cd", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "ethnicity"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://www.ebi.ac.uk/efo/EFO_0003161"
+                    }, 
+                    "value": {
+                      "_value": "Han Chinese"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDb724fad4-2c9f-452f-926d-7ab2cb0945ab", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID39e1941e-4443-4f0e-88c3-31a86eee4cbd", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/BTO_0000131"
+                    }, 
+                    "value": {
+                      "_value": "blood plasma"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID7c8ebff6-a8fa-40d2-bad3-b658dbd90cdb", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID713918fe-1e57-4bc9-a595-dca08f1fbde6", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Gender"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.bioontology.org/ontology/RCD/XC00J"
+                    }, 
+                    "value": {
+                      "_value": "female"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDebefa7de-ff30-4fe0-ab42-726b68db53fd", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID3e8777d8-dea9-43e2-89f2-705cfeab05b2", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "weight"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "not available"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID0c7bd53d-1da1-4c80-9cbf-7a6fc7e63261", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID34b6a7f1-2520-4bc0-973e-5f3852f1b6f4", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "height"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "not available"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDecdf3c8d-40cd-4b3b-a98f-862321b4b886", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID26c9cd95-b0ad-48e2-abd6-358a3e68dbbd", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID05366bb9-46cf-4f1a-92c2-76244e7d2d7a", 
+              "name": {
+                "_value": "source-PDP12DF01132-4"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                    }, 
+                    "value": {
+                      "_value": "Homo sapiens"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID6bb0ec61-9574-4a2e-b03b-2ec3f4522c23", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID6fd09aa5-fc58-42db-bcd3-517607f87910", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Current chronological age"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "35"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDec4168e8-2d4e-4582-a034-632766b3da6b", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID70713442-e026-4551-a3d1-79e56a576a09", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "ethnicity"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://www.ebi.ac.uk/efo/EFO_0003161"
+                    }, 
+                    "value": {
+                      "_value": "Han Chinese"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID8fa31a4a-02a6-419a-a1b2-cd4cbcf4b5a9", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID13f6ad7b-7620-4f69-8d93-a9fcfeeebca4", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/BTO_0000131"
+                    }, 
+                    "value": {
+                      "_value": "blood plasma"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID179021ae-5a71-4ebb-a630-912390cea73c", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID196775f8-7389-40a6-a758-6460c601bdf0", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Gender"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.bioontology.org/ontology/RCD/XC00J"
+                    }, 
+                    "value": {
+                      "_value": "female"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID17f40c77-2d24-421d-94f1-8f9a87ff5a80", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID62ad30fb-c47d-4598-93d2-06ad8111f078", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "weight"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "not available"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDde58ec0e-3e65-47de-b10f-d95ce476ba9b", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID3011f653-d279-444c-9ab3-de1fabeec470", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "height"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "not available"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID357a2ac5-70ec-4a3c-91e8-60debcd021d3", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID6a0919c2-2059-46f4-94db-496242d90e4b", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDc8dd17dd-7d11-4651-8e5f-2d2d1ba3b3ff", 
+              "name": {
+                "_value": "source-PDP12AR02532-4"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                    }, 
+                    "value": {
+                      "_value": "Homo sapiens"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID9361137a-762d-43eb-ac6d-b351b47345d7", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDb97190ad-09d3-4af1-854e-e3722deadd1f", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Current chronological age"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "35"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID262c8873-c877-4e81-80cf-271cb6426383", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDd6e93dd5-9d23-486a-b47e-f58a1bc5a572", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "ethnicity"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://www.ebi.ac.uk/efo/EFO_0003161"
+                    }, 
+                    "value": {
+                      "_value": "Han Chinese"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID007d61cb-ae6c-4ae1-a95b-b36ef5ad3682", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDf00e9313-083a-4058-ad75-d900d5dc316f", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/BTO_0000131"
+                    }, 
+                    "value": {
+                      "_value": "blood plasma"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID1e68915c-742d-42ff-8f4a-5cd6bdcbf794", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID757fd1e9-1395-4e2c-9fe0-fcf0d36da7c2", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Gender"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.bioontology.org/ontology/RCD/XC00J"
+                    }, 
+                    "value": {
+                      "_value": "female"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID4fd1834e-650b-437c-b16a-c68ef05ae51c", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDadd9bc23-ccbc-4d77-ad93-6210b11e80cc", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "weight"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "65"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID663aa3cb-fd59-46cc-b7a6-64e8b3114170", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID29c76ddf-b92e-461d-9a5b-f3d6afd1e360", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "height"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "160"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDd1eb4958-cb2f-407a-ab3b-5efd9f736155", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID63132922-d3a1-4db9-80f1-dc8684dcb097", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID4472ee49-bce9-4cd8-a561-ed9f06847925", 
+              "name": {
+                "_value": "source-PDP12AR02335-4"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                    }, 
+                    "value": {
+                      "_value": "Homo sapiens"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDf3e793a2-665b-4630-9c3c-f4ac5b9777af", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDefbe8665-2a69-45b2-8da0-41c47c7a673d", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Current chronological age"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "26"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDa9ed82ca-b38e-4b5a-a3e2-73453aa021b6", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDb3fa0ba4-6bd4-46aa-b28c-6a4c131d0adb", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "ethnicity"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://www.ebi.ac.uk/efo/EFO_0003161"
+                    }, 
+                    "value": {
+                      "_value": "Han Chinese"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDd7e1f35b-4482-4400-8235-481f2b10af02", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID309b6f03-b4a8-44c1-b86f-0f27a90d4958", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/BTO_0000131"
+                    }, 
+                    "value": {
+                      "_value": "blood plasma"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID06143c98-a3e9-40c0-9701-96d8d5cfa14b", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID235dedfd-e4c4-4e4b-a0c0-d6be7dcf4b9f", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Gender"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.bioontology.org/ontology/RCD/XC00J"
+                    }, 
+                    "value": {
+                      "_value": "female"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDe045455f-63b5-495c-9ff2-35c52be3eada", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID575ebb79-2857-4500-82ce-34c308e81107", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "weight"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "45"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDa320a105-86cc-4f97-8234-bce06733fb44", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID008d6011-a567-4aab-b8e0-b9843e11d3f3", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "height"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "UO"
+                    }, 
+                    "value": {
+                      "_value": "160"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID5831a0d1-028e-4ee6-bf79-b3808b44b1d2", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID66593022-6ae0-4ca6-be8f-96b3678fb900", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }
+          ], 
+          "name": {
+            "_value": "population name"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID14cbac03-fdcd-4cda-81e4-33efd7edefd7", 
+          "selectionRule": {
+            "_value": "selection rule"
+          }, 
+          "type": {
+            "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyGroupPopulation"
+        }
+      ]
+    }
+  ], 
+  "title": {
+    "_value": "BGI Investigation into pregnancy profiles"
+  }, 
+  "schemaID": "https://repo.metadatacenter.org/UUID", 
+  "provenance": {
+    "hadPrimarySource": "http://www.ebi.ac.uk/metabolights/", 
+    "wasGeneratedBy": "http://www.isa-tools.org"
+  }, 
+  "submissionDate": {
+    "_value": ""
+  }, 
+  "template_id": "https://repo.metadatacenter.org/406d3a6d-c264-417a-bf30-bd6273762bd8", 
+  "publicReleaseDate": {
+    "_value": ""
+  }, 
+  "@context": {
+    "model": "https://repo.metadatacenter.org/model/", 
+    "title": "https://repo.metadatacenter.org/model/title", 
+    "description": "https://repo.metadatacenter.org/model/description", 
+    "xsd": "http://www.w3.org/2001/XMLSchema", 
+    "schema": "https://schema.org/"
+  }, 
+  "identifier": {
+    "_value": "1412680026470"
+  }, 
+  "@id": "https://repo.metadatacenter.org/b398d1b1-14e7-4cfd-8fe8-cc357b247749", 
+  "@type": "https://repo.metadatacenter.org/model/Investigation"
+}

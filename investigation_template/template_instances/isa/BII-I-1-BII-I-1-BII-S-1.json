@@ -1,0 +1,1485 @@
+{
+  "info": {
+    "template_title": "isa-BII-I-1-BII-S-1", 
+    "template_description": "Investigation instance", 
+    "creation_date": "2015-11-08 19:32:51"
+  }, 
+  "description": {
+    "_value": "Background Cell growth underlies many key cellular and developmental processes, yet a limited number of studies have been carried out on cell-growth regulation. Comprehensive studies at the transcriptional, proteomic and metabolic levels under defined controlled conditions are currently lacking. Results Metabolic control analysis is being exploited in a systems biology study of the eukaryotic cell. Using chemostat culture, we have measured the impact of changes in flux (growth rate) on the transcriptome, proteome, endometabolome and exometabolome of the yeast Saccharomyces cerevisiae. Each functional genomic level shows clear growth-rate-associated trends and discriminates between carbon-sufficient and carbon-limited conditions. Genes consistently and significantly upregulated with increasing growth rate are frequently essential and encode evolutionarily conserved proteins of known function that participate in many protein-protein interactions. In contrast, more unknown, and fewer essential, genes are downregulated with increasing growth rate; their protein products rarely interact with one another. A large proportion of yeast genes under positive growth-rate control share orthologs with other eukaryotes, including humans. Significantly, transcription of genes encoding components of the TOR complex (a major controller of eukaryotic cell growth) is not subject to growth-rate regulation. Moreover, integrative studies reveal the extent and importance of post-transcriptional control, patterns of control of metabolic fluxes at the level of enzyme synthesis, and the relevance of specific enzymatic reactions in the control of metabolic fluxes during cell growth. Conclusion This work constitutes a first comprehensive systems biology study on growth-rate control in the eukaryotic cell. The results have direct implications for advanced studies on cell growth, in vivo regulation of metabolic fluxes for comprehensive metabolic engineering, and for the design of genome-scale systems biology models of the eukaryotic cell."
+  }, 
+  "study": [
+    {
+      "studyProtocol": [
+        {
+          "name": {
+            "_value": "growth protocol"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID9ccdc207-4b05-49c1-9016-92a0cb925a79", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "growth"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "1. Biomass samples (45 ml) were taken via the sample port of the Applikon fermenters. The cells were pelleted by centrifugation for 5 min at 5000 rpm. The supernatant was removed and the RNA pellet resuspended in the residual medium to form a slurry. This was added in a dropwise manner directly into a 5 ml Teflon flask (B. Braun Biotech, Germany) containing liquid nitrogen and a 7 mm-diameter tungsten carbide ball. After allowing evaporation of the liquid nitrogen the flask was reassembled and the cells disrupted by agitation at 1500 rpm for 2 min in a Microdismembranator U (B. Braun Biotech, Germany) 2. The frozen powder was then dissolved in 1 ml of TriZol reagent (Sigma-Aldrich, UK), vortexed for 1 min, and then kept at room temperature for a further 5min. 3. Chloroform extraction was performed by addition of 0.2 ml chloroform, shaking vigorously or 15 s, then 5min incubation at room temperature. 4. Following centrifugation at 12,000 rpm for 5 min, the RNA (contained in the aqueous phase) was precipitated with 0.5 vol of 2-propanol at room temperature for 15 min. 5. After further centrifugation (12,000 rpm for 10 min at 4 C) the RNA pellet was washed twice with 70 % (v/v) ethanol, briefly air-dried, and redissolved in 0.5 ml diethyl pyrocarbonate (DEPC)-treated water. 6. The single-stranded RNA was precipitated once more by addition of 0.5 ml of LiCl buffer (4 M LiCl, 20 mM Tris-HCl, pH 7.5, 10 mM EDTA), thus removing tRNA and DNA from the sample. 7. After precipitation (20 C for 1h) and centrifugation (12,000 rpm, 30 min, 4 C), the RNA was washed twice in 70 % (v/v) ethanol prior to being dissolved in a minimal volume of DEPC-treated water. 8. Total RNA quality was checked using the RNA 6000 Nano Assay, and analysed on an Agilent 2100 Bioanalyser (Agilent Technologies). RNA was quantified using the Nanodrop ultra low volume spectrophotometer (Nanodrop Technologies)."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "mRNA extraction"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDd1f2d939-87a3-47b2-876a-e6d8d2bc555b", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "mRNA extraction"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "1. Biomass samples (45 ml) were taken via the sample port of the Applikon fermenters. The cells were pelleted by centrifugation for 5 min at 5000 rpm. The supernatant was removed and the RNA pellet resuspended in the residual medium to form a slurry. This was added in a dropwise manner directly into a 5 ml Teflon flask (B. Braun Biotech, Germany) containing liquid nitrogen and a 7 mm-diameter tungsten carbide ball. After allowing evaporation of the liquid nitrogen the flask was reassembled and the cells disrupted by agitation at 1500 rpm for 2 min in a Microdismembranator U (B. Braun Biotech, Germany) 2. The frozen powder was then dissolved in 1 ml of TriZol reagent (Sigma-Aldrich, UK), vortexed for 1 min, and then kept at room temperature for a further 5min. 3. Chloroform extraction was performed by addition of 0.2 ml chloroform, shaking vigorouslyor 15 s, then 5min incubation at room temperature. 4. Following centrifugation at 12,000 rpm for 5 min, the RNA (contained in the aqueous phase) was precipitated with 0.5 vol of 2-propanol at room temperature for 15 min. 5. After further centrifugation (12,000 rpm for 10 min at 4 C) the RNA pellet was washed twice with 70 % (v/v) ethanol, briefly air-dried, and redissolved in 0.5 ml diethyl pyrocarbonate (DEPC)-treated water. 6. The single-stranded RNA was precipitated once more by addition of 0.5 ml of LiCl bffer (4 M LiCl, 20 mM Tris-HCl, pH 7.5, 10 mM EDTA), thus removing tRNA and DNA from the sample. 7. After precipitation (20 C for 1 h) and centrifugation (12,000 rpm, 30 min, 4 C), the RNA was washed twice in 70 % (v/v) ethanol prior to being dissolved in a minimal volume of DEPC-treated water. 8. Total RNA quality was checked using the RNA 6000 Nano Assay, and analysed on an Agilent 2100 Bioanalyser (Agilent Technologies). RNA was quantified using the Nanodrop ultra low volume spectrophotometer (Nanodrop Technologies)."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "protein extraction"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID98cfcab7-479f-4580-ae62-c00e18e48fd1", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "protein extraction"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": ""
+          }
+        }, 
+        {
+          "name": {
+            "_value": "biotin labeling"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDf30c028e-10f7-4965-afdb-088a5b755524", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "labeling"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "This was done using Enzo BioArrayTM HighYieldTM RNA transcript labelling kit (T7) with 5 ul cDNA. The resultant cRNA was again purified using the GeneChip Sample Clean Up Module. The column was eluted in the first instance using 10 l RNase-free water, and for a second time using 11 ul RNase-free water. cRNA was quantified using the Nanodrop spectrophotometer. A total of 15 ug of cRNA (required for hybridisation) was fragmented. Fragmentation was carried out by using 2 ul of fragmentation buffer for every 8 ul cRNA."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "ITRAQ labeling"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDa0fd5998-1833-42fe-b5cc-a5c22fb23030", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "labeling"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": ""
+          }
+        }, 
+        {
+          "name": {
+            "_value": "EukGE-WS4"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDa4e8d3f6-de1a-4559-ad82-372516d7edbf", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "hybridization"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "For each target, a hybridisation cocktail was made using the standard array recipe as described in the GeneChip Expression Analysis technical manual. GeneChip control oligonucleotide and 20x eukaryotic hybridisation controls were used. Hybridisation buffer was made as detailed in the GeneChip manual and the BSA and herring sperm DNA was purchased from Invitrogen. The cocktail was heated to 99 C for 5 min, transferred to 45 C for 5 min and then spun for 5 min to remove any insoluble material. Affymetrix Yeast Yg_s98 S. cerevisiae arrays were pre-hybridised with 200 ul 1x hybridisation buffer and incubated at 45 C for 10 min. 200 ul of the hybridisation cocktail was loaded onto the arrays. The probe array was incubated in a rotisserie at 45 C, rotating at 60 rpm. Following hybridisation, for 16 hr, chips were loaded onto a Fluidics station for washing and staining using the EukGe WS2v4 programme controlled using Microarray Suite 5 software."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "metabolite extraction"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID14fbeabb-b65e-4d25-9ab6-1eacdf6545be", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID504953b9-58ef-47ce-aa6b-282eb0ecc234", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "sample volume"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID16b3f1fa-2b55-4437-970d-0c48d3e60a99", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "standard volume"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "extraction"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": ""
+          }
+        }
+      ], 
+      "description": {
+        "_value": "We wished to study the impact of growth rate on the total complement of mRNA molecules, proteins, and metabolites in S. cerevisiae, independent of any nutritional or other physiological effects. To achieve this, we carried out our analyses on yeast grown in steady-state chemostat culture under four different nutrient limitations (glucose, ammonium, phosphate, and sulfate) at three different dilution (that is, growth) rates (D = u = 0.07, 0.1, and 0.2/hour, equivalent to population doubling times (Td) of 10 hours, 7 hours, and 3.5 hours, respectively; u = specific growth rate defined as grams of biomass generated per gram of biomass present per unit time)."
+      }, 
+      "title": {
+        "_value": "Study of the impact of changes in flux on the transcriptome, proteome, endometabolome and exometabolome of the yeast Saccharomyces cerevisiae under different nutrient limitations"
+      }, 
+      "process": [
+        {
+          "type": {
+            "_value": "growth protocol"
+          }, 
+          "output": {
+            "sample": [
+              {
+                "description": {
+                  "_value": ""
+                }, 
+                "characteristic": [
+                  {
+                    "name": {
+                      "_value": "strain"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "FY1679"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID2a267f8f-fcbf-4bea-8946-e2d7a8e2ff09", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID8f354d3a-7c84-4fce-b5ac-7278e0c9d191", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "genotype"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "KanMx4 MATa/MATalpha ura3-52/ura3-52 leu2-1/+trp1-63/+his3-D200/+ hoD KanMx4/hoD"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID0a600f66-7e76-4e29-af6c-9574f7ee5d44", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDdeb9d908-a13a-499d-a9bf-19d8b81cb3a4", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "organism"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Saccharomyces cerevisiae (Baker's yeast)"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID2ac8686e-1ccd-47a1-bb7a-d88dbd7b29f8", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDd26a41ca-69a2-4bbe-bd50-e1e8a73cb25e", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "studyTime": {
+                  "durationValue": {
+                    "_value": 0
+                  }, 
+                  "isBeforeEvent": {
+                    "_value": false
+                  }, 
+                  "studyEvent": {
+                    "_value": ""
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDea2f1518-2ba3-4b20-af3b-b11a5b7c26b6", 
+                  "@type": "https://repo.metadatacenter.org/model/StudyTime", 
+                  "unit": {
+                    "_value": ""
+                  }
+                }, 
+                "source": {
+                  "_value": ""
+                }, 
+                "type": {
+                  "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Sample", 
+                "name": {
+                  "_value": "sample-G-0.2-aliquot6"
+                }
+              }
+            ]
+          }, 
+          "input": {
+            "studySubject": [
+              {
+                "characteristic": [
+                  {
+                    "name": {
+                      "_value": "strain"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "FY1679"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUIDb32ff11a-efcc-43f8-a416-36a99616323a", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID1b79c30c-28a4-4c45-be53-39bb8de112c4", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "genotype"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "KanMx4 MATa/MATalpha ura3-52/ura3-52 leu2-1/+trp1-63/+his3-D200/+ hoD KanMx4/hoD"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID97091dc9-1560-4878-af3d-ed86a591289a", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID1cb10500-ce0b-41fb-bb4e-935baee41040", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "organism"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Saccharomyces cerevisiae (Baker's yeast)"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUIDa5decbbb-6c72-40a5-80bc-681cd89df8f5", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDc047adae-5655-4761-a7f4-402a657abaaa", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/StudySubject", 
+                "name": {
+                  "_value": "source-culture18"
+                }
+              }
+            ]
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDd0bcceec-5d83-4699-9931-62e8415afb07", 
+          "@type": "https://repo.metadatacenter.org/model/Process"
+        }
+      ], 
+      "studyDesignType": {
+        "_value": ""
+      }, 
+      "submissionDate": {
+        "_value": "2007-04-30"
+      }, 
+      "contact": [
+        {
+          "fax": {
+            "_value": ""
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@context": "", 
+              "@id": "https://repo.metadatacenter.org/UUID8ddf93ba-7ace-46b7-b415-fdf2d82c696d", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "Faculty of Life Sciences, Michael Smith Building, University of Manchester"
+              }
+            }
+          ], 
+          "firstName": {
+            "_value": "Stephen"
+          }, 
+          "lastName": {
+            "_value": "Oliver"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": ""
+          }, 
+          "role": {
+            "_value": ""
+          }, 
+          "address": {
+            "_value": "Oxford Road, Manchester M13 9PT, UK"
+          }, 
+          "middleInitial": {
+            "_value": "G"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID7e127e38-f571-4729-9f6a-8e39080d1d19", 
+          "email": {
+            "_value": ""
+          }
+        }, 
+        {
+          "fax": {
+            "_value": ""
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@context": "", 
+              "@id": "https://repo.metadatacenter.org/UUID93ebf690-6593-408a-9f57-ecb86cf4bcc2", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "Faculty of Life Sciences, Michael Smith Building, University of Manchester"
+              }
+            }
+          ], 
+          "firstName": {
+            "_value": "Castrillo"
+          }, 
+          "lastName": {
+            "_value": "Juan"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": ""
+          }, 
+          "role": {
+            "_value": ""
+          }, 
+          "address": {
+            "_value": "Oxford Road, Manchester M13 9PT, UK"
+          }, 
+          "middleInitial": {
+            "_value": "I"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDb7b6d613-fa35-4cc2-9ef9-f085ed0a3154", 
+          "email": {
+            "_value": ""
+          }
+        }, 
+        {
+          "fax": {
+            "_value": ""
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@context": "", 
+              "@id": "https://repo.metadatacenter.org/UUID66a663bb-4c43-45f9-9123-71462aeba7a7", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "Faculty of Life Sciences, Michael Smith Building, University of Manchester"
+              }
+            }
+          ], 
+          "firstName": {
+            "_value": "Zeef"
+          }, 
+          "lastName": {
+            "_value": "Leo"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": ""
+          }, 
+          "role": {
+            "_value": ""
+          }, 
+          "address": {
+            "_value": "Oxford Road, Manchester M13 9PT, UK"
+          }, 
+          "middleInitial": {
+            "_value": "A"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID7f3d74fb-775e-4553-a4ce-902316f94a49", 
+          "email": {
+            "_value": ""
+          }
+        }
+      ], 
+      "studyFactor": [
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUIDf03ca2e0-68c4-4ddd-a358-8941565016bb", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "limiting nutrient"
+          }, 
+          "description": {
+            "_value": "chemical compound"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUIDb23f1270-8fcb-4e5e-bd46-c34d4657e56e", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "rate"
+          }, 
+          "description": {
+            "_value": "rate"
+          }
+        }
+      ], 
+      "publicReleaseDate": {
+        "_value": "2009-03-10"
+      }, 
+      "publication": [
+        {
+          "status": {
+            "_value": "published"
+          }, 
+          "authorList": [
+            {
+              "_value": "Castrillo JI"
+            }, 
+            {
+              "_value": " Zeef LA"
+            }, 
+            {
+              "_value": " Hoyle DC"
+            }, 
+            {
+              "_value": " Zhang N"
+            }, 
+            {
+              "_value": " Hayes A"
+            }, 
+            {
+              "_value": " Gardner DC"
+            }, 
+            {
+              "_value": " Cornell MJ"
+            }, 
+            {
+              "_value": " Petty J"
+            }
+          ], 
+          "title": {
+            "_value": "Growth control of the eukaryote cell: a systems biology study in yeast."
+          }, 
+          "pubMedID": {
+            "_value": "17439666"
+          }, 
+          "dOI": {
+            "_value": "doi:10.1186/jbiol54"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDd1981865-96d8-40c2-91a7-123489efdc6a", 
+          "@type": "https://repo.metadatacenter.org/model/Publication"
+        }
+      ], 
+      "studyAssay": [
+        {
+          "platform": {
+            "_value": "iTRAQ"
+          }, 
+          "technology": {
+            "_value": "mass spectrometry"
+          }, 
+          "measurementType": {
+            "_value": "http://purl.obolibrary.org/obo/OBI_0000615"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDf4a2fe94-b302-4083-8d70-c280882fbfd3", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }, 
+        {
+          "platform": {
+            "_value": "LC-MS/MS"
+          }, 
+          "technology": {
+            "_value": "mass spectrometry"
+          }, 
+          "measurementType": {
+            "_value": "http://purl.obolibrary.org/obo/OBI_0000366"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDb79d4321-a0a3-41fc-98dd-b531dd2e7482", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }, 
+        {
+          "platform": {
+            "_value": "Affymetrix"
+          }, 
+          "technology": {
+            "_value": "DNA microarray"
+          }, 
+          "measurementType": {
+            "_value": "0000424"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDb7a249a0-918b-41c3-ae95-55c4c80ad1cf", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }
+      ], 
+      "identifier": {
+        "_value": "BII-S-1"
+      }, 
+      "@id": "https://repo.metadatacenter.org/UUIDcd0d3b1e-dcd2-4a05-9d7c-00a77ae12748", 
+      "@type": "https://repo.metadatacenter.org/model/Study", 
+      "studyGroupPopulation": [
+        {
+          "studySubject": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID25bc382c-bed9-4c5c-aced-e7be657fa60f", 
+              "name": {
+                "_value": "source-culture11"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "strain"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "FY1679"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID78349d9b-a892-4fa8-a91f-a4adaff1155a", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID853b65e6-180a-494c-80b3-e85f73638a69", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "genotype"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "KanMx4 MATa/MATalpha ura3-52/ura3-52 leu2-1/+trp1-63/+his3-D200/+ hoD KanMx4/hoD"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID5a8b5694-cc75-4845-b201-871bc9336967", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID1f6da32d-9db6-4519-97ba-271c87157cdb", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Saccharomyces cerevisiae (Baker's yeast)"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID67b785f8-0984-4466-92ad-1a54d21c65c0", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDe6d1977b-8a0d-42d6-8e3b-5b1320f0a6af", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID44ada29a-915d-4d9c-b469-8d11fb944de0", 
+              "name": {
+                "_value": "source-culture10"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "strain"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "FY1679"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDdd44fb8f-fc90-46ee-8427-f9e7b5c4e2b0", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID6d899491-0eae-47ce-81b2-de12887a470e", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "genotype"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "KanMx4 MATa/MATalpha ura3-52/ura3-52 leu2-1/+trp1-63/+his3-D200/+ hoD KanMx4/hoD"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDaa7a2b23-8a28-4a98-9012-6de186631c78", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID51721bc8-cac2-44bd-bc97-5850dd91ea1b", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Saccharomyces cerevisiae (Baker's yeast)"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID5ac5a323-7056-46cb-91d6-8cd597dee11d", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID45210183-6d42-402c-aa6a-9e4a67c26936", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDce889a0b-acbe-47e5-ac97-6dd50106085d", 
+              "name": {
+                "_value": "source-culture13"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "strain"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "FY1679"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID72e4f597-9045-4a0e-ae67-0e059225b9f2", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDcd1bdfec-4df3-49a9-8f47-3cb096960dd9", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "genotype"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "KanMx4 MATa/MATalpha ura3-52/ura3-52 leu2-1/+trp1-63/+his3-D200/+ hoD KanMx4/hoD"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDfb78a84b-a739-438d-accd-33d0e7fb09e4", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID70d1b5f8-de96-48bd-9c98-231c1f468cad", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Saccharomyces cerevisiae (Baker's yeast)"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID026f6938-f1ec-4ec9-9f2c-10eac71aa7ef", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDa3c67d9e-d3cd-4db1-8710-cc96d4a7101d", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDadde09b4-176b-4409-889c-b58bcf942d84", 
+              "name": {
+                "_value": "source-culture12"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "strain"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "FY1679"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID014ba121-ea64-4833-a12a-0f6239c08945", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID48151962-be16-4b15-9ae8-f6fb665484d7", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "genotype"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "KanMx4 MATa/MATalpha ura3-52/ura3-52 leu2-1/+trp1-63/+his3-D200/+ hoD KanMx4/hoD"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID689b7cb6-771f-45b9-a3e6-8aec3e41e0e9", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDb85fc247-0715-4673-a548-3166dbc70f71", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Saccharomyces cerevisiae (Baker's yeast)"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID8c7a8a70-64d8-4624-8dc9-b2b1a50fd870", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID5bdcd8d0-314e-4e2a-8415-63806b829a8a", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID8813fe3a-491a-420f-9e07-939f872ee006", 
+              "name": {
+                "_value": "source-culture15"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "strain"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "FY1679"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID2a2c8146-726e-4216-875d-5fb90edb768e", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID9ba6802e-6efa-468e-a6f9-5f5f22da3330", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "genotype"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "KanMx4 MATa/MATalpha ura3-52/ura3-52 leu2-1/+trp1-63/+his3-D200/+ hoD KanMx4/hoD"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID4178ecff-67df-4432-afb8-d9decb55fcf5", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID3db3009c-7b0b-4143-a705-b69a6a30810b", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Saccharomyces cerevisiae (Baker's yeast)"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDb05920d3-5586-4d39-b419-71760729beb8", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDf333f951-f4b4-42ea-a698-4d17a452027a", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDab6a88c9-c663-46a7-854b-b3adc2df491e", 
+              "name": {
+                "_value": "source-culture14"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "strain"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "FY1679"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID81f04566-29a9-4aa9-bfe4-404ab48a9d6f", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID8c935dbf-9bd6-4cb3-9574-2e98cb857bed", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "genotype"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "KanMx4 MATa/MATalpha ura3-52/ura3-52 leu2-1/+trp1-63/+his3-D200/+ hoD KanMx4/hoD"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID6ffe7b03-e6ad-4801-8d2a-4b252d59052f", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDb213f57c-66e1-45f2-b35f-5e361e5596eb", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Saccharomyces cerevisiae (Baker's yeast)"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID6d5b1068-e0b3-471b-be10-42d9d7f5683d", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID901a0138-883e-4160-8a48-ef9554a940b1", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDd29f86dd-a029-460a-8ed3-837a4d2f70dd", 
+              "name": {
+                "_value": "source-culture17"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "strain"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "FY1679"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID5d24d6d9-2e0e-46dc-bdf1-0fc18bb2a97e", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID3da63ff5-7a75-4623-8ecb-e84a64b7d76a", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "genotype"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "KanMx4 MATa/MATalpha ura3-52/ura3-52 leu2-1/+trp1-63/+his3-D200/+ hoD KanMx4/hoD"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID0977a199-6db5-4955-a851-1d3f14e87695", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID99741af5-b5ec-471d-8ecf-a8856c1fa8c9", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Saccharomyces cerevisiae (Baker's yeast)"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDb70f2be5-ed1f-46a4-8868-18a18172948e", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDc448bc59-542b-435a-a566-220c7c1bb3ef", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID63a56a94-ccc0-477b-8a80-393ed2030baf", 
+              "name": {
+                "_value": "source-culture16"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "strain"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "FY1679"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDe1e2b9e9-f847-4ddc-a671-e9bc42ad9fc5", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID17032ee0-d58f-495f-9208-d564fbce2a05", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "genotype"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "KanMx4 MATa/MATalpha ura3-52/ura3-52 leu2-1/+trp1-63/+his3-D200/+ hoD KanMx4/hoD"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID6d62adde-fef0-4e38-a462-85820eef1093", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID89474aef-8bcb-463e-917f-2a650f80b1ea", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Saccharomyces cerevisiae (Baker's yeast)"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID2a819bcf-2542-4e3d-b850-10ef56d13c26", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID3ffaa767-6356-46f0-8770-501ef1ab134a", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }
+          ], 
+          "name": {
+            "_value": "population name"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID2433410a-24bb-47aa-8ec7-035dc6b7253f", 
+          "selectionRule": {
+            "_value": "selection rule"
+          }, 
+          "type": {
+            "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyGroupPopulation"
+        }
+      ]
+    }
+  ], 
+  "title": {
+    "_value": "Growth control of the eukaryote cell: a systems biology study in yeast"
+  }, 
+  "schemaID": "https://repo.metadatacenter.org/UUID", 
+  "provenance": {
+    "hadPrimarySource": "http://www.isa-tools.org/", 
+    "wasGeneratedBy": "http://www.isa-tools.org"
+  }, 
+  "submissionDate": {
+    "_value": "2007-04-30"
+  }, 
+  "contact": [
+    {
+      "fax": {
+        "_value": ""
+      }, 
+      "organization": [
+        {
+          "department": {
+            "_value": ""
+          }, 
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUID60fb5bc4-429c-49cb-bb0c-e41dbd8e4a4f", 
+          "@type": "https://repo.metadatacenter.org/model/Organization", 
+          "name": {
+            "_value": "Faculty of Life Sciences, Michael Smith Building, University of Manchester"
+          }
+        }
+      ], 
+      "firstName": {
+        "_value": "Stephen"
+      }, 
+      "lastName": {
+        "_value": "Oliver"
+      }, 
+      "@type": "https://repo.metadatacenter.org/model/Contact", 
+      "phone": {
+        "_value": ""
+      }, 
+      "role": {
+        "_value": ""
+      }, 
+      "address": {
+        "_value": "Oxford Road, Manchester M13 9PT, UK"
+      }, 
+      "middleInitial": {
+        "_value": "G"
+      }, 
+      "@id": "https://repo.metadatacenter.org/UUID05203388-3cb9-42f7-93d0-7bde65f45126", 
+      "email": {
+        "_value": ""
+      }
+    }, 
+    {
+      "fax": {
+        "_value": ""
+      }, 
+      "organization": [
+        {
+          "department": {
+            "_value": ""
+          }, 
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUID3f4b55a1-3272-4050-8b9b-b85a59511436", 
+          "@type": "https://repo.metadatacenter.org/model/Organization", 
+          "name": {
+            "_value": "Faculty of Life Sciences, Michael Smith Building, University of Manchester"
+          }
+        }
+      ], 
+      "firstName": {
+        "_value": "Castrillo"
+      }, 
+      "lastName": {
+        "_value": "Juan"
+      }, 
+      "@type": "https://repo.metadatacenter.org/model/Contact", 
+      "phone": {
+        "_value": ""
+      }, 
+      "role": {
+        "_value": ""
+      }, 
+      "address": {
+        "_value": "Oxford Road, Manchester M13 9PT, UK"
+      }, 
+      "middleInitial": {
+        "_value": "I"
+      }, 
+      "@id": "https://repo.metadatacenter.org/UUID39993313-847a-4c92-858b-a8ed6f2cafaf", 
+      "email": {
+        "_value": ""
+      }
+    }, 
+    {
+      "fax": {
+        "_value": ""
+      }, 
+      "organization": [
+        {
+          "department": {
+            "_value": ""
+          }, 
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUID7051ce12-b099-4fa1-a8c1-2d5b0bc938ca", 
+          "@type": "https://repo.metadatacenter.org/model/Organization", 
+          "name": {
+            "_value": "Faculty of Life Sciences, Michael Smith Building, University of Manchester"
+          }
+        }
+      ], 
+      "firstName": {
+        "_value": "Zeef"
+      }, 
+      "lastName": {
+        "_value": "Leo"
+      }, 
+      "@type": "https://repo.metadatacenter.org/model/Contact", 
+      "phone": {
+        "_value": ""
+      }, 
+      "role": {
+        "_value": ""
+      }, 
+      "address": {
+        "_value": "Oxford Road, Manchester M13 9PT, UK"
+      }, 
+      "middleInitial": {
+        "_value": "A"
+      }, 
+      "@id": "https://repo.metadatacenter.org/UUID176bfa8c-45ea-4edc-97d4-d512183028da", 
+      "email": {
+        "_value": ""
+      }
+    }
+  ], 
+  "publicReleaseDate": {
+    "_value": "2009-03-10"
+  }, 
+  "@context": {
+    "model": "https://repo.metadatacenter.org/model/", 
+    "title": "https://repo.metadatacenter.org/model/title", 
+    "description": "https://repo.metadatacenter.org/model/description", 
+    "xsd": "http://www.w3.org/2001/XMLSchema", 
+    "schema": "https://schema.org/"
+  }, 
+  "identifier": {
+    "_value": "BII-I-1"
+  }, 
+  "@id": "https://repo.metadatacenter.org/ac0dde10-c1fc-4c7a-a923-4581cb634a5a", 
+  "@type": "https://repo.metadatacenter.org/model/Investigation", 
+  "template_id": "https://repo.metadatacenter.org/406d3a6d-c264-417a-bf30-bd6273762bd8", 
+  "publication": [
+    {
+      "status": {
+        "_value": "indexed in Pubmed"
+      }, 
+      "authorList": [
+        {
+          "_value": "Castrillo JI"
+        }, 
+        {
+          "_value": " Zeef LA"
+        }, 
+        {
+          "_value": " Hoyle DC"
+        }, 
+        {
+          "_value": " Zhang N"
+        }, 
+        {
+          "_value": " Hayes A"
+        }, 
+        {
+          "_value": " Gardner DC"
+        }, 
+        {
+          "_value": " Cornell MJ"
+        }, 
+        {
+          "_value": " Petty J"
+        }
+      ], 
+      "title": {
+        "_value": "Growth control of the eukaryote cell: a systems biology study in yeast."
+      }, 
+      "pubMedID": {
+        "_value": "17439666"
+      }, 
+      "dOI": {
+        "_value": "doi:10.1186/jbiol54"
+      }, 
+      "@id": "https://repo.metadatacenter.org/UUIDdd7b3d18-a9b6-43b7-8520-4b8edb062430", 
+      "@type": "https://repo.metadatacenter.org/model/Publication"
+    }
+  ]
+}

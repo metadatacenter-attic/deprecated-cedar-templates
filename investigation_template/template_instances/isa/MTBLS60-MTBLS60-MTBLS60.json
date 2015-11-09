@@ -1,0 +1,983 @@
+{
+  "info": {
+    "template_title": "isa-MTBLS60-MTBLS60", 
+    "template_description": "Investigation instance", 
+    "creation_date": "2015-11-08 21:40:35"
+  }, 
+  "description": {
+    "_value": ""
+  }, 
+  "study": [
+    {
+      "studyProtocol": [
+        {
+          "name": {
+            "_value": "Extraction"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDf65c2443-4342-4e8a-accf-6a9bc6ae5665", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID9b6a2423-9c43-43c7-b01c-2520d5f213a1", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Post Extraction"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID25d312bb-d5d5-46d7-82aa-146c7ebf6f49", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Derivatization"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Extraction"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": ""
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Chromatography"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID65f8f51c-ed4f-47bd-be2d-97c6e456e6ff", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID38b95a42-df57-4a65-bd90-cde27c2ef891", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Chromatography Instrument"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDd2308da0-d0b5-4862-8dd9-4f23216a89f2", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Column type"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID60cc2cdb-d0ec-4f0f-9e81-b3c83df188be", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Column model"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Chromatography"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": ""
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Mass spectrometry"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID7651c4dd-6a0a-412b-bf54-eeaec7158e75", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID1e6a8e7a-3c76-47a5-b384-c31ece4437ef", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Scan polarity"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDbb14d38c-e856-4e91-a2e4-44b33f994edd", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Scan m/z range"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID8a597620-2bae-4120-88f5-b29da13c1775", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Instrument"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID2545178d-fc36-461e-89d2-946db91d7028", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Mass analyzer"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID2d18dfd4-8862-4edf-a5c5-91de61f398f1", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Ion source"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Mass spectrometry"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": ""
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Data transformation"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDacd92183-0eec-45f8-a213-3bf67c21a1cc", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Data transformation"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": ""
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Metabolite identification"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID719f0af9-6fac-4e2c-a776-1e8262c46fdb", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Metabolite identification"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": ""
+          }
+        }
+      ], 
+      "description": {
+        "_value": "The risk determinants of type 1 diabetes, initiators of autoimmune response, mechanisms regulating progress toward B cell failure, and factors determining time of presentation of clinical diabetes are poorly understood. We investigated changes in the serum metabolome prospectively in children who later progressed to type 1 diabetes. Serum metabolite profi les were compared between sample series drawn from 56 children who progressed to type 1 diabetes and 73 controls who remained nondiabetic and permanently autoantibody negative. Individuals who developed diabetes had reduced serum levels of succinic acid and phosphatidylcholine (PC) at birth, reduced levels of triglycerides and antioxidant ether phospholipids throughout the follow up, and increased levels of proinfl ammatory lysoPCs several months before seroconversion to autoantibody positivity. The lipid changes were not attributable to HLA-associated genetic risk. The appearance of insulin and glutamic acid decarboxylase autoantibodies was preceded by diminished ketoleucine and elevated glutamic acid. The metabolic profi le was partially normalized after the seroconversion. Autoimmunity may thus be a relatively late response to the early metabolic disturbances. Recognition of these preautoimmune alterations may aid in studies of disease pathogenesis and may open a time window for novel type 1 diabetes prevention strategies."
+      }, 
+      "title": {
+        "_value": "Dysregulation of lipid and amino acid metabolism precedes islet autoimmunity in children who later progress to type 1 diabetes"
+      }, 
+      "process": [
+        {
+          "type": {
+            "_value": "Data transformation"
+          }, 
+          "output": {
+            "sample": [
+              {
+                "description": {
+                  "_value": ""
+                }, 
+                "characteristic": [
+                  {
+                    "name": {
+                      "_value": "Organism"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Serum"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUIDb22125ff-ebdc-417e-aa75-fc9b44b92501", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID64844d61-1d7a-4532-97fc-a80f6bad5608", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "Organism part"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Serum"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUIDded4ba80-7a3b-44dd-a3df-fb8a32835b75", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDfcff3b55-81ca-4db8-9c28-05060a274d94", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "studyTime": {
+                  "durationValue": {
+                    "_value": 0
+                  }, 
+                  "isBeforeEvent": {
+                    "_value": false
+                  }, 
+                  "studyEvent": {
+                    "_value": ""
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID2e465b0c-9d65-4969-b3e0-7e43c3387717", 
+                  "@type": "https://repo.metadatacenter.org/model/StudyTime", 
+                  "unit": {
+                    "_value": ""
+                  }
+                }, 
+                "source": {
+                  "_value": ""
+                }, 
+                "type": {
+                  "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Sample", 
+                "name": {
+                  "_value": "sample-1324"
+                }
+              }
+            ]
+          }, 
+          "input": {
+            "studySubject": [
+              {
+                "characteristic": [
+                  {
+                    "name": {
+                      "_value": "Organism"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Serum"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUIDcd93e88b-2ade-4b46-893c-127fe2dd2f45", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID392875d0-6770-417b-88c1-ec9e718537c8", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "Organism part"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Serum"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUIDffaceb2f-cf16-4384-80c2-685a050329fc", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDbce90c68-77ff-45e5-b52a-dee106715789", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/StudySubject", 
+                "name": {
+                  "_value": "source-1324"
+                }
+              }
+            ]
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID2d93b867-9565-4019-8cf1-6420647b425b", 
+          "@type": "https://repo.metadatacenter.org/model/Process"
+        }
+      ], 
+      "studyDesignType": {
+        "_value": ""
+      }, 
+      "submissionDate": {
+        "_value": "2013-10-17"
+      }, 
+      "studyFactor": [
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUID29276928-6057-4c15-9f1f-e564ce6d820c", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Case/Control"
+          }, 
+          "description": {
+            "_value": "Case/Control"
+          }
+        }
+      ], 
+      "publicReleaseDate": {
+        "_value": "2013-10-17"
+      }, 
+      "publication": [
+        {
+          "status": {
+            "_value": "Published"
+          }, 
+          "authorList": [
+            {
+              "_value": "Oresic M"
+            }, 
+            {
+              "_value": " Simell S"
+            }, 
+            {
+              "_value": " Sysi-Aho M"
+            }, 
+            {
+              "_value": " N?nt?-Salonen K"
+            }, 
+            {
+              "_value": " Sepp?nen-Laakso T"
+            }, 
+            {
+              "_value": " Parikka V"
+            }, 
+            {
+              "_value": " Katajamaa M"
+            }, 
+            {
+              "_value": " Hekkala A"
+            }
+          ], 
+          "title": {
+            "_value": "Dysregulation of lipid and amino acid metabolism precedes islet autoimmunity in children who later progress to type 1 diabetes."
+          }, 
+          "pubMedID": {
+            "_value": "19075291"
+          }, 
+          "dOI": {
+            "_value": "http://www.ncbi.nlm.nih.gov/pubmed/19075291"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID274dbc07-fb57-4de8-a4d0-a1f239d59681", 
+          "@type": "https://repo.metadatacenter.org/model/Publication"
+        }
+      ], 
+      "studyAssay": [
+        {
+          "platform": {
+            "_value": ""
+          }, 
+          "technology": {
+            "_value": "mass spectrometry"
+          }, 
+          "measurementType": {
+            "_value": "0000366"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDc5070057-4dbf-478c-b5f3-722e19526037", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }, 
+        {
+          "platform": {
+            "_value": "Quattro Premier XE (Waters)"
+          }, 
+          "technology": {
+            "_value": "mass spectrometry"
+          }, 
+          "measurementType": {
+            "_value": "0000366"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID2a842edb-d182-4ce9-a6b8-0041a32e6b8d", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }
+      ], 
+      "identifier": {
+        "_value": "MTBLS60"
+      }, 
+      "@id": "https://repo.metadatacenter.org/UUIDd39d1cbd-1650-4c49-b327-87aa9df5449c", 
+      "@type": "https://repo.metadatacenter.org/model/Study", 
+      "studyGroupPopulation": [
+        {
+          "studySubject": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID6b6660b9-b2e1-4d10-a4bf-b363b293eff2", 
+              "name": {
+                "_value": "source-1057"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID88c61cd0-ffd8-4761-8e0f-6456737e120d", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID555b1727-80a4-4010-82ee-3db11c39198f", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDba3881bc-fd32-4752-83db-24f9ffa8d35d", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID0d2ec983-5d9d-4079-84ab-e487f2352e34", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDf9b75234-b4bc-4b39-b562-253b4c6cf8d9", 
+              "name": {
+                "_value": "source-1056"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID5a62bf63-00be-443d-af43-9d0a2eab3c63", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDe533d65a-3a10-4d92-abf8-d1543824ca1a", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDdade8bb0-6f81-464c-bfcf-04d96e3e0a23", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID7476a4b9-fe22-4eff-abd7-f13cf1910295", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID66128950-5e73-4597-9a99-4d14d8ca9741", 
+              "name": {
+                "_value": "source-1055"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDc35e8b8d-78f7-43f9-adf9-8f9059ef961f", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID04fdd470-e366-4019-904a-e33abc70e560", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID88d663f9-7c35-4f7e-9894-bb732009bb14", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID4feadec5-abca-41fa-a80f-cb4edcaf2e58", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID1156e4d9-fd63-44dc-aa5f-9bd07b7a6f65", 
+              "name": {
+                "_value": "source-1054"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID34625c5f-d777-44b0-8510-e69bd97b9965", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID82d2ec42-aabe-4319-b124-5e4fa164345c", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID1d58ff72-a988-42e4-b0e2-f0f5ff4210f2", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDa6b913da-7d8b-4429-aeee-da2de5f2bcd8", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID435731ea-caf4-4087-bfa3-827d3265d5b0", 
+              "name": {
+                "_value": "source-1053"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDf66fac03-737b-4254-9ea4-a358097ae572", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID8854bd10-90f4-4cdc-92ef-d85261d00722", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDd6b6bda0-82d5-491e-a805-473bd0690403", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID6b021eb3-a78e-4374-a5b9-8417e1bd5df0", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID8159cf22-dc9b-44dc-813f-cbf11ceec329", 
+              "name": {
+                "_value": "source-1052"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDbffcf3b7-58db-4b54-ae12-96982c34cd30", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDa0bdad15-b8a6-4867-a232-2eb7c7986fd4", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID35148614-2487-401f-9c5d-0e02039f97d8", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDa728d9cc-ff85-462c-877d-b8b0fec6f77c", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID2f659859-fa69-49f6-bc2b-9da5c5b45848", 
+              "name": {
+                "_value": "source-1051"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID7d39b8ae-18a5-4ce8-aec7-834ef3ba0a42", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDde5ace4c-a1d2-47a2-992e-7a994be817ac", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDe05446af-fb9e-4b14-be47-49dbb132d40f", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID7c5115d7-fc0a-4ab5-a3be-3376cb04d0c0", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID00b8f7a2-3703-47b4-b489-0f20f731ea3e", 
+              "name": {
+                "_value": "source-1050"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDc6f27c3d-c0d2-4882-b70c-b5e51f8a001d", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDf7359f41-d1ec-4b08-85f9-8529533adec9", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Serum"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID288eee8d-e2c1-420e-9fa2-c483791fa3d3", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDf629033a-3c6b-46fb-881a-36ab7759b42e", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }
+          ], 
+          "name": {
+            "_value": "population name"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID6d600d3a-524b-4bc0-b1f0-ec517865d074", 
+          "selectionRule": {
+            "_value": "selection rule"
+          }, 
+          "type": {
+            "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyGroupPopulation"
+        }
+      ]
+    }
+  ], 
+  "title": {
+    "_value": "Investigation"
+  }, 
+  "schemaID": "https://repo.metadatacenter.org/UUID", 
+  "provenance": {
+    "hadPrimarySource": "http://www.ebi.ac.uk/metabolights/", 
+    "wasGeneratedBy": "http://www.isa-tools.org"
+  }, 
+  "submissionDate": {
+    "_value": ""
+  }, 
+  "template_id": "https://repo.metadatacenter.org/406d3a6d-c264-417a-bf30-bd6273762bd8", 
+  "publicReleaseDate": {
+    "_value": ""
+  }, 
+  "@context": {
+    "model": "https://repo.metadatacenter.org/model/", 
+    "title": "https://repo.metadatacenter.org/model/title", 
+    "description": "https://repo.metadatacenter.org/model/description", 
+    "xsd": "http://www.w3.org/2001/XMLSchema", 
+    "schema": "https://schema.org/"
+  }, 
+  "identifier": {
+    "_value": "MTBLS60"
+  }, 
+  "@id": "https://repo.metadatacenter.org/b5254f6a-6ab5-4305-8194-b9ed5391b42a", 
+  "@type": "https://repo.metadatacenter.org/model/Investigation"
+}

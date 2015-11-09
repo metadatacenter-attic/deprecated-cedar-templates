@@ -1,0 +1,4219 @@
+{
+  "info": {
+    "template_title": "immport-AI090019-SDY514", 
+    "template_description": "Investigation instance for ImmPort", 
+    "creation_date": "2015-11-08 18:25:25"
+  }, 
+  "description": {
+    "_value": "This U19 application focuses on three interrelated questions in human immunology, namely: (1) What distinguishes an effective from an ineffective immune response to a vaccine? (2) How do responses elicited by a vaccine against a particular pathogen differ from those associated witti actual infection and disease caused by the pathogen? (3) Given that a range of effective responses is likely to occur in response to a vaccine or infection, what does this variation tell us about key parameters of immunological health?    http://projectreporter.nih.gov/project_info_details.cfm?aid=8705360&icde=23811246&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+  }, 
+  "title": {
+    "_value": "Vaccination and infection: indicators of immunological health and responsiveness"
+  }, 
+  "study": [
+    {
+      "studyProtocol": [
+        {
+          "description": {
+            "_value": "None"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Not_Specified"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "name": {
+            "_value": "Phosphoflow assay protocol.doc"
+          }
+        }, 
+        {
+          "description": {
+            "_value": "Luminex 51 plex assay used by Stanford HIMC"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Assay"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "name": {
+            "_value": "Assay Protocol Luminex.doc"
+          }
+        }, 
+        {
+          "description": {
+            "_value": "None"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Assay"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "name": {
+            "_value": "STANPRO_HAI_v1.doc"
+          }
+        }, 
+        {
+          "description": {
+            "_value": "None"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Experiment"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "name": {
+            "_value": "Assay_Protocol_CyTOF-021413-MDL.docx"
+          }
+        }, 
+        {
+          "description": {
+            "_value": "None"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Not_Specified"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "name": {
+            "_value": "17219_Proj_2_3_and_Tech_Dev_1_v1_01JUL2009_final.pdf"
+          }
+        }
+      ], 
+      "description": {
+        "_value": "Evaluate the variation in immune response between individuals and assess whether it changes as a function of age and similarity in genetic and environmental background (by comparing differences between monozygotic and dizygotic twin pairs of different ages)."
+      }, 
+      "title": {
+        "_value": "Monozygotic and Dizygotic Twin Pair T-Cell Responses to Influenza Vaccination 2009"
+      }, 
+      "process": [
+        {
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "input": {
+            "sample": [
+              {
+                "description": {
+                  "_value": ""
+                }, 
+                "studyTime": {
+                  "durationValue": {
+                    "_value": 0.0
+                  }, 
+                  "isBeforeEvent": {
+                    "_value": true
+                  }, 
+                  "studyEvent": {
+                    "_value": "Time of initial vaccine administration"
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/StudyTime", 
+                  "unit": {
+                    "_value": "Days"
+                  }
+                }, 
+                "source": {
+                  "_value": ""
+                }, 
+                "factorValue": [
+                  {
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "value": {
+                      "_value": ""
+                    }, 
+                    "type": {
+                      "_value": "Name"
+                    }, 
+                    "@type": "https://repo.metadatacenter.org/model/FactorValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": "Other"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Sample", 
+                "name": {
+                  "_value": ""
+                }
+              }, 
+              {
+                "description": {
+                  "_value": ""
+                }, 
+                "studyTime": {
+                  "durationValue": {
+                    "_value": 28.0
+                  }, 
+                  "isBeforeEvent": {
+                    "_value": true
+                  }, 
+                  "studyEvent": {
+                    "_value": "Time of initial vaccine administration"
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/StudyTime", 
+                  "unit": {
+                    "_value": "Days"
+                  }
+                }, 
+                "source": {
+                  "_value": ""
+                }, 
+                "factorValue": [
+                  {
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "value": {
+                      "_value": ""
+                    }, 
+                    "type": {
+                      "_value": "Name"
+                    }, 
+                    "@type": "https://repo.metadatacenter.org/model/FactorValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": "Other"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Sample", 
+                "name": {
+                  "_value": ""
+                }
+              }, 
+              {
+                "description": {
+                  "_value": ""
+                }, 
+                "studyTime": {
+                  "durationValue": {
+                    "_value": 0.0
+                  }, 
+                  "isBeforeEvent": {
+                    "_value": true
+                  }, 
+                  "studyEvent": {
+                    "_value": "Time of initial vaccine administration"
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/StudyTime", 
+                  "unit": {
+                    "_value": "Days"
+                  }
+                }, 
+                "source": {
+                  "_value": ""
+                }, 
+                "factorValue": [
+                  {
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "value": {
+                      "_value": ""
+                    }, 
+                    "type": {
+                      "_value": "Name"
+                    }, 
+                    "@type": "https://repo.metadatacenter.org/model/FactorValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": "Other"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Sample", 
+                "name": {
+                  "_value": ""
+                }
+              }, 
+              {
+                "description": {
+                  "_value": ""
+                }, 
+                "studyTime": {
+                  "durationValue": {
+                    "_value": 28.0
+                  }, 
+                  "isBeforeEvent": {
+                    "_value": true
+                  }, 
+                  "studyEvent": {
+                    "_value": "Time of initial vaccine administration"
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/StudyTime", 
+                  "unit": {
+                    "_value": "Days"
+                  }
+                }, 
+                "source": {
+                  "_value": ""
+                }, 
+                "factorValue": [
+                  {
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "value": {
+                      "_value": ""
+                    }, 
+                    "type": {
+                      "_value": "Name"
+                    }, 
+                    "@type": "https://repo.metadatacenter.org/model/FactorValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": "Other"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Sample", 
+                "name": {
+                  "_value": ""
+                }
+              }, 
+              {
+                "description": {
+                  "_value": ""
+                }, 
+                "studyTime": {
+                  "durationValue": {
+                    "_value": 0.0
+                  }, 
+                  "isBeforeEvent": {
+                    "_value": true
+                  }, 
+                  "studyEvent": {
+                    "_value": "Time of initial vaccine administration"
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/StudyTime", 
+                  "unit": {
+                    "_value": "Days"
+                  }
+                }, 
+                "source": {
+                  "_value": ""
+                }, 
+                "factorValue": [
+                  {
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "value": {
+                      "_value": ""
+                    }, 
+                    "type": {
+                      "_value": "Name"
+                    }, 
+                    "@type": "https://repo.metadatacenter.org/model/FactorValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": "Other"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Sample", 
+                "name": {
+                  "_value": ""
+                }
+              }
+            ], 
+            "reagent": [
+              {
+                "characteristic": [
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "370013"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "catalog_number"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Receptor Destroying Enzyme II, influenza virus; elimination of nonspecific inhibition of hemagglutination"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "description"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "412061"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "lot_number"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Accurate Chemical & Scientific Corporation"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "manufacturer"
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": ""
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Reagent", 
+                "name": {
+                  "_value": "Receptor Destroying Enzyme II"
+                }
+              }, 
+              {
+                "characteristic": [
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "31151"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "catalog_number"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Chicken blood contraining 50% alsevers solution"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "description"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "999230"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "lot_number"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Colorado Serum Company"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "manufacturer"
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": ""
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Reagent", 
+                "name": {
+                  "_value": "Chicken Red Blood Cells"
+                }
+              }, 
+              {
+                "characteristic": [
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "51202"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "catalog_number"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "5M Sodium chloride"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "description"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "0000200005"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "lot_number"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "AccuGene"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "manufacturer"
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": ""
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Reagent", 
+                "name": {
+                  "_value": "Sodium Chloride"
+                }
+              }, 
+              {
+                "characteristic": [
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "14190144"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "catalog_number"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Phosphate buffer saline without manganese and without magnesium"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "description"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "1227361"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "lot_number"
+                    }
+                  }, 
+                  {
+                    "description": {
+                      "_value": ""
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Life Technologies"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "name": {
+                      "_value": "manufacturer"
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": ""
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Reagent", 
+                "name": {
+                  "_value": "Phosphate Buffer Saline"
+                }
+              }
+            ]
+          }, 
+          "type": {
+            "_value": "HAI assays on 2009 flu vaccine samples"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Process"
+        }
+      ], 
+      "studyDesignType": {
+        "_value": "Interventional"
+      }, 
+      "submissionDate": {
+        "_value": ""
+      }, 
+      "contact": [
+        {
+          "fax": {
+            "_value": ""
+          }, 
+          "firstName": {
+            "_value": "Mark"
+          }, 
+          "lastName": {
+            "_value": "Davis"
+          }, 
+          "middleInitial": {
+            "_value": ""
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": ""
+          }, 
+          "role": {
+            "_value": "Principal Investigator"
+          }, 
+          "address": {
+            "_value": ""
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "Stanford University"
+              }
+            }
+          ], 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "email": {
+            "_value": "mmdavis@stanford.edu"
+          }
+        }
+      ], 
+      "studyFactor": [
+        {
+          "description": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Intervention Agent: Live, attenuated influenza vaccine (LAIV3)"
+          }
+        }, 
+        {
+          "description": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Treatment: IL-21 - Amount"
+          }
+        }, 
+        {
+          "description": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Treatment: IL-6 - Amount"
+          }
+        }, 
+        {
+          "description": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Treatment: IL-10 - Temperature"
+          }
+        }, 
+        {
+          "description": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Treatment: interferon gamma - Temperature"
+          }
+        }
+      ], 
+      "publicReleaseDate": {
+        "_value": "2015-03-31"
+      }, 
+      "publication": [
+        {
+          "status": {
+            "_value": "published"
+          }, 
+          "description": {
+            "_value": ""
+          }, 
+          "title": {
+            "_value": "Variation in the human immune system is largely driven by non-heritable influences."
+          }, 
+          "pubMedID": {
+            "_value": "25594173"
+          }, 
+          "authorList": [
+            {
+              "_value": "Brodin P(1), Jojic V(2), Gao T(2), Bhattacharya S(3), Angel CJ(4), Furman D(4), Shen-Orr S(5), Dekker CL(6), Swan GE(7), Butte AJ(8), Maecker HT(9), Davis MM(10)."
+            }
+          ], 
+          "dOI": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/Publication"
+        }
+      ], 
+      "studyAssay": [
+        {
+          "platform": {
+            "_value": ""
+          }, 
+          "technology": {
+            "_value": "Hemagglutination_Inhibition"
+          }, 
+          "measurementType": {
+            "_value": "Virus_Titer"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }, 
+        {
+          "platform": {
+            "_value": ""
+          }, 
+          "technology": {
+            "_value": "FCM"
+          }, 
+          "measurementType": {
+            "_value": "Cellular_Phenotype"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }, 
+        {
+          "platform": {
+            "_value": ""
+          }, 
+          "technology": {
+            "_value": "Luminex_xMAP"
+          }, 
+          "measurementType": {
+            "_value": "Cytokine_Quantification"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }
+      ], 
+      "identifier": {
+        "_value": "SDY514"
+      }, 
+      "@id": "https://repo.metadatacenter.org/UUID", 
+      "@type": "https://repo.metadatacenter.org/model/Study", 
+      "studyGroupPopulation": [
+        {
+          "studySubject": [
+            {
+              "name": {
+                "_value": "SUB146521"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "9.47 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Fluzone single-dose syringe|49281-009-50 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146522"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "9.47 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146531"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "15.97 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Fluzone single-dose syringe|49281-009-50 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146532"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "12.75 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Fluzone single-dose syringe|49281-009-50 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146533"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "12.75 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }
+          ], 
+          "name": {
+            "_value": "SLVP018_2009A"
+          }, 
+          "type": {
+            "_value": "Experimental"
+          }, 
+          "selectionRule": {
+            "_value": "Eligible normal healthy volunteers"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyGroupPopulation"
+        }, 
+        {
+          "studySubject": [
+            {
+              "name": {
+                "_value": "SUB146561"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "18.16 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146562"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "18.16 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146569"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "22.75 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146570"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "22.72 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146579"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "20.26 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }
+          ], 
+          "name": {
+            "_value": "SLVP018_2009B"
+          }, 
+          "type": {
+            "_value": "Experimental"
+          }, 
+          "selectionRule": {
+            "_value": "Eligible normal healthy volunteers"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyGroupPopulation"
+        }, 
+        {
+          "studySubject": [
+            {
+              "name": {
+                "_value": "SUB146553"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "22.60 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146554"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "22.60 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146564"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "27.48 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146565"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "27.48 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146573"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "25.37 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }
+          ], 
+          "name": {
+            "_value": "SLVP018_2009C"
+          }, 
+          "type": {
+            "_value": "Experimental"
+          }, 
+          "selectionRule": {
+            "_value": "Eligible normal healthy volunteers"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyGroupPopulation"
+        }, 
+        {
+          "studySubject": [
+            {
+              "name": {
+                "_value": "SUB146529"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "48.15 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146530"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "48.15 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146551"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "41.85 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146552"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "41.85 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146566"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "41.99 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }
+          ], 
+          "name": {
+            "_value": "SLVP018_2009D"
+          }, 
+          "type": {
+            "_value": "Experimental"
+          }, 
+          "selectionRule": {
+            "_value": "Eligible normal healthy volunteers"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyGroupPopulation"
+        }, 
+        {
+          "studySubject": [
+            {
+              "name": {
+                "_value": "SUB146514"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "48.28 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146515"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "48.28 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146540"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "47.57 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146541"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "47.58 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "name": {
+                "_value": "SUB146575"
+              }, 
+              "@id": "https://repo.metadatacenter.org/UUID", 
+              "characteristic": [
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Age at Study Day 0 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": " "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_event_specify"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Float"
+                    }, 
+                    "value": {
+                      "_value": "44.15 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": "Years"
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "age_reported"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "FluMist Intranasal Spray|66019-107-01 "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "description"
+                  }
+                }, 
+                {
+                  "description": {
+                    "_value": ""
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "https://schema.org/Text"
+                    }, 
+                    "value": {
+                      "_value": "Not Hispanic or Latino "
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "name": {
+                    "_value": "ethnicity"
+                  }
+                }
+              ], 
+              "type": {
+                "_value": ""
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }
+          ], 
+          "name": {
+            "_value": "SLVP018_2009E"
+          }, 
+          "type": {
+            "_value": "Experimental"
+          }, 
+          "selectionRule": {
+            "_value": "Eligible normal healthy volunteers"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID", 
+          "@type": "https://repo.metadatacenter.org/model/StudyGroupPopulation"
+        }
+      ]
+    }
+  ], 
+  "submissionDate": {
+    "_value": ""
+  }, 
+  "@type": "https://repo.metadatacenter.org/model/Investigation", 
+  "publicReleaseDate": {
+    "_value": ""
+  }, 
+  "@context": {
+    "_value": "https://schema.org/value"
+  }, 
+  "identifier": {
+    "_value": "AI090019"
+  }, 
+  "@id": "https://repo.metadatacenter.org/6153ec23-962b-4aba-9fa9-c501ce506901", 
+  "template_id": "https://repo.metadatacenter.org/406d3a6d-c264-417a-bf30-bd6273762bd8"
+}

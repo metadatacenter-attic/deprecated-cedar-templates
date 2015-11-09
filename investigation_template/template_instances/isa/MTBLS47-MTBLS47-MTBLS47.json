@@ -1,0 +1,1062 @@
+{
+  "info": {
+    "template_title": "isa-MTBLS47-MTBLS47", 
+    "template_description": "Investigation instance", 
+    "creation_date": "2015-11-08 21:40:15"
+  }, 
+  "description": {
+    "_value": ""
+  }, 
+  "study": [
+    {
+      "studyProtocol": [
+        {
+          "name": {
+            "_value": "Sample collection"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDc8c197f8-bdec-43fe-b9da-92e0a91eb984", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Sample collection"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "As described in (Kusano, Fukushima, Arita et al., 2007), sterilized seeds were stratified at 5\u00b0C for 2 d, and were successively sown on Murashige and Skoog (MS) medium containing 1% sucrose. Plants were cultivated in controlled growth chambers at 22\u00b0C in 16-h light and 8-h dark conditions for 18 d. The aerial regions were harvested with 20 different biological replicates, 6 h after the onset of the bright phase. Among these harvested plants, the plants that had fresh weight over 13 mg were used for GC-TOF/MS analysis."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Extraction"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID63274f3e-57f7-4512-b45a-c59111c0a129", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID250b38a6-cf5e-46fb-982d-79f38a255ca1", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Post Extraction"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDa0e53271-529f-4296-99c7-3a998d2b734c", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Derivatization"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Extraction"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "s described in (Kusano, Fukushima, Arita et al., 2007), each sample was extracted with a concentration of 25 mg fresh weight of tissues per \u00b5l extraction medium (methanol/chloroform/water [3:1:1 v/v/v]) containing 10 stable isotope reference compounds using a Retsch mixer mill MM310 at a frequency of 30 Hz for 3 min at 4\u00b0C. Each isotope was adjusted to a final concentration of 22.5 ng per \u00b5l injection. After centrifugation for 5 min at 15,100 x g, 400 \u00b5l of the supernatant was used for further analysis. The extracts were evaporated to dryness in a Savant SPD2010 SpeedVac Concentrator (Thermo Electron Corporation, Waltham, MA, USA)."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Chromatography"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID340883ea-bed6-4579-b31a-ab674cd84d89", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID05b85fec-4716-48b4-8172-0e384acbd3db", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Chromatography Instrument"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID12d68afa-f85d-49d1-acdd-3e61c9daffae", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Column type"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID69f5beea-8ed8-4f57-872f-fa9c96891bd8", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Column model"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Chromatography"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "As described in (Kusano, Fukushima, Kobayashi et al., 2007), 1\u00b5l of each sample was injected in the splitless mode by an CTC CombiPAL autosampler (CTC analytics, Zwingen, Switzerland) into an Agilent 6890N gas chromatograph (Agilent Technologies, Wilmingston, USA) equipped with a 30 m x 0.25 mm inner diameter fused-silica capillary column with a chemically bound 0.25-\u00b5l film Rtx-5 Sil MS stationary phase (RESTEK, Bellefonte, USA) for metabolome analysis. Four replicates were subjected to 1D-GC-TOF/MS analysis. Helium was used as the carrier gas at a constant flow rate of 1 ml/min. The temperature program for metabolome analysis started with a 2-min isothermal step at 80 \u00b0C and this was followed by temperature ramping at 30 \u00b0C to a final temperature of 320 \u00b0C, which was maintained for 3.5 min."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Mass spectrometry"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID65396859-bab2-44bf-be01-ee4d826e13fb", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDa325d7e5-18eb-4b32-85b2-9b777fbe1dc3", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Scan polarity"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID8558bacd-76c1-4f63-95c1-e093e58e2c64", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Scan m/z range"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID07e88e05-20a2-4c3d-adb8-919616e81a23", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Instrument"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID975bcf66-300a-460c-9ea4-be71427e2686", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Mass analyzer"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID84a3768a-8b95-42b6-9591-6ac98d508703", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Ion source"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Mass spectrometry"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "As described in (Kusano, Fukushima, Kobayashi et al., 2007), data acquisition was performed on a Pegasus III TOF mass spectrometer (LECO, St. Joseph, MI, USA) with an acquisition rate of 30 spectra/s in the mass range of a mass-to-charge ratio of m/z = 60-800. Alkane standard mixtures (C8\u2013C20 and C21\u2013C40) were purchased from Sigma\u2013Aldrich (Tokyo, Japan) and were used for calculating the retention index (RI). The normalized response for the calculation of the signal intensity of each metabolite from the mass-detector response was obtained by each selected ion current that was unique in each metabolite MS spectrum to normalize the peak response, using the method of Kopka et al. The normalized responses are peak areas corrected using the sample weight and a constant amount of the representative internal standard compound ([\u00b9\u00b3C\u2084]-hexadecanoic acid)."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Data transformation"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID4f2b2e9a-a988-45cc-b196-2d7e3d57821c", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Data transformation"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "Nonprocessed MS data from GC-TOF/MS analysis were exported in NetCDF format to MATLAB 6.5 (Mathworks, Natick, MA, USA), where all data-pretreatment procedures, such as smoothing, alignment, time-window setting, and H-MCR (Jonsson et al., 2004;2005), were carried out."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Metabolite identification"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID0c6d2265-6a17-4080-acd2-ec05f3298162", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": "MATLAB 6.5"
+          }, 
+          "type": {
+            "_value": "Metabolite identification"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "The resolved MS spectra were matched against reference mass spectra using the NIST mass spectral search program for the NIST/EPA/NIH mass spectral library (version 2.0) and our custom software for peak annotation written in JAVA. Peaks were identified or annotated based on retention indices (RIs) and the reference mass spectra comparison to the Golm Metabolome Database (GMD) and our in-house spectral library.The amount of S-adenosyl-methionine was calculated by the sum of the mass numbers at m/z 188 and 236 using Leco ChromaTOF software version 2.32 (LECO, St. Joseph, MI, USA) since this compound was not adequately detected by H-MCR."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Derivatization"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDaa87aba3-2da0-48bf-bb4d-c0d5fdfadbc0", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Derivatization"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "For methoximation, 20 \u03bcl of methoxyamine hydrochloride (20 mg/ml in pyridine) was added to the sample. After 30 h of derivatization at room temperature, the sample was trimethylsilylated for 1 h using 20 \u03bcl of MSTFA with 1% TMCS at 37\u00b0C with shaking. Twenty \u03bcl of n-heptane was added following silylation. All the derivatization steps were performed in the vacuum glove box VSC-100 (Sanplatec, Japan) filled with 99.9995% (G3 grade) of dry nitrogen."
+          }
+        }
+      ], 
+      "description": {
+        "_value": "Despite recent intensive research efforts in functional genomics, the functions of only a limited number of Arabidopsis (Arabidopsis thaliana) genes have been determined experimentally. Thus, improving gene annotation remains a major challenge in plant science. Because metabolite profiling can characterize the metabolomic phenotype of a genetic perturbation of plant metabolism, it provides clues to the function of genes of interest. In this regard, we chose 50 Arabidopsis mutants including a set of characterized and uncharacterized mutants, which resemble wild-type plants. We performed metabolite profiling of the plants using gas chromatography-mass spectrometry (GC-MS). To make the dataset available as an efficient public functional genomics tool for hypothesis generation, we developed the MeKO database, which allows evaluation of whether a mutation affects metabolism during normal growth. This database contains images of mutants, statistical data analyses, and data on differential metabolite accumulation. Non-processed data, including chromatograms, mass spectra, and experimental meta-data, follow the guidelines of the Metabolomics Standards Initiative (MSI) and are freely downloadable. Proof-of-concept analysis suggests that the MeKO database is highly useful for gene annotation and for generation of hypotheses for genes of interest. MeKO is publicly available at http://prime.psc.riken.jp/meko/."
+      }, 
+      "title": {
+        "_value": "Metabolomic Characterization of Knock-Out Mutants in Arabidopsis - Development of a Metabolite Profiling Database for Knock-Out Mutants in Arabidopsis (MeKO)."
+      }, 
+      "process": [
+        {
+          "type": {
+            "_value": "Sample collection"
+          }, 
+          "output": {
+            "sample": [
+              {
+                "description": {
+                  "_value": ""
+                }, 
+                "characteristic": [
+                  {
+                    "name": {
+                      "_value": "Organism"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "xon_3702"
+                      }, 
+                      "value": {
+                        "_value": "Arabidopsis thaliana"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID9547f574-354c-4bbd-9c49-d05f9646ea72", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID9c8d1b83-5a89-4d20-a2da-13ba832d946a", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "Organism part"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "EFO_0001901"
+                      }, 
+                      "value": {
+                        "_value": "aerial part"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID46b4c812-b917-4241-92c9-82b2e81cb5fe", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID68d32e57-560c-46ab-9ed4-99b784f5a46f", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "studyTime": {
+                  "durationValue": {
+                    "_value": 0
+                  }, 
+                  "isBeforeEvent": {
+                    "_value": false
+                  }, 
+                  "studyEvent": {
+                    "_value": ""
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDee089dc7-e257-4471-872b-ee3aaae875f7", 
+                  "@type": "https://repo.metadatacenter.org/model/StudyTime", 
+                  "unit": {
+                    "_value": ""
+                  }
+                }, 
+                "source": {
+                  "_value": ""
+                }, 
+                "type": {
+                  "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Sample", 
+                "name": {
+                  "_value": "sample-MeKO_12_39_1"
+                }
+              }
+            ]
+          }, 
+          "input": {
+            "studySubject": [
+              {
+                "characteristic": [
+                  {
+                    "name": {
+                      "_value": "Organism"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "xon_3702"
+                      }, 
+                      "value": {
+                        "_value": "Arabidopsis thaliana"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID4a8417fe-c80a-420a-9715-e7d3ff18baa0", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID6a16af97-a898-4364-86b5-40e783c96c1d", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "Organism part"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "EFO_0001901"
+                      }, 
+                      "value": {
+                        "_value": "aerial part"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUIDf1ee1433-b4cc-4fcb-86e6-29a092ab937b", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDa35b3ba7-a004-489c-8065-54e43aa5910f", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/StudySubject", 
+                "name": {
+                  "_value": "source-MeKO_12_39_1"
+                }
+              }
+            ]
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID694e5299-882f-43d4-ae0c-69d046afe530", 
+          "@type": "https://repo.metadatacenter.org/model/Process"
+        }
+      ], 
+      "studyDesignType": {
+        "_value": ""
+      }, 
+      "submissionDate": {
+        "_value": "2013-07-01"
+      }, 
+      "contact": [
+        {
+          "fax": {
+            "_value": ""
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@context": "", 
+              "@id": "https://repo.metadatacenter.org/UUID1047c274-91b2-4253-9080-beb9a87a6a1d", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "RIKEN Plant Science Center"
+              }
+            }
+          ], 
+          "firstName": {
+            "_value": "Atsushi"
+          }, 
+          "lastName": {
+            "_value": "Fukushima"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": ""
+          }, 
+          "role": {
+            "_value": ""
+          }, 
+          "address": {
+            "_value": "1-7-22, Yokohama, Kanagawa 230-0045, Japan"
+          }, 
+          "middleInitial": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDacc81acc-b0fa-494b-9a50-2389eb4a9da4", 
+          "email": {
+            "_value": "a-fukush@psc.riken.jp"
+          }
+        }
+      ], 
+      "studyFactor": [
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUIDda97bb62-15c5-4c81-9155-86576e037726", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Genotype"
+          }, 
+          "description": {
+            "_value": "genotype information"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUID528cbe01-132f-41e9-827e-09458e2c1ff2", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "Batch"
+          }, 
+          "description": {
+            "_value": "block"
+          }
+        }
+      ], 
+      "publicReleaseDate": {
+        "_value": "2013-12-23"
+      }, 
+      "publication": [
+        {
+          "status": {
+            "_value": "Published"
+          }, 
+          "authorList": [
+            {
+              "_value": "Atsushi Fukushima"
+            }, 
+            {
+              "_value": " Miyako Kusano"
+            }, 
+            {
+              "_value": " Mami Iwasa"
+            }, 
+            {
+              "_value": " Makoto Kobayashi"
+            }, 
+            {
+              "_value": " Naomi Hayashi"
+            }, 
+            {
+              "_value": " Akiko Watanabe-Takahashi"
+            }, 
+            {
+              "_value": " Tomoko Narisawa"
+            }, 
+            {
+              "_value": " Takayuki Tohge"
+            }
+          ], 
+          "title": {
+            "_value": "Metabolomic Characterization of Knock-Out Mutants in Arabidopsis - Development of a Metabolite Profiling Database for Knock-Out Mutants in Arabidopsis (MeKO)."
+          }, 
+          "pubMedID": {
+            "_value": "24828308"
+          }, 
+          "dOI": {
+            "_value": "http://dx.doi.org/10.1104/pp.114.240986"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDfa26b6c3-c620-4478-af50-1524915adae6", 
+          "@type": "https://repo.metadatacenter.org/model/Publication"
+        }
+      ], 
+      "studyAssay": [
+        {
+          "platform": {
+            "_value": ""
+          }, 
+          "technology": {
+            "_value": "mass spectrometry"
+          }, 
+          "measurementType": {
+            "_value": "0000366"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID8e018b3f-932b-441c-9ed3-0bfe19cb58d6", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }
+      ], 
+      "identifier": {
+        "_value": "MTBLS47"
+      }, 
+      "@id": "https://repo.metadatacenter.org/UUIDeded115f-0d54-477d-ae2d-b86ddf6913a7", 
+      "@type": "https://repo.metadatacenter.org/model/Study", 
+      "studyGroupPopulation": [
+        {
+          "studySubject": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDf8076dab-92ba-47b9-802c-e4c11b29f099", 
+              "name": {
+                "_value": "source-MeKO_02_46_1"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "xon_3702"
+                    }, 
+                    "value": {
+                      "_value": "Arabidopsis thaliana"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDade62e35-72e6-4f6f-956f-d98c25e8ef35", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDa38d536f-cbb0-4276-9877-069252c29c43", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "EFO_0001901"
+                    }, 
+                    "value": {
+                      "_value": "aerial part"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDe172aa8b-7382-450c-8537-d23cd3a12230", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID20afff67-3782-45f8-be83-3edf1f9fdfeb", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDd970cbce-a74c-49b7-9b31-08b62a50527b", 
+              "name": {
+                "_value": "source-MeKO_10_32_1"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "xon_3702"
+                    }, 
+                    "value": {
+                      "_value": "Arabidopsis thaliana"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID738ddccf-3b72-4558-95ec-cff923071218", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDd42fd878-7b6b-493f-9104-e284184c88b4", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "EFO_0001901"
+                    }, 
+                    "value": {
+                      "_value": "aerial part"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDe32a9314-c629-4b75-9a0d-67e65db7e5ef", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDdcb431d4-e3e0-45f2-91b4-64bab41be2f2", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID12c27b94-032c-4236-a7d9-8a73db9c6c76", 
+              "name": {
+                "_value": "source-MeKO_01_20_1"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "xon_3702"
+                    }, 
+                    "value": {
+                      "_value": "Arabidopsis thaliana"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDe157a310-e63f-4036-992d-756eb5cce876", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDa622f2e2-dc63-4056-b8c6-547349793ef9", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "EFO_0001901"
+                    }, 
+                    "value": {
+                      "_value": "aerial part"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID0cb0a730-f4f6-4625-ab8f-e580bd5f40d9", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID24da52d4-b0b0-4122-b8f7-03ce55e7b6e2", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID97fa1cd4-58a9-4821-a6f5-c291c4a56f52", 
+              "name": {
+                "_value": "source-MeKO_10_41_1"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "xon_3702"
+                    }, 
+                    "value": {
+                      "_value": "Arabidopsis thaliana"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID23bde50a-b961-4ba3-b255-d430ff96ad2f", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID526ecd9f-b221-42f9-a4f1-8c32837a1e16", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "EFO_0001901"
+                    }, 
+                    "value": {
+                      "_value": "aerial part"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDd0b6eb3b-8f1c-4fae-abe0-c3803faf62a3", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDc11afa2b-51ab-475e-aed0-758397f8051c", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID22127746-6b8f-4d0d-a595-a00e008beadc", 
+              "name": {
+                "_value": "source-MeKO_01_34_1"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "xon_3702"
+                    }, 
+                    "value": {
+                      "_value": "Arabidopsis thaliana"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDb83f12af-7cfe-4860-be2a-1e86e545006d", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID4bdb625e-8769-477e-a318-dd1fd4b2c961", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "EFO_0001901"
+                    }, 
+                    "value": {
+                      "_value": "aerial part"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDc4912ffa-28af-48d5-8975-891fad34dcb0", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID013593c5-7764-4fad-a42f-eff2db0275ae", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDebea931a-474a-4e94-b6f4-a27a6d841f99", 
+              "name": {
+                "_value": "source-MeKO_01_07_1"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "xon_3702"
+                    }, 
+                    "value": {
+                      "_value": "Arabidopsis thaliana"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDa28a8ca2-5eba-4c35-a2cb-e6ff39f90de9", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDbc4793e7-871d-4cec-8c05-c36a2ce28755", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "EFO_0001901"
+                    }, 
+                    "value": {
+                      "_value": "aerial part"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID9bb238e0-9922-45cf-b3cd-ff6f55a4681a", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID0353c0fa-f22b-4a0b-82d9-cdabd24aeb80", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID4e507edc-ab45-4e7d-83f9-d6c8d06177c1", 
+              "name": {
+                "_value": "source-MeKO_04_24_1"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "xon_3702"
+                    }, 
+                    "value": {
+                      "_value": "Arabidopsis thaliana"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID16578751-6b79-46cf-a09f-c51de54ba341", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID8c7963f5-d7d4-4a65-b0bd-bdf076f90add", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "EFO_0001901"
+                    }, 
+                    "value": {
+                      "_value": "aerial part"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDc5321402-b53b-49b5-b4df-2a747e5006c1", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID7657524a-981d-4e72-a08c-096e56f24aad", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDbea77d8d-084f-431f-a54f-70fc7f359a2b", 
+              "name": {
+                "_value": "source-MeKO_09_07_1"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "xon_3702"
+                    }, 
+                    "value": {
+                      "_value": "Arabidopsis thaliana"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDcf1fbeaa-38a7-4e4e-8d3f-4b809a0adbd0", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID36f7db12-6a6e-4b0d-b4b3-6836f566f713", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "EFO_0001901"
+                    }, 
+                    "value": {
+                      "_value": "aerial part"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDe3287bff-d941-4a95-a1e2-acb750ddad35", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDdfc27490-d49c-4b37-afc2-ee7c96dcdf3f", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }
+          ], 
+          "name": {
+            "_value": "population name"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID1700d432-b422-4daf-b5d2-ada7b6ee734e", 
+          "selectionRule": {
+            "_value": "selection rule"
+          }, 
+          "type": {
+            "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyGroupPopulation"
+        }
+      ]
+    }
+  ], 
+  "title": {
+    "_value": "Investigation"
+  }, 
+  "schemaID": "https://repo.metadatacenter.org/UUID", 
+  "provenance": {
+    "hadPrimarySource": "http://www.ebi.ac.uk/metabolights/", 
+    "wasGeneratedBy": "http://www.isa-tools.org"
+  }, 
+  "submissionDate": {
+    "_value": ""
+  }, 
+  "template_id": "https://repo.metadatacenter.org/406d3a6d-c264-417a-bf30-bd6273762bd8", 
+  "publicReleaseDate": {
+    "_value": ""
+  }, 
+  "@context": {
+    "model": "https://repo.metadatacenter.org/model/", 
+    "title": "https://repo.metadatacenter.org/model/title", 
+    "description": "https://repo.metadatacenter.org/model/description", 
+    "xsd": "http://www.w3.org/2001/XMLSchema", 
+    "schema": "https://schema.org/"
+  }, 
+  "identifier": {
+    "_value": "MTBLS47"
+  }, 
+  "@id": "https://repo.metadatacenter.org/a77c5309-1e10-491f-acd7-9543bfc3e87a", 
+  "@type": "https://repo.metadatacenter.org/model/Investigation"
+}

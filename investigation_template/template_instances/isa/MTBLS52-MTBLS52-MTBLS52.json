@@ -1,0 +1,1146 @@
+{
+  "info": {
+    "template_title": "isa-MTBLS52-MTBLS52", 
+    "template_description": "Investigation instance", 
+    "creation_date": "2015-11-08 21:40:24"
+  }, 
+  "description": {
+    "_value": ""
+  }, 
+  "study": [
+    {
+      "studyProtocol": [
+        {
+          "name": {
+            "_value": "Extraction"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID3ef9dda5-7e44-4e4b-ae2a-d3f99298e022", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDdcae0f00-529a-45de-bca7-370f097e08e6", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Post Extraction"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID75acabc9-6669-4cc0-bebd-6cba54ae8c5c", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Derivatization"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Extraction"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "All reagents and solvents for extraction and LC-MS analyses (methanol, acetonitrile and ultrapure water HPLC or LC-MS grade) were from Sigma-Aldrich (Pozna\u0144, Poland). Standards of flavonoids (apigenin, apigenin-7-O-glucoside, apigenin-6-C-glucoside, apigenin-8-C-glucoside, isorhamnetin, luteolin, luteolin 7-O-glucoside, luteolin 4\u2019-O-glucoside, luteolin-8-C-glucoside, luteolin-6-C-glucoside, kaempferol, kaempferol-3-O-glucoside, kaempferol-7-O-glucoside, quercetin) were purchased from the Extrasynthese (Genay, France). \nWeighted samples of frozen leaves (about 100 mg) were placed in Eppendorf tubes with 1.4 ml of 80% methanol and the internal standard solution, homogenized using a ball mill (MM 400, Retsch, Haan, Germany) and subsequently placed in an ultrasonic bath for 30 min and centrifuged (11,000 g) for 10 min. Apigenin (5 \u00b5l of 1 mg/ml solution in dimethylsulfoxide) were used as the internal standards in extracts prepared for the HPLC-MS and UPLC analyses.  Obtained extracts (200 \u00b5l) were  filtered through 0.45\u00b5m GHP Acrodisc 13 filter (Waters) and and subjected to HPLC-MS. Prior to the UPLC analysis extracts were diluted with 80% methanol (800 \u00b5l)."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Chromatography"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID94466358-b97c-4324-aa85-ce79a9bd318f", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDad90b1fe-a106-437b-b80f-a5f45cef9042", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Chromatography Instrument"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID4ec6ff9d-6c55-46d7-973d-a6ac94e79758", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Column type"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID28ea8375-17a1-4c31-be08-6351ee708031", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Column model"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Chromatography"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "UPLC-PDA analysis was performed using the Acquity Ultra Performance Liquid Chromatography system with a photodiode - array detector (Waters, Milford, USA). The studies were carried out on BEH C18 column (2.1\u00d7150 mm, 1.7 micrometers particle size) (Waters) at 40 degree of Celsius with a mobile phase flow rate of 0.4 ml/min with water containing 0.1% formic acid v/v (solvent A) and acetonitrile (B). The elution was conducted with gradient: 0-1.5 min from 2 to 8% B, 1.5-3.5 min to 14% B; 3.5-6 min to 16% B; 6-8 min to 25% B; 8-9.2 min to 98% B, at 10.5 min solvent composition returned to the starting conditions and equilibration of system was achieved at 12 min.  The injection volume was 2 microliters. Chromatographic profiles were acquired in the wavelength range 210-450 nm with resolution 2 nm. Data treatment was carried out with Empower 2 Chromatography Data Software.\nIdentification of secondary metabolites present in the barley leaves was performed using the HPLC-MS system consisting of Agilent 1100 HPLC instrument (Palo Alto, CA, USA) with the XBridge C18 column (150\u00d72.1 mm, 3.5 \u03bcm particle size). Flow rate was 0.2 ml/min and the gradient: 0-6 min from 8 to 10% B, 6-40 min to 20% B; 40-46 min to 98% B at 52 min solvent composition returned to starting conditions and equilibration of system was achieved at 65 min."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Mass spectrometry"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID0a36015b-8f37-4839-9378-17163fb946f6", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "protocolParameter": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDdb4bcb3b-a2ac-4a3c-a230-3779fb863b32", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Scan polarity"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID984075a6-2f8f-4746-bf7a-2b93ada9895c", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Scan m/z range"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDc99ba963-8f20-4414-bdec-cbf7b2c6c14b", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Instrument"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID304c1def-1025-496b-8027-4e5cd0b75124", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Mass analyzer"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID32ccd656-0727-4a97-b887-417859a9bd2d", 
+              "@type": "https://repo.metadatacenter.org/model/ProtocolParameter", 
+              "name": {
+                "_value": "Ion source"
+              }, 
+              "description": {
+                "_value": ""
+              }
+            }
+          ], 
+          "type": {
+            "_value": "Mass spectrometry"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "Ion trap mass spectrometer (Esquire 3000, Bruker, Germany) with the electrospray ionization coupled to a high performance liquid chromatography (HPLC) and UV detector (Agilent 1100) HPLC/PDA-ESI/MSn was used for the qualitative analysis of phenolic compounds in negative and positive mode. The spectra were acquired in the range of 50-3000 m/z. The spectrometer was controlled by software Esquire Software version 5, and data were analyzed using software DataAnalysis version 5 in the package supplied by Bruker."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Data transformation"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID828c9720-2dc6-4df7-860e-e952fcd561ab", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Data transformation"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "The chromatographic UPLC-UV data concerning all drought variants submitted for joint analysis were in the form of (retention time \u00d7 wavelength \u00d7 sample) table, with 10 801 retention times, 2 wavelengths, and 547 samples. They were processed using own scripts in the R system.\na) Normalization: the raw data were normalized by mass of samples, which means that every single chromatogram value was divided by the mass of the appropriate extracted leaf sample. \nb) Baseline removal: chromatographic baselines need to be removed since they can negatively affect the alignment and ultimately the results of the data analysis. Therefore baselines were removed using the numerical differentiation without their explicit estimation.\nc) Retention time alignment: the correlation optimized warping (COW) was chosen for this purpose. This method operates on the entire chromatograms prior to the peak detection (see point d); it aligns profiles by matching their shapes and compressing or expanding time intervals, whereas the peak height and area are generally unaffected. \nd) Peak detection: peaks are here interpreted as the retention time intervals in which some kind of metabolite or a group of metabolites with similar chromatographic properties occurs. Peaks within individual chromatograms were detected using profiles of the second derivative; since the second derivative is usually characterized by a high noise, it was smoothed by a cubic smoothing spline. The inflection points were located to find boundaries for the individual peaks and peaks common for several (or all) chromatograms were built. Such defined peaks are not equivalent to chromatographic peaks present in different individual chromatograms as sometimes they cover several peaks (usually with small intensity)."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Metabolite identification"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDc2cc880e-1130-43f1-88af-d2ba0d524935", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Metabolite identification"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "The individual compounds were identified by comparison of mass spectra and retention times to these of standard compounds and literature data.\nSeveral compounds were isolated from barley leaves on a preparative scale and purified using the flash chromatography on a polyamide column followed by preparative HPLC on reversed phase C18 column. Structures of the purified compounds were established using 1H, 13C, COSY, NOESY, HMBC, HSQC NMR spectra."
+          }
+        }, 
+        {
+          "name": {
+            "_value": "Sample collection"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDf5c64be5-0fb4-4c9c-9beb-b020140642f7", 
+          "uRI": {
+            "_value": ""
+          }, 
+          "version": {
+            "_value": ""
+          }, 
+          "type": {
+            "_value": "Sample collection"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyProtocol", 
+          "description": {
+            "_value": "Nine spring barley (Hordeum vulgare L.) genotypes were used in the experiment: European varieties Georgia, Maresi, Lubuski, Sebastian and Stratus, Morex - bred in USA, and Cam/B1/C1\u2026/CL05761 (hereinafter referred to CamB1), Harmal and Maris Dingo/Deir Alla 106 (hereinafter referred to MDingo) being lines bred in Syria. Experiment was conducted in a greenhouse under partially controlled conditions. Plants grew in pots filled with loam-sandy soil. Four water regimes were applied: control (C) and three drought treatments in different developmental stages (S1, S2 and S3) as follows:\nC: 12% of soil moisture during all vegetation season;\nS1: first drought treatment: at the 3-lives stage, soil moisture in the pots was decreased to 6%, which was achieved within 48 hours, and maintained during 10 days; \nS2: second drought treatment: decreased soil moisture to 6 % started at the stage of the flag leaf and maintained during 14 days;\nS3: combined drought treatment: S1 and S2 variants of drought applied on the same plants. \nLeaf samples were harvested from the stressed and control plants in four replicates after 1, 3, 6 and 10 days of drought which is marked as I, II, III, IV moments of drought treatments for S1 and C respectively and V, VI, VII, VIII moments of drought treatments for S2, S3, C respectively. Harvested material was immediately frozen in liquid nitrogen and stored at \u201380\u00b0C until the metabolite extraction and instrumental analysis."
+          }
+        }
+      ], 
+      "description": {
+        "_value": "Secondary metabolites are frequently involved in mechanisms of the plant tolerance to environmental stresses. Determining metabolic biomarkers for drought tolerance may be a useful implementation in increasing and stabilizing crop plant productivity. The most accurate and fast tool for this purpose is the ultra-high performance liquid chromatography (UHPLC). It enabled a rapid discrimination between samples from plants grown in different water limitation regimes. Multivariate statistical analysis was applied to handle and interpret the complexity of the generated data. UHPLC raw data was mathematically pre-processed to reduce the effects of instrumental factors. The multivariate analysis of variance was used to find the significant changes in the secondary metabolites composition induced by the drought stress. Tests were performed on 9 varieties of spring barley (Hordeum vulgare L.) originating from Europe, North America and Syria. Drought stress was applied at different developmental stages. The UHPLC results suggest that the changes in metabolite profiles are a stage-specific trait and alter in the life cycle. In addition, there is variability in metabolites selected as significant for the reaction to drought depending on sampling time and variety. In parallel, an ion trap mass spectrometer with an electrospray ion source coupled to a high performance liquid chromatography (HPLC) and UV detector was used for qualitative analysis of phenolic compounds and identification of the potential biomarkers."
+      }, 
+      "title": {
+        "_value": "Profiles of phenolic secondary metabolites in plants of barley (Hordeum vulgare L.)"
+      }, 
+      "process": [
+        {
+          "type": {
+            "_value": "Sample collection"
+          }, 
+          "output": {
+            "sample": [
+              {
+                "description": {
+                  "_value": ""
+                }, 
+                "characteristic": [
+                  {
+                    "name": {
+                      "_value": "Organism"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Hordeum vulgare subsp. vulgare"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID65e0b597-ecc5-4ba5-8abe-6ca31b179c9a", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDdaa5d4dc-c36e-4060-92b3-2ace25b28cbd", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "Organism part"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "http://purl.obolibrary.org/obo/PO_0009025"
+                      }, 
+                      "value": {
+                        "_value": "vascular leaf"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID8ce5f232-becb-4fcd-a511-e6024d2bd9d7", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID77966100-ad13-43de-8315-5f2872e55431", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "studyTime": {
+                  "durationValue": {
+                    "_value": 0
+                  }, 
+                  "isBeforeEvent": {
+                    "_value": false
+                  }, 
+                  "studyEvent": {
+                    "_value": ""
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDba7c34ae-aa67-4014-ac59-97f2c1d4217a", 
+                  "@type": "https://repo.metadatacenter.org/model/StudyTime", 
+                  "unit": {
+                    "_value": ""
+                  }
+                }, 
+                "source": {
+                  "_value": ""
+                }, 
+                "type": {
+                  "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/Sample", 
+                "name": {
+                  "_value": "sample-STRATUS9892"
+                }
+              }
+            ]
+          }, 
+          "input": {
+            "studySubject": [
+              {
+                "characteristic": [
+                  {
+                    "name": {
+                      "_value": "Organism"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": ""
+                      }, 
+                      "value": {
+                        "_value": "Hordeum vulgare subsp. vulgare"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUIDec76572d-5392-493e-abaf-716a1ea0df20", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDd06b940d-0792-403f-be4b-1cf8e6432647", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }, 
+                  {
+                    "name": {
+                      "_value": "Organism part"
+                    }, 
+                    "characteristicValue": {
+                      "type": {
+                        "_value": "http://purl.obolibrary.org/obo/PO_0009025"
+                      }, 
+                      "value": {
+                        "_value": "vascular leaf"
+                      }, 
+                      "@id": "https://repo.metadatacenter.org/UUID82077273-9f30-458c-8fbd-3f238a04ec15", 
+                      "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                      "unit": {
+                        "_value": ""
+                      }
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID300b9304-ea85-4493-9926-98ed8cc20d00", 
+                    "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                    "description": {
+                      "_value": ""
+                    }
+                  }
+                ], 
+                "type": {
+                  "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                }, 
+                "@type": "https://repo.metadatacenter.org/model/StudySubject", 
+                "name": {
+                  "_value": "source-9VI4LS2"
+                }
+              }
+            ]
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDc2b560c1-9bc1-4687-8714-0c6f210f6ccf", 
+          "@type": "https://repo.metadatacenter.org/model/Process"
+        }
+      ], 
+      "studyDesignType": {
+        "_value": ""
+      }, 
+      "submissionDate": {
+        "_value": "2014-05-06"
+      }, 
+      "contact": [
+        {
+          "fax": {
+            "_value": "(+48 61) 65 50 301"
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@context": "", 
+              "@id": "https://repo.metadatacenter.org/UUID52c7957e-a6d0-46bf-9081-c823295890d7", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "Institute of Plant Genetics Polish Academy of Science"
+              }
+            }
+          ], 
+          "firstName": {
+            "_value": "Aneta"
+          }, 
+          "lastName": {
+            "_value": "Sawikowska"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": "(+48 61) 65 50 223"
+          }, 
+          "role": {
+            "_value": ""
+          }, 
+          "address": {
+            "_value": "Institute of Plant Genetics \nDepartment of Biometry and Bioinformatics\nul. Strzeszynska 34\n60-479 Poznan"
+          }, 
+          "middleInitial": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUIDe2db73d6-815e-4917-bf24-ac2bf55d1e1c", 
+          "email": {
+            "_value": "asaw@igr.poznan.pl"
+          }
+        }, 
+        {
+          "fax": {
+            "_value": "(+48 61) 65 50 301"
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@context": "", 
+              "@id": "https://repo.metadatacenter.org/UUID48825d69-ad1c-427b-8740-8e34c6fb18db", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "Institute of Plant Genetics Polish Academy of Science"
+              }
+            }
+          ], 
+          "firstName": {
+            "_value": "Anna"
+          }, 
+          "lastName": {
+            "_value": "Piasecka"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": "(+48 61) 65 50 254"
+          }, 
+          "role": {
+            "_value": ""
+          }, 
+          "address": {
+            "_value": "Institute of Plant Genetics\nDepartment of Pathogen Genetics and Plant Resistance\nMetabolomics Team\nul. Strzeszynska 34\n60-479 Poznan"
+          }, 
+          "middleInitial": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID121cc1a5-e2fd-4817-a5b3-35a38db07ec8", 
+          "email": {
+            "_value": "akar@igr.poznan.pl"
+          }
+        }, 
+        {
+          "fax": {
+            "_value": "(+48 61) 65 50 301"
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@context": "", 
+              "@id": "https://repo.metadatacenter.org/UUID6d95828b-0306-4030-88f0-1ca79af73e2e", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "Institute of Plant Genetics Polish Academy of Science"
+              }
+            }
+          ], 
+          "firstName": {
+            "_value": "Piotr"
+          }, 
+          "lastName": {
+            "_value": "Kachlicki"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": "(+48 61) 65 50 264"
+          }, 
+          "role": {
+            "_value": ""
+          }, 
+          "address": {
+            "_value": "Institute of Plant Genetics\nDepartment of Pathogen Genetics and Plant Resistance\nMetabolomics Team\nul. Strzeszynska 34\n60-479 Poznan"
+          }, 
+          "middleInitial": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID9befbb93-b6a3-4ce7-b7df-c15a9ab8eec2", 
+          "email": {
+            "_value": "pkac@igr.poznan.pl"
+          }
+        }, 
+        {
+          "fax": {
+            "_value": "(+48 61) 65 50 301"
+          }, 
+          "organization": [
+            {
+              "department": {
+                "_value": ""
+              }, 
+              "@context": "", 
+              "@id": "https://repo.metadatacenter.org/UUIDdb477c5e-4760-4e9c-a180-1a073b3c87ff", 
+              "@type": "https://repo.metadatacenter.org/model/Organization", 
+              "name": {
+                "_value": "nstitute of Plant Genetics Polish Academy of Science"
+              }
+            }
+          ], 
+          "firstName": {
+            "_value": "Pawe\u0142"
+          }, 
+          "lastName": {
+            "_value": "Krajewski"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/Contact", 
+          "phone": {
+            "_value": "(+48 61) 65 50 238"
+          }, 
+          "role": {
+            "_value": ""
+          }, 
+          "address": {
+            "_value": "Institute of Plant Genetics\n Department of Biometry and Bioinformatics\nul. Strzeszynska 34\n60-479 Poznan"
+          }, 
+          "middleInitial": {
+            "_value": ""
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID6f472547-95e4-4f46-84ec-7192f99f8360", 
+          "email": {
+            "_value": "pkra@igr.poznan.pl"
+          }
+        }
+      ], 
+      "studyFactor": [
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUIDed1d4e26-07e1-4b76-8844-e864d5471c24", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "variety"
+          }, 
+          "description": {
+            "_value": "Variety"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUIDdd5cd590-fea1-43be-873d-0d1db96adcfb", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "drought treatment"
+          }, 
+          "description": {
+            "_value": "drought treatment"
+          }
+        }, 
+        {
+          "@context": "", 
+          "@id": "https://repo.metadatacenter.org/UUID30dd0523-bcd2-4af9-9d21-2cf53bc92330", 
+          "@type": "https://repo.metadatacenter.org/model/StudyFactor", 
+          "name": {
+            "_value": "time point of drought duration"
+          }, 
+          "description": {
+            "_value": "Elapsed time"
+          }
+        }
+      ], 
+      "publicReleaseDate": {
+        "_value": "2014-11-21"
+      }, 
+      "studyAssay": [
+        {
+          "platform": {
+            "_value": ""
+          }, 
+          "technology": {
+            "_value": "mass spectrometry"
+          }, 
+          "measurementType": {
+            "_value": "http://purl.obolibrary.org/obo/OBI_0000366"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID05621487-3cda-41b2-ae77-efd6560ed98f", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }, 
+        {
+          "platform": {
+            "_value": ""
+          }, 
+          "technology": {
+            "_value": "mass spectrometry"
+          }, 
+          "measurementType": {
+            "_value": "http://purl.obolibrary.org/obo/OBI_0000366"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID9eeab125-c4f0-47e5-8a85-1f09b9213a7e", 
+          "@type": "https://repo.metadatacenter.org/model/StudyAssay"
+        }
+      ], 
+      "identifier": {
+        "_value": "MTBLS52"
+      }, 
+      "@id": "https://repo.metadatacenter.org/UUID72dc48d8-5593-4a31-8cd3-15a012a483f3", 
+      "@type": "https://repo.metadatacenter.org/model/Study", 
+      "studyGroupPopulation": [
+        {
+          "studySubject": [
+            {
+              "@id": "https://repo.metadatacenter.org/UUID987373a5-5ca6-4fe7-a0aa-8d3d68ca0458", 
+              "name": {
+                "_value": "source-5VI4LK"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Hordeum vulgare subsp. vulgare"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDc1f15897-5513-4ab8-9d4f-dd5a652af433", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDddf53199-c1e4-4641-8c8a-b4a736bbd3d1", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/PO_0009025"
+                    }, 
+                    "value": {
+                      "_value": "vascular leaf"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID4fa41fa7-ce45-4265-8671-c016dbef50a6", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDb3f42072-9f19-4c21-9192-a006a22526ec", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID5ce16220-922b-4b59-9e75-2b216ba5a470", 
+              "name": {
+                "_value": "source-4VIII1LS2"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Hordeum vulgare subsp. vulgare"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID0a419997-076f-4462-9b47-b1c48a86cc27", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID59b71a57-1a78-4517-bacb-b12c844bf444", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/PO_0009025"
+                    }, 
+                    "value": {
+                      "_value": "vascular leaf"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDc2d47de2-3505-4e61-9e5d-56e42aac4897", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID7db02ad9-ddd4-4ecf-bf47-ff7bccfabf40", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID6130e2a0-9481-4527-8402-92b350072c1a", 
+              "name": {
+                "_value": "source-2V3LS3"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Hordeum vulgare subsp. vulgare"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID5af0e245-8a6e-4962-ad12-9fbabbc84cc0", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID5524a89f-cd55-44b3-807a-9b80df6474bd", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/PO_0009025"
+                    }, 
+                    "value": {
+                      "_value": "vascular leaf"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID01d17a4e-e9e2-4203-bc5a-ca55f8a6afaf", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID13c7a00a-a3b5-43eb-b1b0-ab051f34372d", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDbaa17c44-2d76-4b51-b5ea-5055ccc03ca4", 
+              "name": {
+                "_value": "source-5VIII4LS3"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Hordeum vulgare subsp. vulgare"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDe25ba4da-c425-4b14-9e4f-39f3b382c536", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDddc31570-b0e1-499c-bb2d-7347b942d139", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/PO_0009025"
+                    }, 
+                    "value": {
+                      "_value": "vascular leaf"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDdf04e090-2d98-42cb-a8ca-af011bbfadad", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID1ea1a185-3ee2-4d69-9490-658dff1ca294", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUIDc44c6f46-004a-48bf-bc95-8508fe2b1c67", 
+              "name": {
+                "_value": "source-5VIII4LS2"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Hordeum vulgare subsp. vulgare"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDf2cfcbd1-c43b-4532-b2f0-441cb80acef8", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID43c92084-7161-44ac-a7e4-ca04ec43ed56", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/PO_0009025"
+                    }, 
+                    "value": {
+                      "_value": "vascular leaf"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID1df88998-d021-40d8-9fa3-f82f37a769ca", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID6f3c4710-97a9-4845-b70f-5065e97e7558", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID035d2199-2b65-4763-97b1-1671cb7c3e04", 
+              "name": {
+                "_value": "source-3VI4LS3"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Hordeum vulgare subsp. vulgare"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID05a5416a-324c-41ae-92c4-f359141ef6e9", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID0e0c5c77-751a-4c6e-8576-c28e1e842e22", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/PO_0009025"
+                    }, 
+                    "value": {
+                      "_value": "vascular leaf"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID01808064-8ae0-48c7-be9d-d6557c9bbf70", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDabcfce55-9918-4534-a577-7e36113e0a22", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID91b96077-e50a-4ec7-bbc1-b45dd538633b", 
+              "name": {
+                "_value": "source-3VI4LS2"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Hordeum vulgare subsp. vulgare"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID4de40798-c0c8-46e0-9678-87d6c7e8a478", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID63977023-d900-4182-88c8-87e3580231f1", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/PO_0009025"
+                    }, 
+                    "value": {
+                      "_value": "vascular leaf"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUIDb5f154aa-1195-4e85-9aaf-d4de34f1be6a", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID4b559980-f5ec-4519-9929-557aee449007", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }, 
+            {
+              "@id": "https://repo.metadatacenter.org/UUID6c67c4dc-d5e9-45da-8ed8-e3b9ce75b5c9", 
+              "name": {
+                "_value": "source-4VII2LK"
+              }, 
+              "characteristic": [
+                {
+                  "name": {
+                    "_value": "Organism"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": ""
+                    }, 
+                    "value": {
+                      "_value": "Hordeum vulgare subsp. vulgare"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID7b974718-02c2-4ccf-a93e-dff67f6cf25d", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUID766aba94-84cc-47b7-b668-664f26bfaf4a", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }, 
+                {
+                  "name": {
+                    "_value": "Organism part"
+                  }, 
+                  "characteristicValue": {
+                    "type": {
+                      "_value": "http://purl.obolibrary.org/obo/PO_0009025"
+                    }, 
+                    "value": {
+                      "_value": "vascular leaf"
+                    }, 
+                    "@id": "https://repo.metadatacenter.org/UUID4fbea03f-a315-4dca-a4b2-4aafeea6821f", 
+                    "@type": "https://repo.metadatacenter.org/model/CharacteristicValue", 
+                    "unit": {
+                      "_value": ""
+                    }
+                  }, 
+                  "@id": "https://repo.metadatacenter.org/UUIDfbdec9d5-7770-474c-96e9-21ecb30991f0", 
+                  "@type": "https://repo.metadatacenter.org/model/Characteristic", 
+                  "description": {
+                    "_value": ""
+                  }
+                }
+              ], 
+              "type": {
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+              }, 
+              "@type": "https://repo.metadatacenter.org/model/StudySubject"
+            }
+          ], 
+          "name": {
+            "_value": "population name"
+          }, 
+          "@id": "https://repo.metadatacenter.org/UUID5d238f27-29e8-43b0-b795-0f1ebf3116ae", 
+          "selectionRule": {
+            "_value": "selection rule"
+          }, 
+          "type": {
+            "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+          }, 
+          "@type": "https://repo.metadatacenter.org/model/StudyGroupPopulation"
+        }
+      ]
+    }
+  ], 
+  "title": {
+    "_value": "Investigation"
+  }, 
+  "schemaID": "https://repo.metadatacenter.org/UUID", 
+  "provenance": {
+    "hadPrimarySource": "http://www.ebi.ac.uk/metabolights/", 
+    "wasGeneratedBy": "http://www.isa-tools.org"
+  }, 
+  "submissionDate": {
+    "_value": ""
+  }, 
+  "template_id": "https://repo.metadatacenter.org/406d3a6d-c264-417a-bf30-bd6273762bd8", 
+  "publicReleaseDate": {
+    "_value": ""
+  }, 
+  "@context": {
+    "model": "https://repo.metadatacenter.org/model/", 
+    "title": "https://repo.metadatacenter.org/model/title", 
+    "description": "https://repo.metadatacenter.org/model/description", 
+    "xsd": "http://www.w3.org/2001/XMLSchema", 
+    "schema": "https://schema.org/"
+  }, 
+  "identifier": {
+    "_value": "MTBLS52"
+  }, 
+  "@id": "https://repo.metadatacenter.org/9ceb1ac8-9bc7-4999-b5f7-ec624fbd53c8", 
+  "@type": "https://repo.metadatacenter.org/model/Investigation"
+}
