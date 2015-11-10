@@ -1,0 +1,670 @@
+{
+  "@context": {
+    "_value": "https://schema.org/value",
+    "study": "https://metadatacenter.org/schemas/study",
+    "armsAndPersonnel": "https://metadatacenter.org/schemas/armsAndPersonnel",
+    "arm_or_cohort": "https://metadatacenter.org/schemas/arm_or_cohort",
+    "study_personnel": "https://metadatacenter.org/schemas/study_personnel",
+    "periodsAndPlannedVisits": "https://metadatacenter.org/schemas/periodsAndPlannedVisits",
+    "period": "https://metadatacenter.org/schemas/period",
+    "planned_visit": "https://metadatacenter.org/schemas/planned_visit",
+    "inclusion/ExclusionCriteria,FilesAndLinks": "https://metadatacenter.org/schemas/inclusion/ExclusionCriteria,FilesAndLinks",
+    "inclusion_exclusion": "https://metadatacenter.org/schemas/inclusion_exclusion",
+    "study_file": "https://metadatacenter.org/schemas/study_file",
+    "study_link": "https://metadatacenter.org/schemas/study_link",
+    "pubMedInfoAndStudy2Protocol": "https://metadatacenter.org/schemas/pubMedInfoAndStudy2Protocol",
+    "study_pubmed_info": "https://metadatacenter.org/schemas/study_pubmed_info",
+    "study_2_protocol": "https://metadatacenter.org/schemas/study_2_protocol"
+  },
+  "study": {
+    "@context": {
+      "_value": "https://schema.org/value",
+      "user_Def_Study_ID": "https://metadatacenter.org/schemas/user_Def_Study_ID",
+      "brief_Title": "https://metadatacenter.org/schemas/brief_Title",
+      "official_Title": "https://metadatacenter.org/schemas/official_Title",
+      "study_Type": "https://metadatacenter.org/schemas/study_Type",
+      "brief_Description": "https://metadatacenter.org/schemas/brief_Description",
+      "detailed_Description": "https://metadatacenter.org/schemas/detailed_Description",
+      "hypothesis": "https://metadatacenter.org/schemas/hypothesis",
+      "objectives": "https://metadatacenter.org/schemas/objectives",
+      "endpoints": "https://metadatacenter.org/schemas/endpoints",
+      "sponsoring_Organization": "https://metadatacenter.org/schemas/sponsoring_Organization",
+      "target_Enrollment": "https://metadatacenter.org/schemas/target_Enrollment",
+      "condition_Studied": "https://metadatacenter.org/schemas/condition_Studied",
+      "minimum_Age": "https://metadatacenter.org/schemas/minimum_Age",
+      "maximum_Age": "https://metadatacenter.org/schemas/maximum_Age",
+      "age_Unit": "https://metadatacenter.org/schemas/age_Unit",
+      "actual_Start_Date": "https://metadatacenter.org/schemas/actual_Start_Date",
+      "intervention_Agent": "https://metadatacenter.org/schemas/intervention_Agent"
+    },
+    "user_Def_Study_ID": {
+      "_value": "SDY180"
+    },
+    "brief_Title": {
+      "_value": "Systems scale interactive exploration reveals quantitative and qualitative differences in response to 2009-2010 Fluzone influenza vaccine and pneumococcal vaccine"
+    },
+    "official_Title": {
+      "_value": "Systems scale interactive exploration reveals quantitative and qualitative differences in response to 2009-2010 Fluzone influenza vaccine and pneumococcal vaccine"
+    },
+    "study_Type": {
+      "_value": [
+        "Interventional"
+      ]
+    },
+    "brief_Description": {
+      "_value": "Systems approach to study immune response to seasonal influenza and 23-valent pneumoccocal vaccination in healthy adults."
+    },
+    "detailed_Description": {
+      "_value": "Systems immunology approaches were employed to investigate innate and adaptive immune responses to influenza and pneumococcal vaccines. These two non-live vaccines show different magnitudes of transcriptional responses at different time points af- ter vaccination. Software solutions were developed to explore correlates of vaccine efficacy measured as antibody titers at day 28. These enabled a further dissection of transcriptional responses. Thus, the innate response, measured within hours in the peripheral blood, was dominated by an interferon transcriptional signature after influenza vaccination and by an inflammation signature after pneumo- coccal vaccination. Day 7 plasmablast responses induced by both vaccines was more pronounced after pneumococcal vaccination. Together, these results suggest that comparing global immune responses elicited by different vaccines will be critical to our understanding of the immune mechanisms underpinning successful vaccination."
+    },
+    "hypothesis": {
+      "_value": "N/A"
+    },
+    "objectives": {
+      "_value": "Our aim is to apply systems biology approaches to study immune responses to vaccination with seasonal influenza and 23-valent pneumococcal vaccine in healthy adults. This in turn will permit us to define vaccine responders and non-responders and develop biomarker signatures predictive of vaccine response."
+    },
+    "endpoints": {
+      "_value": "Serological outcome"
+    },
+    "sponsoring_Organization": {
+      "_value": "NIH"
+    },
+    "target_Enrollment": {
+      "_value": ""
+    },
+    "condition_Studied": {
+      "_value": "Healthy adults- longitudinal follow-up"
+    },
+    "minimum_Age": {
+      "_value": ""
+    },
+    "maximum_Age": {
+      "_value": ""
+    },
+    "age_Unit": {
+      "_value": ""
+    },
+    "actual_Start_Date": {
+      "_value": "07/05/2011 12:00 AM"
+    },
+    "intervention_Agent": {
+      "_value": ""
+    }
+  },
+  "armsAndPersonnel": {
+    "_value": ""
+  },
+  "arm_or_cohort": [
+    {
+      "@context": {
+        "_value": "https://schema.org/value",
+        "user_Def_Arm_Or_Cohort_ID": "https://metadatacenter.org/schemas/user_Def_Arm_Or_Cohort_ID",
+        "name": "https://metadatacenter.org/schemas/name",
+        "description": "https://metadatacenter.org/schemas/description",
+        "population_Selection_Rule": "https://metadatacenter.org/schemas/population_Selection_Rule",
+        "sort_Order": "https://metadatacenter.org/schemas/sort_Order",
+        "type": "https://metadatacenter.org/schemas/type"
+      },
+      "user_Def_Arm_Or_Cohort_ID": {
+        "_value": "ARM773"
+      },
+      "name": {
+        "_value": "Study group 1 2009-2010 Fluzone"
+      },
+      "description": {
+        "_value": "2009-2010 Fluzone vaccine, Samples at Day -7,0,1,3,7,10,14,21,28"
+      },
+      "population_Selection_Rule": {
+        "_value": "Randomization"
+      },
+      "sort_Order": {
+        "_value": "N/A"
+      },
+      "type": {
+        "_value": ""
+      }
+    },
+    {
+      "@context": {
+        "_value": "https://schema.org/value",
+        "user_Def_Arm_Or_Cohort_ID": "https://metadatacenter.org/schemas/user_Def_Arm_Or_Cohort_ID",
+        "name": "https://metadatacenter.org/schemas/name",
+        "description": "https://metadatacenter.org/schemas/description",
+        "population_Selection_Rule": "https://metadatacenter.org/schemas/population_Selection_Rule",
+        "sort_Order": "https://metadatacenter.org/schemas/sort_Order",
+        "type": "https://metadatacenter.org/schemas/type"
+      },
+      "user_Def_Arm_Or_Cohort_ID": {
+        "_value": "ARM774"
+      },
+      "name": {
+        "_value": "Study group 1 Pneunomax23"
+      },
+      "description": {
+        "_value": "Pneunomax23, Samples at Day -7,0,1,3,7,10,14,21,28"
+      },
+      "population_Selection_Rule": {
+        "_value": "Randomization"
+      },
+      "sort_Order": {
+        "_value": "N/A"
+      },
+      "type": {
+        "_value": ""
+      }
+    },
+    {
+      "@context": {
+        "_value": "https://schema.org/value",
+        "user_Def_Arm_Or_Cohort_ID": "https://metadatacenter.org/schemas/user_Def_Arm_Or_Cohort_ID",
+        "name": "https://metadatacenter.org/schemas/name",
+        "description": "https://metadatacenter.org/schemas/description",
+        "population_Selection_Rule": "https://metadatacenter.org/schemas/population_Selection_Rule",
+        "sort_Order": "https://metadatacenter.org/schemas/sort_Order",
+        "type": "https://metadatacenter.org/schemas/type"
+      },
+      "user_Def_Arm_Or_Cohort_ID": {
+        "_value": "ARM775"
+      },
+      "name": {
+        "_value": "Study group 1 Saline"
+      },
+      "description": {
+        "_value": "Saline, Samples at Day -7,0,1,3,7,10,14,21,28"
+      },
+      "population_Selection_Rule": {
+        "_value": "Randomization"
+      },
+      "sort_Order": {
+        "_value": "N/A"
+      },
+      "type": {
+        "_value": ""
+      }
+    },
+    {
+      "@context": {
+        "_value": "https://schema.org/value",
+        "user_Def_Arm_Or_Cohort_ID": "https://metadatacenter.org/schemas/user_Def_Arm_Or_Cohort_ID",
+        "name": "https://metadatacenter.org/schemas/name",
+        "description": "https://metadatacenter.org/schemas/description",
+        "population_Selection_Rule": "https://metadatacenter.org/schemas/population_Selection_Rule",
+        "sort_Order": "https://metadatacenter.org/schemas/sort_Order",
+        "type": "https://metadatacenter.org/schemas/type"
+      },
+      "user_Def_Arm_Or_Cohort_ID": {
+        "_value": "ARM776"
+      },
+      "name": {
+        "_value": "Study group 2 2009-2010 Fluzone"
+      },
+      "description": {
+        "_value": "2009-2010 Fluzone vaccine, Samples at Hour -168,0,1.5,3,6,9,12,15,24,36,48"
+      },
+      "population_Selection_Rule": {
+        "_value": "Randomization"
+      },
+      "sort_Order": {
+        "_value": "N/A"
+      },
+      "type": {
+        "_value": ""
+      }
+    },
+    {
+      "@context": {
+        "_value": "https://schema.org/value",
+        "user_Def_Arm_Or_Cohort_ID": "https://metadatacenter.org/schemas/user_Def_Arm_Or_Cohort_ID",
+        "name": "https://metadatacenter.org/schemas/name",
+        "description": "https://metadatacenter.org/schemas/description",
+        "population_Selection_Rule": "https://metadatacenter.org/schemas/population_Selection_Rule",
+        "sort_Order": "https://metadatacenter.org/schemas/sort_Order",
+        "type": "https://metadatacenter.org/schemas/type"
+      },
+      "user_Def_Arm_Or_Cohort_ID": {
+        "_value": "ARM777"
+      },
+      "name": {
+        "_value": "Study group 2 Pneunomax23"
+      },
+      "description": {
+        "_value": "Pneunomax23, Samples at Hour -168,0,1.5,3,6,9,12,15,24,36,48"
+      },
+      "population_Selection_Rule": {
+        "_value": "Randomization"
+      },
+      "sort_Order": {
+        "_value": "N/A"
+      },
+      "type": {
+        "_value": ""
+      }
+    },
+    {
+      "@context": {
+        "_value": "https://schema.org/value",
+        "user_Def_Arm_Or_Cohort_ID": "https://metadatacenter.org/schemas/user_Def_Arm_Or_Cohort_ID",
+        "name": "https://metadatacenter.org/schemas/name",
+        "description": "https://metadatacenter.org/schemas/description",
+        "population_Selection_Rule": "https://metadatacenter.org/schemas/population_Selection_Rule",
+        "sort_Order": "https://metadatacenter.org/schemas/sort_Order",
+        "type": "https://metadatacenter.org/schemas/type"
+      },
+      "user_Def_Arm_Or_Cohort_ID": {
+        "_value": "ARM778"
+      },
+      "name": {
+        "_value": "Study group 2 Saline"
+      },
+      "description": {
+        "_value": "Saline, Samples at Hour -168,0,1.5,3,6,9,12,15,24,36,48"
+      },
+      "population_Selection_Rule": {
+        "_value": "Randomization"
+      },
+      "sort_Order": {
+        "_value": "N/A"
+      },
+      "type": {
+        "_value": ""
+      }
+    },
+    {
+      "@context": {
+        "_value": "https://schema.org/value",
+        "user_Def_Arm_Or_Cohort_ID": "https://metadatacenter.org/schemas/user_Def_Arm_Or_Cohort_ID",
+        "name": "https://metadatacenter.org/schemas/name",
+        "description": "https://metadatacenter.org/schemas/description",
+        "population_Selection_Rule": "https://metadatacenter.org/schemas/population_Selection_Rule",
+        "sort_Order": "https://metadatacenter.org/schemas/sort_Order",
+        "type": "https://metadatacenter.org/schemas/type"
+      },
+      "user_Def_Arm_Or_Cohort_ID": {
+        "_value": "ARM779"
+      },
+      "name": {
+        "_value": "Study group 3 2009-2010 Fluzone"
+      },
+      "description": {
+        "_value": "2009-2010 Fluzone vaccine, Samples at Day 0,1,28"
+      },
+      "population_Selection_Rule": {
+        "_value": "Randomization"
+      },
+      "sort_Order": {
+        "_value": "N/A"
+      },
+      "type": {
+        "_value": ""
+      }
+    },
+    {
+      "@context": {
+        "_value": "https://schema.org/value",
+        "user_Def_Arm_Or_Cohort_ID": "https://metadatacenter.org/schemas/user_Def_Arm_Or_Cohort_ID",
+        "name": "https://metadatacenter.org/schemas/name",
+        "description": "https://metadatacenter.org/schemas/description",
+        "population_Selection_Rule": "https://metadatacenter.org/schemas/population_Selection_Rule",
+        "sort_Order": "https://metadatacenter.org/schemas/sort_Order",
+        "type": "https://metadatacenter.org/schemas/type"
+      },
+      "user_Def_Arm_Or_Cohort_ID": {
+        "_value": "ARM780"
+      },
+      "name": {
+        "_value": "Study group 3 Pneunomax23"
+      },
+      "description": {
+        "_value": "Saline, Samples at Day 0,1,28"
+      },
+      "population_Selection_Rule": {
+        "_value": "Randomization"
+      },
+      "sort_Order": {
+        "_value": "N/A"
+      },
+      "type": {
+        "_value": ""
+      }
+    }
+  ],
+  "study_personnel": [
+    {
+      "@context": {
+        "_value": "https://schema.org/value",
+        "user_Def_Study_Personnel_ID": "https://metadatacenter.org/schemas/user_Def_Study_Personnel_ID",
+        "honorific": "https://metadatacenter.org/schemas/honorific",
+        "last_Name": "https://metadatacenter.org/schemas/last_Name",
+        "first_Name": "https://metadatacenter.org/schemas/first_Name",
+        "suffixes": "https://metadatacenter.org/schemas/suffixes",
+        "organization": "https://metadatacenter.org/schemas/organization",
+        "email": "https://metadatacenter.org/schemas/email",
+        "title_In_Study": "https://metadatacenter.org/schemas/title_In_Study",
+        "role_In_Study": "https://metadatacenter.org/schemas/role_In_Study",
+        "site_Name": "https://metadatacenter.org/schemas/site_Name"
+      },
+      "user_Def_Study_Personnel_ID": {
+        "_value": "PI"
+      },
+      "honorific": {
+        "_value": ""
+      },
+      "last_Name": {
+        "_value": "Palucka"
+      },
+      "first_Name": {
+        "_value": "A. Karolina"
+      },
+      "suffixes": {
+        "_value": ""
+      },
+      "organization": {
+        "_value": "Baylor Reasearch Institute"
+      },
+      "email": {
+        "_value": "karolina.palucka@jax.org"
+      },
+      "title_In_Study": {
+        "_value": "PI"
+      },
+      "role_In_Study": {
+        "_value": [
+          "Principal Investigator"
+        ]
+      },
+      "site_Name": {
+        "_value": "Baylor Reasearch Institute"
+      }
+    }
+  ],
+  "periodsAndPlannedVisits": {
+    "_value": ""
+  },
+  "period": [
+    {
+      "@context": {
+        "_value": "https://schema.org/value",
+        "user_Def_Period_ID": "https://metadatacenter.org/schemas/user_Def_Period_ID",
+        "title": "https://metadatacenter.org/schemas/title",
+        "order_Number": "https://metadatacenter.org/schemas/order_Number"
+      },
+      "user_Def_Period_ID": {
+        "_value": "P1"
+      },
+      "title": {
+        "_value": "Period1"
+      },
+      "order_Number": {
+        "_value": "1"
+      }
+    }
+  ],
+  "planned_visit": [
+    {
+      "@context": {
+        "_value": "https://schema.org/value",
+        "user_Def_Planned_Visit_ID": "https://metadatacenter.org/schemas/user_Def_Planned_Visit_ID",
+        "visit_Name": "https://metadatacenter.org/schemas/visit_Name",
+        "visit_Order_Number": "https://metadatacenter.org/schemas/visit_Order_Number",
+        "user_Def_Period_ID": "https://metadatacenter.org/schemas/user_Def_Period_ID",
+        "min_Start_Day": "https://metadatacenter.org/schemas/min_Start_Day",
+        "max_Start_Day": "https://metadatacenter.org/schemas/max_Start_Day",
+        "start_Rule": "https://metadatacenter.org/schemas/start_Rule",
+        "end_Rule": "https://metadatacenter.org/schemas/end_Rule"
+      },
+      "user_Def_Planned_Visit_ID": {
+        "_value": "PV2339"
+      },
+      "visit_Name": {
+        "_value": "Day 0"
+      },
+      "visit_Order_Number": {
+        "_value": 1
+      },
+      "user_Def_Period_ID": {
+        "_value": "1"
+      },
+      "min_Start_Day": {
+        "_value": 1
+      },
+      "max_Start_Day": {
+        "_value": null
+      },
+      "start_Rule": {
+        "_value": ""
+      },
+      "end_Rule": {
+        "_value": ""
+      }
+    }
+  ],
+  "inclusion/ExclusionCriteria,FilesAndLinks": {
+    "_value": ""
+  },
+  "inclusion_exclusion": [
+    {
+      "@context": {
+        "_value": "https://schema.org/value",
+        "user_Def_Criterion_ID": "https://metadatacenter.org/schemas/user_Def_Criterion_ID",
+        "criterion": "https://metadatacenter.org/schemas/criterion",
+        "criterion_Category": "https://metadatacenter.org/schemas/criterion_Category"
+      },
+      "user_Def_Criterion_ID": {
+        "_value": "C1"
+      },
+      "criterion": {
+        "_value": "healthy adults, aged 18 to 64 years"
+      },
+      "criterion_Category": {
+        "_value": [
+          "Inclusion"
+        ]
+      }
+    },
+    {
+      "@context": {
+        "_value": "https://schema.org/value",
+        "user_Def_Criterion_ID": "https://metadatacenter.org/schemas/user_Def_Criterion_ID",
+        "criterion": "https://metadatacenter.org/schemas/criterion",
+        "criterion_Category": "https://metadatacenter.org/schemas/criterion_Category"
+      },
+      "user_Def_Criterion_ID": {
+        "_value": "C2"
+      },
+      "criterion": {
+        "_value": "pregnancy, active allergy symptoms, or vaccinations within the previous 2 months"
+      },
+      "criterion_Category": {
+        "_value": [
+          "Exclusion"
+        ]
+      }
+    }
+  ],
+  "study_file": [
+    {
+      "@context": {
+        "_value": "https://schema.org/value",
+        "file_Name": "https://metadatacenter.org/schemas/file_Name",
+        "description": "https://metadatacenter.org/schemas/description",
+        "study_File_Type": "https://metadatacenter.org/schemas/study_File_Type"
+      },
+      "file_Name": {
+        "_value": "Study Design.docx"
+      },
+      "description": {
+        "_value": "StudyDesign"
+      },
+      "study_File_Type": {
+        "_value": [
+          "Study_Summary_Description"
+        ]
+      }
+    }
+  ],
+  "study_link": [
+    {
+      "@context": {
+        "_value": "https://schema.org/value",
+        "link_Name": "https://metadatacenter.org/schemas/link_Name",
+        "link_Value": "https://metadatacenter.org/schemas/link_Value"
+      },
+      "link_Name": {
+        "_value": "Gene Expression Omnibus (GEO)"
+      },
+      "link_Value": {
+        "_value": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30101"
+      }
+    }
+  ],
+  "pubMedInfoAndStudy2Protocol": {
+    "_value": ""
+  },
+  "study_pubmed_info": [
+    {
+      "@context": {
+        "_value": "https://schema.org/value",
+        "pubmed_ID": "https://metadatacenter.org/schemas/pubmed_ID",
+        "pubmed_Title": "https://metadatacenter.org/schemas/pubmed_Title",
+        "journal": "https://metadatacenter.org/schemas/journal",
+        "year": "https://metadatacenter.org/schemas/year",
+        "month": "https://metadatacenter.org/schemas/month",
+        "issue": "https://metadatacenter.org/schemas/issue",
+        "pages": "https://metadatacenter.org/schemas/pages",
+        "author": "https://metadatacenter.org/schemas/author"
+      },
+      "pubmed_ID": {
+        "_value": "23601689"
+      },
+      "pubmed_Title": {
+        "_value": "Systems scale interactive exploration reveals quantitative and qualitative differences in response to influenza and pneumococcal vaccines"
+      },
+      "journal": {
+        "_value": "Immunity"
+      },
+      "year": {
+        "_value": 2013
+      },
+      "month": {
+        "_value": 4
+      },
+      "issue": {
+        "_value": "38(4)"
+      },
+      "pages": {
+        "_value": "831-44"
+      },
+      "author": [
+        {
+          "_value": "Obermoser G"
+        },
+        {
+          "_value": "Presnell S"
+        },
+        {
+          "_value": "Domico K"
+        },
+        {
+          "_value": "Xu H"
+        },
+        {
+          "_value": "Wang Y"
+        },
+        {
+          "_value": "Anguiano E"
+        },
+        {
+          "_value": "Thompson-Snipes L"
+        },
+        {
+          "_value": "Ranganathan R"
+        },
+        {
+          "_value": "Zeitner B"
+        },
+        {
+          "_value": "Bjork A"
+        },
+        {
+          "_value": "Anderson D"
+        },
+        {
+          "_value": "Speake C"
+        },
+        {
+          "_value": "Ruchaud E"
+        },
+        {
+          "_value": "Skinner J"
+        },
+        {
+          "_value": "Alsina L"
+        },
+        {
+          "_value": "Sharma M"
+        },
+        {
+          "_value": "Dutartre H"
+        },
+        {
+          "_value": "Cepika A"
+        },
+        {
+          "_value": "Israelsson E"
+        },
+        {
+          "_value": "Nguyen P"
+        },
+        {
+          "_value": "Nguyen QA"
+        },
+        {
+          "_value": "Harrod AC"
+        },
+        {
+          "_value": "Zurawski SM"
+        },
+        {
+          "_value": "Pascual V"
+        },
+        {
+          "_value": "Ueno H"
+        },
+        {
+          "_value": "Nepom GT"
+        },
+        {
+          "_value": "Quinn C"
+        },
+        {
+          "_value": "Blankenship D"
+        },
+        {
+          "_value": "Palucka K"
+        },
+        {
+          "_value": "Banchereau J"
+        },
+        {
+          "_value": "Chaussabel D"
+        }
+      ]
+    }
+  ],
+  "study_2_protocol": {
+    "@context": {
+      "_value": "https://schema.org/value",
+      "user_Def_Prot_ID": "https://metadatacenter.org/schemas/user_Def_Prot_ID"
+    },
+    "user_Def_Prot_ID": {
+      "_value": "N/A"
+    }
+  },
+  "@id": "https://repo.metadatacenter.org/d8167eaf-dcab-4c10-84ec-c61a74ef40bd",
+  "template_id": "https://repo.metadatacenter.org/e88a81ca-6dbf-433f-b9e2-da113b3d38fb",
+  "info": {
+    "template_title": "ImmPort - Basic Study Design instance",
+    "template_description": "ImmPort - Basic Study Design Template (v2.29)",
+    "creation_date": "2015-11-10T01:19:19.253Z"
+  }
+}
