@@ -6,7 +6,7 @@ Loading templates into CEDAR MongoDB database:
 
 If you want to drop the contents from the database before restoring it:
 
-`mongorestore —drop -d cedar <dump_directory>`
+`mongorestore --drop -d cedar <dump_directory>`
 
 Creating a MongoDB dump:
 
