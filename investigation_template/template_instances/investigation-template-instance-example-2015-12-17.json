@@ -1,0 +1,987 @@
+{
+  "description": {
+    "_value": ""
+  },
+  "title": {
+    "_value": "Example Investigation"
+  },
+  "study": [
+    {
+      "studyProtocol": [
+        {
+          "description": {
+            "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25365",
+            "_value": "Plasma samples were thawed and 100 microliters of plasma was transferred to 400 microliters methanol in 96-well format to precipitate proteins. This 80% methanol solution was stored at -20C overnight, and then centrifuged for 30 minutes at 3800g in 4C to pellet precipitated protein. The supernatant was aliquoted to three separate 96-well plates, sealed using a heat-seal foil, and stored at -20C until analysis.  Plate analysis order was completely randomized for each set of injections, and plates were run in batches of two plates, reflecting the autosampler capacity. Within each set of two plates, the run order was again completely randomized to prevent injection order artifacts. Duplicate injections were performed for all samples, with the second set of injections performed upon completion of the first set of injections for all samples."
+          },
+          "uRI": {
+            "@type": "http://edamontology.org/data_1047",
+            "_value": ""
+          },
+          "version": {
+            "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25714",
+            "_value": ""
+          },
+          "protocolParameter": [
+            {
+              "description": {
+                "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25365",
+                "_value": ""
+              },
+              "@context": {
+                "_value": "https://schema.org/value",
+                "name": "https://metadatacenter.org/schemas/name",
+                "description": "https://metadatacenter.org/schemas/description"
+              },
+              "name": {
+                "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42614",
+                "_value": "Post Extraction"
+              }
+            }
+          ],
+          "@context": {
+            "name": "https://metadatacenter.org/schemas/name",
+            "uRI": "https://metadatacenter.org/schemas/uRI",
+            "_value": "https://schema.org/value",
+            "version": "https://metadatacenter.org/schemas/version",
+            "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+            "type": "https://metadatacenter.org/schemas/type",
+            "description": "https://metadatacenter.org/schemas/description"
+          },
+          "type": {
+            "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25284",
+            "_value": "Extraction"
+          },
+          "name": {
+            "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42614",
+            "_value": "Extraction"
+          }
+        }
+      ],
+      "description": {
+        "_value": "Study description"
+      },
+      "title": {
+        "_value": "Study title"
+      },
+      "process": [
+        {
+          "studyProtocol": [
+            {
+              "description": {
+                "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25365",
+                "_value": "Plasma samples were thawed and 100 microliters of plasma was transferred to 400 microliters methanol in 96-well format to precipitate proteins. This 80% methanol solution was stored at -20C overnight, and then centrifuged for 30 minutes at 3800g in 4C to pellet precipitated protein. The supernatant was aliquoted to three separate 96-well plates, sealed using a heat-seal foil, and stored at -20C until analysis.  Plate analysis order was completely randomized for each set of injections, and plates were run in batches of two plates, reflecting the autosampler capacity. Within each set of two plates, the run order was again completely randomized to prevent injection order artifacts. Duplicate injections were performed for all samples, with the second set of injections performed upon completion of the first set of injections for all samples."
+              },
+              "uRI": {
+                "@type": "http://edamontology.org/data_1047",
+                "_value": ""
+              },
+              "version": {
+                "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25714",
+                "_value": ""
+              },
+              "protocolParameter": [
+                {
+                  "description": {
+                    "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25365",
+                    "_value": "P1 description"
+                  },
+                  "@context": {
+                    "_value": "https://schema.org/value",
+                    "name": "https://metadatacenter.org/schemas/name",
+                    "description": "https://metadatacenter.org/schemas/description"
+                  },
+                  "name": {
+                    "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42614",
+                    "_value": "P1"
+                  }
+                }
+              ],
+              "@context": {
+                "name": "https://metadatacenter.org/schemas/name",
+                "uRI": "https://metadatacenter.org/schemas/uRI",
+                "_value": "https://schema.org/value",
+                "version": "https://metadatacenter.org/schemas/version",
+                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                "type": "https://metadatacenter.org/schemas/type",
+                "description": "https://metadatacenter.org/schemas/description"
+              },
+              "type": {
+                "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25284",
+                "_value": "Extraction"
+              },
+              "name": {
+                "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42614",
+                "_value": "Extraction"
+              }
+            }
+          ],
+          "output": {
+            "dataFile": [
+              {
+                "description": {
+                  "@type": [
+                    "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25365",
+                    "http://semanticscience.org/resource/SIO_000136"
+                  ],
+                  "_value": ""
+                },
+                "@context": {
+                  "_value": "https://schema.org/value",
+                  "name": "https://metadatacenter.org/schemas/name",
+                  "description": "https://metadatacenter.org/schemas/description"
+                },
+                "@type": "http://www.ebi.ac.uk/efo/EFO_0004095",
+                "name": {
+                  "@type": "http://purl.obolibrary.org/obo/IAO_0000590",
+                  "_value": ""
+                }
+              }
+            ],
+            "sample": [
+              {
+                "description": {
+                  "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25365",
+                  "_value": ""
+                },
+                "characteristic": [
+                  {
+                    "description": {
+                      "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25365",
+                      "_value": ""
+                    },
+                    "characteristicValue": {
+                      "value": {
+                        "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25712",
+                        "_value": "SK-5300"
+                      },
+                      "@context": {
+                        "_value": "https://schema.org/value",
+                        "type": "https://metadatacenter.org/schemas/type",
+                        "value": "https://metadatacenter.org/schemas/value",
+                        "unit": "https://metadatacenter.org/schemas/unit"
+                      },
+                      "type": {
+                        "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25284",
+                        "_value": ""
+                      },
+                      "unit": {
+                        "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278",
+                        "_value": ""
+                      }
+                    },
+                    "@context": {
+                      "_value": "https://schema.org/value",
+                      "characteristicValue": "https://metadatacenter.org/schemas/characteristicValue",
+                      "name": "https://metadatacenter.org/schemas/name",
+                      "description": "https://metadatacenter.org/schemas/description"
+                    },
+                    "name": {
+                      "@type": "http://purl.bioontology.org/ontology/SNOMEDCT/703503000",
+                      "_value": "catalog_number"
+                    }
+                  }
+                ],
+                "studyTime": {
+                  "durationValue": {
+                    "@type": [
+                      "http://purl.bioontology.org/ontology/SNOMEDCT/103335007",
+                      "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25330",
+                      "http://www.ebi.ac.uk/efo/EFO_0000433"
+                    ],
+                    "_value": ""
+                  },
+                  "isBeforeEvent": {
+                    "_value": ""
+                  },
+                  "studyEvent": {
+                    "@type": [
+                      "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25365",
+                      "http://semanticscience.org/resource/SIO_000136",
+                      "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25499"
+                    ],
+                    "_value": ""
+                  },
+                  "@context": {
+                    "_value": "https://schema.org/value",
+                    "unit": "https://metadatacenter.org/schemas/unit",
+                    "isBeforeEvent": "https://metadatacenter.org/schemas/isBeforeEvent",
+                    "durationValue": "https://metadatacenter.org/schemas/durationValue",
+                    "studyEvent": "https://metadatacenter.org/schemas/studyEvent"
+                  },
+                  "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                  "unit": {
+                    "@type": "http://purl.obolibrary.org/obo/UO_0000003",
+                    "_value": ""
+                  }
+                },
+                "source": {
+                  "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25683",
+                  "_value": ""
+                },
+                "@context": {
+                  "name": "https://metadatacenter.org/schemas/name",
+                  "characteristic": "https://metadatacenter.org/schemas/characteristic",
+                  "studyTime": "https://metadatacenter.org/schemas/studyTime",
+                  "_value": "https://schema.org/value",
+                  "source": "https://metadatacenter.org/schemas/source",
+                  "factorValue": "https://metadatacenter.org/schemas/factorValue",
+                  "type": "https://metadatacenter.org/schemas/type",
+                  "description": "https://metadatacenter.org/schemas/description"
+                },
+                "factorValue": [
+                  {
+                    "value": {
+                      "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25712",
+                      "_value": ""
+                    },
+                    "studyFactor": [
+                      {
+                        "description": {
+                          "_value": ""
+                        },
+                        "@context": {
+                          "_value": "https://schema.org/value",
+                          "name": "https://metadatacenter.org/schemas/name",
+                          "description": "https://metadatacenter.org/schemas/description"
+                        },
+                        "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                        "name": {
+                          "@type": "http://purl.obolibrary.org/obo/IAO_0000590",
+                          "_value": ""
+                        }
+                      }
+                    ],
+                    "@context": {
+                      "_value": "https://schema.org/value",
+                      "studyFactor": "https://metadatacenter.org/schemas/studyFactor",
+                      "type": "https://metadatacenter.org/schemas/type",
+                      "value": "https://metadatacenter.org/schemas/value",
+                      "unit": "https://metadatacenter.org/schemas/unit"
+                    },
+                    "type": {
+                      "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25284",
+                      "_value": ""
+                    },
+                    "unit": {
+                      "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278",
+                      "_value": ""
+                    }
+                  }
+                ],
+                "type": {
+                  "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70713",
+                  "_value": ""
+                },
+                "name": {
+                  "@type": "http://purl.obolibrary.org/obo/MS_1000002",
+                  "_value": ""
+                }
+              }
+            ],
+            "result": [
+              {
+                "description": {
+                  "_value": ""
+                },
+                "resultValue": {
+                  "value": {
+                    "_value": ""
+                  },
+                  "@context": {
+                    "_value": "https://schema.org/value",
+                    "type": "https://metadatacenter.org/schemas/type",
+                    "value": "https://metadatacenter.org/schemas/value",
+                    "unit": "https://metadatacenter.org/schemas/unit"
+                  },
+                  "type": {
+                    "_value": ""
+                  },
+                  "unit": {
+                    "_value": ""
+                  }
+                },
+                "@context": {
+                  "_value": "https://schema.org/value",
+                  "resultValue": "https://metadatacenter.org/schemas/resultValue",
+                  "name": "https://metadatacenter.org/schemas/name",
+                  "description": "https://metadatacenter.org/schemas/description"
+                },
+                "name": {
+                  "_value": ""
+                }
+              }
+            ],
+            "@context": {
+              "_value": "https://schema.org/value",
+              "sample": "https://metadatacenter.org/schemas/sample",
+              "dataFile": "https://metadatacenter.org/schemas/dataFile",
+              "result": "https://metadatacenter.org/schemas/result"
+            }
+          },
+          "parameterValue": [
+            {
+              "value": {
+                "@type": "http://sweet.jpl.nasa.gov/2.3/reprDataProduct.owl#Value",
+                "_value": "Example value"
+              },
+              "protocolParameter": [
+                {
+                  "description": {
+                    "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25365",
+                    "_value": "P1 description"
+                  },
+                  "@context": {
+                    "_value": "https://schema.org/value",
+                    "name": "https://metadatacenter.org/schemas/name",
+                    "description": "https://metadatacenter.org/schemas/description"
+                  },
+                  "name": {
+                    "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42614",
+                    "_value": "P1"
+                  }
+                }
+              ],
+              "@context": {
+                "_value": "https://schema.org/value",
+                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                "type": "https://metadatacenter.org/schemas/type",
+                "value": "https://metadatacenter.org/schemas/value",
+                "unit": "https://metadatacenter.org/schemas/unit"
+              },
+              "type": {
+                "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25284",
+                "_value": "Example type"
+              },
+              "unit": {
+                "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278",
+                "_value": "Example unit"
+              }
+            }
+          ],
+          "input": {
+            "studySubject": [
+              {
+                "name": {
+                  "@type": "http://purl.obolibrary.org/obo/IAO_0000590",
+                  "_value": "SUB122358"
+                },
+                "characteristic": [
+                  {
+                    "description": {
+                      "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25365",
+                      "_value": ""
+                    },
+                    "characteristicValue": {
+                      "value": {
+                        "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25712",
+                        "_value": "Other"
+                      },
+                      "@context": {
+                        "_value": "https://schema.org/value",
+                        "type": "https://metadatacenter.org/schemas/type",
+                        "value": "https://metadatacenter.org/schemas/value",
+                        "unit": "https://metadatacenter.org/schemas/unit"
+                      },
+                      "type": {
+                        "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25284",
+                        "_value": "https://schema.org/Text"
+                      },
+                      "unit": {
+                        "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278",
+                        "_value": ""
+                      }
+                    },
+                    "@context": {
+                      "_value": "https://schema.org/value",
+                      "characteristicValue": "https://metadatacenter.org/schemas/characteristicValue",
+                      "name": "https://metadatacenter.org/schemas/name",
+                      "description": "https://metadatacenter.org/schemas/description"
+                    },
+                    "name": {
+                      "@type": "http://purl.bioontology.org/ontology/SNOMEDCT/703503000",
+                      "_value": "age_event"
+                    }
+                  }
+                ],
+                "@context": {
+                  "_value": "https://schema.org/value",
+                  "characteristic": "https://metadatacenter.org/schemas/characteristic",
+                  "type": "https://metadatacenter.org/schemas/type",
+                  "name": "https://metadatacenter.org/schemas/name"
+                },
+                "type": {
+                  "_value": ""
+                },
+                "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41189"
+              }
+            ],
+            "dataFile": [
+              {
+                "description": {
+                  "@type": [
+                    "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25365",
+                    "http://semanticscience.org/resource/SIO_000136"
+                  ],
+                  "_value": ""
+                },
+                "@context": {
+                  "_value": "https://schema.org/value",
+                  "name": "https://metadatacenter.org/schemas/name",
+                  "description": "https://metadatacenter.org/schemas/description"
+                },
+                "@type": "http://www.ebi.ac.uk/efo/EFO_0004095",
+                "name": {
+                  "@type": "http://purl.obolibrary.org/obo/IAO_0000590",
+                  "_value": ""
+                }
+              }
+            ],
+            "sample": [
+              {
+                "description": {
+                  "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25365",
+                  "_value": "IFNg ELISPOT of M1 181 peptide restimulated murine T cells at day 4 post x139 influenza primary infection"
+                },
+                "characteristic": [
+                  {
+                    "description": {
+                      "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25365",
+                      "_value": ""
+                    },
+                    "characteristicValue": {
+                      "value": {
+                        "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25712",
+                        "_value": "SK-5300"
+                      },
+                      "@context": {
+                        "_value": "https://schema.org/value",
+                        "type": "https://metadatacenter.org/schemas/type",
+                        "value": "https://metadatacenter.org/schemas/value",
+                        "unit": "https://metadatacenter.org/schemas/unit"
+                      },
+                      "type": {
+                        "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25284",
+                        "_value": ""
+                      },
+                      "unit": {
+                        "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278",
+                        "_value": ""
+                      }
+                    },
+                    "@context": {
+                      "_value": "https://schema.org/value",
+                      "characteristicValue": "https://metadatacenter.org/schemas/characteristicValue",
+                      "name": "https://metadatacenter.org/schemas/name",
+                      "description": "https://metadatacenter.org/schemas/description"
+                    },
+                    "name": {
+                      "@type": "http://purl.bioontology.org/ontology/SNOMEDCT/703503000",
+                      "_value": "catalog_number"
+                    }
+                  }
+                ],
+                "studyTime": {
+                  "durationValue": {
+                    "@type": [
+                      "http://purl.bioontology.org/ontology/SNOMEDCT/103335007",
+                      "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25330",
+                      "http://www.ebi.ac.uk/efo/EFO_0000433"
+                    ],
+                    "_value": ""
+                  },
+                  "isBeforeEvent": {
+                    "_value": ""
+                  },
+                  "studyEvent": {
+                    "@type": [
+                      "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25365",
+                      "http://semanticscience.org/resource/SIO_000136",
+                      "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25499"
+                    ],
+                    "_value": ""
+                  },
+                  "@context": {
+                    "_value": "https://schema.org/value",
+                    "unit": "https://metadatacenter.org/schemas/unit",
+                    "isBeforeEvent": "https://metadatacenter.org/schemas/isBeforeEvent",
+                    "durationValue": "https://metadatacenter.org/schemas/durationValue",
+                    "studyEvent": "https://metadatacenter.org/schemas/studyEvent"
+                  },
+                  "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                  "unit": {
+                    "@type": "http://purl.obolibrary.org/obo/UO_0000003",
+                    "_value": ""
+                  }
+                },
+                "source": {
+                  "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25683",
+                  "_value": ""
+                },
+                "@context": {
+                  "name": "https://metadatacenter.org/schemas/name",
+                  "characteristic": "https://metadatacenter.org/schemas/characteristic",
+                  "studyTime": "https://metadatacenter.org/schemas/studyTime",
+                  "_value": "https://schema.org/value",
+                  "source": "https://metadatacenter.org/schemas/source",
+                  "factorValue": "https://metadatacenter.org/schemas/factorValue",
+                  "type": "https://metadatacenter.org/schemas/type",
+                  "description": "https://metadatacenter.org/schemas/description"
+                },
+                "factorValue": [
+                  {
+                    "value": {
+                      "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25712",
+                      "_value": ""
+                    },
+                    "studyFactor": [
+                      {
+                        "description": {
+                          "_value": ""
+                        },
+                        "@context": {
+                          "_value": "https://schema.org/value",
+                          "name": "https://metadatacenter.org/schemas/name",
+                          "description": "https://metadatacenter.org/schemas/description"
+                        },
+                        "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                        "name": {
+                          "@type": "http://purl.obolibrary.org/obo/IAO_0000590",
+                          "_value": ""
+                        }
+                      }
+                    ],
+                    "@context": {
+                      "_value": "https://schema.org/value",
+                      "studyFactor": "https://metadatacenter.org/schemas/studyFactor",
+                      "type": "https://metadatacenter.org/schemas/type",
+                      "value": "https://metadatacenter.org/schemas/value",
+                      "unit": "https://metadatacenter.org/schemas/unit"
+                    },
+                    "type": {
+                      "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25284",
+                      "_value": "Name"
+                    },
+                    "unit": {
+                      "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278",
+                      "_value": ""
+                    }
+                  }
+                ],
+                "type": {
+                  "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70713",
+                  "_value": "ELISPOT"
+                },
+                "name": {
+                  "@type": "http://purl.obolibrary.org/obo/MS_1000002",
+                  "_value": ""
+                }
+              }
+            ],
+            "reagent": [
+              {
+                "name": {
+                  "@type": "http://purl.obolibrary.org/obo/IAO_0000590",
+                  "_value": "Vector blue substrate kit III"
+                },
+                "characteristic": [
+                  {
+                    "description": {
+                      "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25365",
+                      "_value": ""
+                    },
+                    "characteristicValue": {
+                      "value": {
+                        "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25712",
+                        "_value": "SK-5300"
+                      },
+                      "@context": {
+                        "_value": "https://schema.org/value",
+                        "type": "https://metadatacenter.org/schemas/type",
+                        "value": "https://metadatacenter.org/schemas/value",
+                        "unit": "https://metadatacenter.org/schemas/unit"
+                      },
+                      "type": {
+                        "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25284",
+                        "_value": ""
+                      },
+                      "unit": {
+                        "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278",
+                        "_value": ""
+                      }
+                    },
+                    "@context": {
+                      "_value": "https://schema.org/value",
+                      "characteristicValue": "https://metadatacenter.org/schemas/characteristicValue",
+                      "name": "https://metadatacenter.org/schemas/name",
+                      "description": "https://metadatacenter.org/schemas/description"
+                    },
+                    "name": {
+                      "@type": "http://purl.bioontology.org/ontology/SNOMEDCT/703503000",
+                      "_value": "catalog_number"
+                    }
+                  }
+                ],
+                "@context": {
+                  "_value": "https://schema.org/value",
+                  "characteristic": "https://metadatacenter.org/schemas/characteristic",
+                  "type": "https://metadatacenter.org/schemas/type",
+                  "name": "https://metadatacenter.org/schemas/name"
+                },
+                "type": {
+                  "_value": ""
+                },
+                "@type": "http://purl.obolibrary.org/obo/OBI_0001879"
+              }
+            ],
+            "result": [
+              {
+                "description": {
+                  "_value": ""
+                },
+                "resultValue": {
+                  "value": {
+                    "_value": "Example result value"
+                  },
+                  "@context": {
+                    "_value": "https://schema.org/value",
+                    "type": "https://metadatacenter.org/schemas/type",
+                    "value": "https://metadatacenter.org/schemas/value",
+                    "unit": "https://metadatacenter.org/schemas/unit"
+                  },
+                  "type": {
+                    "_value": ""
+                  },
+                  "unit": {
+                    "_value": ""
+                  }
+                },
+                "@context": {
+                  "_value": "https://schema.org/value",
+                  "resultValue": "https://metadatacenter.org/schemas/resultValue",
+                  "name": "https://metadatacenter.org/schemas/name",
+                  "description": "https://metadatacenter.org/schemas/description"
+                },
+                "name": {
+                  "_value": "Example result name"
+                }
+              }
+            ],
+            "@context": {
+              "sample": "https://metadatacenter.org/schemas/sample",
+              "dataFile": "https://metadatacenter.org/schemas/dataFile",
+              "studySubject": "https://metadatacenter.org/schemas/studySubject",
+              "_value": "https://schema.org/value",
+              "reagent": "https://metadatacenter.org/schemas/reagent",
+              "result": "https://metadatacenter.org/schemas/result"
+            }
+          },
+          "@context": {
+            "studyProtocol": "https://metadatacenter.org/schemas/studyProtocol",
+            "_value": "https://schema.org/value",
+            "parameterValue": "https://metadatacenter.org/schemas/parameterValue",
+            "output": "https://metadatacenter.org/schemas/output",
+            "input": "https://metadatacenter.org/schemas/input",
+            "studyAssay": "https://metadatacenter.org/schemas/studyAssay",
+            "type": "https://metadatacenter.org/schemas/type"
+          },
+          "studyAssay": [
+            {
+              "platform": {
+                "@type": "http://purl.obolibrary.org/obo/OBI_0000052",
+                "_value": "Xevo G2 QTOF (Waters)"
+              },
+              "@context": {
+                "_value": "https://schema.org/value",
+                "platform": "https://metadatacenter.org/schemas/platform",
+                "measurementType": "https://metadatacenter.org/schemas/measurementType",
+                "technology": "https://metadatacenter.org/schemas/technology"
+              },
+              "measurementType": {
+                "@type": "http://scai.fraunhofer.de/HuPSON#SCAIVPH_00000190",
+                "_value": "http://purl.obolibrary.org/obo/OBI_0000366"
+              },
+              "technology": {
+                "_value": "mass spectrometry"
+              },
+              "@type": "http://purl.obolibrary.org/obo/BFO_0000055"
+            }
+          ],
+          "type": {
+            "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25284",
+            "_value": ""
+          }
+        }
+      ],
+      "studyDesignType": {
+        "_value": ""
+      },
+      "submissionDate": {
+        "_value": "2014-10-21"
+      },
+      "contact": [
+        {
+          "fax": {
+            "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25210",
+            "_value": ""
+          },
+          "organization": [
+            {
+              "name": {
+                "@type": "http://purl.obolibrary.org/obo/IAO_0000590",
+                "_value": "University of Rochester Medical Center"
+              },
+              "department": {
+                "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42671",
+                "_value": ""
+              },
+              "@context": {
+                "_value": "https://schema.org/value",
+                "department": "https://metadatacenter.org/schemas/department",
+                "name": "https://metadatacenter.org/schemas/name"
+              },
+              "@type": "https://metadatacenter.org/model/Organization"
+            }
+          ],
+          "firstName": {
+            "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40974",
+            "_value": "Andrea"
+          },
+          "lastName": {
+            "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40975",
+            "_value": "Sant"
+          },
+          "middleInitial": {
+            "_value": ""
+          },
+          "email": {
+            "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42775",
+            "_value": "andrea_sant@urmc.rochester.edu"
+          },
+          "phone": {
+            "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40978",
+            "_value": ""
+          },
+          "role": {
+            "_value": ""
+          },
+          "address": {
+            "@type": "http://purl.obolibrary.org/obo/IAO_0000422",
+            "_value": ""
+          },
+          "@context": {
+            "fax": "https://metadatacenter.org/schemas/fax",
+            "firstName": "https://metadatacenter.org/schemas/firstName",
+            "lastName": "https://metadatacenter.org/schemas/lastName",
+            "middleInitial": "https://metadatacenter.org/schemas/middleInitial",
+            "_value": "https://schema.org/value",
+            "phone": "https://metadatacenter.org/schemas/phone",
+            "role": "https://metadatacenter.org/schemas/role",
+            "address": "https://metadatacenter.org/schemas/address",
+            "organization": "https://metadatacenter.org/schemas/organization",
+            "email": "https://metadatacenter.org/schemas/email"
+          },
+          "@type": "https://repo.metadatacenter.org/model/Contact"
+        }
+      ],
+      "studyFactor": [
+        {
+          "description": {
+            "_value": ""
+          },
+          "@context": {
+            "_value": "https://schema.org/value",
+            "name": "https://metadatacenter.org/schemas/name",
+            "description": "https://metadatacenter.org/schemas/description"
+          },
+          "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+          "name": {
+            "@type": "http://purl.obolibrary.org/obo/IAO_0000590",
+            "_value": "Treatment: NP 310"
+          }
+        }
+      ],
+      "publicReleaseDate": {
+        "_value": "2015-03-25"
+      },
+      "studyGroupPopulation": [
+        {
+          "studySubject": [
+            {
+              "name": {
+                "@type": "http://purl.obolibrary.org/obo/IAO_0000590",
+                "_value": "SUB122358"
+              },
+              "characteristic": [
+                {
+                  "description": {
+                    "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25365",
+                    "_value": ""
+                  },
+                  "characteristicValue": {
+                    "value": {
+                      "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25712",
+                      "_value": "Other"
+                    },
+                    "@context": {
+                      "_value": "https://schema.org/value",
+                      "type": "https://metadatacenter.org/schemas/type",
+                      "value": "https://metadatacenter.org/schemas/value",
+                      "unit": "https://metadatacenter.org/schemas/unit"
+                    },
+                    "type": {
+                      "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25284",
+                      "_value": "https://schema.org/Text"
+                    },
+                    "unit": {
+                      "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278",
+                      "_value": ""
+                    }
+                  },
+                  "@context": {
+                    "_value": "https://schema.org/value",
+                    "characteristicValue": "https://metadatacenter.org/schemas/characteristicValue",
+                    "name": "https://metadatacenter.org/schemas/name",
+                    "description": "https://metadatacenter.org/schemas/description"
+                  },
+                  "name": {
+                    "@type": "http://purl.bioontology.org/ontology/SNOMEDCT/703503000",
+                    "_value": "age_event"
+                  }
+                }
+              ],
+              "@context": {
+                "_value": "https://schema.org/value",
+                "characteristic": "https://metadatacenter.org/schemas/characteristic",
+                "type": "https://metadatacenter.org/schemas/type",
+                "name": "https://metadatacenter.org/schemas/name"
+              },
+              "type": {
+                "_value": ""
+              },
+              "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41189"
+            }
+          ],
+          "name": {
+            "@type": "http://purl.obolibrary.org/obo/IAO_0000590",
+            "_value": "B10.S_x139prim"
+          },
+          "selectionRule": {
+            "@type": "http://purl.obolibrary.org/obo/OBI_0001755",
+            "_value": "B10.S mouse"
+          },
+          "@context": {
+            "_value": "https://schema.org/value",
+            "studySubject": "https://metadatacenter.org/schemas/studySubject",
+            "type": "https://metadatacenter.org/schemas/type",
+            "name": "https://metadatacenter.org/schemas/name",
+            "selectionRule": "https://metadatacenter.org/schemas/selectionRule"
+          },
+          "type": {
+            "_value": "B10.S_x139prim"
+          },
+          "@type": "http://purl.obolibrary.org/obo/OBI_0000181"
+        }
+      ],
+      "@context": {
+        "studyProtocol": "https://metadatacenter.org/schemas/studyProtocol",
+        "description": "https://metadatacenter.org/schemas/description",
+        "title": "https://metadatacenter.org/schemas/title",
+        "process": "https://metadatacenter.org/schemas/process",
+        "studyDesignType": "https://metadatacenter.org/schemas/studyDesignType",
+        "submissionDate": "https://metadatacenter.org/schemas/submissionDate",
+        "contact": "https://metadatacenter.org/schemas/contact",
+        "_value": "https://schema.org/value",
+        "studyFactor": "https://metadatacenter.org/schemas/studyFactor",
+        "publicReleaseDate": "https://metadatacenter.org/schemas/publicReleaseDate",
+        "studyGroupPopulation": "https://metadatacenter.org/schemas/studyGroupPopulation",
+        "studyAssay": "https://metadatacenter.org/schemas/studyAssay",
+        "identifier": "https://metadatacenter.org/schemas/identifier",
+        "publication": "https://metadatacenter.org/schemas/publication"
+      },
+      "studyAssay": [
+        {
+          "platform": {
+            "@type": "http://purl.obolibrary.org/obo/OBI_0000052",
+            "_value": ""
+          },
+          "@context": {
+            "_value": "https://schema.org/value",
+            "platform": "https://metadatacenter.org/schemas/platform",
+            "measurementType": "https://metadatacenter.org/schemas/measurementType",
+            "technology": "https://metadatacenter.org/schemas/technology"
+          },
+          "measurementType": {
+            "@type": "http://scai.fraunhofer.de/HuPSON#SCAIVPH_00000190",
+            "_value": ""
+          },
+          "technology": {
+            "_value": ""
+          },
+          "@type": "http://purl.obolibrary.org/obo/BFO_0000055"
+        }
+      ],
+      "identifier": {
+        "_value": "MTBLS124"
+      },
+      "publication": [
+        {
+          "status": {
+            "@type": "http://www.ebi.ac.uk/efo/EFO_0001742",
+            "_value": "published"
+          },
+          "dOI": {
+            "@type": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71462",
+            "_value": ""
+          },
+          "title": {
+            "_value": "Cutting edge: Heterosubtypic influenza infection antagonizes elicitation of immunological reactivity to hemagglutinin."
+          },
+          "pubMedID": {
+            "@type": "http://purl.obolibrary.org/obo/OBI_0001617",
+            "_value": "23794632"
+          },
+          "authorList": [
+            {
+              "@type": "http://purl.obolibrary.org/obo/IAO_0000321",
+              "_value": ""
+            }
+          ],
+          "@context": {
+            "status": "https://metadatacenter.org/schemas/status",
+            "dOI": "https://metadatacenter.org/schemas/dOI",
+            "title": "https://metadatacenter.org/schemas/title",
+            "pubMedID": "https://metadatacenter.org/schemas/pubMedID",
+            "_value": "https://schema.org/value",
+            "authorList": "https://metadatacenter.org/schemas/authorList"
+          },
+          "@type": "https://repo.metadatacenter.org/model/Publication"
+        }
+      ]
+    }
+  ],
+  "submissionDate": {
+    "_value": ""
+  },
+  "publicReleaseDate": {
+    "_value": ""
+  },
+  "@context": {
+    "description": "https://metadatacenter.org/schemas/description",
+    "title": "https://metadatacenter.org/schemas/title",
+    "study": "https://metadatacenter.org/schemas/study",
+    "submissionDate": "https://metadatacenter.org/schemas/submissionDate",
+    "_value": "https://schema.org/value",
+    "publicReleaseDate": "https://metadatacenter.org/schemas/publicReleaseDate",
+    "identifier": "https://metadatacenter.org/schemas/identifier"
+  },
+  "identifier": {
+    "_value": "1413823492933"
+  },
+  "@id": "https://repo.metadatacenter.org/86e97865-070c-4b2f-9155-3d5cba998395",
+  "templateId": "https://repo.metadatacenter.org/406d3a6d-c264-417a-bf30-bd6273762bd8",
+  "_ui": {
+    "templateTitle": "Investigation (v1.0.0) instance",
+    "templateDescription": "Investigation Template v1.0.0",
+    "creationDate": "2015-12-17T23:10:05.786Z"
+  }
+}
