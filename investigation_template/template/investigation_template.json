@@ -97,6 +97,21 @@
         "description": "Investigation Model - Study",
         "title": "Study",
         "type": "object",
+        "required": [
+          "studyProtocol",
+          "description",
+          "title",
+          "process",
+          "studyDesignType",
+          "submissionDate",
+          "contact",
+          "studyFactor",
+          "publicReleaseDate",
+          "studyGroupPopulation",
+          "studyAssay",
+          "identifier",
+          "publication"
+        ],
         "additionalProperties": false,
         "@id": "https://repo.metadatacenter.org/84a4ac78-2874-41d8-af9b-7d6b21621c17",
         "properties": {
@@ -106,6 +121,14 @@
               "description": "Investigation Model - Study Protocol",
               "title": "Study Protocol",
               "type": "object",
+              "required": [
+                "description",
+                "uRI",
+                "version",
+                "protocolParameter",
+                "type",
+                "name"
+              ],
               "additionalProperties": false,
               "@id": "https://repo.metadatacenter.org/a05613f3-5eda-44d2-88d9-10a0c53ff224",
               "properties": {
@@ -267,6 +290,10 @@
                     "description": "Investigation Model - Protocol Parameter",
                     "title": "Protocol Parameter",
                     "type": "object",
+                    "required": [
+                      "description",
+                      "name"
+                    ],
                     "additionalProperties": false,
                     "@id": "https://repo.metadatacenter.org/09e79e3c-30d1-430e-b1c1-888126f0975e",
                     "properties": {
@@ -692,6 +719,14 @@
               "description": "Investigation Model - Process",
               "title": "Process",
               "type": "object",
+              "required": [
+                "studyProtocol",
+                "output",
+                "parameterValue",
+                "input",
+                "studyAssay",
+                "type"
+              ],
               "additionalProperties": false,
               "@id": "https://repo.metadatacenter.org/8d557b03-4f7f-4751-b247-607153f9d833",
               "properties": {
@@ -701,6 +736,14 @@
                     "description": "Investigation Model - Study Protocol",
                     "title": "Study Protocol",
                     "type": "object",
+                    "required": [
+                      "description",
+                      "uRI",
+                      "version",
+                      "protocolParameter",
+                      "type",
+                      "name"
+                    ],
                     "additionalProperties": false,
                     "@id": "https://repo.metadatacenter.org/a05613f3-5eda-44d2-88d9-10a0c53ff224",
                     "properties": {
@@ -862,6 +905,10 @@
                           "description": "Investigation Model - Protocol Parameter",
                           "title": "Protocol Parameter",
                           "type": "object",
+                          "required": [
+                            "description",
+                            "name"
+                          ],
                           "additionalProperties": false,
                           "@id": "https://repo.metadatacenter.org/09e79e3c-30d1-430e-b1c1-888126f0975e",
                           "properties": {
@@ -1208,6 +1255,11 @@
                       "sample"
                     ]
                   },
+                  "required": [
+                    "dataFile",
+                    "sample",
+                    "result"
+                  ],
                   "additionalProperties": false,
                   "type": "object",
                   "properties": {
@@ -1217,6 +1269,10 @@
                         "description": "Investigation model - Data File",
                         "title": "Data File",
                         "type": "object",
+                        "required": [
+                          "description",
+                          "name"
+                        ],
                         "additionalProperties": false,
                         "@id": "https://repo.metadatacenter.org/81940f2a-00ec-4c13-b584-075e770fe73b",
                         "properties": {
@@ -1390,6 +1446,15 @@
                         "description": "Investigation Model - Sample",
                         "title": "Sample",
                         "type": "object",
+                        "required": [
+                          "description",
+                          "characteristic",
+                          "studyTime",
+                          "source",
+                          "factorValue",
+                          "type",
+                          "name"
+                        ],
                         "additionalProperties": false,
                         "@id": "https://repo.metadatacenter.org/8a2717e0-599b-41b1-8568-3f15f151b01d",
                         "properties": {
@@ -1451,6 +1516,11 @@
                               "description": "Investigation Model - Characteristic",
                               "title": "Characteristic",
                               "type": "object",
+                              "required": [
+                                "description",
+                                "characteristicValue",
+                                "name"
+                              ],
                               "additionalProperties": false,
                               "@id": "https://repo.metadatacenter.org/4bb43879-f633-4fd1-beba-30c3257e1dcb",
                               "properties": {
@@ -1513,6 +1583,11 @@
                                       "value"
                                     ]
                                   },
+                                  "required": [
+                                    "value",
+                                    "type",
+                                    "unit"
+                                  ],
                                   "additionalProperties": false,
                                   "type": "object",
                                   "properties": {
@@ -1846,6 +1921,12 @@
                                 "unit"
                               ]
                             },
+                            "required": [
+                              "durationValue",
+                              "isBeforeEvent",
+                              "studyEvent",
+                              "unit"
+                            ],
                             "additionalProperties": false,
                             "type": "object",
                             "properties": {
@@ -2227,6 +2308,12 @@
                               "description": "Investigation Model - Factor Value",
                               "title": "Factor Value",
                               "type": "object",
+                              "required": [
+                                "value",
+                                "studyFactor",
+                                "type",
+                                "unit"
+                              ],
                               "additionalProperties": false,
                               "@id": "https://repo.metadatacenter.org/e98f3051-2fad-4069-a4e4-b5f2220acb8f",
                               "properties": {
@@ -2288,6 +2375,10 @@
                                     "description": "Investigation model - Study Factor",
                                     "title": "Study Factor",
                                     "type": "object",
+                                    "required": [
+                                      "description",
+                                      "name"
+                                    ],
                                     "additionalProperties": false,
                                     "@id": "https://repo.metadatacenter.org/933ef7a4-cb4d-4d67-810f-45c4cdfe968b",
                                     "properties": {
@@ -2751,6 +2842,11 @@
                         "description": "Investigation model - Result",
                         "title": "Result",
                         "type": "object",
+                        "required": [
+                          "description",
+                          "resultValue",
+                          "name"
+                        ],
                         "additionalProperties": false,
                         "@id": "https://repo.metadatacenter.org/32fcfed5-b9f3-482a-979b-d2526522d5a2",
                         "properties": {
@@ -2807,6 +2903,11 @@
                                 "value"
                               ]
                             },
+                            "required": [
+                              "value",
+                              "type",
+                              "unit"
+                            ],
                             "additionalProperties": false,
                             "type": "object",
                             "properties": {
@@ -3173,6 +3274,12 @@
                     "description": "Investigation model - Parameter Value",
                     "title": "Parameter Value",
                     "type": "object",
+                    "required": [
+                      "value",
+                      "protocolParameter",
+                      "type",
+                      "unit"
+                    ],
                     "additionalProperties": false,
                     "@id": "https://repo.metadatacenter.org/3cc5f1f8-8c0b-49a2-b3e1-4abd2da1670d",
                     "properties": {
@@ -3238,6 +3345,10 @@
                           "description": "Investigation Model - Protocol Parameter",
                           "title": "Protocol Parameter",
                           "type": "object",
+                          "required": [
+                            "description",
+                            "name"
+                          ],
                           "additionalProperties": false,
                           "@id": "https://repo.metadatacenter.org/09e79e3c-30d1-430e-b1c1-888126f0975e",
                           "properties": {
@@ -3572,6 +3683,13 @@
                       "studySubject"
                     ]
                   },
+                  "required": [
+                    "studySubject",
+                    "dataFile",
+                    "sample",
+                    "reagent",
+                    "result"
+                  ],
                   "additionalProperties": false,
                   "type": "object",
                   "properties": {
@@ -3581,6 +3699,11 @@
                         "description": "Investigation model - Study Subject",
                         "title": "Study Subject",
                         "type": "object",
+                        "required": [
+                          "name",
+                          "characteristic",
+                          "type"
+                        ],
                         "additionalProperties": false,
                         "@id": "https://repo.metadatacenter.org/831bc2ee-50df-439b-b5ff-525264a3c5ed",
                         "properties": {
@@ -3642,6 +3765,11 @@
                               "description": "Investigation Model - Characteristic",
                               "title": "Characteristic",
                               "type": "object",
+                              "required": [
+                                "description",
+                                "characteristicValue",
+                                "name"
+                              ],
                               "additionalProperties": false,
                               "@id": "https://repo.metadatacenter.org/4bb43879-f633-4fd1-beba-30c3257e1dcb",
                               "properties": {
@@ -3704,6 +3832,11 @@
                                       "value"
                                     ]
                                   },
+                                  "required": [
+                                    "value",
+                                    "type",
+                                    "unit"
+                                  ],
                                   "additionalProperties": false,
                                   "type": "object",
                                   "properties": {
@@ -4142,6 +4275,10 @@
                         "description": "Investigation model - Data File",
                         "title": "Data File",
                         "type": "object",
+                        "required": [
+                          "description",
+                          "name"
+                        ],
                         "additionalProperties": false,
                         "@id": "https://repo.metadatacenter.org/81940f2a-00ec-4c13-b584-075e770fe73b",
                         "properties": {
@@ -4315,6 +4452,15 @@
                         "description": "Investigation Model - Sample",
                         "title": "Sample",
                         "type": "object",
+                        "required": [
+                          "description",
+                          "characteristic",
+                          "studyTime",
+                          "source",
+                          "factorValue",
+                          "type",
+                          "name"
+                        ],
                         "additionalProperties": false,
                         "@id": "https://repo.metadatacenter.org/8a2717e0-599b-41b1-8568-3f15f151b01d",
                         "properties": {
@@ -4376,6 +4522,11 @@
                               "description": "Investigation Model - Characteristic",
                               "title": "Characteristic",
                               "type": "object",
+                              "required": [
+                                "description",
+                                "characteristicValue",
+                                "name"
+                              ],
                               "additionalProperties": false,
                               "@id": "https://repo.metadatacenter.org/4bb43879-f633-4fd1-beba-30c3257e1dcb",
                               "properties": {
@@ -4438,6 +4589,11 @@
                                       "value"
                                     ]
                                   },
+                                  "required": [
+                                    "value",
+                                    "type",
+                                    "unit"
+                                  ],
                                   "additionalProperties": false,
                                   "type": "object",
                                   "properties": {
@@ -4771,6 +4927,12 @@
                                 "unit"
                               ]
                             },
+                            "required": [
+                              "durationValue",
+                              "isBeforeEvent",
+                              "studyEvent",
+                              "unit"
+                            ],
                             "additionalProperties": false,
                             "type": "object",
                             "properties": {
@@ -5152,6 +5314,12 @@
                               "description": "Investigation Model - Factor Value",
                               "title": "Factor Value",
                               "type": "object",
+                              "required": [
+                                "value",
+                                "studyFactor",
+                                "type",
+                                "unit"
+                              ],
                               "additionalProperties": false,
                               "@id": "https://repo.metadatacenter.org/e98f3051-2fad-4069-a4e4-b5f2220acb8f",
                               "properties": {
@@ -5213,6 +5381,10 @@
                                     "description": "Investigation model - Study Factor",
                                     "title": "Study Factor",
                                     "type": "object",
+                                    "required": [
+                                      "description",
+                                      "name"
+                                    ],
                                     "additionalProperties": false,
                                     "@id": "https://repo.metadatacenter.org/933ef7a4-cb4d-4d67-810f-45c4cdfe968b",
                                     "properties": {
@@ -5672,6 +5844,11 @@
                         "description": "Investigation model - Reagent",
                         "title": "Reagent",
                         "type": "object",
+                        "required": [
+                          "name",
+                          "characteristic",
+                          "type"
+                        ],
                         "additionalProperties": false,
                         "@id": "https://repo.metadatacenter.org/2ea5f535-d382-4b22-96ba-04c9341e06b6",
                         "properties": {
@@ -5733,6 +5910,11 @@
                               "description": "Investigation Model - Characteristic",
                               "title": "Characteristic",
                               "type": "object",
+                              "required": [
+                                "description",
+                                "characteristicValue",
+                                "name"
+                              ],
                               "additionalProperties": false,
                               "@id": "https://repo.metadatacenter.org/4bb43879-f633-4fd1-beba-30c3257e1dcb",
                               "properties": {
@@ -5795,6 +5977,11 @@
                                       "value"
                                     ]
                                   },
+                                  "required": [
+                                    "type",
+                                    "unit",
+                                    "value"
+                                  ],
                                   "additionalProperties": false,
                                   "type": "object",
                                   "properties": {
@@ -6237,6 +6424,11 @@
                         "description": "Investigation model - Result",
                         "title": "Result",
                         "type": "object",
+                        "required": [
+                          "name",
+                          "description",
+                          "resultValue"
+                        ],
                         "additionalProperties": false,
                         "@id": "https://repo.metadatacenter.org/32fcfed5-b9f3-482a-979b-d2526522d5a2",
                         "properties": {
@@ -6293,6 +6485,11 @@
                                 "value"
                               ]
                             },
+                            "required": [
+                              "type",
+                              "unit",
+                              "value"
+                            ],
                             "additionalProperties": false,
                             "type": "object",
                             "properties": {
@@ -6712,6 +6909,11 @@
                     "description": "Investigation model - Study Assay",
                     "title": "Study Assay",
                     "type": "object",
+                    "required": [
+                      "measurementType",
+                      "platform",
+                      "technology"
+                    ],
                     "additionalProperties": false,
                     "@id": "https://repo.metadatacenter.org/b66b143f-ab1f-40d2-b9e1-cbd25da13219",
                     "properties": {
@@ -7095,6 +7297,17 @@
               "description": "Investigation model (Contact)",
               "title": "Contact",
               "type": "object",
+              "required": [
+                "firstName",
+                "middleInitial",
+                "lastName",
+                "address",
+                "email",
+                "phone",
+                "fax",
+                "role",
+                "organization"
+              ],
               "additionalProperties": false,
               "@id": "https://repo.metadatacenter.org/495a58ba-10e3-4979-87cf-5c7e213ae38c",
               "properties": {
@@ -7149,6 +7362,10 @@
                 "organization": {
                   "minItems": 1,
                   "items": {
+                    "required": [
+                      "name",
+                      "department"
+                    ],
                     "additionalProperties": false,
                     "@id": "https://repo.metadatacenter.org/79f0c060-414c-4369-8f58-a5b685f6ea68",
                     "type": "object",
@@ -7761,6 +7978,10 @@
               "description": "Investigation model - Study Factor",
               "title": "Study Factor",
               "type": "object",
+              "required": [
+                "name",
+                "description"
+              ],
               "additionalProperties": false,
               "@id": "https://repo.metadatacenter.org/933ef7a4-cb4d-4d67-810f-45c4cdfe968b",
               "properties": {
@@ -7972,6 +8193,12 @@
               "description": "Investigation model - Study Group Population",
               "title": "Study Group Population",
               "type": "object",
+              "required": [
+                "name",
+                "type",
+                "selectionRule",
+                "studySubject"
+              ],
               "additionalProperties": false,
               "@id": "https://repo.metadatacenter.org/c680eded-9b1a-4ba6-994b-04863f2e5a74",
               "properties": {
@@ -7981,6 +8208,11 @@
                     "description": "Investigation model - Study Subject",
                     "title": "Study Subject",
                     "type": "object",
+                    "required": [
+                      "name",
+                      "type",
+                      "characteristic"
+                    ],
                     "additionalProperties": false,
                     "@id": "https://repo.metadatacenter.org/831bc2ee-50df-439b-b5ff-525264a3c5ed",
                     "properties": {
@@ -8042,6 +8274,11 @@
                           "description": "Investigation Model - Characteristic",
                           "title": "Characteristic",
                           "type": "object",
+                          "required": [
+                            "name",
+                            "description",
+                            "characteristicValue"
+                          ],
                           "additionalProperties": false,
                           "@id": "https://repo.metadatacenter.org/4bb43879-f633-4fd1-beba-30c3257e1dcb",
                           "properties": {
@@ -8104,6 +8341,11 @@
                                   "value"
                                 ]
                               },
+                              "required": [
+                                "type",
+                                "unit",
+                                "value"
+                              ],
                               "additionalProperties": false,
                               "type": "object",
                               "properties": {
@@ -8851,6 +9093,11 @@
               "description": "Investigation model - Study Assay",
               "title": "Study Assay",
               "type": "object",
+              "required": [
+                "measurementType",
+                "platform",
+                "technology"
+              ],
               "additionalProperties": false,
               "@id": "https://repo.metadatacenter.org/b66b143f-ab1f-40d2-b9e1-cbd25da13219",
               "properties": {
@@ -9134,6 +9381,13 @@
               "description": "Investigation model - Publication",
               "title": "Publication",
               "type": "object",
+              "required": [
+                "title",
+                "pubMedID",
+                "dOI",
+                "status",
+                "authorList"
+              ],
               "additionalProperties": false,
               "@id": "https://repo.metadatacenter.org/587ab6b2-2546-48dd-b15a-b97cdae4506b",
               "properties": {
