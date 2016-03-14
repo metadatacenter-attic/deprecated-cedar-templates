@@ -1,0 +1,495 @@
+{
+    "@context": {
+        "_value": "https://schema.org/value",
+        "description": "https://metadatacenter.org/schemas/description",
+        "identifier": "https://metadatacenter.org/schemas/identifier",
+        "publicReleaseDate": "https://metadatacenter.org/schemas/publicReleaseDate",
+        "study": "https://metadatacenter.org/schemas/study",
+        "submissionDate": "https://metadatacenter.org/schemas/submissionDate",
+        "title": "https://metadatacenter.org/schemas/title"
+    },
+    "@id": "https://repo.metadatacenter.org/UUID/e2530be2-9fde-4f0a-b789-cb417f697fed",
+    "@type": "https://repo.metadatacenter.org/model/Investigation",
+    "_templateId": "http://example.org",
+    "description": {
+        "_value": "Pseudoxanthoma elasticum (PXE) is a heritable disease characterized by progressive ectopic mineralization of the skin, arteries and eyes, for which no effective treatment exists. PXE is caused by inactivating mutations in the gene encoding ABCC6 (MRP6), an ATP-dependent efflux transporter that is mainly present in the liver. Abcc6-/- mice have been instrumental in demonstrating that PXE is a metabolic disease caused by the absence of an unknown factor X in the circulation that is normally secreted from hepatocytes by basolateral ABCC6. Why absence of X results in PXE is a mystery. We now show that medium from HEK293 cells overexpressing human ABCC6 (hABCC6) or rat ABCC6 (rABCC6) potently inhibits mineralization in vitro, whereas medium of HEK293 control cells does not. Untargeted metabolomics revealed that cells expressing ABCC6 excrete large amounts of nucleoside triphosphates. We found that nucleotide excretion is not directly mediated via ABCC6. Extracellularly, ectonucleotidases converted these nucleoside triphosphates to nucleoside monophosphates and inorganic pyrophosphate (PPi), a strong inhibitor of mineralization that plays a pivotal role in several mineralization disorders similar to PXE. The in vivo relevance of our data was demonstrated in Abcc6-/- mice, which had plasma PPi levels that were less than approximately 40% of those found in wild-type mice. Our data provide the first insight into how ABCC6 affects PXE. We propose a model in which ABCC6 secretes factor X from the liver into the circulation, where it induces nucleoside triphosphate release. The PPi formed from these nucleotides prevents the ectopic mineralization observed in PXE patients."
+    },
+    "identifier": {
+        "_value": "MTBLS61"
+    },
+    "publicReleaseDate": {
+        "_value": ""
+    },
+    "study": [
+        {
+            "@id": "https://repo.metadatacenter.org/UUID3caad2d7-4568-412f-8c2f-fa929ac005ff",
+            "@type": "https://repo.metadatacenter.org/model/Study",
+            "contact": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDf5524443-87ef-4ec4-9602-dfea8d8dd6c2",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": "Plesmanlaan 121\n1066 CX Amsterdam\nthe Netherlands"
+                    },
+                    "email": {
+                        "_value": "k.vd.wetering@nki.nl"
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Koen"
+                    },
+                    "lastName": {
+                        "_value": "van de Wetering"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID90b7d34c-fbef-4de4-bbba-1809896de761",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "the Netherlands Cancer Institute, division of molecular Oncology"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "description": {
+                "_value": "Pseudoxanthoma elasticum (PXE) is an autosomal recessive disease characterized by progressive ectopic mineralization of the skin, eyes and arteries, for which no effective treatment exists. PXE is caused by inactivating mutations in the gene encoding ABCC6 (MRP6), an ATP-dependent efflux transporter that is mainly present in the liver. Abcc6-/- mice have been instrumental in the demonstration that PXE is a metabolic disease caused by the absence of an unknown factor in the circulation, the presence of which depends on ABCC6 in the liver. Why absence of this factor results in PXE remained a mystery. We now show that medium from HEK293 cells overexpressing either human or rat ABCC6 potently inhibits mineralization in vitro, whereas medium of HEK293 control cells does not. Untargeted metabolomics revealed that cells expressing ABCC6 excrete large amounts of nucleoside triphosphates, even though ABCC6 itself did not transport nucleoside triphosphates. Extracellularly, ectonucleotidases hydrolyzed the excreted nucleoside triphosphates to nucleoside monophosphates and inorganic pyrophosphate (PPi), a strong inhibitor of mineralization that plays a pivotal role in several mineralization disorders similar to PXE. The in vivo relevance of our data was demonstrated in Abcc6-/- mice, which had plasma PPi levels that were less than 40% of those found in wild-type mice. This study provides the first insight into how ABCC6 affects PXE. Our data indicate that the factor that normally prevents PXE is PPi, which is provided to the circulation in the form of nucleoside triphosphates via an as yet unidentified, but ABCC6-dependent mechanism."
+            },
+            "identifier": {
+                "_value": "MTBLS61"
+            },
+            "process": [],
+            "publicReleaseDate": {
+                "_value": "2013-11-14"
+            },
+            "publication": [],
+            "studyAssay": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID11526db1-824c-43e7-990c-feca9d140135",
+                    "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                    "measurementType": {
+                        "_value": "0000366"
+                    },
+                    "platform": {
+                        "_value": "LTQ Orbitrap Discovery (Thermo Scientific)"
+                    },
+                    "technology": {
+                        "_value": "mass spectrometry"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID9ddb5759-c638-4822-bcd0-532e28f656b5",
+                    "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                    "measurementType": {
+                        "_value": "0000366"
+                    },
+                    "platform": {
+                        "_value": "LTQ Orbitrap Discovery (Thermo Scientific)"
+                    },
+                    "technology": {
+                        "_value": "mass spectrometry"
+                    }
+                }
+            ],
+            "studyDesignType": {
+                "_value": ""
+            },
+            "studyFactor": [
+                {
+                    "@context": "",
+                    "@id": "https://repo.metadatacenter.org/UUID69afeacd-4fd5-4bf9-b84a-b0adc0ff6311",
+                    "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                    "description": {
+                        "_value": "ABCC6"
+                    },
+                    "name": {
+                        "_value": "ABCC6 genotype"
+                    }
+                },
+                {
+                    "@context": "",
+                    "@id": "https://repo.metadatacenter.org/UUID996b6c41-7d6c-4b19-b233-ef8df305576f",
+                    "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                    "description": {
+                        "_value": "Sex or Gender"
+                    },
+                    "name": {
+                        "_value": "Gender"
+                    }
+                },
+                {
+                    "@context": "",
+                    "@id": "https://repo.metadatacenter.org/UUID5f556103-b3f0-4fb0-9cf1-b0d73352ed73",
+                    "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                    "description": {
+                        "_value": "ENPP1"
+                    },
+                    "name": {
+                        "_value": "Ectonucleotidase inhibition"
+                    }
+                }
+            ],
+            "studyGroupPopulation": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDa3eef62e-ad26-48df-be1f-4fb5163bff33",
+                    "@type": "http://purl.obolibrary.org/obo/STATO_0000193",
+                    "name": {
+                        "_value": "population name"
+                    },
+                    "selectionRule": {
+                        "_value": "selection rule"
+                    },
+                    "studySubject": [
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDd8dc1bd7-e727-4112-92bd-e197510d0cef",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUIDf7bc363e-7f86-4ed3-ae5d-67d112edc557",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "BTO:0000316"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "culture medium"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism part"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDc33e655e-2a77-4090-8e20-ce846e598cbc",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe74895b1-4562-402d-9ed3-9d744b1a2503",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "0001182"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "HEK293"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-Cell culture medium"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        },
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID6363fb65-fc8a-4bd3-96a7-99c81e105421",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID7e2c715c-b1a4-41e2-b775-320da234f7da",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "62970"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Plasma"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism part"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDb6010505-a8b6-4db7-97b0-972cf3457aa6",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUIDaed81cfd-4706-41f8-a42c-80017205fb3e",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "0004472"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "C57BL/6"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-Plasma"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+                    }
+                }
+            ],
+            "studyProtocol": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDe404fb97-4487-4dd5-9f1c-7ece28da2d51",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "After thawing on ice, 100 \ufffdl of each plasma and medium sample was deproteinized by adding 300 \ufffdL ice-cold methanol followed by vortexing. Following centrifugation (10 min, 20,800 g, 4 oC), the supernatant was evaporated to dryness in a speedvac at room temperature. The dried extracts were reconstituted in 50 \ufffdl mobile phase A ( 5 mM N,N-dimethylhexylamine (Sigma) in water:methanol 95:5 (v:v)), centrifuged (10 min, 20,800 g, 4 oC) and transferred to autosampler vials."
+                    },
+                    "name": {
+                        "_value": "Extraction"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Post Extraction"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Derivatization"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Extraction"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID8f75aa89-3be7-44fd-893a-b97d189aa99f",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "Liquid chromatography was performed using a Dionex Ultimate 3000 RSLC-nano system (Thermo Fisher Scientific). A volume of 5 \ufffdl was injected onto a ReprosilPur Basic C18 HPLC column (150 X 0.5 mm; 2.4 \ufffdm particles; Dr. Maisch GmbH) protected by a KrudKatcher Ultra in-line filter (Phenomenex) and maintained at 30 oC. Elution was performed using a gradient (0-22 min: 0-53%B; 22-25 min: 53%-100%B; 25-35: 100%B and 35-50: 0%B) of 5 mM N,N-dimethylhexylamine (Sigma) in water:methanol 95:5 (v:v) (mobile phase A) and 20:80 (v:v) (mobile phase B) adjusted to pH 7.0 with acetic acid, at a flow of 15 \ufffdl/min."
+                    },
+                    "name": {
+                        "_value": "Chromatography"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Chromatography Instrument"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Column type"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Column model"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Chromatography"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID747829c0-5791-4c00-906a-887b26bd48ec",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "Detection was performed using an LTQ-Orbitrap Discovery (Thermo Fisher Scientific) operated in the negative ionization mode, scanning from m/z 250-1000 with a resolution of 30,000 full-width-half-maximum (FWHM). Electrospray ionization was performed with the capillary temperature set at 300oC and the sheath, auxiliary and sweep gas flow set at 20, 10 and 1 arbitrary unit, respectively. Data acquisition was performed using Xcalibur software (Thermo Fisher Scientific)."
+                    },
+                    "name": {
+                        "_value": "Mass spectrometry"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Scan polarity"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Scan m/z range"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Instrument"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Mass analyzer"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Ion source"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Mass spectrometry"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDb027df62-cd24-4206-a18d-ddeb6e0c1068",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Data transformation"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Data transformation"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID4d556ca2-f377-4656-bb45-9e5b3a49719b",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "The identity of differentially present compounds was confirmed by comparing their MS/MS spectrum to standards."
+                    },
+                    "name": {
+                        "_value": "Metabolite identification"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Metabolite identification"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID01b8c44a-097f-409b-aaa0-afc515b17685",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "Whole blood was collected in syringes containing 7.5 I.U. of heparin by cardiac puncture and kept on ice until separation of plasma and erythrocytes by centrifugation (10 min, 1,000 g, 4 oC). The plasma layer was collected, depleted of platelets by filtration (20 min, 2,200 g, 4 oC) through a Centrisart I 300,000 kD mass cutoff filter (Sartorius) and stored at -20 oC until further processing.\nHEK293 cells were cultured in DMEM (Invitrogen) supplemented with 10% FCS and 100 units pen/strep per ml at 37oC and 5% CO2 under humidifying conditions. Cells were seeded in 6-well plates (Corning Costar) in triplicate at a density of 7.5X105 cells per well and allowed to grow to confluence overnight. At this point, the medium was replaced with 2 ml fresh medium with or without 1 mM ARL67156 (Tocris) plus 0.5 mM AMP-PCP (Sigma). Samples of 200 \ufffdL were collected after 24  hours and frozen at -20 oC until further processing."
+                    },
+                    "name": {
+                        "_value": "Sample collection"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Sample collection"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "submissionDate": {
+                "_value": "2013-11-14"
+            },
+            "title": {
+                "_value": "LC-MS metabolic profiling of mouse plasma and cell culture medium in relation to ABCC6 expression"
+            }
+        }
+    ],
+    "submissionDate": {
+        "_value": ""
+    },
+    "title": {
+        "_value": "ABCC6 induces nucleotide release"
+    }
+}
