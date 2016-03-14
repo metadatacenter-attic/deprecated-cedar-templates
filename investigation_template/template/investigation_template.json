@@ -285,7 +285,7 @@
                   "$schema": "http://json-schema.org/draft-04/schema#"
                 },
                 "protocolParameter": {
-                  "minItems": 1,
+                  "minItems": 0,
                   "items": {
                     "description": "Investigation Model - Protocol Parameter",
                     "title": "Protocol Parameter",
@@ -714,7 +714,7 @@
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "process": {
-            "minItems": 1,
+            "minItems": 0,
             "items": {
               "description": "Investigation Model - Process",
               "title": "Process",
@@ -900,7 +900,7 @@
                         "$schema": "http://json-schema.org/draft-04/schema#"
                       },
                       "protocolParameter": {
-                        "minItems": 1,
+                        "minItems": 0,
                         "items": {
                           "description": "Investigation Model - Protocol Parameter",
                           "title": "Protocol Parameter",
@@ -1255,11 +1255,6 @@
                       "sample"
                     ]
                   },
-                  "required": [
-                    "dataFile",
-                    "sample",
-                    "result"
-                  ],
                   "additionalProperties": false,
                   "type": "object",
                   "properties": {
@@ -1768,18 +1763,12 @@
                                         "@type": {
                                           "oneOf": [
                                             {
-                                              "enum": [
-                                                "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278"
-                                              ],
                                               "type": "string",
                                               "format": "uri"
                                             },
                                             {
                                               "minItems": 1,
                                               "items": {
-                                                "enum": [
-                                                  "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278"
-                                                ],
                                                 "type": "string",
                                                 "format": "uri"
                                               },
@@ -2303,7 +2292,7 @@
                             }
                           },
                           "factorValue": {
-                            "minItems": 1,
+                            "minItems": 0,
                             "items": {
                               "description": "Investigation Model - Factor Value",
                               "title": "Factor Value",
@@ -2370,7 +2359,7 @@
                                   "$schema": "http://json-schema.org/draft-04/schema#"
                                 },
                                 "studyFactor": {
-                                  "minItems": 1,
+                                  "minItems": 0,
                                   "items": {
                                     "description": "Investigation model - Study Factor",
                                     "title": "Study Factor",
@@ -2669,18 +2658,12 @@
                                     "@type": {
                                       "oneOf": [
                                         {
-                                          "enum": [
-                                            "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278"
-                                          ],
                                           "type": "string",
                                           "format": "uri"
                                         },
                                         {
                                           "minItems": 1,
                                           "items": {
-                                            "enum": [
-                                              "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278"
-                                            ],
                                             "type": "string",
                                             "format": "uri"
                                           },
@@ -3269,7 +3252,7 @@
                   "title": "Process"
                 },
                 "parameterValue": {
-                  "minItems": 1,
+                  "minItems": 0,
                   "items": {
                     "description": "Investigation model - Parameter Value",
                     "title": "Parameter Value",
@@ -3340,7 +3323,7 @@
                         "title": "Parameter Value"
                       },
                       "protocolParameter": {
-                        "minItems": 1,
+                        "minItems": 0,
                         "items": {
                           "description": "Investigation Model - Protocol Parameter",
                           "title": "Protocol Parameter",
@@ -3635,18 +3618,12 @@
                           "@type": {
                             "oneOf": [
                               {
-                                "enum": [
-                                  "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278"
-                                ],
                                 "type": "string",
                                 "format": "uri"
                               },
                               {
                                 "minItems": 1,
                                 "items": {
-                                  "enum": [
-                                    "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278"
-                                  ],
                                   "type": "string",
                                   "format": "uri"
                                 },
@@ -3683,18 +3660,11 @@
                       "studySubject"
                     ]
                   },
-                  "required": [
-                    "studySubject",
-                    "dataFile",
-                    "sample",
-                    "reagent",
-                    "result"
-                  ],
                   "additionalProperties": false,
                   "type": "object",
                   "properties": {
                     "studySubject": {
-                      "minItems": 1,
+                      "minItems": 0,
                       "items": {
                         "description": "Investigation model - Study Subject",
                         "title": "Study Subject",
@@ -3869,18 +3839,12 @@
                                         "@type": {
                                           "oneOf": [
                                             {
-                                              "enum": [
-                                                "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25712"
-                                              ],
                                               "type": "string",
                                               "format": "uri"
                                             },
                                             {
                                               "minItems": 1,
                                               "items": {
-                                                "enum": [
-                                                  "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25712"
-                                                ],
                                                 "type": "string",
                                                 "format": "uri"
                                               },
@@ -3952,18 +3916,12 @@
                                         "@type": {
                                           "oneOf": [
                                             {
-                                              "enum": [
-                                                "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25284"
-                                              ],
                                               "type": "string",
                                               "format": "uri"
                                             },
                                             {
                                               "minItems": 1,
                                               "items": {
-                                                "enum": [
-                                                  "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25284"
-                                                ],
                                                 "type": "string",
                                                 "format": "uri"
                                               },
@@ -4017,18 +3975,12 @@
                                         "@type": {
                                           "oneOf": [
                                             {
-                                              "enum": [
-                                                "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278"
-                                              ],
                                               "type": "string",
                                               "format": "uri"
                                             },
                                             {
                                               "minItems": 1,
                                               "items": {
-                                                "enum": [
-                                                  "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278"
-                                                ],
                                                 "type": "string",
                                                 "format": "uri"
                                               },
@@ -4270,7 +4222,7 @@
                       "type": "array"
                     },
                     "dataFile": {
-                      "minItems": 1,
+                      "minItems": 0,
                       "items": {
                         "description": "Investigation model - Data File",
                         "title": "Data File",
@@ -4447,7 +4399,7 @@
                       "type": "array"
                     },
                     "sample": {
-                      "minItems": 1,
+                      "minItems": 0,
                       "items": {
                         "description": "Investigation Model - Sample",
                         "title": "Sample",
@@ -4774,18 +4726,12 @@
                                         "@type": {
                                           "oneOf": [
                                             {
-                                              "enum": [
-                                                "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278"
-                                              ],
                                               "type": "string",
                                               "format": "uri"
                                             },
                                             {
                                               "minItems": 1,
                                               "items": {
-                                                "enum": [
-                                                  "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278"
-                                                ],
                                                 "type": "string",
                                                 "format": "uri"
                                               },
@@ -5675,18 +5621,12 @@
                                     "@type": {
                                       "oneOf": [
                                         {
-                                          "enum": [
-                                            "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278"
-                                          ],
                                           "type": "string",
                                           "format": "uri"
                                         },
                                         {
                                           "minItems": 1,
                                           "items": {
-                                            "enum": [
-                                              "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278"
-                                            ],
                                             "type": "string",
                                             "format": "uri"
                                           },
@@ -5839,7 +5779,7 @@
                       "type": "array"
                     },
                     "reagent": {
-                      "minItems": 1,
+                      "minItems": 0,
                       "items": {
                         "description": "Investigation model - Reagent",
                         "title": "Reagent",
@@ -6162,18 +6102,12 @@
                                         "@type": {
                                           "oneOf": [
                                             {
-                                              "enum": [
-                                                "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278"
-                                              ],
                                               "type": "string",
                                               "format": "uri"
                                             },
                                             {
                                               "minItems": 1,
                                               "items": {
-                                                "enum": [
-                                                  "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278"
-                                                ],
                                                 "type": "string",
                                                 "format": "uri"
                                               },
@@ -6419,7 +6353,7 @@
                       "title": "Input"
                     },
                     "result": {
-                      "minItems": 1,
+                      "minItems": 0,
                       "items": {
                         "description": "Investigation model - Result",
                         "title": "Result",
@@ -7292,7 +7226,7 @@
             "$schema": "http://json-schema.org/draft-04/schema#"
           },
           "contact": {
-            "minItems": 1,
+            "minItems": 0,
             "items": {
               "description": "Investigation model (Contact)",
               "title": "Contact",
@@ -7395,18 +7329,12 @@
                           "@type": {
                             "oneOf": [
                               {
-                                "enum": [
-                                  "http://purl.obolibrary.org/obo/IAO_0000590"
-                                ],
                                 "type": "string",
                                 "format": "uri"
                               },
                               {
                                 "minItems": 1,
                                 "items": {
-                                  "enum": [
-                                    "http://purl.obolibrary.org/obo/IAO_0000590"
-                                  ],
                                   "type": "string",
                                   "format": "uri"
                                 },
@@ -7973,7 +7901,7 @@
             "type": "array"
           },
           "studyFactor": {
-            "minItems": 1,
+            "minItems": 0,
             "items": {
               "description": "Investigation model - Study Factor",
               "title": "Study Factor",
@@ -8526,18 +8454,12 @@
                                     "@type": {
                                       "oneOf": [
                                         {
-                                          "enum": [
-                                            "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278"
-                                          ],
                                           "type": "string",
                                           "format": "uri"
                                         },
                                         {
                                           "minItems": 1,
                                           "items": {
-                                            "enum": [
-                                              "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44278"
-                                            ],
                                             "type": "string",
                                             "format": "uri"
                                           },
@@ -8965,7 +8887,7 @@
                   "oneOf": [
                     {
                       "enum": [
-                        "http://purl.obolibrary.org/obo/OBI_0000181"
+                        "http://purl.obolibrary.org/obo/STATO_0000193"
                       ],
                       "type": "string",
                       "format": "uri"
@@ -8974,7 +8896,7 @@
                       "minItems": 1,
                       "items": {
                         "enum": [
-                          "http://purl.obolibrary.org/obo/OBI_0000181"
+                          "http://purl.obolibrary.org/obo/STATO_0000193"
                         ],
                         "type": "string",
                         "format": "uri"
@@ -9213,18 +9135,12 @@
                     "@type": {
                       "oneOf": [
                         {
-                          "enum": [
-                            "http://scai.fraunhofer.de/HuPSON#SCAIVPH_00000190"
-                          ],
                           "type": "string",
                           "format": "uri"
                         },
                         {
                           "minItems": 1,
                           "items": {
-                            "enum": [
-                              "http://scai.fraunhofer.de/HuPSON#SCAIVPH_00000190"
-                            ],
                             "type": "string",
                             "format": "uri"
                           },
@@ -9281,18 +9197,12 @@
                 "@type": {
                   "oneOf": [
                     {
-                      "enum": [
-                        "http://purl.obolibrary.org/obo/BFO_0000055"
-                      ],
                       "type": "string",
                       "format": "uri"
                     },
                     {
                       "minItems": 1,
                       "items": {
-                        "enum": [
-                          "http://purl.obolibrary.org/obo/BFO_0000055"
-                        ],
                         "type": "string",
                         "format": "uri"
                       },
@@ -9376,7 +9286,7 @@
             ]
           },
           "publication": {
-            "minItems": 1,
+            "minItems": 0,
             "items": {
               "description": "Investigation model - Publication",
               "title": "Publication",
@@ -9416,18 +9326,12 @@
                     "@type": {
                       "oneOf": [
                         {
-                          "enum": [
-                            "http://www.ebi.ac.uk/efo/EFO_0001742"
-                          ],
                           "type": "string",
                           "format": "uri"
                         },
                         {
                           "minItems": 1,
                           "items": {
-                            "enum": [
-                              "http://www.ebi.ac.uk/efo/EFO_0001742"
-                            ],
                             "type": "string",
                             "format": "uri"
                           },
@@ -9464,18 +9368,12 @@
                     "@type": {
                       "oneOf": [
                         {
-                          "enum": [
-                            "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71462"
-                          ],
                           "type": "string",
                           "format": "uri"
                         },
                         {
                           "minItems": 1,
                           "items": {
-                            "enum": [
-                              "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71462"
-                            ],
                             "type": "string",
                             "format": "uri"
                           },
@@ -9554,18 +9452,12 @@
                     "@type": {
                       "oneOf": [
                         {
-                          "enum": [
-                            "http://purl.obolibrary.org/obo/OBI_0001617"
-                          ],
                           "type": "string",
                           "format": "uri"
                         },
                         {
                           "minItems": 1,
                           "items": {
-                            "enum": [
-                              "http://purl.obolibrary.org/obo/OBI_0001617"
-                            ],
                             "type": "string",
                             "format": "uri"
                           },
@@ -9609,18 +9501,12 @@
                       "@type": {
                         "oneOf": [
                           {
-                            "enum": [
-                              "http://purl.obolibrary.org/obo/IAO_0000321"
-                            ],
                             "type": "string",
                             "format": "uri"
                           },
                           {
                             "minItems": 1,
                             "items": {
-                              "enum": [
-                                "http://purl.obolibrary.org/obo/IAO_0000321"
-                              ],
                               "type": "string",
                               "format": "uri"
                             },
