@@ -1,0 +1,526 @@
+{
+    "@context": {
+        "_value": "https://schema.org/value",
+        "description": "https://metadatacenter.org/schemas/description",
+        "identifier": "https://metadatacenter.org/schemas/identifier",
+        "publicReleaseDate": "https://metadatacenter.org/schemas/publicReleaseDate",
+        "study": "https://metadatacenter.org/schemas/study",
+        "submissionDate": "https://metadatacenter.org/schemas/submissionDate",
+        "title": "https://metadatacenter.org/schemas/title"
+    },
+    "@id": "https://repo.metadatacenter.org/UUID3666c68d-a335-4ef0-b373-e00c59f0a913",
+    "@type": "https://repo.metadatacenter.org/model/Investigation",
+    "_templateId": "http://example.org",
+    "description": {
+        "_value": ""
+    },
+    "identifier": {
+        "_value": ""
+    },
+    "publicReleaseDate": {
+        "_value": ""
+    },
+    "study": [
+        {
+            "@id": "https://repo.metadatacenter.org/UUID4de1c160-eaa1-4782-982c-3fbd5b6cfbc9",
+            "@type": "https://repo.metadatacenter.org/model/Study",
+            "contact": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID3f582665-8316-4867-973d-afe922581c7a",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": "maartendft@gmail.com"
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Maarten"
+                    },
+                    "lastName": {
+                        "_value": "de Jong"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUIDb2f9c445-793a-4eb1-9892-9890578a64f0",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Department of Materials Science and Engineering, University of California, Berkeley, California 94720, USA"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDda908d85-978b-4f7d-b346-3139cdb318a9",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Wei"
+                    },
+                    "lastName": {
+                        "_value": "Chen"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID99dbb776-788e-4d8a-9dca-bc97a3ab7260",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Environmental Energy Technologies Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID20659354-b023-4bca-9d7f-1636eadf0774",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Henry"
+                    },
+                    "lastName": {
+                        "_value": "Geerlings"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUIDcd4507ec-8317-4863-8bb9-6854af1df8a2",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Department of Materials Science and Engineering, University of California, Berkeley, California 94720, USA"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID94373108-105a-4cd2-ad8a-cc7aa875bb08",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Mark"
+                    },
+                    "lastName": {
+                        "_value": "Asta"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUIDd26c364c-b962-4211-8751-5c04da7e926f",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Department of Materials Science and Engineering, University of California, Berkeley, California 94720, USA"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID6dcac769-567d-455a-849b-a8b2a2e9120c",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Kristin Aslaug"
+                    },
+                    "lastName": {
+                        "_value": "Persson"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUIDaca451e5-9b5f-459b-b130-85153d6aa81a",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Environmental Energy Technologies Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "description": {
+                "_value": "http://www.nature.com/articles/sdata201553#abstract"
+            },
+            "identifier": {
+                "_value": "10.1038/sdata.2015.53"
+            },
+            "process": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID39118bae-fc3f-45fc-8692-72c2b04ce6fa",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [],
+                                "name": {
+                                    "_value": "source-Materials Project database"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID1eddd4c7-e674-44dd-aab1-fdbb5c44d1b9",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-selected compounds"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID3a28df8e-8f45-43f5-bb07-3b4ddc325efe",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID647622cb-5918-445c-a00a-9188a7eb296f",
+                            "@type": "https://repo.metadatacenter.org/model/ProtocolParameter",
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Compound selection and generation of piezoelectricity data"
+                                    },
+                                    "name": {
+                                        "_value": "Compound selection and generation of piezoelectricity data"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "decomposition energy per atom"
+                            },
+                            "unit": {
+                                "_value": "decomposition energy per atom"
+                            },
+                            "value": {
+                                "_value": "0.1"
+                            }
+                        },
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID7e2b9d09-6add-4124-a3db-8468d0ed2ab4",
+                            "@type": "https://repo.metadatacenter.org/model/ProtocolParameter",
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Compound selection and generation of piezoelectricity data"
+                                    },
+                                    "name": {
+                                        "_value": "Compound selection and generation of piezoelectricity data"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "bandgap"
+                            },
+                            "unit": {
+                                "_value": "bandgap"
+                            },
+                            "value": {
+                                "_value": "<0.1"
+                            }
+                        }
+                    ],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUIDdb05642f-6b15-4ad1-a4a2-3ec9069c12c2",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Compound selection and generation of piezoelectricity data1"
+                            },
+                            "name": {
+                                "_value": "Compound selection and generation of piezoelectricity data1"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Compound selection and generation of piezoelectricity data"
+                                    },
+                                    "name": {
+                                        "_value": "Compound selection and generation of piezoelectricity data"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Compound selection and generation of piezoelectricity data1"
+                            },
+                            "version": {
+                                "_value": "Compound selection and generation of piezoelectricity data1"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Compound selection and generation of piezoelectricity data1"
+                    }
+                }
+            ],
+            "publicReleaseDate": {
+                "_value": "29/09/2015"
+            },
+            "publication": [],
+            "studyAssay": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDc9bd4b5d-21ff-4e27-94db-5b8bb6f9f235",
+                    "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                    "measurementType": {
+                        "_value": ""
+                    },
+                    "platform": {
+                        "_value": ""
+                    },
+                    "technology": {
+                        "_value": "computational modeling technique"
+                    }
+                }
+            ],
+            "studyDesignType": {
+                "_value": ""
+            },
+            "studyFactor": [],
+            "studyGroupPopulation": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID224ccc89-a159-4117-ade6-c77e20eafac3",
+                    "@type": "http://purl.obolibrary.org/obo/STATO_0000193",
+                    "name": {
+                        "_value": "population name"
+                    },
+                    "selectionRule": {
+                        "_value": "selection rule"
+                    },
+                    "studySubject": [
+                        {
+                            "characteristic": [],
+                            "name": {
+                                "_value": "source-Materials Project database"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+                    }
+                }
+            ],
+            "studyProtocol": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID2ddf11a1-9427-411c-b070-6254c13468f5",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Compound selection and generation of piezoelectricity data"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "bandgap"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": " decomposition energy per atom"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "selection criterion"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDba06d25c-60ca-4846-abf3-c5e48973af94",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Workflow"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data transformation"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "submissionDate": {
+                "_value": "18/08/2015"
+            },
+            "title": {
+                "_value": "A database to enable discovery and design of piezoelectric materials"
+            }
+        }
+    ],
+    "submissionDate": {
+        "_value": ""
+    },
+    "title": {
+        "_value": ""
+    }
+}
