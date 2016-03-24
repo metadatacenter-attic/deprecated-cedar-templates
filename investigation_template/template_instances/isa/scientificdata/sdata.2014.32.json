@@ -1,0 +1,590 @@
+{
+    "@context": {
+        "_value": "https://schema.org/value",
+        "description": "https://metadatacenter.org/schemas/description",
+        "identifier": "https://metadatacenter.org/schemas/identifier",
+        "publicReleaseDate": "https://metadatacenter.org/schemas/publicReleaseDate",
+        "study": "https://metadatacenter.org/schemas/study",
+        "submissionDate": "https://metadatacenter.org/schemas/submissionDate",
+        "title": "https://metadatacenter.org/schemas/title"
+    },
+    "@id": "https://repo.metadatacenter.org/UUIDe739c576-a729-47a6-bf7c-85c941871661",
+    "@type": "https://repo.metadatacenter.org/model/Investigation",
+    "_templateId": "http://example.org",
+    "description": {
+        "_value": ""
+    },
+    "identifier": {
+        "_value": ""
+    },
+    "publicReleaseDate": {
+        "_value": ""
+    },
+    "study": [
+        {
+            "@id": "https://repo.metadatacenter.org/UUID267f23c9-04d7-45ab-9f97-f04720d5ea69",
+            "@type": "https://repo.metadatacenter.org/model/Study",
+            "contact": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID289d1459-eaa7-4fdc-ad8d-327686d2b731",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Samuel G."
+                    },
+                    "lastName": {
+                        "_value": "Finlayson"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID2f62ad4f-d517-4d97-b6a3-f7d0aca63e7e",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Center for Biomedical Informatics Research, Stanford University, Stanford, California 94305, USA"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID4079c673-2bf5-45e9-95a7-d313ae5c86c1",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Paea"
+                    },
+                    "lastName": {
+                        "_value": "LePendu"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID6eafde04-f609-44c9-8f02-8b4ce9dac013",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Center for Biomedical Informatics Research, Stanford University, Stanford, California 94305, USA"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID78cc3798-f6f6-431a-b675-e76a4b36a0ad",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": "nigam@stanford.edu"
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Nigam H."
+                    },
+                    "lastName": {
+                        "_value": "Shah"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID2e14b814-8d39-4671-b198-24f7c197efa6",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Center for Biomedical Informatics Research, Stanford University, Stanford, California 94305, USA"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "description": {
+                "_value": "http://www.nature.com/articles/sdata201432#abstract"
+            },
+            "identifier": {
+                "_value": "10.1038/sdata.2014.32"
+            },
+            "process": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID6867b6e7-d662-4d17-9443-6a80987c6f42",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID4c8a176f-46e7-46d7-8ad1-48bb5027ee62",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID3995b7d7-8829-4247-87f1-afee70f5f455",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000468"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "multi-cellular organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDd4a7b036-99f4-4e54-aa0c-3d89e09c22b9",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID735f4931-3f96-4175-a080-249fa6f05a62",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "NCBITaxon:9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-PatientNoteDatabase"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDa14098cd-8e53-4f00-925b-90281cb38c4c",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID4e63c16d-1e9a-4504-b9c9-bb325d79611f",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDae0c2d14-2bab-493e-bfba-5569acee74a2",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000468"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "multi-cellular organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID0813a984-439e-4104-ae89-137172bf7e39",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDc3af435a-bafb-43a9-9061-a85a98d9d26e",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "NCBITaxon:9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-PatientNoteDatabase"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDd0aa015a-98c6-4e6f-a410-4f71d4979644",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUIDa4ff14e6-87f2-4cb3-975f-59913ac4ca86",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Data Source1"
+                            },
+                            "name": {
+                                "_value": "Data Source1"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Data Source"
+                                    },
+                                    "name": {
+                                        "_value": "Data Source"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Data Source1"
+                            },
+                            "version": {
+                                "_value": "Data Source1"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Data Source1"
+                    }
+                }
+            ],
+            "publicReleaseDate": {
+                "_value": "16/09/2014"
+            },
+            "publication": [],
+            "studyAssay": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID9adde127-d9e1-4be2-ac7b-961d5de23bcf",
+                    "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                    "measurementType": {
+                        "_value": "NCIT:C15722"
+                    },
+                    "platform": {
+                        "_value": "database compilation"
+                    },
+                    "technology": {
+                        "_value": "Medical Examination"
+                    }
+                }
+            ],
+            "studyDesignType": {
+                "_value": ""
+            },
+            "studyFactor": [],
+            "studyGroupPopulation": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID73713ab0-e02b-4285-9e6c-dcb6caa27f7f",
+                    "@type": "http://purl.obolibrary.org/obo/STATO_0000193",
+                    "name": {
+                        "_value": "population name"
+                    },
+                    "selectionRule": {
+                        "_value": "selection rule"
+                    },
+                    "studySubject": [
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID4c8a176f-46e7-46d7-8ad1-48bb5027ee62",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID3995b7d7-8829-4247-87f1-afee70f5f455",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "UBERON:0000468"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "multi-cellular organism"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "organism part"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDd4a7b036-99f4-4e54-aa0c-3d89e09c22b9",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID735f4931-3f96-4175-a080-249fa6f05a62",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "NCBITaxon:9606"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Homo sapiens"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "organism"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-PatientNoteDatabase"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+                    }
+                }
+            ],
+            "studyProtocol": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDe6e4b33d-29d3-4151-b427-93081e7d90a0",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Data Source"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "experimental design method"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID2e22c68c-e6e2-447a-9608-d736d1c45010",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Note Binning"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "binning"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "data pre-processing operation"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID773955a6-d6ee-4ed2-94e6-e0431f4371be",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Estimating the accuracy of the text processing pipeline"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data processing operation"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID623dbd5f-f752-4070-af67-10488de60e5d",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Term Extraction"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data processing operation"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDbd3bb918-ab8c-4034-b463-a7a658c8bf19",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Co-frequency Counting"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data processing operation"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "submissionDate": {
+                "_value": "16/06/2014"
+            },
+            "title": {
+                "_value": "Building the graph of medicine from millions of clinical narratives"
+            }
+        }
+    ],
+    "submissionDate": {
+        "_value": ""
+    },
+    "title": {
+        "_value": ""
+    }
+}

@@ -1,0 +1,3278 @@
+{
+    "@context": {
+        "_value": "https://schema.org/value",
+        "description": "https://metadatacenter.org/schemas/description",
+        "identifier": "https://metadatacenter.org/schemas/identifier",
+        "publicReleaseDate": "https://metadatacenter.org/schemas/publicReleaseDate",
+        "study": "https://metadatacenter.org/schemas/study",
+        "submissionDate": "https://metadatacenter.org/schemas/submissionDate",
+        "title": "https://metadatacenter.org/schemas/title"
+    },
+    "@id": "https://repo.metadatacenter.org/UUIDd178fb7e-5da4-44e1-8b05-7b7391371b68",
+    "@type": "https://repo.metadatacenter.org/model/Investigation",
+    "_templateId": "http://example.org",
+    "description": {
+        "_value": ""
+    },
+    "identifier": {
+        "_value": ""
+    },
+    "publicReleaseDate": {
+        "_value": ""
+    },
+    "study": [
+        {
+            "@id": "https://repo.metadatacenter.org/UUID0c708874-e051-4c69-9992-c7e83cf57b0e",
+            "@type": "https://repo.metadatacenter.org/model/Study",
+            "contact": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDc662e911-3deb-42b3-8de0-0eb53cb0f1cb",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Gianni"
+                    },
+                    "lastName": {
+                        "_value": "Barlacchi"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUIDd6cc3321-499c-47fc-9e71-8239d1755644",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "SKIL\u2014Telecom Italia, Trento 38123, Italy"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID93f2401e-98a8-432d-b5a7-e5adbbe0b10a",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Marco"
+                    },
+                    "lastName": {
+                        "_value": "De Nadai"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUIDca60c4fd-db1b-447b-9575-5ffef1a60dad",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "FBK, Trento 38123, Italy"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDbeff55f1-91ff-4e15-b49c-03534fb82bce",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Roberto"
+                    },
+                    "lastName": {
+                        "_value": "Larcher"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID84f5cc40-1806-464e-b203-74ef1be7266f",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "SKIL\u2014Telecom Italia, Trento 38123, Italy"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDab18a984-3a84-4ed2-bba1-b0776753ef92",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Antonio"
+                    },
+                    "lastName": {
+                        "_value": "Casella"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID8411a67d-2a31-424b-873d-a4a679650aab",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "SKIL\u2014Telecom Italia, Trento 38123, Italy"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID7cc6b832-718f-45cb-99f9-fa41e841cea9",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Cristiana"
+                    },
+                    "lastName": {
+                        "_value": "Chitic"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID5a0d7c1f-a4d8-4d57-b415-b6143e0519c2",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "SKIL\u2014Telecom Italia, Trento 38123, Italy"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDb90cb5f5-4a5a-40f6-877f-80b2dd993d2b",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Giovanni"
+                    },
+                    "lastName": {
+                        "_value": "Torrisi"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID621d3c83-671d-4a31-a558-dcc9b08dfb0f",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "SKIL\u2014Telecom Italia, Trento 38123, Italy"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDc6a9ac90-f2f3-4200-b4f9-75166a4db378",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Fabrizio"
+                    },
+                    "lastName": {
+                        "_value": "Antonelli"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID8ccb98d1-4f75-4505-85e1-b65d06c4f043",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "SKIL\u2014Telecom Italia, Trento 38123, Italy"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID6873b6a2-3ac9-4bc7-b916-4513bbcb43e8",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Alessandro"
+                    },
+                    "lastName": {
+                        "_value": "Vespignani"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUIDb68d0f85-9744-4fa7-b0fe-91578b874f67",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Northeastern University, Boston, Massachusetts 02115, USA"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID1e491255-b85c-4ca5-8301-1bb68a47eaa9",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Alex"
+                    },
+                    "lastName": {
+                        "_value": "Pentland"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID43a8f712-cb6c-4b5e-99d6-08ebc11e7bbd",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "MIT Media Lab, Cambridge, Massachusetts 02139, USA"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID6a147e32-a971-405b-8317-729fb66d080c",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": "lepri@fbk.eu"
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Bruno"
+                    },
+                    "lastName": {
+                        "_value": "Lepri"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUIDa2d60184-3fdb-40a9-9753-afbda0c88c28",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "FBK, Trento 38123, Italy"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "description": {
+                "_value": "http://www.nature.com/articles/sdata201555#abstract"
+            },
+            "identifier": {
+                "_value": "10.1038/sdata.2015.55"
+            },
+            "process": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID69182bb5-adf6-46ed-93f7-17c19d3207f3",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe3b6fcb8-ff99-46fa-af36-4e32fd4cf831",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID086ce0a8-d52a-4bb3-a621-180618c8d3c1",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID18673037-981f-432f-8957-a9c9b2285c50",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID8b99ff49-3cca-49d2-9453-8a002c1bd65e",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00002674"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Trentino-South Tyrol"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-Meteotrentino"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDc08eae59-7aa2-4d5e-abc0-96749a0152c8",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID274cfc4d-2dfe-484c-88fd-7b2b14b83015",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDffd3300f-c46a-472c-8135-aaf14c6edbf2",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDbd989191-dedc-48f5-9d8f-ae8e60368519",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDaa3dce84-46c5-4bae-b23a-4475b9676453",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00002674"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Trentino-South Tyrol"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Trentino_Precipitations"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID85b5f4c5-5ff2-478a-8358-4973bff2fc50",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUIDfa721d5f-b208-4f78-85ea-b19f77be5f8b",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Data collection6"
+                            },
+                            "name": {
+                                "_value": "Data collection6"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Data collection"
+                                    },
+                                    "name": {
+                                        "_value": "Data collection"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Data collection6"
+                            },
+                            "version": {
+                                "_value": "Data collection6"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Data collection6"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDb0ceff1d-13b7-426b-901d-084a7350320c",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID81fcab78-b14b-400f-a2bf-ba9a7e108c1e",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID52dbc8a1-957c-4c1b-ab6f-1c90433dff0f",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID51aa09fb-627c-45a7-ad10-8e494658a9cf",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID8f0576bf-e163-4856-a43d-52faf2a57f5b",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00007690"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Milan"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-SpazioDati, DEIB"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDdfd641bd-e038-4d83-9253-82ea9f783bfd",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDf54e3ac6-817c-43c5-853b-1de1828653f1",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID856ccc10-d6a7-43ab-a580-dcbbf0dab301",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID2620a709-15a2-4aa5-8410-393df0bd397c",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDd87f7a0c-8b1b-400c-9395-58250380ae97",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00007690"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Milan"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Milan_Social Pulse"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID974547d2-9e78-4af7-9253-0b42f7e9f6e0",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID51a71e8d-7bb5-4961-844f-75c093db614c",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID4be14db9-7c30-4dec-a1c5-30f501c8025d",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID5dc0e083-0332-40c9-89b8-a6bbc386ac3f",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID1e1e6c6f-d66f-4a01-8434-d3851b00b798",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDd27da9af-3885-4f8d-82fe-d3d7e31cc345",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00002674"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Trentino-South Tyrol"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Trentino_Social Pulse"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDa92227a8-b708-435d-9a36-92ace8e41192",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUIDea3905f1-f2ea-479a-afad-7974ad5f26db",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Data collection2"
+                            },
+                            "name": {
+                                "_value": "Data collection2"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Data collection"
+                                    },
+                                    "name": {
+                                        "_value": "Data collection"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Data collection2"
+                            },
+                            "version": {
+                                "_value": "Data collection2"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Data collection2"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID1a021eb6-27f5-463c-81ad-fcacb9022880",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID246a0734-772c-420e-9834-aa9e863cce5f",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID458810a0-29a5-4347-8094-2581c697c0c2",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDc094fc62-ab89-4b89-9fbf-e69e5e55adfd",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID3c38ffe2-857d-4431-b991-89d702a90f45",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00007690"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Milan"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-ISTAT"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID9a0afa3f-ed18-441d-87b8-4f7a615d5376",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDf6123903-4f6c-4266-8b01-dfb007ed0758",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID54e54a98-fe7a-4dbc-bf72-7cc773a45935",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID8a92e115-cac9-48ef-b157-4a880ee930e8",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID2e4fd51f-bdd0-48bd-affa-ad789da3c23d",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00007690"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Milan"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Milan_Administrative Regions"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID13964373-f8fd-44b6-898b-9e380074cc18",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID2f0167e6-9f8c-4eb7-839c-55279cbf0b4c",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID1c223305-53cd-4c5d-b112-ad0a03c79c14",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDc7d40721-3f88-4a10-8b87-b4a767ab0cbd",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDa8fe98a8-3d2e-40c1-98af-d5268428c767",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID361981ef-09ea-4f71-bc86-f4db4d3b830c",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00002674"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Trentino-South Tyrol"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Trentino_Administrative Regions"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID5161c205-1190-43dc-89ed-498b5e6f7790",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUIDf398ee51-eaf7-42ff-b167-61782516a9d1",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Data collection5"
+                            },
+                            "name": {
+                                "_value": "Data collection5"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Data collection"
+                                    },
+                                    "name": {
+                                        "_value": "Data collection"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Data collection5"
+                            },
+                            "version": {
+                                "_value": "Data collection5"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Data collection5"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID420af71a-274d-414f-9c98-1051a68640e1",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID7d1abe63-405a-4484-bb7b-cbcc28394726",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDbd84ec8f-8f85-49e5-981c-bee43bddc6f3",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDb6ee5791-e974-4e41-bd7e-1405146ea4e4",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDbb9399bb-ccd6-4db5-959d-99c5c5dbe79e",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00002674"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Trentino-South Tyrol"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-SET Distribuzione SPA"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDbaf8e00e-0869-4354-8661-9ab3301fd993",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID17778735-fe9a-47a8-8ac8-dcf9d880606e",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDd134281a-efe2-4844-8705-c046008ab9bc",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDbea2b55c-6214-4494-9df9-eee5e37a4fa7",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDb3b4b87e-8483-449d-ad75-12290fb9553c",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00002674"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Trentino-South Tyrol"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Trentino_Electricity"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID5124360e-a61a-4a64-a7bc-a35348e8bf8a",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUID51aab66f-365e-4e8d-95ab-e8ca6f3c931a",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Data collection7"
+                            },
+                            "name": {
+                                "_value": "Data collection7"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Data collection"
+                                    },
+                                    "name": {
+                                        "_value": "Data collection"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Data collection7"
+                            },
+                            "version": {
+                                "_value": "Data collection7"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Data collection7"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID23dbe0d3-629b-4a60-8abb-85f5672552a3",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID048273ff-b8e6-47e5-9490-595bc9e1fb56",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDb4a2480a-8c29-4118-8be2-a61ba6db1420",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID3444a45d-ffa9-49d6-91a1-1f35723021f5",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID863db4b2-bdcd-4deb-89c3-6eeb29ebeb85",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00007690"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Milan"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-ARPA"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDa8c1e7b8-9a54-4e6d-85bd-8c6d63eb364e",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID3ef5eba3-67e7-49b1-b247-3afb9b3b806d",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID8fa01140-77c6-4534-9366-fe7ff3763292",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe5e84dba-bd69-4d63-9960-30160cc4c667",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID857ab47c-5111-4ed7-a5b7-adf8821774ad",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00007690"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Milan"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Milan_Precipitations"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDfe03659f-f0c6-44e4-b2fe-e35d9c619f86",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID89ab7f36-2436-4af6-927d-0dcf6f3d0216",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDd59f4d5f-c6ec-441f-84e2-8da4361ca4a3",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDe842c83b-4de4-4725-a0dd-f97588802a58",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDb674b0ca-f089-4ef4-85e8-3cf905274393",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDcb74adfc-4b75-4127-94af-d36ba85a8c8d",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00007690"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Milan"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Milan_Weather"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID8cdf818e-90cd-4a68-bc5b-563aa8eddf2f",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDde5ba362-fd60-4954-9fa0-416ef770e93c",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDa48facd5-f926-4f1b-ab07-e97f2ae30c66",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDba092426-6dab-44ce-bd63-3d20f103334c",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID652046b3-8f31-416b-94ae-d0dca8b7f30f",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID930d1a6d-dbe2-49b6-84dd-375329f3dfa2",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00002674"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Trentino-South Tyrol"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Trentino_Weather"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID73bdc1f6-32d8-4441-83a8-3e3eadd5de0a",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUID57a27d8b-fa4a-4ccf-9de9-cfe0a9bc0c62",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Data collection3"
+                            },
+                            "name": {
+                                "_value": "Data collection3"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Data collection"
+                                    },
+                                    "name": {
+                                        "_value": "Data collection"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Data collection3"
+                            },
+                            "version": {
+                                "_value": "Data collection3"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Data collection3"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDd2452b06-f1ae-4839-bd12-843f77a8cddb",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDd986b932-1a00-4a19-bf52-70fb0e237fd9",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDb2b2baab-4182-41d2-993a-830a714f6f83",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID25afdd09-c15b-4d26-8c3e-b74ce953fb05",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDc2b14b17-132e-4ce8-8d15-66306cb4a5e9",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00007690"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Milan"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-Citynews"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID0e36c395-6573-4ecf-93f0-162d1c4d9261",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID39939225-a236-4bea-b78e-e1b8fb6447ff",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID9072208d-60af-429c-9d78-bd38b99370f9",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID4c1aa3b4-a445-4f65-91bb-5498f7078187",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID634f84c0-e5f6-41e0-ac1b-d0ce4a4e41b3",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00007690"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Milan"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Milan_News"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDa20f4952-d074-4e6b-bad3-94362e16a970",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID8d0d2405-96b9-4a03-a52d-b543707dc04a",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID9dd3ccfc-a699-4714-92a4-1b07a2e12144",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDe1ec76f0-5ba0-429b-8d28-936538e292b3",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDc58fd41b-45ed-4929-b9a0-a625aa3e1ed4",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID8694ae5b-08b1-4527-96e1-3bebdb6462a9",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00002674"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Trentino-South Tyrol"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Trentino_News"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDaf808a3c-cc9c-4f93-8502-5a9836eb2469",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUID01f99fbb-7914-4687-b9cc-eadbd423288b",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Data collection4"
+                            },
+                            "name": {
+                                "_value": "Data collection4"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Data collection"
+                                    },
+                                    "name": {
+                                        "_value": "Data collection"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Data collection4"
+                            },
+                            "version": {
+                                "_value": "Data collection4"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Data collection4"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDf89d9bd5-3b75-4573-aad1-00963abeed19",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDb01f828e-f35a-47a0-835d-d3a4048f9e8b",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID25e5768d-171a-423a-ae7c-0d7aaca0bfbd",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID55a36050-f7a1-4be5-90b0-dfd3519359b6",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID3693cd17-b4ea-445b-9356-91848fa858cd",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00007690"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Milan"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-Telecom Italia"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDbbd6c54d-ea84-4026-99fa-aa64c6c9f790",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDc77adc69-278a-4524-affd-54066c89a9cb",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID5985ae0b-0a8d-4817-8988-375351538d90",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID11208177-912a-47ec-93bd-e39751e3217e",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDc7c2c431-80be-4cbb-97c3-a5509f66f78c",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00007690"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Milan"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Milan_Grid"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDd799dc8c-40ee-4456-8892-bcf288064dd1",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID179b7ff1-fc5d-4ff3-8677-34292c2dadc1",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID6133984f-78dc-4398-b1cf-b04d5454b85d",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID3bb9e493-843c-4ec6-a9e0-f776e3bd597f",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDfd0e54e5-e035-4005-84f2-eee35c4bb124",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID2394470c-7e6d-490a-a67e-8a01cc331241",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00007690"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Milan"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Milan_Telecommunications"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDacf048f0-5df5-4aff-bb68-d4a3d6af8cf0",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID9c07cc67-5245-41da-90ad-577605b935b5",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDb87dbd69-d32e-4a33-bd6f-edbe650269b3",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID25378907-ed7f-4f43-9ac4-6259d5ae9c2d",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID99922b1a-e064-46ee-91eb-4ee67816a1b7",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID3abfbee7-144e-42f6-a2f9-292582e6a3ad",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00002674"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Trentino-South Tyrol"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Trentino_Grid"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID19df8e7d-0bdd-4c32-b41c-a97531e0db0b",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDd13d7a97-7615-481d-aa94-4265d7523126",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID7c58b3c2-78a7-4917-b95e-c9636338defc",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID8c5f36b2-0f93-4ed0-9e5e-142c733d3017",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00002031"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "anthropogenic habitat"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID31a84faf-af73-491a-84bc-04f96f7bf89b",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID5a2d84a7-904c-42cf-9003-e7b56d7b3b10",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00002674"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Trentino-South Tyrol"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Trentino_Telecommunications"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID94d4fb95-4061-4245-b4eb-1049d7aef9d7",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUID94521e68-9e88-46fa-af3f-03108ee25b50",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Data collection1"
+                            },
+                            "name": {
+                                "_value": "Data collection1"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Data collection"
+                                    },
+                                    "name": {
+                                        "_value": "Data collection"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Data collection1"
+                            },
+                            "version": {
+                                "_value": "Data collection1"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Data collection1"
+                    }
+                }
+            ],
+            "publicReleaseDate": {
+                "_value": "27/10/2015"
+            },
+            "publication": [],
+            "studyAssay": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID9ef773f9-67a9-442f-a0ff-77e301d93837",
+                    "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                    "measurementType": {
+                        "_value": ""
+                    },
+                    "platform": {
+                        "_value": ""
+                    },
+                    "technology": {
+                        "_value": "weather stations"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID5cc0a592-7973-4746-a2c9-d0d77f1900ce",
+                    "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                    "measurementType": {
+                        "_value": "ENVO:00000004"
+                    },
+                    "platform": {
+                        "_value": ""
+                    },
+                    "technology": {
+                        "_value": "Internet Electronic Communication"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDb4858e59-8796-4275-a328-4271281d9201",
+                    "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                    "measurementType": {
+                        "_value": ""
+                    },
+                    "platform": {
+                        "_value": ""
+                    },
+                    "technology": {
+                        "_value": "network analysis"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDda54ba64-0a32-451d-9f89-a9d0d59cfc2c",
+                    "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                    "measurementType": {
+                        "_value": ""
+                    },
+                    "platform": {
+                        "_value": ""
+                    },
+                    "technology": {
+                        "_value": "Geographic Information System"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDc37d1ba0-d80f-402d-b5d2-71ef8f4e40d8",
+                    "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                    "measurementType": {
+                        "_value": "NCIT:C17188"
+                    },
+                    "platform": {
+                        "_value": ""
+                    },
+                    "technology": {
+                        "_value": "Telecommunication Device"
+                    }
+                }
+            ],
+            "studyDesignType": {
+                "_value": ""
+            },
+            "studyFactor": [],
+            "studyGroupPopulation": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID85af1b5d-2b38-46d0-9cb4-1eae3dcc6ee6",
+                    "@type": "http://purl.obolibrary.org/obo/STATO_0000193",
+                    "name": {
+                        "_value": "population name"
+                    },
+                    "selectionRule": {
+                        "_value": "selection rule"
+                    },
+                    "studySubject": [
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDd986b932-1a00-4a19-bf52-70fb0e237fd9",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUIDb2b2baab-4182-41d2-993a-830a714f6f83",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "ENVO:00002031"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "anthropogenic habitat"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "environment type"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID25afdd09-c15b-4d26-8c3e-b74ce953fb05",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUIDc2b14b17-132e-4ce8-8d15-66306cb4a5e9",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "GAZ:00007690"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Milan"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "geographical location"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-Citynews"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        },
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID81fcab78-b14b-400f-a2bf-ba9a7e108c1e",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID52dbc8a1-957c-4c1b-ab6f-1c90433dff0f",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "ENVO:00002031"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "anthropogenic habitat"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "environment type"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID51aa09fb-627c-45a7-ad10-8e494658a9cf",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID8f0576bf-e163-4856-a43d-52faf2a57f5b",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "GAZ:00007690"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Milan"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "geographical location"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-SpazioDati, DEIB"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        },
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID246a0734-772c-420e-9834-aa9e863cce5f",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID458810a0-29a5-4347-8094-2581c697c0c2",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "ENVO:00002031"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "anthropogenic habitat"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "environment type"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDc094fc62-ab89-4b89-9fbf-e69e5e55adfd",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID3c38ffe2-857d-4431-b991-89d702a90f45",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "GAZ:00007690"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Milan"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "geographical location"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-ISTAT"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        },
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID048273ff-b8e6-47e5-9490-595bc9e1fb56",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUIDb4a2480a-8c29-4118-8be2-a61ba6db1420",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "ENVO:00002031"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "anthropogenic habitat"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "environment type"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID3444a45d-ffa9-49d6-91a1-1f35723021f5",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID863db4b2-bdcd-4deb-89c3-6eeb29ebeb85",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "GAZ:00007690"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Milan"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "geographical location"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-ARPA"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        },
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID7d1abe63-405a-4484-bb7b-cbcc28394726",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUIDbd84ec8f-8f85-49e5-981c-bee43bddc6f3",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "ENVO:00002031"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "anthropogenic habitat"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "environment type"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDb6ee5791-e974-4e41-bd7e-1405146ea4e4",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUIDbb9399bb-ccd6-4db5-959d-99c5c5dbe79e",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "GAZ:00002674"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Trentino-South Tyrol"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "geographical location"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-SET Distribuzione SPA"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        },
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDb01f828e-f35a-47a0-835d-d3a4048f9e8b",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID25e5768d-171a-423a-ae7c-0d7aaca0bfbd",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "ENVO:00002031"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "anthropogenic habitat"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "environment type"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID55a36050-f7a1-4be5-90b0-dfd3519359b6",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID3693cd17-b4ea-445b-9356-91848fa858cd",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "GAZ:00007690"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Milan"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "geographical location"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-Telecom Italia"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        },
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDe3b6fcb8-ff99-46fa-af36-4e32fd4cf831",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID086ce0a8-d52a-4bb3-a621-180618c8d3c1",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "ENVO:00002031"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "anthropogenic habitat"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "environment type"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID18673037-981f-432f-8957-a9c9b2285c50",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID8b99ff49-3cca-49d2-9453-8a002c1bd65e",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "GAZ:00002674"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Trentino-South Tyrol"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "geographical location"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-Meteotrentino"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+                    }
+                }
+            ],
+            "studyProtocol": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDd47cb25e-d59f-4e60-bd58-3f98acbd3fc5",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Data collection"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data collection method"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID8ae2dbb7-26ad-4043-9f84-458c321215bf",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Administrative regions"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data collection and processing objective"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDf639cccd-d36d-4e39-ad58-68fa66c90d80",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Call Detail Records"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data collection method"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID20da5e80-59a7-485d-9212-3463745396a1",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Grid"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data collection and processing objective"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID886c39fc-aef0-4a34-8f5c-af9c7fc0f29b",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "News"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data collection method"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID02c7581f-f331-4149-9db1-4df37d81ae91",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Precipitation"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data collection method"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDbede3a1c-fdca-4c5b-b83f-5617b2013d60",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "SET Electricity"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data collection method"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDa4ef31dc-6491-42ac-9359-19c8de240763",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Social Pulse"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data collection method"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID196a1d95-2f18-47c6-abe2-0d2dce50a14a",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Weather station data"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data collection method"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID09d52ee4-71b0-4d7b-976f-e7e694e2e340",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Telecommunications activity"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data collection and processing objective"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDe4b60c96-f370-4128-b216-7572b3e14d49",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Telecommunications interactions"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data transformation"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "submissionDate": {
+                "_value": "27/05/2015"
+            },
+            "title": {
+                "_value": "A multi-source dataset of urban life in the city of Milan and the Province of Trentino"
+            }
+        }
+    ],
+    "submissionDate": {
+        "_value": ""
+    },
+    "title": {
+        "_value": ""
+    }
+}

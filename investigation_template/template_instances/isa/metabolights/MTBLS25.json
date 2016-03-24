@@ -1,0 +1,1339 @@
+{
+    "@context": {
+        "_value": "https://schema.org/value",
+        "description": "https://metadatacenter.org/schemas/description",
+        "identifier": "https://metadatacenter.org/schemas/identifier",
+        "publicReleaseDate": "https://metadatacenter.org/schemas/publicReleaseDate",
+        "study": "https://metadatacenter.org/schemas/study",
+        "submissionDate": "https://metadatacenter.org/schemas/submissionDate",
+        "title": "https://metadatacenter.org/schemas/title"
+    },
+    "@id": "https://repo.metadatacenter.org/UUID/1124ea18-5ab1-4f5c-886d-1c705eafb5fd",
+    "@type": "https://repo.metadatacenter.org/model/Investigation",
+    "_templateId": "http://example.org",
+    "description": {
+        "_value": ""
+    },
+    "identifier": {
+        "_value": "MTBLS25"
+    },
+    "publicReleaseDate": {
+        "_value": ""
+    },
+    "study": [
+        {
+            "@id": "https://repo.metadatacenter.org/UUID27dc2140-6d89-455c-b989-340229b396fa",
+            "@type": "https://repo.metadatacenter.org/model/Study",
+            "contact": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDf264105f-1108-45a3-b53e-f7d63f33d75a",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": "Matthias S. Klein Institute of Functional Genomics Josef-Engert-Str. 9 93053 Regensburg, Germany"
+                    },
+                    "email": {
+                        "_value": "matthias.klein@ur.de"
+                    },
+                    "fax": {
+                        "_value": "+49 941 9435019"
+                    },
+                    "firstName": {
+                        "_value": "Matthias"
+                    },
+                    "lastName": {
+                        "_value": "Klein"
+                    },
+                    "middleInitial": {
+                        "_value": "S."
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID894b5281-4007-46de-a4b6-ac4baa58483e",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Institute of Functional Genomics, University of Regensburg"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": "+49 941 9435006"
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID69a8892d-f8ed-4a0c-909d-6a0f7ceaaa40",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": "Peter.Oefner@klinik.uni-regensburg.de"
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Peter"
+                    },
+                    "lastName": {
+                        "_value": "Oefner"
+                    },
+                    "middleInitial": {
+                        "_value": "J."
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID8c1b5a8a-c540-4fe3-b963-6fe18909ab20",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Institute of Functional Genomics, University of Regensburg"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDdbd5c3f8-8338-4c66-8dff-fc01be7b44d7",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": "wolfram.gronwald@klinik.uni-r.de"
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Wolfram"
+                    },
+                    "lastName": {
+                        "_value": "Gronwald"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID3425371d-70d6-4c1b-964c-940d0664b24a",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Institute of Functional Genomics, University of Regensburg"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "description": {
+                "_value": "To test the quantification performance of MetaboQuant and other NMR quantification tools, a set of eight metabolites were added to replicates of a urine sample in varying concentrations. The metabolites were alanine, creatinine, histidine, betaine, acetate, phosphocreatine, \u03b2-hydroxybutyrate (BHBA) and lactate. These were added in concentrations of 6000, 3000, 1500, 750, 375, 188, 94, and 47 micromol/L in a Latin Square design. 2D 1H-13C-HSQC spectra were recorded on a 600 MHz Bruker Avance III spectrometer employing a triple-resonance cryoprobe and z-gradients."
+            },
+            "identifier": {
+                "_value": "MTBLS25"
+            },
+            "process": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDd8eb67d5-c685-47eb-acbf-100388ed8b81",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID8ac537a2-2de9-4150-aba9-c69b87a02acc",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID06b5b044-09cf-4545-8f89-9cb3c6b2ade7",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID5a658b9a-cc66-410a-8587-124907f40317",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID95d045d1-bba3-44f1-8449-a402fd16e8b8",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0001419"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "urine"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-Urine"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID1382b1c1-9e6f-4c48-9cde-b06cd1b8de9a",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID7287b4a5-9b14-4fd0-a834-39be2fd002be",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID3ef3841e-e39f-45a8-bd0d-229721a4f1a8",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID6429262d-a98b-44bd-a449-616f0385cf3d",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDaa895c03-e009-4444-8dea-87854f0320fa",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0001419"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "urine"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Latin_Square_1_2012_04_05"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDb60ae96e-1a94-4d08-9e17-c3fd0fe78df6",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDcc6a04ef-8bb0-4463-a218-97795e842e4c",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID2b304725-55b3-41ab-9244-18b6df927f12",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID32b73168-d7b0-4416-9cc4-0aba03ff7033",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID9d7bd8f3-1353-4cd8-b389-75da1f6049bb",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID2960e17a-4225-491a-b855-f48b8033d827",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0001419"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "urine"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Latin_Square_2_2012_04_05"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDb2d69e10-1315-49dd-ace5-441191c9e47f",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDb115066a-40b7-42db-aa52-dc2dd05eae11",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID4b8b7fb8-f85d-4b27-9ae9-a05479643727",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDbe3d91b2-fee8-445e-83ed-db44d977b99d",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID6b955ea3-c77d-4057-b0cb-dd7c69e093c7",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDdaa642cd-35de-481a-b332-733efe8d8498",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0001419"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "urine"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Latin_Square_3_2012_04_05"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDc9930cb7-f6e9-474d-8040-a3b70f24f024",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID43bd2724-673e-4903-a3d0-eed3f5ef7c4a",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID54ac1263-0c0e-4946-ac83-a8659186b272",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID6d7bfee8-6f69-4bcc-97df-16009118fa08",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDf62dd0e2-7fc0-4c39-8f5e-f94d06024634",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID389faccd-6704-47da-a9f0-1079184fadde",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0001419"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "urine"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Latin_Square_4_2012_04_05"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID03e315b2-8d22-4c97-862d-94423a91b780",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID855d5118-d095-46e6-b682-11a96a424d35",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID884bc8e5-9634-499e-90db-4de6037579f7",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID568aed6e-2319-4264-a193-df36745379e3",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID8918b06d-1b45-48a5-9b0c-bbc212b163ea",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID1e5e6d9a-031d-4811-949e-e36cbc07f515",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0001419"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "urine"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Latin_Square_5_2012_04_05"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDe713a4c0-9027-44f6-97cd-bd5b9ce3a631",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID249cb8f1-cfee-412d-941c-8c1f1de4299d",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID15e58528-92dd-428b-82a7-10087eeafe8a",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDc2276569-5f58-46ee-9bfe-5851b8b94cd2",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID0f602dea-d303-443e-8756-60cf7bdb477a",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDde7db5bd-708a-4912-9a76-7a9a4b219ad7",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0001419"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "urine"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Latin_Square_6_2012_04_05"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDabbad9d2-d8eb-48a4-b8a5-58bd702885aa",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDef91e24b-3ee4-4bbe-afec-27d810190c25",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID2a147c03-e91b-49d0-af8f-8a5f228af636",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDe7003964-fdaf-4449-9ddd-caf2f5254ee0",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID089b8d05-6202-4209-a254-94e61b5e236e",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID3aa73283-cf48-42ca-a0c2-8f4292d8d364",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0001419"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "urine"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Latin_Square_7_2012_04_05"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID9e60de97-dad5-42c1-9529-b2e422388c0e",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID09bfcaef-f416-4f23-a396-de1780d41ae9",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDdb6763ba-63f2-4d97-8068-2f72e956acda",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID6030c545-80ac-4bad-b126-55d3fc9c7a80",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID8cf96df6-6c15-433a-b0e9-76dfd149b977",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDd494cf78-725c-43ff-9af9-270c8a73f63d",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0001419"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "urine"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Latin_Square_8_2012_04_05"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID62548d54-6b34-486c-a7f0-7daa1ef48fe3",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUIDa57be5a1-79a2-473a-9195-22ab2532d0fd",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Sample collection1"
+                            },
+                            "name": {
+                                "_value": "Sample collection1"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Sample collection"
+                                    },
+                                    "name": {
+                                        "_value": "Sample collection"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Sample collection1"
+                            },
+                            "version": {
+                                "_value": "Sample collection1"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Sample collection1"
+                    }
+                }
+            ],
+            "publicReleaseDate": {
+                "_value": "2013-01-10"
+            },
+            "publication": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDe1c5d877-f50b-41ad-a7f0-c29da791873c",
+                    "@type": "https://repo.metadatacenter.org/model/Publication",
+                    "authorList": [
+                        {
+                            "_value": "Klein MS"
+                        },
+                        {
+                            "_value": " Oefner PJ"
+                        },
+                        {
+                            "_value": " Gronwald W."
+                        }
+                    ],
+                    "dOI": {
+                        "_value": "http://dx.doi.org/10.2144/000114026"
+                    },
+                    "pubMedID": {
+                        "_value": "23662895"
+                    },
+                    "status": {
+                        "_value": "Published"
+                    },
+                    "title": {
+                        "_value": "MetaboQuant: a tool combining individual peak calibration and outlier detection for accurate metabolite quantification in 1D (1)H and (1)H-(13)C HSQC NMR spectra."
+                    }
+                }
+            ],
+            "studyAssay": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID80948974-b3c6-427e-9ac7-fb9f45d820ed",
+                    "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                    "measurementType": {
+                        "_value": "http://purl.obolibrary.org/obo/OBI_0000366"
+                    },
+                    "platform": {
+                        "_value": "Bruker"
+                    },
+                    "technology": {
+                        "_value": "NMR spectroscopy"
+                    }
+                }
+            ],
+            "studyDesignType": {
+                "_value": ""
+            },
+            "studyFactor": [],
+            "studyGroupPopulation": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDcc47fb6e-313d-4138-a689-a014e7119c91",
+                    "@type": "http://purl.obolibrary.org/obo/STATO_0000193",
+                    "name": {
+                        "_value": "population name"
+                    },
+                    "selectionRule": {
+                        "_value": "selection rule"
+                    },
+                    "studySubject": [
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID8ac537a2-2de9-4150-aba9-c69b87a02acc",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID06b5b044-09cf-4545-8f89-9cb3c6b2ade7",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Homo sapiens"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID5a658b9a-cc66-410a-8587-124907f40317",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID95d045d1-bba3-44f1-8449-a402fd16e8b8",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "http://purl.obolibrary.org/obo/BTO_0001419"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "urine"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism part"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-Urine"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+                    }
+                }
+            ],
+            "studyProtocol": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID9efafd1b-2ce1-4ea8-b2e2-30fd8b3ab689",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "A spot urine specimen was collected from an apparently healthy volunteer and split into eight aliquots. A Latin Square spike-in experiment was prepared, where the sum of molar amounts of spike-in\u2019s added to aliquots of a biological specimen is the same. Eight different metabolites, namely alanine, creatinine, histidine, betaine, acetate, phosphocreatine, \u03b2-hydroxybutyrate (BHBA) and lactate (Sigma-Aldrich, Steinheim, Germany), were added in varying amounts to the eight urine aliquots."
+                    },
+                    "name": {
+                        "_value": "Sample collection"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Sample collection"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID9e298c75-39a7-4221-bc83-e9bb75913d36",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "N/A"
+                    },
+                    "name": {
+                        "_value": "Extraction"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Extraction Method"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Extraction"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDd2a17d41-537d-4568-a87c-a8cc5961ccf1",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "400 \u03bcl of this spiked urine were added to 200 \u03bcl of 0.1 M phosphate buffer (pH 7.4) and 50 \u03bcl of deuterium oxide containing TSP as reference substance."
+                    },
+                    "name": {
+                        "_value": "NMR sample"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "NMR tube type"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Temperature"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Sample pH"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Solvent"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "NMR sample"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID759fd8b3-00f3-4143-92b7-d156ffa55d5a",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "2D 1H-13C HSQC spectra were acquired on an AVANCE III NMR spectrometer (Bruker BioSpin, Rheinstetten, Germany) using a 5 mm Triple-resonance cryoprobe with z-gradients probe at a proton frequency of 600 MHz and ambient temperature of 298 Kelvin."
+                    },
+                    "name": {
+                        "_value": "NMR spectroscopy"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Magnetic field strength"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Number of transients"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Pulse sequence name"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "NMR Probe"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Instrument"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "NMR spectroscopy"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID651fc0d6-c37a-4022-a2d8-2e19dd1851d1",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "2048 x 128 data points were collected using the pulse program r_hsqcetgppr (Bruker BioSpin) using 8 scans/increment, a relaxation delay of 3 secs, an acquisition time of 0.14 secs and 16 dummy scans. This resulted in a total acquisition time of 56 min/spectrum. The spectral widths were set to 12 and 165 ppm in the proton and carbon dimensions, respectively. Water suppression was achieved using presaturation during the relaxation delay."
+                    },
+                    "name": {
+                        "_value": "NMR assay"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "NMR assay"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID737e430d-9abd-4519-aca5-07c1a538d401",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "2D spectra were semiautomatically processed employing a 90\u00b0 shifted squared sine-bell window function in both dimensions. For increased resolution in the indirect carbon dimension, the number of data points was doubled prior to Fourier transform using complex forward linear prediction. All 2D spectra were manually phase corrected, and a polynomial baseline correction was applied excluding the region around the water artifact. For more details see [1].\n</p>\nRef:</br>\n[1] Gronwald W, Klein MS, Kaspar H, Fagerer SR, N\u00fcrnberger N, Dettmer K, Bertsch T, Oefner PJ. Urinary metabolite quantification employing 2D NMR spectroscopy. Anal Chem. 2008 Dec 1;80(23):9288-97. doi: 10.1021/ac801627c. PMID:19551947</br>"
+                    },
+                    "name": {
+                        "_value": "Data transformation"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Data transformation"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID394f7908-0e8c-4f6a-a4df-21052db4cedb",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "For metabolite assignment, a urinary 2D 1H-13C HSQC spectrum was used. Amix 3.9.13 (Bruker BioSpin) was used for peak picking. An NMR peak search was performed using the Biological Magnetic Resonance Data Bank (available at http://www.bmrb.wisc.edu/), the Human Metabolome Database (available at http://www.hmdb.ca/) and the BBIOREFCODE database (Bruker BioSpin). To assign the signals, the spectrum was manually overlaid with reference spectra of pure compounds."
+                    },
+                    "name": {
+                        "_value": "Metabolite identification"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Metabolite identification"
+                    },
+                    "uRI": {
+                        "_value": "http://www.hmdb.ca/, http://www.bmrb.wisc.edu/"
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDd3e87a8e-05ba-42bc-b842-9511e0d60ac2",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "MetaboQuant (http://genomics.uni-regensburg.de/site/institute/software/metaboquant) is a tool developed by Matthias S. Klein that allows reliable quantification from nuclear magnetic resonance (NMR) spectrum peak integrals by using individual calibration factors for each peak. Additionally, several outlier detection methods have been implemented to exclude overlapped and corrupted peaks from quantification. Detailed information about MetaboQuant can be found in the manual that is included in the file MetaboQuant.zip (http://genomics.uni-regensburg.de/software/NMR/MetaboQuant_1.2.zip) and is also provided in this study folder (manual.pdf)."
+                    },
+                    "name": {
+                        "_value": "Software"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Software"
+                    },
+                    "uRI": {
+                        "_value": "http://genomics.uni-regensburg.de/site/institute/software/metaboquant"
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDdd604af2-e493-4e1f-9e8f-712366a5fd9a",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "MetaboQuant may be run as stand-alone application using Windows 2000 or newer. On other operating systems such as Linux or Mac OS, you may run MetaboQuant from within Matlab (The Mathworks, Natick, MA, USA). For this you need: Matlab version 7.1.0.246 (R14) Service Pack 3 or newer.\n</p>\nTo install MetaboQuant:</br>\nDownload the following files: MCRInstallerR2007b.exe and MetaboQuant.zip.</br>\nRun the file MCRInstallerR2007b.exe to install the required Matlab run-time routines.</br>\nExtract the file MetaboQuant.zip to a new folder.\n</p>\nTo run MetaboQuant:</br>\nDouble-click on the file MetaboQuant.exe. Starting MetaboQuant may take some minutes, as the Matlab run-time environment takes some time to be loaded. Extract MetaboQuant.zip to a new folder.</br>\nStart Matlab and change the working directory to the MetaboQuant installation folder, e.g. using the command cd.</br>\nTo run MetaboQuant, type MetaboQuant in the Matlab command line.</br>"
+                    },
+                    "name": {
+                        "_value": "Installation"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Installation"
+                    },
+                    "uRI": {
+                        "_value": "http://genomics.uni-regensburg.de/software/NMR/MetaboQuant_1.2.zip"
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "submissionDate": {
+                "_value": "2013-01-03"
+            },
+            "title": {
+                "_value": "Urine Latin Square Spike-In for testing the NMR quantification tool, MetaboQuant."
+            }
+        }
+    ],
+    "submissionDate": {
+        "_value": ""
+    },
+    "title": {
+        "_value": "Investigation"
+    }
+}

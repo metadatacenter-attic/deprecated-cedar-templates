@@ -1,0 +1,992 @@
+{
+    "@context": {
+        "_value": "https://schema.org/value",
+        "description": "https://metadatacenter.org/schemas/description",
+        "identifier": "https://metadatacenter.org/schemas/identifier",
+        "publicReleaseDate": "https://metadatacenter.org/schemas/publicReleaseDate",
+        "study": "https://metadatacenter.org/schemas/study",
+        "submissionDate": "https://metadatacenter.org/schemas/submissionDate",
+        "title": "https://metadatacenter.org/schemas/title"
+    },
+    "@id": "https://repo.metadatacenter.org/UUID3a49068a-7293-4488-a7ed-9d9b25b74eb1",
+    "@type": "https://repo.metadatacenter.org/model/Investigation",
+    "_templateId": "http://example.org",
+    "description": {
+        "_value": ""
+    },
+    "identifier": {
+        "_value": ""
+    },
+    "publicReleaseDate": {
+        "_value": ""
+    },
+    "study": [
+        {
+            "@id": "https://repo.metadatacenter.org/UUIDcbd594d2-61f2-4413-919c-874566a9425b",
+            "@type": "https://repo.metadatacenter.org/model/Study",
+            "contact": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDadce88c7-8236-4c1a-9330-8319478cb48a",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Alexander D"
+                    },
+                    "lastName": {
+                        "_value": "Perkins"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID8798d107-2fae-4389-8f0d-acf87289cb2c",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Department of Cellular and Physiological Sciences, University of British Columbia, Life Sciences Institute, 2350 Health Sciences Mall, Vancouver, BC V6T 1Z3, Canada"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDdd0542a7-a527-4eb6-9619-62bee1a35ba1",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Michael J J"
+                    },
+                    "lastName": {
+                        "_value": "Lee"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID04c67d8c-ca23-40a7-8b05-3d1ab498d7a2",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Department of Cellular and Physiological Sciences, University of British Columbia, Life Sciences Institute, 2350 Health Sciences Mall, Vancouver, BC V6T 1Z3, Canada"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDeff942a7-46e5-493b-b260-85c6edfca6df",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": "tanentz@mail.ubc.ca"
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Guy"
+                    },
+                    "lastName": {
+                        "_value": "Tanentzapf"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID799cb5b0-811e-4146-ad86-5ef4f219c450",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Department of Cellular and Physiological Sciences, University of British Columbia, Life Sciences Institute, 2350 Health Sciences Mall, Vancouver, BC V6T 1Z3, Canada"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "description": {
+                "_value": "http://www.nature.com/articles/sdata20142#abstract"
+            },
+            "identifier": {
+                "_value": "10.1038/sdata.2014.2"
+            },
+            "process": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID89bd3592-80c6-4f54-b3d9-e18356b73f68",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID2b823ffb-edff-4478-aa20-1154dda11bae",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID8c0757cb-ba4f-406f-9c48-80aa36994b32",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000468"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "N/A"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDf46ac12e-2099-4d8e-b878-a48d4a2e49be",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID243f4149-5e33-43dc-a9c5-5cd916b2bcde",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "NCBITAXON:7227"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "not applicable"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-1_Mef2-GAL4_library"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDa0a42628-c71e-478e-8754-6f6b4b48889d",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID821e2e25-92bc-428b-b8b0-7d81da9b1411",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDfc683887-51f2-4080-9931-166a7aa568bc",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000468"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "N/A"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID1f5be2db-73b8-4265-90b0-1290d9a39005",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID524dfeff-f48e-4232-9e7d-c1e1eb0f02d3",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "NCBITAXON:7227"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "not applicable"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID7913fd27-c2ce-412d-b9e4-f0703d5738c9",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDa2d40003-31b3-40ca-ac93-c44f266b3600",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "genotype"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "N/A"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID2e11ceed-de82-49d8-9a1c-cd85f693105a",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDb3b294f9-4239-4576-95a6-7129f8ec8f97",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "developmental stage"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "all stages"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-1_Mef2-GAL4_library"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID840721fd-d187-42ed-a94a-81217451debd",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUID7211f20e-357f-43ee-91c7-671bdf971ac5",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Screen design1"
+                            },
+                            "name": {
+                                "_value": "Screen design1"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Screen design"
+                                    },
+                                    "name": {
+                                        "_value": "Screen design"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Screen design1"
+                            },
+                            "version": {
+                                "_value": "Screen design1"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Screen design1"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDd04a3187-45a8-4656-9503-8c08320ec4f3",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID3fc85146-79ac-412d-81ad-3aec9f3a27e0",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID8aedce39-f802-4a39-abe2-70a14a5e6a8a",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000468"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "multi-cellular organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID82dd9d33-fd33-4161-9a43-a867ee03b0eb",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDcd1bbf98-aa94-4dd6-beea-ae233933a2e9",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "NCBITAXON:7227"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Drosophila melanogaster"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-2_Mef2-GAL4_TARGET_library"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDfcc5d512-b62f-4897-9a2a-5fc1495554a5",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID8cbfe59c-934e-4d2f-90bc-5e8a2a236769",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID3c7aa489-050b-4f56-b4e1-dfbdd2b598e2",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000468"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "multi-cellular organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID1ffde680-2268-4c55-ad03-b348c885448f",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID4575b13b-eed7-4b97-a812-68233b0a31f9",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "NCBITAXON:7227"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Drosophila melanogaster"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID9383a507-efb4-4550-8777-17f73434b5a4",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDba05e04c-50f7-4d9e-aa87-471ea902e803",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "genotype"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "TARGET RNAi knockdown"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID09158db9-36d2-4f63-9aa0-6df88654261b",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDe32ad5a8-2853-4e5c-ae7c-83ef1cb13059",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "developmental stage"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "adult stage"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-2_Mef2-GAL4_TARGET_library"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDd366196a-4d9f-425d-acde-1209185a1cb8",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUIDe13cbacf-2330-4329-a9fe-2f3d43e84d0b",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Screen design2"
+                            },
+                            "name": {
+                                "_value": "Screen design2"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Screen design"
+                                    },
+                                    "name": {
+                                        "_value": "Screen design"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Screen design2"
+                            },
+                            "version": {
+                                "_value": "Screen design2"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Screen design2"
+                    }
+                }
+            ],
+            "publicReleaseDate": {
+                "_value": "11/03/2014"
+            },
+            "publication": [],
+            "studyAssay": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID3fab1ff4-61cd-476a-83fc-5b98e898cacb",
+                    "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                    "measurementType": {
+                        "_value": ""
+                    },
+                    "platform": {
+                        "_value": "visual inspection"
+                    },
+                    "technology": {
+                        "_value": "RNAi screening"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDd5d76b53-f466-4bbb-84aa-837859878260",
+                    "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                    "measurementType": {
+                        "_value": "ERO:0001116"
+                    },
+                    "platform": {
+                        "_value": "manual scoring"
+                    },
+                    "technology": {
+                        "_value": "phenotype characterization"
+                    }
+                }
+            ],
+            "studyDesignType": {
+                "_value": ""
+            },
+            "studyFactor": [
+                {
+                    "@context": "",
+                    "@id": "https://repo.metadatacenter.org/UUID20c32862-b7df-48fb-984a-fedffbfcd10b",
+                    "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                    "description": {
+                        "_value": "genotype"
+                    },
+                    "name": {
+                        "_value": "genotype"
+                    }
+                },
+                {
+                    "@context": "",
+                    "@id": "https://repo.metadatacenter.org/UUIDcdce0fb2-2aa5-47de-a02f-6d3afa7ddaf1",
+                    "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                    "description": {
+                        "_value": "Developmental Stage"
+                    },
+                    "name": {
+                        "_value": "developmental stage"
+                    }
+                }
+            ],
+            "studyGroupPopulation": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID059d3a3c-f7fe-408b-8972-14d27f0151fc",
+                    "@type": "http://purl.obolibrary.org/obo/STATO_0000193",
+                    "name": {
+                        "_value": "population name"
+                    },
+                    "selectionRule": {
+                        "_value": "selection rule"
+                    },
+                    "studySubject": [
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID3fc85146-79ac-412d-81ad-3aec9f3a27e0",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID8aedce39-f802-4a39-abe2-70a14a5e6a8a",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "UBERON:0000468"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "multi-cellular organism"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "organism part"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID82dd9d33-fd33-4161-9a43-a867ee03b0eb",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUIDcd1bbf98-aa94-4dd6-beea-ae233933a2e9",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "NCBITAXON:7227"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Drosophila melanogaster"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "organism"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-2_Mef2-GAL4_TARGET_library"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        },
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID2b823ffb-edff-4478-aa20-1154dda11bae",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID8c0757cb-ba4f-406f-9c48-80aa36994b32",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "UBERON:0000468"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "N/A"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "organism part"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDf46ac12e-2099-4d8e-b878-a48d4a2e49be",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID243f4149-5e33-43dc-a9c5-5cd916b2bcde",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "NCBITAXON:7227"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "not applicable"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "organism"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-1_Mef2-GAL4_library"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+                    }
+                }
+            ],
+            "studyProtocol": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID8c2f96a2-6ed4-4862-ba9b-145295f67c2e",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Screen design"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "experimental design method"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID9aa55823-d4f5-4c5c-bafb-27de5db8a09d",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Developmental lethality"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Genetic Screening"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDcc96ea96-7cbd-417a-a330-33943c722693",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Negative geotaxis assay"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "behavioral assay"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDd9e1d6b5-4203-4f37-b885-d971c791431a",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Data processing and statistical analysis"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data transformation"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID2b2fd565-5bd7-4220-aa6e-f5b07abbb569",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Criteria for phenotypic classification"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "phenotypic annotation"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "submissionDate": {
+                "_value": "17/07/2013"
+            },
+            "title": {
+                "_value": "The systematic identification of cytoskeletal genes required for Drosophila melanogaster muscle maintenance"
+            }
+        }
+    ],
+    "submissionDate": {
+        "_value": ""
+    },
+    "title": {
+        "_value": ""
+    }
+}

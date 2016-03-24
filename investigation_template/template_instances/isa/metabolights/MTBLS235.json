@@ -1,0 +1,3250 @@
+{
+    "@context": {
+        "_value": "https://schema.org/value",
+        "description": "https://metadatacenter.org/schemas/description",
+        "identifier": "https://metadatacenter.org/schemas/identifier",
+        "publicReleaseDate": "https://metadatacenter.org/schemas/publicReleaseDate",
+        "study": "https://metadatacenter.org/schemas/study",
+        "submissionDate": "https://metadatacenter.org/schemas/submissionDate",
+        "title": "https://metadatacenter.org/schemas/title"
+    },
+    "@id": "https://repo.metadatacenter.org/UUID/f1be9118-bb24-4e46-9008-34e93ca0044e",
+    "@type": "https://repo.metadatacenter.org/model/Investigation",
+    "_templateId": "http://example.org",
+    "description": {
+        "_value": ""
+    },
+    "identifier": {
+        "_value": "MTBLS235"
+    },
+    "publicReleaseDate": {
+        "_value": ""
+    },
+    "study": [
+        {
+            "@id": "https://repo.metadatacenter.org/UUIDb6afe1ff-5d2f-47cc-b800-882e09a3dd4b",
+            "@type": "https://repo.metadatacenter.org/model/Study",
+            "contact": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID03f4e6b9-3266-4dbe-a522-77a98059ae6b",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": "erhan.kenar@uni-tuebingen.de"
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Erhan"
+                    },
+                    "lastName": {
+                        "_value": "Kenar"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID3baa96b3-b93e-4ac0-b3bf-5ef8ea537b9c",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Wilhelm Schickard Institute for Computer Science, University of T\u00fcbingen"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDfb6fee65-1405-4a23-b6ba-6343a006f5c3",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": "oliver.kohlbacher@uni-tuebingen.de"
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Oliver"
+                    },
+                    "lastName": {
+                        "_value": "Kohlbacher"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUIDf7f33e33-57d6-47e0-b2a6-b31bd8935b0c",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Wilhelm Schickard Institute for Computer Science, University of T\u00fcbingen"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "description": {
+                "_value": "Liquid chromatography coupled to mass spectrometry (LC-MS) has become a standard technology in metabolomics. In particular, label-free quantification based on LC-MS is easily amenable to large-scale studies and thus well suited to clinical metabolomics. Large-scale studies, however, require automated processing of the large and complex LC-MS datasets. </p> We present a novel algorithm for the detection of mass traces and their aggregation into features (i.e. all signals caused by the same analyte species) that is computationally efficient and sensitive and that leads to reproducible quantification results. The algorithm is based on a sensitive detection of mass traces, which are then assembled into features based on mass-to-charge spacing, co-elution information, and a support vector machine\u2013based classifier able to identify potential metabolite isotope patterns. The algorithm is not limited to metabolites but is applicable to a wide range of small molecules (e.g. lipidomics, peptidomics), as well as to other separation technologies. </p> We assessed the algorithm's robustness with regard to varying noise levels on synthetic data and then validated the approach on experimental data investigating human plasma samples. We obtained excellent results in a fully automated data-processing pipeline with respect to both accuracy and reproducibility. Relative to state-of-the art algorithms, ours demonstrated increased precision and recall of the method. The algorithm is available as part of the open-source software package OpenMS and runs on all major operating systems. </p> See MTBLS234 for the human plasma samples part of this study."
+            },
+            "identifier": {
+                "_value": "MTBLS235"
+            },
+            "process": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID142bc952-076c-460f-8d7c-7c7248dbad57",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID39fd4b94-6259-429f-8639-0b38c858a660",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID75943a4f-6079-4242-884c-82d6765d4137",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID0415e602-c7ce-4d49-9407-9efe1f5b056f",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID59b3e71f-fc8a-4f1c-8e9d-80cee5a55c4c",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-MSSimulator output"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID095b4c03-a8f0-4542-98a4-3dc271947234",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDdc6d1181-b9c3-43aa-aeff-9d3b4ad6d328",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID66bdf2d9-6426-4da5-983d-7c701ff96cc9",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID14fe9a8a-7ccc-4fe7-8ad7-b0d82dcf87c4",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID1775b488-7b8e-44d5-94e3-bbcdb7456b74",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDed65992f-2e4c-480d-b0e8-93b83af8a55a",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID49c863ed-f066-46fb-97ab-277fe075e68f",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated error profile distortion"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "rounds of distortion"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID5b89331d-a258-40d7-90a7-61983bb55850",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDc2303368-ac8e-4ba1-9233-4332a72e9bc6",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated mass error"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "parts per million"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID21819451-ae46-4cc6-bf89-f21583fdd245",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDa6308205-a850-4c8c-99a5-cdb98a4e8dd9",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated detector noise"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "intensity"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-detnoise_sigma0"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDf03a99ec-6e60-40f8-af4b-468e04bf6e3b",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDe5341d7d-6340-405d-8d6f-2f252468723d",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe5092183-0550-49a6-ae15-a6609ffb2a4e",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID310d59e1-e2c5-4d87-a056-4502c22a4607",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDf94f85f0-7f14-4976-91b3-b588fae170f5",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID5a2fa7a9-5e7e-4a22-b089-3e5efd8105d8",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDa0f6c184-c8af-40b2-a097-d0c8a52e06c5",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID02a7b43c-64f2-4ce0-a098-bb76079b8ed4",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated error profile distortion"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "rounds of distortion"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDda70fbf7-31af-4c76-aedf-a0788f7e2074",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDc0d8025b-38d0-47a9-8e0e-4b0a72777975",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated mass error"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "parts per million"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDf0640a88-c3ab-4d54-8fe3-969861a84eaf",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID2231b6e8-d032-43df-8aa2-fdc6735c1ee8",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated detector noise"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "intensity"
+                                        },
+                                        "value": {
+                                            "_value": "3"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-detnoise_sigma3"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDdaf32f5c-1882-46f3-bab5-e1988f1541e6",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID10eaeed8-3d5f-420e-9bee-f0691f530663",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDf273c44a-4f77-4b77-8c97-66555dfbd1a0",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDfe886cdb-a93b-48ee-965b-00420cc6bfe3",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID5813d283-c361-47f3-bd83-fdf246df4042",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDa9e075c2-c8ac-4751-9fc1-91f1eb831442",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID30355cf9-7091-4bb8-a52f-3a3200796c22",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID37ef7c7e-de11-4fe6-b7ef-bdc4cef7b5aa",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated error profile distortion"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "rounds of distortion"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDeb280f20-8c84-40c4-a140-cee3f8f0bb4d",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID1434a6f6-0508-4bdf-a257-3a935f06f958",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated mass error"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "parts per million"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID9a2a6236-aaa2-4648-a9b5-2c8896dae502",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDb8f4baea-8163-454b-801e-5ff010f36ff8",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated detector noise"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "intensity"
+                                        },
+                                        "value": {
+                                            "_value": "5"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-detnoise_sigma5"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDcd096908-f9f0-49ec-b56f-0f559e335b41",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDae161d4e-7ff9-4bad-a53d-3a5d315c7e81",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDd35c673e-c7fa-4fe6-bdec-32c42141b1be",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID4c5139fa-0212-4914-ae8c-8395b56b6954",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID0c02b6be-a532-4f78-88ff-930f78eca007",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID9c9abcad-b7cf-49f2-8472-e59a59c0a385",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDb2f9c3ef-039b-4479-afde-76e241a68423",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDf79d1519-fbed-45ed-9b43-dca6c04298f5",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated error profile distortion"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "rounds of distortion"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDd200d624-7299-4841-b795-ba6ce93b288b",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDb12a5296-c95e-459c-8cce-0815faf7020a",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated mass error"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "parts per million"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDa98d3b9f-8097-446a-aa9d-0f5830eb2e11",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID1e9114c0-5b05-4532-97e0-45c741cfcb2f",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated detector noise"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "intensity"
+                                        },
+                                        "value": {
+                                            "_value": "10"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-detnoise_sigma10"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDdca69a60-10f9-4564-909a-2a61dc0894ad",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID3bae5a1d-c31d-4be5-ac13-1871b2593cc9",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID5ad86a15-dca7-4c0c-aed5-83b780d11907",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDefb0d92b-0eec-4f30-9f71-287706537b20",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDa1fe9e7b-5349-449f-a2d6-67c348b453ce",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDe2bb2932-5e4e-4ff1-8574-aef78f125e5e",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDf2a4472e-4201-4395-8757-81881ac258e3",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDaba6bcef-cd5b-40eb-a84a-40e4bbc24850",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated error profile distortion"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "rounds of distortion"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID21cb0105-b728-40cd-9a14-5ada55a52c80",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID590236a4-aad3-4dc7-97f8-8632e9cfe2f4",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated mass error"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "parts per million"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe3169047-8857-49a1-8d9e-70c791a4dcc3",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID274c46cf-4986-4287-a8ee-919f14deffc9",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated detector noise"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "intensity"
+                                        },
+                                        "value": {
+                                            "_value": "12"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-detnoise_sigma12"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDa8cf139a-f510-4042-bfe7-71a8ada2da11",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID039428ab-24ea-4e6e-88c5-0f4c15e7835a",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID0dec5c57-94a4-4b7c-8abd-4aa92fcd19a5",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID2db005e5-8e64-4bf6-acba-ba7abed166d4",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID1ca1983f-44df-4fef-b9ee-72138c6d271f",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID2d4d8ace-ce0e-4782-8f51-08396e41d8e2",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID9c7306e3-b042-48b1-aa8e-975b3efe7783",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDedeeb91b-d3a9-4b02-9623-b66d861754e0",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated error profile distortion"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "rounds of distortion"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDea200076-5e05-41e0-bcdb-da3cbaaabe81",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID0f24d08b-c383-4e5a-9ffd-6a8c6a2548af",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated mass error"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "parts per million"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID858c894f-3dcd-4c62-984a-7b7ea379f1ef",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID2be37a84-948a-4214-bf2c-4a48f8c97af4",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated detector noise"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "intensity"
+                                        },
+                                        "value": {
+                                            "_value": "15"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-detnoise_sigma15"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID698e9e23-1773-433a-8de5-21b4d9f89f30",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDbfc08702-2612-4179-b67a-b48ab9d2f8c6",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID9fab25a0-b730-44af-9dd8-7bb2fb684d22",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID7e811be4-eeb9-4dfe-8cce-003900110555",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID40987c0a-e70e-41d3-84cf-a17da1ed8878",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID371acf28-06f8-4158-a417-176392e4bb16",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID6f1b58b3-48e2-4b0f-b023-aca0936342de",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID8fb4f424-0231-4a34-8b39-6bc737d7db98",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated error profile distortion"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "rounds of distortion"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDd23b9260-7052-4bd8-9599-f9590bf8ab76",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID36d97311-9b5f-4bef-acb2-a56da5cf152e",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated mass error"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "parts per million"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDd8db49e9-aee1-4486-bc29-6b689647fc65",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID386c6036-9c49-49b4-9b11-da2c25f8737e",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated detector noise"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "intensity"
+                                        },
+                                        "value": {
+                                            "_value": "20"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-detnoise_sigma20"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID85ad95ba-0d13-484f-9fb5-d9ee3043255a",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID8ba6f46f-1b76-47e4-b133-517ec80b784b",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID2e83b172-19aa-4b63-bcc8-fc210fb815e6",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID2548ee66-cb2c-4a3f-bfc6-9d4d66f34f31",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID1d5cf4a6-f950-4c9e-9d8c-ac6d5dfc52f7",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID321d76fe-05f6-4e89-8d81-5e0bd766ad90",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID0ce820d0-cdc8-4f01-a73b-d8a31387656b",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID189121f1-64e4-4ad0-9978-d5955b7769af",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated error profile distortion"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "rounds of distortion"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID9a6fd014-401e-440f-a285-08e33e1fd1c2",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID27e4cd0d-ab7b-4127-8d0c-6b430af29cb2",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated mass error"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "parts per million"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDdaa40d65-14bb-48d9-9715-8c12863cbf1d",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDd17aaa3a-6aeb-41e5-bb6d-fb0082a2cd13",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated detector noise"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "intensity"
+                                        },
+                                        "value": {
+                                            "_value": "25"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-detnoise_sigma25"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID61e84294-3c6e-4bac-aa32-c0f28a42fa64",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDa00e9c82-f3ce-4912-a315-c7bdba8fbd5d",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDbe504ead-268f-4724-8c9a-ef8dc6488e56",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID7f79ecd0-8135-4e97-9160-86d41847d0cb",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe009e52a-d18e-4067-830a-2d6c1e6ad9c2",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID6ef92c52-a0ee-4ad8-bf5b-0f857f28d032",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDd02ce1d4-295b-4134-91ea-5224bb728828",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID9e6f5fff-69a4-4fca-9bbe-96fab88ffbe2",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated error profile distortion"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "rounds of distortion"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID5e28fd8c-e438-4931-8131-485e5c7a9e64",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID255439d8-699a-4574-806e-d6c0e51d19d4",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated mass error"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "parts per million"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDb1a76bc8-0b30-4ee6-8ebf-5e43d88e97db",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDfdec5746-243a-4fff-a2ae-c1b19b9bddfd",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated detector noise"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "intensity"
+                                        },
+                                        "value": {
+                                            "_value": "30"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-detnoise_sigma30"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID5380f466-de73-40c8-99dc-e975d6a54137",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID2ce3b717-9840-4963-9370-058786fa7543",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID86e8dcb2-8a97-448c-baad-45fdb3ff64ea",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID1fe2cca4-0799-4626-be72-3d1e0edf09bb",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID49a75f18-352e-4cbd-9543-50d01623aa9a",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID1dad8b98-98e4-4d16-a8a5-e147ffefeba4",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID813ab589-20ea-411b-8ed7-dd5a5df2edb2",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID9d846429-4170-41c4-8e4d-d4621ab672cf",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated error profile distortion"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "rounds of distortion"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID1a278ada-a571-45f8-b95f-3bbfc5b6d2e0",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID4a1073ee-c660-4de0-bf0c-abd4ec102224",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated mass error"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "parts per million"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID66bbe9fd-8e17-42d1-81fb-a95b8c2b4624",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID151ffe09-3877-4949-8fba-27b9d48e4cee",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated detector noise"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "intensity"
+                                        },
+                                        "value": {
+                                            "_value": "40"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-detnoise_sigma40"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID01a83622-bc09-4096-a6a5-f3b4fc9be424",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID84c56355-d0ec-4b17-8951-cd583cabc04f",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID336eab5a-5a72-46dc-89b9-6c88ff2f1391",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDc31d6e62-116c-4b62-8224-3d877ec9df1c",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDeaee4fdf-1a3d-45d4-b5dd-12b95a1f9bfb",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID80561525-755b-45e8-b13d-3ecec9332813",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDd890516e-b987-405e-9eb6-6b48ed58dbeb",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID7d77cdb7-6be2-4206-bb42-17385389f66e",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated error profile distortion"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "rounds of distortion"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDdfaa925d-f2f8-486a-8656-285b5a80257f",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID0e570269-bd9b-4380-a3e1-64dc8402e70c",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated mass error"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "parts per million"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID5c00b964-0691-4d66-bbe4-7f32042587cf",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID8132fa74-9059-495b-a32b-9e728ebc8652",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated detector noise"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "intensity"
+                                        },
+                                        "value": {
+                                            "_value": "50"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-detnoise_sigma50"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDeec7df26-8599-4a6a-bfa4-20e8d73a7a07",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID99233ace-8930-4a0c-96ba-7b6607895cf0",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDfdb1eb8b-8c57-4873-9f38-5f8b088efdc3",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDdc49791b-7e7d-4c50-af45-f0b20c21eaff",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID58fa25be-e2f6-4400-812c-febe1f42e1d3",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDb137c0db-35a1-4468-9f4f-1a60ae05b7c0",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID14845605-108d-454a-9570-96aa06b96ebb",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDb5136c36-4911-4ee6-9417-68a36e15c84f",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated error profile distortion"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "rounds of distortion"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID86c13436-976d-45c8-9666-ad8eb3d05d68",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID056fd0f1-9206-43dd-8608-510b64ae6767",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated mass error"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "parts per million"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDdf0a136c-1f43-4225-8385-f7b8d7e17122",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID0c96eda1-1c0c-47b2-862c-27576d09fb76",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated detector noise"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "intensity"
+                                        },
+                                        "value": {
+                                            "_value": "70"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-detnoise_sigma70"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID874e79bc-a80a-4c0b-8ca9-962780978fa6",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDc674fad1-bc11-4de8-a3fe-2bfbf5d6381e",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID3536bba0-30c9-4f64-bc7a-459b4989cfb5",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID9b4098c4-874b-4b39-acc3-4602648971f5",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDb0d62401-4725-4fe7-a362-5747b8971350",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID39422e60-1d28-473c-8272-a722612460e7",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID5bd1f637-befe-43ea-bb18-1fa4ddb89c35",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID0d949c37-3b0e-4bf0-a39a-7188d30e32ec",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated error profile distortion"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "rounds of distortion"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID61fd9b10-6813-40e0-b7e1-7ae042eb6635",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDb9433b15-0158-4438-a80c-bf146f49debb",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated mass error"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "parts per million"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDcb7ab5d4-044d-49a0-9320-f624be56cd47",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID6b0ccc83-e3f2-4e5b-9cc7-b1e77029afdd",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated detector noise"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "intensity"
+                                        },
+                                        "value": {
+                                            "_value": "100"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-detnoise_sigma100"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID7d6fe105-b3fe-4085-98a7-7d8b9e122d92",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID940f3d35-194b-4512-9486-3ac40ffa36da",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID0f39707b-c049-4e98-badc-365709ccb25b",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID880d1dfc-24e8-40e8-9526-50f9554123a5",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDa1eb3a65-8ad0-42f1-a2e5-d514c9f44e11",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID7c285b9b-f660-47eb-b84c-afb8ca74edc9",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID99d8f905-d179-4211-ab14-5688a19602bd",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID658a7a84-724e-4c5f-888e-7ddc16f7db7b",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated error profile distortion"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "rounds of distortion"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID6f9adac8-b632-42ac-9f87-107a4d53484e",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID6a6ddc97-3f1f-47ff-8171-3abaed4597b9",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated mass error"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "parts per million"
+                                        },
+                                        "value": {
+                                            "_value": "10"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID34276d95-34eb-4e22-a12b-d602a8b1ca52",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDc89f0694-8a92-4712-8693-70862173167c",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated detector noise"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "intensity"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-errorPPM_10"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDea9d8fbb-8067-4730-81ee-e40d9d0aad78",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDdcb150ce-e13c-498b-a417-0e3bee1ff9ed",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDcffe7dc0-9af6-4c6e-a630-1ff9c9ad5d6a",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID14317c7b-de23-416f-991d-332c59f6a622",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDf8868928-29f8-486d-b465-c06c4d4ee413",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDd2e9e66a-a1a8-4bf0-8b53-1045356d1719",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID136f04b2-dc44-4023-a153-4689b4185b77",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDa1b29e2d-3a20-411e-9c80-e12ac4a65ec1",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated error profile distortion"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "rounds of distortion"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDa376dac8-1122-460c-a482-8f28c3d2d78d",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDa7b84da5-2cd4-46c7-83b7-08875ab853de",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated mass error"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "parts per million"
+                                        },
+                                        "value": {
+                                            "_value": "40"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID79f3a4d8-32ff-4c02-9d19-c6e273f04069",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID26811d7b-5fb6-466e-84d7-f5e7f9209046",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated detector noise"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "intensity"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-errorPPM_40"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID741a98c3-8844-40ee-97eb-72d04be282f1",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDbbdc6ffc-6411-41d4-bb00-7b45db3516f7",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe7729c51-0ac1-4124-bca6-348505e3ccca",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID2daeda1a-efd0-4753-b883-5ed617439383",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID4a7db82f-b9ff-4665-a080-b4edc23a7421",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID922b88ba-4b5d-4087-937e-a816bedf52b9",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "simulated data"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID262f6684-6289-4a22-b25b-1599b5ed72bf",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDe1417600-2724-40f6-afc3-b84cd6ce64dd",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated error profile distortion"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "rounds of distortion"
+                                        },
+                                        "value": {
+                                            "_value": "10"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID67da74f4-b164-4f45-a92f-178d1576ec82",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID05fdccb7-83fb-4589-aab6-34d1549a046c",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated mass error"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "parts per million"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID1486a923-2895-4023-850c-38941f8edd10",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDe0af325a-11a5-4592-b129-6fe81ff0db98",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "simulated detector noise"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "intensity"
+                                        },
+                                        "value": {
+                                            "_value": "0"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-intensityDistort_10"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID9c0d5acb-ad81-4e5a-a2f5-4d784f3deb45",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUID127ea49d-c50b-45ca-bf47-a5203428afb4",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Sample collection1"
+                            },
+                            "name": {
+                                "_value": "Sample collection1"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Sample collection"
+                                    },
+                                    "name": {
+                                        "_value": "Sample collection"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Sample collection1"
+                            },
+                            "version": {
+                                "_value": "Sample collection1"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Sample collection1"
+                    }
+                }
+            ],
+            "publicReleaseDate": {
+                "_value": "2015-10-06"
+            },
+            "publication": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID9697e212-aefc-45bd-a109-68d3d6735367",
+                    "@type": "https://repo.metadatacenter.org/model/Publication",
+                    "authorList": [
+                        {
+                            "_value": "Erhan Kenar"
+                        },
+                        {
+                            "_value": " Holger Franken"
+                        },
+                        {
+                            "_value": " Sara Forcisi"
+                        },
+                        {
+                            "_value": " Kilian W\u00f6rmann"
+                        },
+                        {
+                            "_value": " Hans-Ulrich H\u00e4ring"
+                        },
+                        {
+                            "_value": " Rainer Lehmann"
+                        },
+                        {
+                            "_value": " Philippe Schmitt-Kopplin"
+                        },
+                        {
+                            "_value": " Andreas Zell"
+                        },
+                        {
+                            "_value": " Oliver Kohlbacher"
+                        }
+                    ],
+                    "dOI": {
+                        "_value": "10.1074/mcp.M113.031278"
+                    },
+                    "pubMedID": {
+                        "_value": "24176773"
+                    },
+                    "status": {
+                        "_value": "Published"
+                    },
+                    "title": {
+                        "_value": "Automated Label-free Quantification of Metabolites from Liquid Chromatography\u2013Mass Spectrometry Data"
+                    }
+                }
+            ],
+            "studyAssay": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID1e217eb3-8dbc-4afa-a0d8-91494f1f8947",
+                    "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                    "measurementType": {
+                        "_value": "http://purl.obolibrary.org/obo/OBI_0000366"
+                    },
+                    "platform": {
+                        "_value": "MSSimulator"
+                    },
+                    "technology": {
+                        "_value": "mass spectrometry"
+                    }
+                }
+            ],
+            "studyDesignType": {
+                "_value": ""
+            },
+            "studyFactor": [
+                {
+                    "@context": "",
+                    "@id": "https://repo.metadatacenter.org/UUID1e5f83a2-495c-4bc2-a9c2-4b827bbff6e3",
+                    "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                    "description": {
+                        "_value": "detector noise"
+                    },
+                    "name": {
+                        "_value": "simulated detector noise"
+                    }
+                },
+                {
+                    "@context": "",
+                    "@id": "https://repo.metadatacenter.org/UUID9622ae8f-6b4b-4a8f-809a-cd3e46f791fc",
+                    "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                    "description": {
+                        "_value": "mass error"
+                    },
+                    "name": {
+                        "_value": "simulated mass error"
+                    }
+                },
+                {
+                    "@context": "",
+                    "@id": "https://repo.metadatacenter.org/UUIDed47cb06-0eb9-42ca-b470-188b4837b05f",
+                    "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                    "description": {
+                        "_value": "error profile distortion"
+                    },
+                    "name": {
+                        "_value": "simulated error profile distortion"
+                    }
+                }
+            ],
+            "studyGroupPopulation": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDd7de08ce-b759-434e-a628-b899001f345d",
+                    "@type": "http://purl.obolibrary.org/obo/STATO_0000193",
+                    "name": {
+                        "_value": "population name"
+                    },
+                    "selectionRule": {
+                        "_value": "selection rule"
+                    },
+                    "studySubject": [
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID39fd4b94-6259-429f-8639-0b38c858a660",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID75943a4f-6079-4242-884c-82d6765d4137",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": ""
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "simulated data"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID0415e602-c7ce-4d49-9407-9efe1f5b056f",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID59b3e71f-fc8a-4f1c-8e9d-80cee5a55c4c",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": ""
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "simulated data"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism part"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-MSSimulator output"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+                    }
+                }
+            ],
+            "studyProtocol": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID90fc8c2b-8f2a-4cd3-8b87-e7223c033fde",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "The dataset was based on a list of identified plant metabolites from a rather comprehensive study by Giavalisco et al. [1]. The authors reported the elemental composition, intensity, and retention time of hundreds of metabolites in the supplementary information for their study. This information is all that was needed in order to create synthetic datasets with characteristics typical of a complex metabolomics study.\n</p>\nRef:</br>\n[1] Giavalisco P., Li Y., Matthes A., Eckhardt A., Hubberten H. M., Hesse H., Segu S., Hummel J., Kohl K., Willmitzer L. (2011) Elemental formula annotation of polar and lipophilic metabolites using (13) C, (15) N and (34) S isotope labelling, in combination with high-resolution mass spectrometry. Plant J. 68, 364\u2013376. doi: 10.1111/j.1365-313X.2011.04682.x. PMID:21699588</br>"
+                    },
+                    "name": {
+                        "_value": "Sample collection"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Sample collection"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID6444d5da-ef78-411f-ac81-e7d39eb2c6d7",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "N/A"
+                    },
+                    "name": {
+                        "_value": "Extraction"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Derivatization"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Post Extraction"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Extraction"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID27becb39-8595-41a7-bd21-2a078c13fd90",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "For the generation of synthetic LC-MS datasets, we employed the software package MSSimulator [1]. The simulator creates profile data based on the experimentally determined retention time and the composition of a set of compounds. It can simulate different instrument resolutions, noise levels, and chromatographic performances. The datasets created here were based on experimentally identified metabolites and thus captured the complexity of a real-world sample. At the same time, the simulator provides complete control over signal-to-noise ratio, accuracy, and similar parameters that would be very difficult to vary independently of each other experimentally.\n</p>\nRef:</br>\n[1] Bielow C., Aiche S., Andreotti S., and Reinert, K. MSSimulator: Simulation of Mass Spectrometry Data J. Proteome Res., 2011, 10 (7), 2922\u20132929. doi: 10.1021/pr200155f</br>"
+                    },
+                    "name": {
+                        "_value": "Chromatography"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Column type"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Column model"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Chromatography Instrument"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Chromatography"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID2bc128a4-b83f-4250-b8d6-f83a01ab55c4",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "MSSimulator performed a raw signal simulation of 500 metabolites within the range of 100\u20131,000 m/z and with a simulated gradient runtime of 25 min. The machine-dependent settings of MSSimulator were chosen to be close to those of our experimental MS setup: The simulated MS resolution R was set to 20,000, and the scan time was set at 0.25 s. The output of MSSimulator consists of a centroided LC-MS measurement and a feature map summarizing all simulated metabolites with theoretical retention times, m/z ratios, and intensities. This feature map facilitates comparison between the ground truth (the simulator's input) and the features detected by our algorithm applied to the same simulated data."
+                    },
+                    "name": {
+                        "_value": "Mass spectrometry"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Scan polarity"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Mass analyzer"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Ion source"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Instrument"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Scan m/z range"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Mass spectrometry"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDb57d2931-c429-417a-9aad-2f3fddfe5dd5",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "N/A"
+                    },
+                    "name": {
+                        "_value": "Data transformation"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Data transformation"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID3402e65a-e020-44a9-9964-668dc04c0d16",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "To assess the influence of different sources of noise on the feature-finding performance, we conducted three series of MS simulations, each affected by detector noise, m/z variation, or elution profile distortion. In the first series, we simulated increasing levels of detector noise that were controlled by the Gaussian standard deviation sdet. The second series comprised two datasets simulated with moderate and strong mass errors (Gaussian standard deviation sm/z set to 10 ppm and 40 ppm, respectively). For the third series, we simulated elution profiles with ideal peak shapes and heavily distorted shapes. In MSSimulator, the degree of distortion is controlled by the number of iterations ndist; that is, the greater the number of iterations performed, the more the elution profiles deviate from their smooth Gaussian shape. The configuration for each simulation is summarized in the supplemental material of the publication associated with this study."
+                    },
+                    "name": {
+                        "_value": "Metabolite identification"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Metabolite identification"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "submissionDate": {
+                "_value": "2015-09-25"
+            },
+            "title": {
+                "_value": "Automated Label-free Quantification of Metabolites from Liquid Chromatography\u2013Mass Spectrometry Data (Simulated)"
+            }
+        }
+    ],
+    "submissionDate": {
+        "_value": ""
+    },
+    "title": {
+        "_value": "Investigation"
+    }
+}

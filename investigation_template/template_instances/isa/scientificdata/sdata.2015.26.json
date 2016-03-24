@@ -1,0 +1,920 @@
+{
+    "@context": {
+        "_value": "https://schema.org/value",
+        "description": "https://metadatacenter.org/schemas/description",
+        "identifier": "https://metadatacenter.org/schemas/identifier",
+        "publicReleaseDate": "https://metadatacenter.org/schemas/publicReleaseDate",
+        "study": "https://metadatacenter.org/schemas/study",
+        "submissionDate": "https://metadatacenter.org/schemas/submissionDate",
+        "title": "https://metadatacenter.org/schemas/title"
+    },
+    "@id": "https://repo.metadatacenter.org/UUIDc8b47441-abed-4f36-9549-5f9d06b276b1",
+    "@type": "https://repo.metadatacenter.org/model/Investigation",
+    "_templateId": "http://example.org",
+    "description": {
+        "_value": ""
+    },
+    "identifier": {
+        "_value": ""
+    },
+    "publicReleaseDate": {
+        "_value": ""
+    },
+    "study": [
+        {
+            "@id": "https://repo.metadatacenter.org/UUID74a54110-93b9-4549-b84b-23213d040935",
+            "@type": "https://repo.metadatacenter.org/model/Study",
+            "contact": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID1eec0cb1-61bf-4050-8959-b5bad0567f14",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": "ali@zooniverse.org"
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Alexandra"
+                    },
+                    "lastName": {
+                        "_value": "Swanson"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUIDf3e1ee36-3d78-4621-b8f8-2629f3273bdd",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Department of Ecology, Evolution and Behavior, University of Minnesota, Saint Paul, MN 55108, USA"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID9d1e7063-3849-491a-ad93-6f55a0b12ed0",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Margaret"
+                    },
+                    "lastName": {
+                        "_value": "Kosmala"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUIDf6193bd8-a42d-4ddf-992d-f6d8cc2cba72",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Department of Ecology, Evolution and Behavior, University of Minnesota, Saint Paul, MN 55108, USA"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDd5cd491e-8ca5-4806-a4a5-f833697758c3",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Chris"
+                    },
+                    "lastName": {
+                        "_value": "Lintott"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID1b389749-7d1c-4675-a56e-192a39ca418a",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Department of Physics, University of Oxford, Denys Wilkinson Building, Oxford, OX1 3RH, UK"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID7b8f8d22-8785-449a-9231-a4c3d872d501",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Robert"
+                    },
+                    "lastName": {
+                        "_value": "Simpson"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUIDc107b8eb-a417-4e6d-843d-8c5a242f7338",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Department of Physics, University of Oxford, Denys Wilkinson Building, Oxford, OX1 3RH, UK"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDbebbd8dd-0a9a-486f-a9c1-2fac8c2f9ad5",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Arfon"
+                    },
+                    "lastName": {
+                        "_value": "Smith"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID372fcede-d4dd-4e35-a781-08309450a10c",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Adler Planetarium, Department of Citizen Science, Chicago, IL 60605, USA"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID9794ecda-ade5-4667-8fc0-011d4bfff88b",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Craig"
+                    },
+                    "lastName": {
+                        "_value": "Packer"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID654da40a-abd7-489e-a456-4e47f7d2340e",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Department of Ecology, Evolution and Behavior, University of Minnesota, Saint Paul, MN 55108, USA"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "description": {
+                "_value": "http://www.nature.com/articles/sdata201526#abstract"
+            },
+            "identifier": {
+                "_value": "10.1038/sdata.2015.26"
+            },
+            "process": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDf96d2b4a-0d7c-4f6c-a4d0-2613609e1dbb",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID0dd60dab-e97a-4c06-93ea-ab6f2b22cbb8",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDf01bfede-dbcb-423c-b412-b9b8f8b1cb0f",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00006880"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Serengeti National Park"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDa7621e91-d431-49b6-a2c8-5492c3c6c912",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID3012f490-599f-4304-98d2-963d2afc73bf",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "@type": "UO:0000185",
+                                                "_value": "degree"
+                                            },
+                                            "value": {
+                                                "_value": "34.726, 35.181"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "longitude range"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID951c1d00-363f-4f05-a006-ada0d0390d87",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID77333f2d-51ad-48d5-a92f-6bd79c0d18e2",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00000261"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "savanna"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID8c01f30a-7d65-4245-85d1-cd48675cb643",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID84e8d1ff-8070-47a8-86ec-2f0e68f09839",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "@type": "UO:0000185",
+                                                "_value": "degree"
+                                            },
+                                            "value": {
+                                                "_value": "-2.661, -2.364"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "latitude range"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID98d95283-2f8c-429a-889d-cb95640517e9",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID3a335861-2ca2-4143-beb3-b176cb234f1a",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "@type": "UO:0000008",
+                                                "_value": "meter"
+                                            },
+                                            "value": {
+                                                "_value": "920-1850"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "altitude range"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-Snapshot Serengeti camera survey"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDd170b218-08a4-4f6d-b054-d2ff9e6fa593",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID76b1f928-6a9c-438f-a2c0-d498954bed31",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID299d4f02-1343-40fd-9994-d06c4e4f1b15",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "GAZ:00006880"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Serengeti National Park"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "geographical location"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDbdc9de4f-032b-4b04-a9a9-3f0200bd758a",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDfc86c5ff-c987-43e9-a4a3-99c2682a4e41",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "@type": "UO:0000185",
+                                                "_value": "degree"
+                                            },
+                                            "value": {
+                                                "_value": "34.726, 35.181"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "longitude range"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID03dfcabe-b961-4f09-ac31-577e39cfbd28",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDbe5f5498-6af0-4dfe-8416-d533d618ebe1",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "ENVO:00000261"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "savanna"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "environment type"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID202eb369-21c1-4906-bf01-cbc120a6d274",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDb53c648b-faf2-45ca-9064-91e8ff22ade3",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "@type": "UO:0000185",
+                                                "_value": "degree"
+                                            },
+                                            "value": {
+                                                "_value": "-2.661, -2.364"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "latitude range"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDbc80d017-52dd-482b-8e6e-35ad5863ce75",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID671af5d5-8360-4336-9960-619a30d6293a",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "@type": "UO:0000008",
+                                                "_value": "meter"
+                                            },
+                                            "value": {
+                                                "_value": "920-1850"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "altitude range"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Snapshot_Serengeti"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID89652964-0dd6-480b-b7ea-a8ffbd8a85c8",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUID3b7b71ac-984d-4c7c-9e97-b98076a0791a",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Field Methods1"
+                            },
+                            "name": {
+                                "_value": "Field Methods1"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Field Methods"
+                                    },
+                                    "name": {
+                                        "_value": "Field Methods"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Field Methods1"
+                            },
+                            "version": {
+                                "_value": "Field Methods1"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Field Methods1"
+                    }
+                }
+            ],
+            "publicReleaseDate": {
+                "_value": "09/06/2015"
+            },
+            "publication": [],
+            "studyAssay": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID8280433f-5c58-4fc4-8996-6837f7580aa6",
+                    "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                    "measurementType": {
+                        "_value": ""
+                    },
+                    "platform": {
+                        "_value": ""
+                    },
+                    "technology": {
+                        "_value": "Camera-trap"
+                    }
+                }
+            ],
+            "studyDesignType": {
+                "_value": ""
+            },
+            "studyFactor": [],
+            "studyGroupPopulation": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID65158084-d67b-4c61-9113-e66dafe5739d",
+                    "@type": "http://purl.obolibrary.org/obo/STATO_0000193",
+                    "name": {
+                        "_value": "population name"
+                    },
+                    "selectionRule": {
+                        "_value": "selection rule"
+                    },
+                    "studySubject": [
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID0dd60dab-e97a-4c06-93ea-ab6f2b22cbb8",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUIDf01bfede-dbcb-423c-b412-b9b8f8b1cb0f",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "GAZ:00006880"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Serengeti National Park"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "geographical location"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDa7621e91-d431-49b6-a2c8-5492c3c6c912",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID3012f490-599f-4304-98d2-963d2afc73bf",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": ""
+                                        },
+                                        "unit": {
+                                            "@type": "UO:0000185",
+                                            "_value": "degree"
+                                        },
+                                        "value": {
+                                            "_value": "34.726, 35.181"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "longitude range"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID951c1d00-363f-4f05-a006-ada0d0390d87",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID77333f2d-51ad-48d5-a92f-6bd79c0d18e2",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "ENVO:00000261"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "savanna"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "environment type"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID8c01f30a-7d65-4245-85d1-cd48675cb643",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID84e8d1ff-8070-47a8-86ec-2f0e68f09839",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": ""
+                                        },
+                                        "unit": {
+                                            "@type": "UO:0000185",
+                                            "_value": "degree"
+                                        },
+                                        "value": {
+                                            "_value": "-2.661, -2.364"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "latitude range"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID98d95283-2f8c-429a-889d-cb95640517e9",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID3a335861-2ca2-4143-beb3-b176cb234f1a",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": ""
+                                        },
+                                        "unit": {
+                                            "@type": "UO:0000008",
+                                            "_value": "meter"
+                                        },
+                                        "value": {
+                                            "_value": "920-1850"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "altitude range"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-Snapshot Serengeti camera survey"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+                    }
+                }
+            ],
+            "studyProtocol": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID315c4b4d-f39f-41ab-a23f-0cfe12fbf9b2",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Field Methods"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data collection method"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDb776b160-39f3-4502-aea0-68f68c0cd1a8",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Data Management"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "information processor function"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID9d44f487-1bd1-4933-9e67-bdb1c33defb3",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Data Processing"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "information processor function"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID0d47bf74-4aa0-46dd-b34d-18e05c447910",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Data Aggregation"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data combination"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDbbfeb20b-03d0-4a42-985d-7922260b1894",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Technical Validation"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "data combination"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "submissionDate": {
+                "_value": "08/12/2014"
+            },
+            "title": {
+                "_value": "Snapshot Serengeti, high-frequency annotated camera trap images of 40 mammalian species in an African savanna"
+            }
+        }
+    ],
+    "submissionDate": {
+        "_value": ""
+    },
+    "title": {
+        "_value": ""
+    }
+}

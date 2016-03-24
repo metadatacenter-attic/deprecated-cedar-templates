@@ -1,0 +1,2867 @@
+{
+    "@context": {
+        "_value": "https://schema.org/value",
+        "description": "https://metadatacenter.org/schemas/description",
+        "identifier": "https://metadatacenter.org/schemas/identifier",
+        "publicReleaseDate": "https://metadatacenter.org/schemas/publicReleaseDate",
+        "study": "https://metadatacenter.org/schemas/study",
+        "submissionDate": "https://metadatacenter.org/schemas/submissionDate",
+        "title": "https://metadatacenter.org/schemas/title"
+    },
+    "@id": "https://repo.metadatacenter.org/UUID9b87addf-3ccf-4005-a3db-5864abdc9dca",
+    "@type": "https://repo.metadatacenter.org/model/Investigation",
+    "_templateId": "http://example.org",
+    "description": {
+        "_value": ""
+    },
+    "identifier": {
+        "_value": ""
+    },
+    "publicReleaseDate": {
+        "_value": ""
+    },
+    "study": [
+        {
+            "@id": "https://repo.metadatacenter.org/UUID85a1d7d1-3e96-4ecc-8e86-56cbf151817c",
+            "@type": "https://repo.metadatacenter.org/model/Study",
+            "contact": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDb376186b-3540-4322-8d1b-3d7392168879",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Dror"
+                    },
+                    "lastName": {
+                        "_value": "Hibsh"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID69074082-c92a-444c-86e1-0e09f7d7028e",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Faculty of Life Sciences, Bar Ilan University, Ramat Gan 5290002, Israel"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDd8d756fc-41b7-4a2b-80a6-0e981fcb5f11",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": ""
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Hadas"
+                    },
+                    "lastName": {
+                        "_value": "Schori"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID7c038b8c-5666-4cc0-aa01-7b963e611132",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Faculty of Engineering, Bar Ilan University, Ramat Gan 5290002, Israel"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID8019f044-423d-4a79-b646-b1cb1528d0e2",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": "sol.efroni@biu.ac.il"
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Sol"
+                    },
+                    "lastName": {
+                        "_value": "Efroni"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID3611b536-fb13-4ef0-9ca8-9dfc1eaccf7b",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Faculty of Life Sciences, Bar Ilan University, Ramat Gan 5290002, Israel"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID6e1f748b-b6eb-43ca-bf78-68aecda54b35",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": "Orit.Shefi@biu.ac.il"
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Orit"
+                    },
+                    "lastName": {
+                        "_value": "Shefi"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID00edc220-f2a8-4bb3-9c92-cb49ddf36000",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Faculty of Engineering, Bar Ilan University, Ramat Gan 5290002, Israel"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "description": {
+                "_value": "http://www.nature.com/articles/sdata201515#abstract"
+            },
+            "identifier": {
+                "_value": "10.1038/sdata.2015.15"
+            },
+            "process": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID836de862-6116-48f4-a49a-b4351254a798",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": []
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDdfdc840e-2229-4217-8cc6-c49eb70a0d13",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID3e77d5bb-5ef6-4ae3-a186-cd1b12e72e03",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID8ca30523-ed12-495e-a90b-f27c5140d93e",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000045"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "ganglion"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDdd65010f-0ec3-4766-8bc2-10d3467f2c75",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID43b16e58-16a9-401d-b0f6-cc8359c75271",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "6421"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Hirudo medicinalis"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID4ca7bc98-30da-4619-8ec2-2eb23204767d",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDea6ec0a9-71be-4466-bd15-342d18f41c58",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0007023"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "adult organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "development stage"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDed6fb3f3-7f3a-4996-a53c-1839b71f71d5",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID09972e9d-8ce2-4575-94ed-307f50b31550",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "replicate type"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "single animal"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-1_ganglion-number_2"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDa022181e-7c6f-4f72-951d-f95d258e95d7",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID2df9968f-22d4-4546-82b7-3f1dc2924a74",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe55316b8-9ac3-4138-9614-42ba96a3ba30",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID6eaf1528-3434-4de4-b020-6aff4e037f92",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000045"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "ganglion"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDcbdc6e29-6468-4ccf-8271-ecb9a663f289",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID55e0128d-39f8-45b5-9290-2bf207171297",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "6421"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Hirudo medicinalis"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID01121a6b-bd8e-4f7d-ae83-1a2137e61a12",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID5d17f21d-723c-4cbb-99b8-bf4a489c681f",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0007023"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "adult organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "development stage"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDf7341d5f-d4b1-4585-aca8-e1457c8e99cb",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID502f2d76-3282-4418-9ca0-e33e93a6d943",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "replicate type"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "single animal"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-2_ganglion-number_10"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDd5456e1b-1761-477e-83a5-77d5b2e15322",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID28e6f447-8061-4770-b37c-21c94633c53b",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID5ebaba81-ccce-4d28-8764-1d4eb8614a9b",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID37da91cb-b5f6-4048-af32-1f2afd7651c0",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000045"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "ganglion"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDf20fcd03-7491-41c9-b1b1-4a85bc687c15",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID4c34599b-fcbb-4125-8574-ab68f82f706b",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "6421"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Hirudo medicinalis"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID1b1a3337-07c4-4949-9744-015b764461fc",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDee27a466-83aa-488a-8f50-588ed83907fb",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0007023"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "adult organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "development stage"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID78130b9e-1500-411b-85b0-7cfbad3b8c89",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID960765e0-906c-45ba-aefb-743b3b89b8a9",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "replicate type"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "single animal"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-3_ganglion-number_19"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID3bd7964f-64d7-4e1a-bf76-9ab7b163b974",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDac1ffcfd-94a5-433e-a586-e7d2f27b7f8c",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDea403b19-519a-4bce-9186-c53f6810d77a",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID5fbd88b5-d082-407a-be94-37f53347cec2",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000045"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "ganglion"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID5796b5eb-b650-4a2e-959f-8e7edd560bd8",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDdaf8666c-530b-4c1d-99fc-45dc9df225ba",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "6421"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Hirudo medicinalis"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID81242464-97eb-4086-a20d-f34887627fa2",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID09907eed-bf78-473e-9795-124d24a28ebd",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0007023"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "adult organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "development stage"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDab063e8f-e487-48bc-b58c-6e1bc6548363",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID7c4a51f1-eba0-4ed9-b9aa-765839748fe0",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "replicate type"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "single animal"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-4_ganglion-number_2"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID88cc9fd9-b9c9-4e6e-a76a-eb2698af91d1",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID7d86df52-c36a-4379-936b-e36436b37190",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe1cf6bd0-e771-49c4-bd66-55624033427a",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID8a7012db-2c4d-4358-867f-441de7eb21b4",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000045"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "ganglion"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID59d4f785-3d87-4ad4-868f-2b516195e424",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDc63d7d1b-09ad-4e9d-94a9-ecb0d9ef524e",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "6421"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Hirudo medicinalis"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDb7efad1b-d336-4c1e-9ff3-b98d337b4513",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID57ec8058-577c-470b-91e5-31c18b347918",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0007023"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "adult organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "development stage"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe6941e90-125f-439f-b924-265794ffca70",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID4b9002bc-5935-4960-907a-72a7aea27dce",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "replicate type"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "single animal"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-5_ganglion-number_10"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID4edf7b75-402e-4310-b76c-c9ce57e4aa0a",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID61a79249-703f-4353-9d6f-4ccc0baa86c2",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID0a43eb07-6cd2-45c7-87a6-e727868552ef",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID32fd3967-af20-4a5c-bb1e-7bf60d77af45",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000045"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "ganglion"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID8cc5ccfd-ae7d-4b82-9cca-61a4890d3531",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDa81b7a65-f90a-4f16-9b08-cfad80dfc7b0",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "6421"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Hirudo medicinalis"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID5b5c2d24-ab48-4013-ac10-83630af39804",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDd5818de0-f844-4915-afb6-a42e220e2ae1",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0007023"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "adult organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "development stage"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID8c8837f2-2fe6-4f1c-9248-9273d139baa0",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDbacedf59-b774-4169-a6d7-6aa6a785cc7e",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "replicate type"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "single animal"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-6_ganglion-number_19"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDa8e50ed7-5972-4b10-babd-02b4cf1216fb",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID0bc67141-25d7-4311-a45b-a49a6fba83a1",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID5b8b6e8e-5aed-4da0-af06-6498784f5902",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDf2671442-111a-4a09-9360-a90d9abb333d",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000045"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "ganglion"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID8347bd31-88ef-44f0-9b58-6972ae7589d6",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID9e89e8f7-5deb-4f2a-947a-10e2ed655f45",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "6421"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Hirudo medicinalis"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID034ca8f8-fc34-4b9a-b3b2-465f1d5bba8f",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDe0d3376c-f57b-4f20-9361-7e8920874556",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0007023"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "adult organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "development stage"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID5501fbeb-2c08-4f02-8a47-cdd3de953766",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID665bc1d0-a178-4f76-ad0b-fd98b325f4ef",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "replicate type"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "single animal"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-7_ganglion-number_2"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID02addfdf-fe1a-4813-b75d-a02bd8af6698",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID28a4af6f-a32e-4bfb-a04b-89a283e4fa6a",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDff7c11a7-b319-40ec-9e8e-a2b6f7c90d85",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDb11a47b1-6ea8-4a02-99c3-066d79f5ffda",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000045"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "ganglion"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID8939a7e6-e8cf-4851-9aa1-001313f16dbe",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID703edba0-af21-40fc-a0e1-aa128f6da846",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "6421"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Hirudo medicinalis"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID53c64cc7-10bd-44b0-9bab-28438c1e31e8",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDf7eb9865-7876-49f5-9b71-eba86980bb9f",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0007023"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "adult organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "development stage"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID57bd1b16-cc1b-4216-95c4-23a56a1a35db",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID9cc799ed-930c-4ab4-9d8a-868beb47bc43",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "replicate type"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "single animal"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-8_ganglion-number_10"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID0c6f779c-aa81-4941-8dc4-6e3a1a9c541b",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID777cbf9c-8f22-4c1f-9522-20fbf4e64c51",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID97678d67-534d-4e2c-9ce4-62b05ea306c6",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID773ffb5f-ed11-412d-a919-6f3bc1a67998",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000045"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "ganglion"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDc8368b36-b52e-4bd4-b728-acccdcf55af0",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID5750d6ed-60e3-4955-8838-9e29579696ad",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "6421"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Hirudo medicinalis"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID23edf144-3ca3-4a45-9453-5e5d8cb72e28",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID26be7954-6b9e-4529-92ec-37ecc74e82ed",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0007023"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "adult organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "development stage"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDdcad4534-202b-4329-a4cb-6c4efd0bb266",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID55df02f6-3aa7-4ca1-b6a2-9b3b0e3f9f74",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "replicate type"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "single animal"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-9_ganglion-number_19"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID89003077-9430-4e8a-9ea8-799be25ebdeb",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID972c66dc-e64b-4f42-a931-b40caac010ac",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID9f662a69-96c7-48a8-b112-c52f886acd65",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID65b19b9d-9ca4-4822-805e-bc2f0caa29fa",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000045"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "ganglion"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID62368af4-ac11-4283-930e-7b613eecaa6a",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDa2feee76-4662-451d-b2bd-0c5c3a8f74c0",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "6421"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Hirudo medicinalis"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDf883d4f3-cfd6-4c36-b5e0-8349ebcb6445",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID687154d8-6c9b-47fa-a406-5ec99ac03b82",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0007023"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "adult organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "development stage"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDb03d95b3-c2b7-40cd-aa7c-2374f040cbc3",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDdb4622ec-8363-4249-a574-e49ab1e7bf58",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "replicate type"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "pooled"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-10_ganglion-number_10"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID6e57e01b-22da-4d16-8c41-84365220f6b5",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID8da56111-0458-402d-a32a-ee8e546232eb",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe0aa6971-675a-4aff-bb68-37c72f24b4a3",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDf5f16da2-62e7-48ac-b71d-b9691ddff145",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000045"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "ganglion"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe292335d-1180-4bb9-b3db-ab6bd16fa4ce",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDc4f62e0e-6194-4b8e-aa2c-8a3386da457f",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "6421"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Hirudo medicinalis"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID61e9e931-9b4b-4516-afa3-2a5d3e0b7ec2",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID35893edf-0ac5-444c-8eab-f2250d3d21f6",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0007023"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "adult organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "development stage"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDdd7f9803-081d-480b-90fc-69df01d0b4b2",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDe4d66146-522a-4350-a25f-d9cb6677044c",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "replicate type"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "pooled"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-11_ganglion-number_10"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID7f186f59-cef2-4447-ac46-d6edad737e3a",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID93ce2894-c138-4d62-bf90-ed36c25d9695",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID2d28b4d3-020c-44b1-9fe5-4ce867de0ec9",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID19b8e268-5062-4835-a8b0-9188c7672774",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000045"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "ganglion"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID3e0e98bf-1300-4e12-8b6a-00a514766849",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID64437afd-753f-44f7-a537-4337769c80bd",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "6421"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Hirudo medicinalis"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID865dde10-eb2e-4599-99e5-4644ac13222e",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID3d34e854-0123-4eca-ae5e-53d191a77c83",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0007023"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "adult organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "development stage"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDcafeedf2-6dca-498e-a310-3c66589a3604",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDa638897c-e51f-44e6-817e-35df79972187",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "replicate type"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "pooled"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-12_ganglion-number_10"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID2e6a1062-70b8-41c1-92a5-3682bc6ecd1b",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUID5520ce95-4502-4fb8-ac1a-5ce03ff84d96",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Experimental design1"
+                            },
+                            "name": {
+                                "_value": "Experimental design1"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Experimental design"
+                                    },
+                                    "name": {
+                                        "_value": "Experimental design"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Experimental design1"
+                            },
+                            "version": {
+                                "_value": "Experimental design1"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Experimental design1"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDdce24533-98a3-4767-89ed-4b612b6326c0",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID5eba5a17-4274-4a6f-b9c5-e9cb6f76893a",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID7e91be18-a05a-40b7-9f19-970d17e1fd82",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000045"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "ganglion"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID1b0599d4-5282-4f99-886c-7077665250a7",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID18938f81-0021-407a-8b98-8bc9ff6ed55e",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "6421"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Hirudo medicinalis"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDb06593e6-890e-485f-9e46-323b0ffec1c0",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDee30e608-3a93-4db7-845d-94bd10f479cf",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0007023"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "adult organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "development stage"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-animal 1"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            },
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID2c5c57fe-9350-485b-a606-e5ea43e7a908",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID2c2e5c4b-1295-422e-80b2-ed28c0223e88",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000045"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "ganglion"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID28f2fb88-110f-4ce1-a34c-9ff0104cd36f",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID9292659e-ca63-472b-9013-a2174374a824",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "6421"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Hirudo medicinalis"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID38f208d8-4944-4b73-8ac4-0d0d3e497a1f",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID28255447-1035-4c15-a0b0-a52a2e6614a6",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0007023"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "adult organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "development stage"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-animal 2"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            },
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDaa25d100-7874-454e-99bd-d39674e470c5",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID5a0362a0-c5e2-4a93-b1c8-b4046d3ed081",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000045"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "ganglion"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID6c692a02-1678-4474-98fe-8668597cf9d0",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID034e6080-7f44-44bd-be20-e3f947b583b6",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "6421"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Hirudo medicinalis"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe188dfd2-0473-42c8-9f7c-25982889e13b",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID82bd0798-5696-4c7b-a447-61fe2c9a5716",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0007023"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "adult organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "development stage"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-animal 3"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            },
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDdd0dcc70-1c6a-4269-873a-a61d730953cb",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDec218012-4a86-4ec5-837f-66f474fcb628",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0000045"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "ganglion"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism part"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID576934a1-1e3d-49f8-84d4-fbcf81025015",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID3710e701-8b97-4551-a805-d825b2460ee3",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "6421"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Hirudo medicinalis"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDba8704e0-8eed-4eb4-aba6-5024d2b6de25",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID1dff1cf2-793a-4649-9fcc-16eef49b44ef",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "UBERON:0007023"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "adult organism"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "development stage"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-animals 4, 5 and 6"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": []
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUIDa2de8f27-4594-4a64-8a42-4c47ff64da00",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Animal conditions1"
+                            },
+                            "name": {
+                                "_value": "Animal conditions1"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Animal conditions"
+                                    },
+                                    "name": {
+                                        "_value": "Animal conditions"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Animal conditions1"
+                            },
+                            "version": {
+                                "_value": "Animal conditions1"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Animal conditions1"
+                    }
+                }
+            ],
+            "publicReleaseDate": {
+                "_value": "28/04/2015"
+            },
+            "publication": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID38a61b7e-4fd1-413a-9de2-93c070e086e1",
+                    "@type": "https://repo.metadatacenter.org/model/Publication",
+                    "authorList": [
+                        {
+                            "_value": "Hibsh D"
+                        },
+                        {
+                            "_value": " Schori H"
+                        },
+                        {
+                            "_value": " Efroni S"
+                        },
+                        {
+                            "_value": " Shefi O."
+                        }
+                    ],
+                    "dOI": {
+                        "_value": "doi:10.1093/bioinformatics/btt570"
+                    },
+                    "pubMedID": {
+                        "_value": "PMID:24085568"
+                    },
+                    "status": {
+                        "_value": "published"
+                    },
+                    "title": {
+                        "_value": "Spatial regulation dominates gene function in the ganglia chain"
+                    }
+                }
+            ],
+            "studyAssay": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID2d3a252c-bca1-4f10-86e1-1d86d9e01bba",
+                    "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                    "measurementType": {
+                        "_value": "OBI:0000424"
+                    },
+                    "platform": {
+                        "_value": "Illumina HiSeq2000; Trinity assembly"
+                    },
+                    "technology": {
+                        "_value": "RNA sequencing"
+                    }
+                }
+            ],
+            "studyDesignType": {
+                "_value": ""
+            },
+            "studyFactor": [
+                {
+                    "@context": "",
+                    "@id": "https://repo.metadatacenter.org/UUID9526a890-0e10-472d-8548-c3b4a08ffd84",
+                    "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                    "description": {
+                        "_value": "replicate analysis"
+                    },
+                    "name": {
+                        "_value": "replicate type"
+                    }
+                }
+            ],
+            "studyGroupPopulation": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDb50720e5-900c-42c2-8ed8-2a82f48862de",
+                    "@type": "http://purl.obolibrary.org/obo/STATO_0000193",
+                    "name": {
+                        "_value": "population name"
+                    },
+                    "selectionRule": {
+                        "_value": "selection rule"
+                    },
+                    "studySubject": [
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDaa25d100-7874-454e-99bd-d39674e470c5",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID5a0362a0-c5e2-4a93-b1c8-b4046d3ed081",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "UBERON:0000045"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "ganglion"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "organism part"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID6c692a02-1678-4474-98fe-8668597cf9d0",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID034e6080-7f44-44bd-be20-e3f947b583b6",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "6421"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Hirudo medicinalis"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "organism"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDe188dfd2-0473-42c8-9f7c-25982889e13b",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID82bd0798-5696-4c7b-a447-61fe2c9a5716",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "UBERON:0007023"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "adult organism"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "development stage"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-animal 3"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        },
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID5eba5a17-4274-4a6f-b9c5-e9cb6f76893a",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID7e91be18-a05a-40b7-9f19-970d17e1fd82",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "UBERON:0000045"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "ganglion"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "organism part"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID1b0599d4-5282-4f99-886c-7077665250a7",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID18938f81-0021-407a-8b98-8bc9ff6ed55e",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "6421"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Hirudo medicinalis"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "organism"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDb06593e6-890e-485f-9e46-323b0ffec1c0",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUIDee30e608-3a93-4db7-845d-94bd10f479cf",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "UBERON:0007023"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "adult organism"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "development stage"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-animal 1"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        },
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDdd0dcc70-1c6a-4269-873a-a61d730953cb",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUIDec218012-4a86-4ec5-837f-66f474fcb628",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "UBERON:0000045"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "ganglion"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "organism part"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID576934a1-1e3d-49f8-84d4-fbcf81025015",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID3710e701-8b97-4551-a805-d825b2460ee3",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "6421"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Hirudo medicinalis"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "organism"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDba8704e0-8eed-4eb4-aba6-5024d2b6de25",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID1dff1cf2-793a-4649-9fcc-16eef49b44ef",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "UBERON:0007023"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "adult organism"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "development stage"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-animals 4, 5 and 6"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        },
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID2c5c57fe-9350-485b-a606-e5ea43e7a908",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID2c2e5c4b-1295-422e-80b2-ed28c0223e88",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "UBERON:0000045"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "ganglion"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "organism part"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID28f2fb88-110f-4ce1-a34c-9ff0104cd36f",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID9292659e-ca63-472b-9013-a2174374a824",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "6421"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Hirudo medicinalis"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "organism"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID38f208d8-4944-4b73-8ac4-0d0d3e497a1f",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID28255447-1035-4c15-a0b0-a52a2e6614a6",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "UBERON:0007023"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "adult organism"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "development stage"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-animal 2"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+                    }
+                }
+            ],
+            "studyProtocol": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID72a2b06c-35ed-4244-af1b-d3145851d146",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Animal conditions"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "animal care protocol"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID54f459c2-9f43-445e-b1dd-48cf527bfc30",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Experimental design"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "sample preparation for assay"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDac94ec87-6f93-438c-aa44-833d93d4419d",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "CNS/Ganglia collection"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "RNA extraction kit"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": " RNA extraction kit manufacturer"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "RNA extraction"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID6073f939-6d78-45da-92fd-3314d60c1f99",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "RNA amplification"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "RNA amplification kit"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": " RNA amplification kit manufacturer"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "linear amplification"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID1b54f8a5-a759-42ec-88e3-c38cdad19c9b",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Illumina sequencing"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "sequencing instrument"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": " sequencing instrument manufacturer"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "RNA sequencing"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID0582c5c4-05cf-4a41-abdd-d54b89032064",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "De novo assembly"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "assembler"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "sequence assembly process"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID39778423-8b02-4896-b243-d11df888754e",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Annotation dataset"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "alignment search tool"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "sequence annotation algorithm"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "submissionDate": {
+                "_value": "09/12/2014"
+            },
+            "title": {
+                "_value": "De novo transcriptome assembly databases for the central nervous system of the medicinal leech"
+            }
+        }
+    ],
+    "submissionDate": {
+        "_value": ""
+    },
+    "title": {
+        "_value": ""
+    }
+}

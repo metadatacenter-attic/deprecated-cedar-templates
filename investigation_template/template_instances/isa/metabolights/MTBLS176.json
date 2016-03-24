@@ -1,0 +1,2124 @@
+{
+    "@context": {
+        "_value": "https://schema.org/value",
+        "description": "https://metadatacenter.org/schemas/description",
+        "identifier": "https://metadatacenter.org/schemas/identifier",
+        "publicReleaseDate": "https://metadatacenter.org/schemas/publicReleaseDate",
+        "study": "https://metadatacenter.org/schemas/study",
+        "submissionDate": "https://metadatacenter.org/schemas/submissionDate",
+        "title": "https://metadatacenter.org/schemas/title"
+    },
+    "@id": "https://repo.metadatacenter.org/UUID/29d948b4-c69f-4e3c-951d-b09bf34de0ee",
+    "@type": "https://repo.metadatacenter.org/model/Investigation",
+    "_templateId": "http://example.org",
+    "description": {
+        "_value": ""
+    },
+    "identifier": {
+        "_value": "MTBLS176"
+    },
+    "publicReleaseDate": {
+        "_value": ""
+    },
+    "study": [
+        {
+            "@id": "https://repo.metadatacenter.org/UUID46ef42dc-bc12-41fd-9384-61ba0be59c44",
+            "@type": "https://repo.metadatacenter.org/model/Study",
+            "contact": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID2729bdaf-6eb8-422b-a752-dbb40bc300b5",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": "University of Bremen; 28359 Bremen; Germany"
+                    },
+                    "email": {
+                        "_value": "joetjen@uni-bremen.de"
+                    },
+                    "fax": {
+                        "_value": "+49 421 218 98 63802"
+                    },
+                    "firstName": {
+                        "_value": "Janina"
+                    },
+                    "lastName": {
+                        "_value": "Oetjen"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUIDab9c4b3a-c9fe-49ac-b869-6ae650e54b5c",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "MALDI Imaging Lab"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": "+49 421 218 63227"
+                    },
+                    "role": {
+                        "_value": "http://purl.obolibrary.org/obo/RoleO_0000077"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID9427013e-2489-4b8f-9ecb-496b506fc4b2",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": "European Molecular Biology Laboratory; Meyerhofstrasse 1; 69117 Heidelberg; Germany"
+                    },
+                    "email": {
+                        "_value": "theodore.alexandrov@embl.de"
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Theodore"
+                    },
+                    "lastName": {
+                        "_value": "Alexandrov"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUIDf12cd37a-2ce1-4b25-9464-f0ccf4335ec7",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "EMBL, Spatial Metabolomics"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": "http://purl.obolibrary.org/obo/RoleO_0000633"
+                    }
+                }
+            ],
+            "description": {
+                "_value": "Three-dimensional imaging mass spectrometry (3D imaging MS) is a technique of analytical chemistry for 3D molecular analysis of a tissue specimen, entire organ, or microbial colonies on an agar plate. 3D imaging MS has unique advantages over existing 3D imaging techniques, offers novel perspectives for understanding the spatial organization of biological processes, and has growing potential to be introduced into routine use in both biology and medicine. Due to the sheer quantity of data generated, visualization, analysis, and interpretation of 3D imaging MS data remain a significant challenge. Bioinformatics research in this field is hampered by the lack of publicly available benchmark datasets needed for evaluation and comparison of algorithms. Findings We acquired high-quality 3D imaging MS datasets from different biological systems at several labs, supplied them with overview images and scripts demonstrating how to read them, and deposited them into MetaboLights, an open repository for metabolomics data. 3D imaging MS data was collected from five samples using two types of 3D imaging MS. 3D Matrix-Assisted Laser Desorption/Ionization (MALDI) imaging MS data was collected from murine pancreas, murine kidney, human oral squamous cell carcinoma, and interacting microbial colonies cultured in Petri dishes. 3D Desorption Electrospray Ionization (DESI) imaging MS data was collected from a human colorectal adenocarcinoma. Conclusions With the aim to stimulate computational research in the field of computational 3D imaging MS, we provided selected high-quality 3D imaging MS datasets which can be used by algorithm developers as benchmark datasets."
+            },
+            "identifier": {
+                "_value": "MTBLS176"
+            },
+            "process": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDc1ff18cd-de36-41a7-b090-803335289764",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe09d4d39-9abb-44f7-8070-ad317e181736",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID2c639713-8a2f-44d1-bd4f-c50b6792f044",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID8f7c0821-ea75-48d9-b0ab-5fc371731f55",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID1e6eb368-50c4-48d7-92fd-b8b34efb01a3",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://www.ebi.ac.uk/efo/EFO_0000199"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "oral squamous cell carcinoma"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-3D_OSCC"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID4afaeaf1-cc3a-4641-88a7-9ff798eaab81",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID830c6128-046d-41ee-8aff-6cb3131627bb",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID44b20ae1-eb8b-4e3f-b5dc-0d1bf25808e3",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID714082a5-e297-4681-9a6f-65bd2ac4cfa5",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDce2a93b3-b681-4d4a-871e-42d7f17d9c84",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://www.ebi.ac.uk/efo/EFO_0000199"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "oral squamous cell carcinoma"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-3D_OSCC"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDa90a3370-1958-402e-be91-145ae714fd6f",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUIDdb0f1111-154e-48bf-b8ff-68aef50c17d0",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Sample collection5"
+                            },
+                            "name": {
+                                "_value": "Sample collection5"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Sample collection"
+                                    },
+                                    "name": {
+                                        "_value": "Sample collection"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Sample collection5"
+                            },
+                            "version": {
+                                "_value": "Sample collection5"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Sample collection5"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID05e57418-a79c-434d-b60f-434cc3a489f9",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID582c4293-3172-494c-a43b-ba8aaffeb95d",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID9a9d62ec-333a-4e27-abd2-e508c55a5f7b",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/10090"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Mus musculus"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID6a94042c-d4b0-4368-82b0-c6650443d6c8",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID2f7b85b3-d1e6-40c2-9757-5659312448c9",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C22730"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Mouse Kidney"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-3DMouse_Kidney"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDa1a82dd1-4088-4da2-96b8-81dfcbbd5329",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID0b9918c5-4d6c-432c-81a6-c99cac7a6fd2",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDf56fcbe4-4dc0-4d29-b693-85a46ad3e703",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/10090"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Mus musculus"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID0069a3e1-973e-406d-974e-7ffe9acf7642",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDac744a43-2384-4b13-bedb-008948541e78",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C22730"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Mouse Kidney"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-3DMouse_Kidney"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDfb678c08-f62b-4336-9f31-f061c0de765c",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUID7eaa8f41-4a3d-4418-af6d-57956b3ed7fb",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Sample collection3"
+                            },
+                            "name": {
+                                "_value": "Sample collection3"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Sample collection"
+                                    },
+                                    "name": {
+                                        "_value": "Sample collection"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Sample collection3"
+                            },
+                            "version": {
+                                "_value": "Sample collection3"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Sample collection3"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDdc2f09ab-099e-4264-b4fd-5b3fa4a3517a",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID1316b1ac-c924-4fc8-9044-f4b90d8060af",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID5b02294f-027e-4ea6-8e73-ecfd745d46d3",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID8adfbf8c-c50a-4968-b34a-99c52c3eb071",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID49559ba6-4e75-4009-86da-29529d8db572",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/MEDDRA/10052360"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Colorectal adenocarcinoma"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-ColAd_individual"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID1abcd67d-a125-4d45-a88e-93e7bb148cf1",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID604a5e8d-34a1-4f20-822b-ac5958fda0a0",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDa15634cf-3104-4d77-ab29-f74c45d669f0",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDc0e67a0d-8749-4ffa-9ad3-cc90ca786f7c",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID011c715a-0652-4c7f-8ea0-666326998a56",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/MEDDRA/10052360"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Colorectal adenocarcinoma"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-ColAd_individual"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID719b3baa-79b4-4125-b0ac-179454da8737",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUIDa5aa253e-7510-4af1-bcda-6b0b4894c4cf",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Sample collection2"
+                            },
+                            "name": {
+                                "_value": "Sample collection2"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Sample collection"
+                                    },
+                                    "name": {
+                                        "_value": "Sample collection"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Sample collection2"
+                            },
+                            "version": {
+                                "_value": "Sample collection2"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Sample collection2"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDac0eceb2-b9f1-47bf-be2f-f538e19597dc",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID687a4166-b5ab-4ba2-9b60-ef93e7d15654",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID86f45161-0745-44d0-89e6-a01ff3d857d7",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/10090"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Mus musculus"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID328e38b8-80e3-4fae-80ee-62c821689378",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID0cba5a5b-1683-4057-8107-597cc65dd17d",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C24044"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Mouse Pancreas"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-3D_Mouse_Pancreas"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID20c0f120-215e-4672-8a57-6728f41c8c1b",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID50684608-325b-4d50-9ad8-006cdf8204f2",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID94796908-588a-485e-a3d0-c0f0e4e2d845",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/10090"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Mus musculus"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID6a6ecdf8-3108-4f4b-b44d-f69d633ed881",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID0e5e027b-737d-4deb-b6a4-fb0dca38e5e6",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C24044"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Mouse Pancreas"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-3D_Mouse_Pancreas"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID642eb686-628c-48b4-9440-3a5a64db2a92",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUIDb52c206a-d8af-4745-abd4-7870edabf68c",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Sample collection4"
+                            },
+                            "name": {
+                                "_value": "Sample collection4"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Sample collection"
+                                    },
+                                    "name": {
+                                        "_value": "Sample collection"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Sample collection4"
+                            },
+                            "version": {
+                                "_value": "Sample collection4"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Sample collection4"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID0da4a08c-07bb-4491-9693-a3422c3e6e0c",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID437e3514-26f5-4965-b822-324c36562a6b",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDba9b846d-0e1a-4c68-9da3-c0b1189071ca",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Bacillus subtilis and Streptomyces coelicolor"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDcd06317e-3f0c-4d60-b2a9-2fbef3c27a65",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID142c391f-916f-44c9-81de-3cc09f5320ab",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": ""
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-Microbe_Interaction_3D_Timecourse_LP"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID2ec7ef06-0160-4210-bd53-8ffc60a03d02",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID0c38a33b-6e61-4dcf-aa03-96d57233e5b1",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID61d30d50-c6db-4e79-a31b-f6131c6bb692",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Bacillus subtilis and Streptomyces coelicolor"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID7a37d3c0-a7cf-41c1-a490-668872ab02a9",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID89bf9924-858e-4794-873a-ca6e335cd526",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": ""
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": ""
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Microbe_Interaction_3D_Timecourse_LP"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDce7f1aa4-738f-4261-9679-47a94dd88cac",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUID6dd06811-70f2-424d-8457-f89f5a77ab19",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Sample collection6"
+                            },
+                            "name": {
+                                "_value": "Sample collection6"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Sample collection"
+                                    },
+                                    "name": {
+                                        "_value": "Sample collection"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Sample collection6"
+                            },
+                            "version": {
+                                "_value": "Sample collection6"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Sample collection6"
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID70610bbb-953f-487f-b7ca-66210819dd07",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDbe04b7e2-f709-4912-bdd4-23ea12ab1555",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID3187e929-f012-4eac-bf61-ed10390380ff",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe5a03768-ce85-4d0b-a23c-b586f59c2f9b",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID95dfb9ed-8550-40b4-b3be-c19825034b85",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/MEDDRA/10052360"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Colorectal adenocarcinoma"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-Colorectal_Adenocarcinoma"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID7bfd446f-6afd-44a7-9706-e1a57e6cf886",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID74959b66-1f5b-4b53-a90d-5807ccc64818",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID98c04e34-6ab0-4ffb-a787-15617377b18c",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID7d55dda5-6377-46c6-872f-bd6ecc706805",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID2a9f5a0b-43e7-4a6e-8e97-6cace15f137b",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/MEDDRA/10052360"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Colorectal adenocarcinoma"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [],
+                                "name": {
+                                    "_value": "sample-Colorectal_Adenocarcinoma"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDe5a592b8-5194-444d-a74e-816a66596294",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUIDa8ceb7cd-8020-49bb-8565-3d0443ba8337",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Sample collection1"
+                            },
+                            "name": {
+                                "_value": "Sample collection1"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Sample collection"
+                                    },
+                                    "name": {
+                                        "_value": "Sample collection"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Sample collection1"
+                            },
+                            "version": {
+                                "_value": "Sample collection1"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Sample collection1"
+                    }
+                }
+            ],
+            "publicReleaseDate": {
+                "_value": "2015-06-02"
+            },
+            "publication": [],
+            "studyAssay": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDdcae07fc-a861-4ff3-bd7b-6f7f27cf4357",
+                    "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                    "measurementType": {
+                        "_value": "http://purl.obolibrary.org/obo/OBI_0000366"
+                    },
+                    "platform": {
+                        "_value": ""
+                    },
+                    "technology": {
+                        "_value": "mass spectrometry"
+                    }
+                }
+            ],
+            "studyDesignType": {
+                "_value": ""
+            },
+            "studyFactor": [
+                {
+                    "@context": "",
+                    "@id": "https://repo.metadatacenter.org/UUIDf88d9400-9f75-483e-8ef9-872d51d5b448",
+                    "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                    "description": {
+                        "_value": "Colorectal adenocarcinoma"
+                    },
+                    "name": {
+                        "_value": "Colorectal Adenocarcinoma"
+                    }
+                },
+                {
+                    "@context": "",
+                    "@id": "https://repo.metadatacenter.org/UUIDf623e69d-b90e-41b1-89bb-2bbc3b23a88e",
+                    "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                    "description": {
+                        "_value": "Mouse Kidney"
+                    },
+                    "name": {
+                        "_value": "Mouse kidney"
+                    }
+                },
+                {
+                    "@context": "",
+                    "@id": "https://repo.metadatacenter.org/UUIDf3afa100-2eed-427c-9349-91ab8b9d17e1",
+                    "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                    "description": {
+                        "_value": "Mouse Pancreas"
+                    },
+                    "name": {
+                        "_value": "Mouse pancreas"
+                    }
+                },
+                {
+                    "@context": "",
+                    "@id": "https://repo.metadatacenter.org/UUIDbd2a9479-c4a1-45f0-a2b2-7497cbabdc6a",
+                    "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                    "description": {
+                        "_value": "squamous cell carcinoma"
+                    },
+                    "name": {
+                        "_value": "Human OSCC"
+                    }
+                },
+                {
+                    "@context": "",
+                    "@id": "https://repo.metadatacenter.org/UUID1630a067-a04b-4007-bc12-ad868225d53d",
+                    "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                    "description": {
+                        "_value": "Microbial Interactions"
+                    },
+                    "name": {
+                        "_value": "Microbial interaction"
+                    }
+                }
+            ],
+            "studyGroupPopulation": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID900f15b0-6625-41b3-a188-1da487f62760",
+                    "@type": "http://purl.obolibrary.org/obo/STATO_0000193",
+                    "name": {
+                        "_value": "population name"
+                    },
+                    "selectionRule": {
+                        "_value": "selection rule"
+                    },
+                    "studySubject": [
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID687a4166-b5ab-4ba2-9b60-ef93e7d15654",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID86f45161-0745-44d0-89e6-a01ff3d857d7",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "http://purl.bioontology.org/ontology/NCBITAXON/10090"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Mus musculus"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID328e38b8-80e3-4fae-80ee-62c821689378",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID0cba5a5b-1683-4057-8107-597cc65dd17d",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C24044"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Mouse Pancreas"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism part"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-3D_Mouse_Pancreas"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        },
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID437e3514-26f5-4965-b822-324c36562a6b",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUIDba9b846d-0e1a-4c68-9da3-c0b1189071ca",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": ""
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Bacillus subtilis and Streptomyces coelicolor"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDcd06317e-3f0c-4d60-b2a9-2fbef3c27a65",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID142c391f-916f-44c9-81de-3cc09f5320ab",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": ""
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": ""
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism part"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-Microbe_Interaction_3D_Timecourse_LP"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        },
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID582c4293-3172-494c-a43b-ba8aaffeb95d",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID9a9d62ec-333a-4e27-abd2-e508c55a5f7b",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "http://purl.bioontology.org/ontology/NCBITAXON/10090"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Mus musculus"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID6a94042c-d4b0-4368-82b0-c6650443d6c8",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID2f7b85b3-d1e6-40c2-9757-5659312448c9",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C22730"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Mouse Kidney"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism part"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-3DMouse_Kidney"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        },
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID1316b1ac-c924-4fc8-9044-f4b90d8060af",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID5b02294f-027e-4ea6-8e73-ecfd745d46d3",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Homo sapiens"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID8adfbf8c-c50a-4968-b34a-99c52c3eb071",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID49559ba6-4e75-4009-86da-29529d8db572",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "http://purl.bioontology.org/ontology/MEDDRA/10052360"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Colorectal adenocarcinoma"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism part"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-ColAd_individual"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        },
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDbe04b7e2-f709-4912-bdd4-23ea12ab1555",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID3187e929-f012-4eac-bf61-ed10390380ff",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Homo sapiens"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDe5a03768-ce85-4d0b-a23c-b586f59c2f9b",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID95dfb9ed-8550-40b4-b3be-c19825034b85",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "http://purl.bioontology.org/ontology/MEDDRA/10052360"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Colorectal adenocarcinoma"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism part"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-Colorectal_Adenocarcinoma"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        },
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDe09d4d39-9abb-44f7-8070-ad317e181736",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID2c639713-8a2f-44d1-bd4f-c50b6792f044",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Homo sapiens"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID8f7c0821-ea75-48d9-b0ab-5fc371731f55",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID1e6eb368-50c4-48d7-92fd-b8b34efb01a3",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "http://www.ebi.ac.uk/efo/EFO_0000199"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "oral squamous cell carcinoma"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism part"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-3D_OSCC"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+                    }
+                }
+            ],
+            "studyProtocol": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID9a41aa58-d908-4ad0-a2db-bec3da265219",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "3D imaging MS data were collected from five samples using two types of 3D imaging MS. 3D matrix-assisted laser desorption/ionization imaging (MALDI) MS data were collected from murine pancreas, murine kidney, human oral squamous cell carcinoma, and interacting microbial colonies cultured in Petri dishes. 3D desorption electrospray ionization (DESI) imaging MS data were collected from a human colorectal adenocarcinoma."
+                    },
+                    "name": {
+                        "_value": "Sample collection"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Sample collection"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDff3af4c9-65cc-42aa-b085-575f2d348196",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Extraction"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Post Extraction"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Derivatization"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Extraction"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID02f12e27-203d-489f-af43-bd392c579670",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Chromatography"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Chromatography Instrument"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Column type"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Column model"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Chromatography"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID7319d8d3-5492-4fd7-941b-d4adabb9e2b9",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Mass spectrometry"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Scan polarity"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Scan m/z range"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Instrument"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Mass analyzer"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Ion source"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Mass spectrometry"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID2469a029-8cd8-45dc-b8bc-ee12a729cc9e",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": ""
+                    },
+                    "name": {
+                        "_value": "Metabolite identification"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Metabolite identification"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDba667f50-9879-4974-85fc-2e008883aca1",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "A total of five 3D imaging MS datasets in the imzML format (an open and standard file format for imaging MS data) are provided. The imzML file structure consists of an XML-like file containing metadata (*.imzML) and a binary data file containing spectra (*.ibd); both are unequivocally linked by a universally unique identifier. In the imzML files provided here, the relative position of each voxel in the 3D space is stored in the \u201cuserParam\u201d field.\n\nThe 3D DESI-imaging MS dataset is provided both in multiple imzML files each containing an 2D imaging MS dataset of an individual section and in a single HDF5 file containing the metadata, coregistered imaging MS data, and optical [haematoxylin and eosin (H&E)-stained] images."
+                    },
+                    "name": {
+                        "_value": "Data transformation"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Data transformation"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDd0ceb2d0-de12-421d-8472-96ebdca76c6e",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "The dataset comprises 75 sections from the central part of a mouse kidney that was PAXgene\u00ae fixed and paraffin embedded. The matrix was applied using a vaporization sprayer (ImagePrep\u2122, Bruker Daltonics, Bremen, Germany). Spectra were acquired using a Bruker Daltonics Autoflex speed\u2122 MALDI mass spectrometer in linear positive mode in the mass range of 2,000-20,000\u00a0m/z\u00a0and a deflection of 1,500\u00a0m/z. In total, the dataset comprised 1,362,830 spectra, each containing 7,680 data points. Each spectrum was acquired with 200 laser shots, and the random walk option was set to 20 shots per position. A medium-size laser focus was chosen, so as to be suitable for the selected lateral resolution of 50 \u03bcm pixel size. During the data acquisition, the spectra preprocessing included a Gaussian spectral smoothing with a width of 2 within 4 cycles as well as baseline reduction using the Top Hat algorithm. The data for all 75 sections were imported into the software SCiLS Lab (SCiLS, Bremen, Germany) version 2014b. The registration of individual sections was performed with the aim to reconstruct the original relations between the sections. For this purpose, the so-called user-guided rigid registration was used, and this was performed interactively as follows. First, the first of the consecutive sections was placed in the center of the software view. Then, each of the following sections was positioned over the previous image and moved in the\u00a0x- and\u00a0y-directions and rotated with the help of the interactive software (keyboard, mouse); the half-transparent overlap with the previous image helps evaluate the positioning. The method allows for compensation of rotations and translations. Finally, the dataset containing spectra with adjusted spatial coordinates\u00a0x\u00a0and\u00a0y\u00a0and newly assigned coordinate\u00a0z\u00a0was exported into the imzML format with files named 3DMouseKidney.ibd and 3DMouseKidney.imzML."
+                    },
+                    "name": {
+                        "_value": "3D MALDI imaging MS dataset of a mouse kidney"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "3D MALDI imaging MS dataset of a mouse kidney"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID71b7271a-f7ac-4e4e-8bae-b5541355dc9a",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "The 3D mouse pancreas dataset was created in a similar fashion to the mouse kidney dataset. A C57BL/6 mouse was sacrificed, and the pancreas was immediately isolated, fixed in PAXgene\u00ae Tissue Containers according to the manufacturer\u2019s instructions (Qiagen, Hilden, Germany), dehydrated, and embedded in low-melting-point paraffin. Sections (5 \u03bcm in thickness) were cut on a microtome and mounted on indium-tin-coated conductive glass slides (Bruker Daltonics). After paraffin removal and washing, 2,5-dihydroxybenzoic acid (DHB), dissolved at 30 mg/ml in 50% methanol with 0.2% TFA as a matrix, was used. Spectra from 29 consecutive sections were acquired using a Bruker Daltonics Autoflex speed\u2122 mass spectrometer in linear positive mode in the mass range 1,600-15,000\u00a0m/z. A medium-size laser diameter was used, with a lateral resolution of 60 \u03bcm and 500 laser shots per pixel were accumulated with the random walk option set to 100 shots per position. The complete dataset with 29 sections comprised 497,225 spectra with 13,312 data points per spectrum. The unprocessed raw data were imported into the software SCiLS Lab, version 2014b. For 3D image registration in SCiLS Lab, a section thickness of 5 \u03bcm was selected. The image registration was performed as described earlier for the 3D mouse kidney. Data conversion into the imzML format was performed as described for the mouse kidney."
+                    },
+                    "name": {
+                        "_value": "3D MALDI imaging MS dataset of a mouse pancreas"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "3D MALDI imaging MS dataset of a mouse pancreas"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID15f281e6-8553-4fea-a154-db08435f1f75",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "For this dataset, metabolic exchange of the interacting microbes Streptomyces coelicolor A3(2) and Bacillus subtilis PY79 was followed in a time-course experiment on the first, fourth, and eighth days after co-inoculation in a Petri dish. Culturing of the microbes and sample preparation for 3D MALDI imaging MS were performed. Briefly, equally sized agar slices were sectioned and mounted on a MALDI-TOF steel target. A universal matrix (a mixture of alpha-cyano-4-hydroxycinnamic acid and 2,5-dihydroxybenzoic acid) was applied with a 50 \u03bcm pore size sieve, and the samples were allowed to dry completely. Spectra were acquired on an Autoflex\u2122 MALDI-TOF mass spectrometer (Bruker) in linear positive mode in the mass range of 0\u20134,000 m/z using a large laser diameter and 300 shots per spectrum. A lateral resolution of 400 \u03bcm was selected. All individual sections were imported into the software SCiLS Lab, version 2014b, for 3D volume generation. In total, the dataset comprised 17,672 spectra, and the bin size was reduced to 40,299 data points per spectrum during import. To construct a 3D volume that resembled the length, width, and height of the original agar block, a thickness of 1,500 \u03bcm per section producing voxels of 400\u2009\u00d7\u2009400\u2009\u00d7\u20091,500 \u03bcm was chosen. The 3D volume was built up, starting with the first section from the day 1 post-inoculation dataset. After completion of image registration from the first time point, a spacing of 10.5 mm was introduced, starting with the block from the time point day 4. The same steps were repeated for the block from time point day 8 after inoculation. Besides these additional steps, the image registration was performed as described earlier for the 3D mouse kidney dataset. The complete dataset was then exported into the imzML format to produce the files."
+                    },
+                    "name": {
+                        "_value": "3D MALDI imaging MS datasets of cultured microbial colonies in a time course experiment"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "3D MALDI imaging MS datasets of cultured microbial colonies in a time course experiment"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID826d785b-43ec-4317-a80e-0be307b9475b",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "Sections from a single colorectal adenocarcinoma (n\u2009=\u200926) were analyzed by DESI-imaging MS. The tissue specimen was snap-frozen in liquid nitrogen and stored in a freezer at \u221280\u00b0C prior to cryosectioning at 10 \u03bcm thickness using a Microm HM550 Cryostat (Thermo Fisher Scientific, Runcorn, UK) set at \u221216\u00b0C, and thaw mounted onto SuperFrost\u00ae Glass slides (Thermo Fisher Scientific). Distilled water was used to mount the sample to the sample holder, and the cryosectioning was performed without embedding medium. The built-in vacutome function of the cryostat was used to facilitate sectioning. The slides were stored in closed containers at \u221280\u00b0C prior to analysis and allowed to thaw at room temperature under nitrogen flow prior to DESI-imaging MS acquisition.\n\nSections were cut to a step size of 10 \u03bcm, and every tenth section was imaged. Four sequential sections were deposited on each slide. The instrumental spatial resolution was set to 100 \u03bcm, and analysis of every tenth 10 \u03bcm section resulted in 100 \u03bcm3 voxels.\n\nImaging MS data were acquired in the negative-ion mode over an m/z range of 200\u20131,050 using a Thermo Exactive instrument (Thermo Scientific GmbH, Bremen, Germany) coupled to a home-built automated DESI-imaging source as described previously [Gerbig S, Golf O, Balog J, Denes J, Baranyai Z, Zarand A, et al.: Analysis of colorectal adenocarcinoma tissue by desorption electrospray ionization mass spectrometric imaging. Anal Bioanal Chem 2012, 403:2315-25.]. The solvent used for DESI analysis was methanol/water (95/5 v/v) at a flow rate of 1.5 ml/min. Nitrogen was used as a nebulizing gas at a pressure of 7 bar. The distance between the DESI spray tip and the sample surface was set to 1.5 mm; the distance between the DESI spray tip and the mass spectrometer was set to 14 mm; and the distance between the inlet capillary and the sample surface was 0.1 mm. The spray angle was 80\u00b0, whereas the collection angle was fixed at 10\u00b0. The spray voltage used for analysis was 4.5 kV. Each row of pixels was acquired as a continuous line scan over the sample surface and saved in a separate raw file. All Thermo raw files of one imaging experiment were then converted to imzML format using the imzML converter v1.1.4.5i. The imzML files were named with reference to the section number and location of the section on the slide. For example, in the file named \u201c120TopL, 90TopR, 110BottomL, 100BottomR-centroid.imzML\u201d, the top-right section was the 90th section cut from the sample at a depth of 900 \u03bcm."
+                    },
+                    "name": {
+                        "_value": "3D DESI-imaging MS dataset of a human colorectal adenocarcinoma"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "3D DESI-imaging MS dataset of a human colorectal adenocarcinoma"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID6a235da3-78b6-4bbc-a037-0d594bc4f99d",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "A tissue specimen from a patient with an oral squamous cell carcinoma (OSCC) was obtained from the Department of Otorhinolaryngology, University Hospital Jena. The necessary approval was obtained from the local Ethics Committee, approval No. 3008-12/10.\n\n3D MALDI imaging MS analysis was applied to 58 cryosections, each with a thickness of 10 \u03bcm. The sections were mounted on indium-tin-oxide-coated conductive glass slides (Bruker Daltonics) and stored at \u221280\u00b0C until use. After drying under vacuum for 15 min, the slides were washed twice for 2 min in 70% ethanol and thereafter for 2 min in 99% ethanol. The SA used as a matrix was applied using the Bruker ImagePrep\u2122 device. MALDI imaging MS was performed on an Autoflex speed\u2122 mass spectrometer (Bruker Daltonics) in linear positive mode. Spectra were acquired in the mass range 2,000-20,000 m/z with a deflection set to 1,500 m/z. Each spectrum was a sum of 200 laser shots, and the random walk option was set to 25 shots per position. A medium-size laser diameter was selected for the chosen lateral resolution of 60 \u03bcm. In total, the dataset comprised 828,558 spectra with 7,680 data points per spectrum. The spectra were preprocessed during acquisition applying Gaussian spectral smoothing with a width of 2 within 4 cycles as well as baseline reduction using the Top Hat algorithm. The data for all sections were imported into the software SCiLS Lab, version 2014b, and rigid image registration was performed by user-guided stacking of the optical images as described earlier for the 3D mouse kidney dataset. A slice thickness, or z-distance, of 60 \u03bcm was selected to produce voxels of 60 \u03bcm3. Finally, the dataset was exported to the imzML format producing files 3D_OSCC.ibd and 3D_OSCC.imzML"
+                    },
+                    "name": {
+                        "_value": "3D MALDI imaging MS dataset of a human oral squamous cell carcinoma"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "3D MALDI imaging MS dataset of a human oral squamous cell carcinoma"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "submissionDate": {
+                "_value": "2015-03-06"
+            },
+            "title": {
+                "_value": "Benchmark datasets for 3D MALDI- and DESI-Imaging Mass Spectrometry"
+            }
+        }
+    ],
+    "submissionDate": {
+        "_value": ""
+    },
+    "title": {
+        "_value": "Investigation"
+    }
+}

@@ -1,0 +1,2625 @@
+{
+    "@context": {
+        "_value": "https://schema.org/value",
+        "description": "https://metadatacenter.org/schemas/description",
+        "identifier": "https://metadatacenter.org/schemas/identifier",
+        "publicReleaseDate": "https://metadatacenter.org/schemas/publicReleaseDate",
+        "study": "https://metadatacenter.org/schemas/study",
+        "submissionDate": "https://metadatacenter.org/schemas/submissionDate",
+        "title": "https://metadatacenter.org/schemas/title"
+    },
+    "@id": "https://repo.metadatacenter.org/UUID/d05c154e-1594-4e54-9442-f54947cd5023",
+    "@type": "https://repo.metadatacenter.org/model/Investigation",
+    "_templateId": "http://example.org",
+    "description": {
+        "_value": ""
+    },
+    "identifier": {
+        "_value": "MTBLS214"
+    },
+    "publicReleaseDate": {
+        "_value": ""
+    },
+    "study": [
+        {
+            "@id": "https://repo.metadatacenter.org/UUID8f9b33d7-1648-4eb0-8004-1d2aefba4619",
+            "@type": "https://repo.metadatacenter.org/model/Study",
+            "contact": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID3f5ed051-4c3b-43be-979d-02427a72e638",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": "zhou.lei@seri.com.sg"
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Lei"
+                    },
+                    "lastName": {
+                        "_value": "Zhou"
+                    },
+                    "middleInitial": {
+                        "_value": ""
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUIDa560a59e-f147-4cad-a52d-08350bcad435",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Singapore Eye Research Institute"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID4d072bf4-e79b-4d3d-b4ea-e65dd0ca3f53",
+                    "@type": "https://repo.metadatacenter.org/model/Contact",
+                    "address": {
+                        "_value": ""
+                    },
+                    "email": {
+                        "_value": "phaccye@nus.edu.sg"
+                    },
+                    "fax": {
+                        "_value": ""
+                    },
+                    "firstName": {
+                        "_value": "Chan"
+                    },
+                    "lastName": {
+                        "_value": "Eric"
+                    },
+                    "middleInitial": {
+                        "_value": "CY"
+                    },
+                    "organization": [
+                        {
+                            "@context": "",
+                            "@id": "https://repo.metadatacenter.org/UUID57cb208b-8071-4245-932f-5e9f93d44831",
+                            "@type": "https://metadatacenter.org/model/Organization",
+                            "department": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "National University of Singapore"
+                            }
+                        }
+                    ],
+                    "phone": {
+                        "_value": ""
+                    },
+                    "role": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "description": {
+                "_value": "\u201cDry eye\u201d is a multi-factorial inflammatory disease affecting the ocular surface. Tear hyperosmolarity in dry eye contributes to inflammation and cell damage. Recent research efforts on dry eye have been directed towards biomarker discovery for diagnosis, response to treatment and disease mechanisms. This study employed a spontaneously immortalized normal human conjunctival cell line, IOBA-NHC as a model to investigate hyperosmotic stress-induced changes of metabolites and proteins. Global and targeted metabonomic analyses, as well as proteomic analysis were performed on IOBA-NHC cells incubated in serum-free media at 280 mOsm (control), 380 mOsm and 480 mOsm for 24 h. Twenty-one metabolites and seventy-six iTRAQ-identified proteins showed significant changes under at least one hyperosmotic stress treatment as compared to controls. SWATH-based proteomic analysis further confirmed the involvement of inflammatory pathways such as prostaglandin 2 synthesis in IOBA-NHC cells under hyperosmotic stress. This study is the first to identify glycerophosphocholine synthesis and O-linked \u03b2-N-acetylglucosamine glycosylation as key activated pathways in ocular surface cells under hyperosmotic stress. These findings extend the current knowledge in metabolite markers of dry eye and provide potential therapeutic targets for its treatment."
+            },
+            "identifier": {
+                "_value": "MTBLS214"
+            },
+            "process": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID624c365f-2c2a-40a7-af37-446e79ad9cca",
+                    "@type": "https://repo.metadatacenter.org/model/Process",
+                    "input": {
+                        "sample": [],
+                        "studySubject": [
+                            {
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDaf75ebec-bccb-4661-8922-bf78decc6011",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID58632345-2456-4754-8b91-13514277304a",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID47a2d982-7397-45f3-bfdf-4963fdc32270",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDd2994d2c-b1be-4645-8e44-0fb628bb39c4",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0003415"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "conjunctiva"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "source-IOBA-NHC"
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                                }
+                            }
+                        ]
+                    },
+                    "output": {
+                        "sample": [
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID996704a6-15b2-43f6-8a41-40493176f3b7",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDf1176c20-1d31-4fe3-903b-598c3be2125c",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID5ad4ef33-3767-41a6-a907-92d5052e3404",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDa7b881b1-d160-4b45-b1f5-74a253a87fe4",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID4e73c2a8-1960-42db-b7dc-17489fdb5bd6",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0003415"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "conjunctiva"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID28be3167-4ca1-4d8b-bdcd-7793a923a860",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID1b633cda-f84b-4f72-9ef1-fdca0e264bd5",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Osmolarity"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "mOsm"
+                                        },
+                                        "value": {
+                                            "_value": "280"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID9068c2ed-3616-49cd-8b47-f931fcbf4a8f",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID23cf3bb1-19c9-4bb7-9010-3f092869ec15",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Replicate"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "1"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-280_1"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDa5ed1c49-c113-492f-850f-189a3971adf9",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID29c8cf13-28ac-4d9d-b9a6-b77d7fb233be",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDb13e0c5a-d81b-427b-a9d9-535f33a98b39",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID61939866-0e4a-406d-840f-b3b76d161ca0",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID718951fa-daed-43f0-8c2c-e696964d52d0",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDec4bb83a-6d53-4ab9-b17b-427515ec3f82",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0003415"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "conjunctiva"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDbe3893db-0129-41ad-8b27-1e9e7e442cf0",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDeb7ee9a7-414c-4c1d-b8f7-2d06b0184846",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Osmolarity"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "mOsm"
+                                        },
+                                        "value": {
+                                            "_value": "280"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID1f726fbc-d1d6-4b42-a201-4f1b3142de88",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDe7c747f8-e255-4ed0-8260-735d8c649851",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Replicate"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "2"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-280_2"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID5e9e3517-82f8-4044-9ec3-23f299e0ecb2",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDb639dc98-fea6-4ed3-955c-fae422e37474",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID2463418e-b890-47d2-9c9c-88104ccf0de5",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID6bffc38b-22ce-46f7-ac82-b3fdddff353e",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID7724d9ed-d5a8-4241-856a-57b0c3654c4a",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDf8211976-8a0d-4d0c-b495-d08ac9d27041",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0003415"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "conjunctiva"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID86a31494-d91b-49ab-afda-a82ad45103cd",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID969279ca-e7e4-4224-ab10-af3144314611",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Osmolarity"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "mOsm"
+                                        },
+                                        "value": {
+                                            "_value": "280"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe67aa9c2-0782-4370-bd85-6f05423e6cf8",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID58e30e32-d996-4c9b-85f2-ab254ed76b95",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Replicate"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "3"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-280_3"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDa6622cf6-6adc-4d23-acd8-31b96dc9daeb",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDc29a4abb-abe6-4742-b648-19d2d5cc8c07",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDab0508f6-a61c-446a-af98-e10c0c566c54",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID89258d64-3877-4559-b5ed-aa5ad60e926d",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe8370ecc-c7f6-4a90-ad44-f390a36e22ac",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDf1d81876-79cb-42db-bd05-732f9baa1588",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0003415"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "conjunctiva"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID1b1860e1-638a-488c-acd5-62552fc19812",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID42eace94-3d16-4cc9-9c7c-2d156cde3457",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Osmolarity"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "mOsm"
+                                        },
+                                        "value": {
+                                            "_value": "280"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID1e471754-c693-46a5-afa7-9cf38f9e58e1",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID114873e5-8cfd-4277-8719-3e3b104ff7ad",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Replicate"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "4"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-280_4"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID0f8f6e9a-590a-4338-bc63-f838d4c8ba4a",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDb641e760-299c-448e-aaf7-de5495316098",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDb136099e-e345-4a6f-b19f-88925cddf04d",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDcdab22e7-f5cd-472b-ae9d-f079bda4442f",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID4f605edd-5faa-4616-9907-07235861941b",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID18e30d08-0a7e-4d8d-b955-73233cc20cc7",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0003415"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "conjunctiva"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDafca902b-527a-4222-9138-d093582e966f",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDcfb55e93-2e5c-4e9a-9f16-ea56529ba03f",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Osmolarity"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "mOsm"
+                                        },
+                                        "value": {
+                                            "_value": "280"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID447e5654-ae94-4c52-938c-0c530a870f57",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID501ba101-2811-421e-8c26-cfeb7dbd506a",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Replicate"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "5"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-280_5"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID4c934c60-48a8-4680-acda-5596017561d2",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID765bb004-a4dc-4d23-b2a5-2545b41f11f8",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID69fb7578-3c73-433c-99eb-91e02ea70e47",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID4687a7b3-e4f7-49db-9cc4-fe7df1d19b51",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDd3d022b0-0dd1-46b1-ba7d-4e70fd0f31fe",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID2af4b902-311d-4186-8c90-822154801850",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0003415"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "conjunctiva"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDd7562ea3-cd41-4044-adfe-79c610ba730f",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID8b977b64-fc07-4c23-84c7-6475b0c1f11b",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Osmolarity"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "mOsm"
+                                        },
+                                        "value": {
+                                            "_value": "380"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID527e79ec-6134-4308-a38c-77ebe97ac0e9",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID4deaeef5-8c4f-40c4-9706-06e85cbaa965",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Replicate"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "1"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-380_1"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID13db4f69-239b-463e-a363-af45b6e40d46",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID90e78659-68d3-4225-85e7-4c035c4f36c6",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID34f3aa7e-7aa0-4647-8367-ea4078e9b50e",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDac9c3573-e9fd-4aec-bb2d-5c034eb77cc5",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID687cac74-0f36-4f4b-bd79-698a42f3e31e",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID5ccbd890-7b18-4c7c-92dd-d2caccbd7354",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0003415"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "conjunctiva"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID346d084b-e46e-47e9-a5c1-493400c82422",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID1277ad12-c395-4b91-a701-8ff06fa2d39b",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Osmolarity"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "mOsm"
+                                        },
+                                        "value": {
+                                            "_value": "380"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID33de174d-cbbd-414a-a8e2-af1a2177bc37",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID1ee5cf84-fc87-408f-a495-714005b97840",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Replicate"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "2"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-380_2"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID69f32926-8a05-48c5-8c4d-3908bbb608a1",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDe09d77b9-78a9-4ca9-89d7-dc86d71dfa56",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID1a5719f1-2b0d-401f-b375-17e0a0b1b35c",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID1d41299b-7983-4b67-9422-c7c32f318804",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID999beff4-7f16-474d-8cec-e63428d598e5",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID1c56b7f0-3dfe-4ec2-a356-cb26ab6b2ff7",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0003415"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "conjunctiva"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDf7e471ce-2fc3-47ea-85ef-26c851c27e46",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID4cbde523-af8c-444d-87d7-14aaee1953e6",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Osmolarity"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "mOsm"
+                                        },
+                                        "value": {
+                                            "_value": "380"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDe0943223-c838-4688-8b4e-c9ffd348da1b",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID77e049b5-2ed9-45f1-b4b3-ab7b4a0ad01a",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Replicate"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "3"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-380_3"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID8fbf47ec-18a8-419d-a900-60c03853f274",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID7a33c1a6-3caf-422f-9494-5415c632023a",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID6618791f-a726-4cfb-8b40-23020719bdc0",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID3ad62076-d578-4ce6-93c0-378d65f299f5",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDd6781471-5b12-4d68-8bc2-1129c5d1ec12",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDe65fc487-6adf-4500-85a2-47e18b5199fd",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0003415"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "conjunctiva"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDbc17ebb1-d8a9-45a0-88af-8e21447f9430",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDe0e6fdf9-34c8-4071-94f3-8de28bab4d06",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Osmolarity"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "mOsm"
+                                        },
+                                        "value": {
+                                            "_value": "380"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID658789a6-e9a6-4421-9d88-d392f3defd8f",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID0097ade0-024a-4a90-bfa3-4337817cf9a0",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Replicate"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "4"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-380_4"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID0933d374-5ae7-4122-80f5-c8306ecde19e",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUIDa886c363-6861-480c-a53b-2b2f6107e849",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID12c6b7a2-4ef8-477d-b8c3-4c13c50423ec",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDba16b6de-8412-4f52-9a37-00d5a4933f30",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID5df44890-ccd6-40b9-b1d9-589e87de33fc",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDa56d01c6-0faf-436b-b94a-9be425a8cc71",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0003415"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "conjunctiva"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID421ca3e9-17d8-454d-9060-bf98326aea68",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID3d58c543-50ce-4f9f-8ce2-d56ab06e1875",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Osmolarity"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "mOsm"
+                                        },
+                                        "value": {
+                                            "_value": "380"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID7936fb6f-edc7-4060-9481-75c7a7dad569",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDcbcabbb0-4eb3-4e3f-b9ea-5bc79e47dc9b",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Replicate"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "5"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-380_5"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDbb551275-38fc-47f3-8267-f5eee2e95d57",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID8505afec-41d7-4d02-9add-e3fdd69f9d7f",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID9cb42376-4138-493d-9e4e-be1977fd5634",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDb373855d-9290-4fc7-99c2-ca881e0976f9",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID9195963a-8079-48a4-877f-af803823a071",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID61de7ee9-0eb4-46e7-bb62-365b2bd2d7af",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0003415"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "conjunctiva"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID7e04c568-bd5f-4fcf-a30a-f7defa1d601b",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID43806227-6143-439d-80ac-d9a46880f71b",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Osmolarity"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "mOsm"
+                                        },
+                                        "value": {
+                                            "_value": "480"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDbfe2c4a8-8ba6-44e0-b08b-487e26b04107",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDfd953d26-d168-4236-9ee8-d366de1218f6",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Replicate"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "1"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-480_1"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID79a0658b-fee0-4a31-88f0-7d73c67a235f",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID830e1675-1634-4132-a584-93cbf7bf5c56",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDd7b156b1-0f6a-4615-958a-25075df83cf7",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDec008cd8-4174-4add-bab2-5d45b582ce45",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID8adc079d-975c-4b26-935c-9037ebc39b14",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID2acd83f1-6aec-4e8e-8ce4-094769683027",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0003415"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "conjunctiva"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID79c1cc47-3e5e-4347-a191-3773e8ba177e",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDa6a15236-76c5-466d-a723-01414cff3a67",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Osmolarity"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "mOsm"
+                                        },
+                                        "value": {
+                                            "_value": "480"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID031faa69-7f87-483f-b4cb-52b34fa5d273",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID9fbb95fe-43cf-4940-b15a-003b478e57b6",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Replicate"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "2"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-480_2"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID5de075d3-9f94-49ca-9094-da898e778b7c",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID7e9c994b-70c1-4a10-8c62-db8a261fbcdf",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID370a852d-f467-4d51-9b40-7b7aec9efe31",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID001c7bfd-bb74-44c0-9fc7-b0e64da90833",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDcfa3c579-088e-44b0-8d58-b64b98a0bd17",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID631c0df5-3546-4a4f-9900-cbf9dca59f1f",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0003415"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "conjunctiva"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID29430406-0f35-4e27-a01a-aaf66846993c",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDc57fc1e9-edd1-4b99-8b20-8e7309d0abd3",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Osmolarity"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "mOsm"
+                                        },
+                                        "value": {
+                                            "_value": "480"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDec668ff2-22ce-4882-bfff-985755cc0a94",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDea017c3d-cadc-479b-8859-323f02217b5b",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Replicate"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "3"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-480_3"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUIDbbfef1cb-b59c-42aa-8525-5306eb5b1eb6",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID4eea88b7-3526-4b88-b8e0-d14d3e5add39",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID9067f184-7263-4e77-836e-1e573ed707c1",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDcbe0f883-75bf-4842-b952-b4e5ba42e03e",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID754adfec-7b28-4082-bf4e-fb00b5afe826",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUID074930e8-3438-4714-89aa-9fc7633c7d5c",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0003415"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "conjunctiva"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID650b4860-621e-4990-a140-1238fc8d2fcd",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUIDeecf0140-cf26-4790-8290-f6e63b27c53e",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Osmolarity"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "mOsm"
+                                        },
+                                        "value": {
+                                            "_value": "480"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID0fce6e0a-6bb1-4a47-a68a-1d61b2f6c537",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID90de7c07-697b-4620-bcb9-5a471a1cc31d",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Replicate"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "4"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-480_4"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID62067fc0-0610-4560-b650-d9db2e24c676",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            },
+                            {
+                                "@id": "https://repo.metadatacenter.org/UUID0497634e-bb99-42d9-8b69-1f95a6ce625d",
+                                "@type": "https://repo.metadatacenter.org/model/Sample",
+                                "characteristic": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDd5c91f1c-73a9-4b1a-9829-9eccf2d0e2d9",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDa14362f5-f2f6-4e88-b5b8-3c046a6edefe",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "Homo sapiens"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID4917266b-5524-4b33-9d5a-fe65ca7481de",
+                                        "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                        "characteristicValue": {
+                                            "@id": "https://repo.metadatacenter.org/UUIDf5837b42-95a3-40ab-85a9-9dac9ea56dfe",
+                                            "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                            "type": {
+                                                "_value": "http://purl.obolibrary.org/obo/BTO_0003415"
+                                            },
+                                            "unit": {
+                                                "_value": ""
+                                            },
+                                            "value": {
+                                                "_value": "conjunctiva"
+                                            }
+                                        },
+                                        "description": {
+                                            "_value": ""
+                                        },
+                                        "name": {
+                                            "_value": "Organism part"
+                                        }
+                                    }
+                                ],
+                                "description": {
+                                    "_value": ""
+                                },
+                                "factorValue": [
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUIDb682f0fc-7a7b-463b-b05b-a97a3ca2873c",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID230b94e2-c343-4138-a30e-9b5aa12396db",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Osmolarity"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": "mOsm"
+                                        },
+                                        "value": {
+                                            "_value": "480"
+                                        }
+                                    },
+                                    {
+                                        "@id": "https://repo.metadatacenter.org/UUID869f71cf-c71d-41f6-99a2-bce94592c3ab",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "studyFactor": [
+                                            {
+                                                "@context": "",
+                                                "@id": "https://repo.metadatacenter.org/UUID30ed0283-6946-4f6c-8e17-ad24e41ca337",
+                                                "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                                                "description": {
+                                                    "_value": ""
+                                                },
+                                                "name": {
+                                                    "_value": ""
+                                                }
+                                            }
+                                        ],
+                                        "type": {
+                                            "_value": "Replicate"
+                                        },
+                                        "unit": {
+                                            "@type": "",
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "5"
+                                        }
+                                    }
+                                ],
+                                "name": {
+                                    "_value": "sample-480_5"
+                                },
+                                "source": {
+                                    "_value": ""
+                                },
+                                "studyTime": {
+                                    "@id": "https://repo.metadatacenter.org/UUID557ccfcd-a549-470a-96d8-391a77301bfe",
+                                    "@type": "http://purl.obolibrary.org/obo/OBI_0001619",
+                                    "durationValue": {
+                                        "_value": ""
+                                    },
+                                    "isBeforeEvent": {
+                                        "_value": ""
+                                    },
+                                    "studyEvent": {
+                                        "_value": ""
+                                    },
+                                    "unit": {
+                                        "_value": ""
+                                    }
+                                },
+                                "type": {
+                                    "_value": "http://purl.obolibrary.org/obo/OBI_0000747"
+                                }
+                            }
+                        ]
+                    },
+                    "parameterValue": [],
+                    "studyAssay": [
+                        {
+                            "@id": "https://repo.metadatacenter.org/UUID",
+                            "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                            "measurementType": {
+                                "_value": ""
+                            },
+                            "platform": {
+                                "_value": ""
+                            },
+                            "technology": {
+                                "_value": ""
+                            }
+                        }
+                    ],
+                    "studyProtocol": [
+                        {
+                            "@context": {
+                                "_value": "https://schema.org/value",
+                                "description": "https://metadatacenter.org/schemas/description",
+                                "name": "https://metadatacenter.org/schemas/name",
+                                "protocolParameter": "https://metadatacenter.org/schemas/protocolParameter",
+                                "type": "https://metadatacenter.org/schemas/type",
+                                "uRI": "https://metadatacenter.org/schemas/uRI",
+                                "version": "https://metadatacenter.org/schemas/version"
+                            },
+                            "@id": "https://repo.metadatacenter.org/UUID71fd730f-6159-41de-b3f4-f47388de2841",
+                            "@type": "http://purl.obolibrary.org/obo/OBI_0000272",
+                            "description": {
+                                "_value": "Sample collection1"
+                            },
+                            "name": {
+                                "_value": "Sample collection1"
+                            },
+                            "protocolParameter": [
+                                {
+                                    "description": {
+                                        "_value": "Sample collection"
+                                    },
+                                    "name": {
+                                        "_value": "Sample collection"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000272"
+                            },
+                            "uRI": {
+                                "_value": "Sample collection1"
+                            },
+                            "version": {
+                                "_value": "Sample collection1"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Sample collection1"
+                    }
+                }
+            ],
+            "publicReleaseDate": {
+                "_value": "2015-08-31"
+            },
+            "publication": [],
+            "studyAssay": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDb0ac87a8-7318-4ce8-96d8-ad81a7c25f04",
+                    "@type": "http://purl.obolibrary.org/obo/BFO_0000055",
+                    "measurementType": {
+                        "_value": "http://purl.obolibrary.org/obo/OBI_0000366"
+                    },
+                    "platform": {
+                        "_value": "TripleTOF\ufffd 5600 (AB Sciex)"
+                    },
+                    "technology": {
+                        "_value": "mass spectrometry"
+                    }
+                }
+            ],
+            "studyDesignType": {
+                "_value": ""
+            },
+            "studyFactor": [
+                {
+                    "@context": "",
+                    "@id": "https://repo.metadatacenter.org/UUID8c5901fb-28a5-4a72-8126-4e5bae77c8d6",
+                    "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                    "description": {
+                        "_value": "increased osmolarity"
+                    },
+                    "name": {
+                        "_value": "Osmolarity"
+                    }
+                },
+                {
+                    "@context": "",
+                    "@id": "https://repo.metadatacenter.org/UUID311ad181-a043-46a8-a5f1-8460816fee04",
+                    "@type": "http://www.ebi.ac.uk/efo/EFO_0000001",
+                    "description": {
+                        "_value": "biological replicate"
+                    },
+                    "name": {
+                        "_value": "Replicate"
+                    }
+                }
+            ],
+            "studyGroupPopulation": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUIDc7816f51-6e53-401a-a56b-340cf1a6ef9c",
+                    "@type": "http://purl.obolibrary.org/obo/STATO_0000193",
+                    "name": {
+                        "_value": "population name"
+                    },
+                    "selectionRule": {
+                        "_value": "selection rule"
+                    },
+                    "studySubject": [
+                        {
+                            "characteristic": [
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUIDaf75ebec-bccb-4661-8922-bf78decc6011",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUID58632345-2456-4754-8b91-13514277304a",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "http://purl.bioontology.org/ontology/NCBITAXON/9606"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "Homo sapiens"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism"
+                                    }
+                                },
+                                {
+                                    "@id": "https://repo.metadatacenter.org/UUID47a2d982-7397-45f3-bfdf-4963fdc32270",
+                                    "@type": "https://repo.metadatacenter.org/model/Characteristic",
+                                    "characteristicValue": {
+                                        "@id": "https://repo.metadatacenter.org/UUIDd2994d2c-b1be-4645-8e44-0fb628bb39c4",
+                                        "@type": "https://repo.metadatacenter.org/model/CharacteristicValue",
+                                        "type": {
+                                            "_value": "http://purl.obolibrary.org/obo/BTO_0003415"
+                                        },
+                                        "unit": {
+                                            "_value": ""
+                                        },
+                                        "value": {
+                                            "_value": "conjunctiva"
+                                        }
+                                    },
+                                    "description": {
+                                        "_value": ""
+                                    },
+                                    "name": {
+                                        "_value": "Organism part"
+                                    }
+                                }
+                            ],
+                            "name": {
+                                "_value": "source-IOBA-NHC"
+                            },
+                            "type": {
+                                "_value": "http://purl.obolibrary.org/obo/OBI_0000925"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "http://bioportal.bioontology.org/ontologies/EFO/3232"
+                    }
+                }
+            ],
+            "studyProtocol": [
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID79b7d226-48e4-4ce1-a2df-3f71c7327323",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "IOBA-NHC cells were maintained in a modified medium consisting of 1:1 mixture of Dulbecco's Modified Eagle Medium/Ham\u2019s F 12 culture media (Invitrogen) with 10% fetal bovine serum (Invitrogen), 2 ng/mL of recombinant human epidermal growth factor (Invitrogen), 1 \u03bcg/ml of bovine insulin (Sigma-Aldrich), 0.1 \u03bcg/mL of cholera toxin, (Sigma Aldrich), 0.5 \u03bcg/mL of hydrocortisone and 1\u00d7 strength of broad spectrum antibiotic antimycotic (Invitrogen).\n\nCells for all experiments were treated using the same procedure. Each set consisted of three sub cultures grown to 80% confluence and adapted to Keratinocyte serum-free medium (KSFM) (Invitrogen) overnight. Treatment media were applied to cells in each set and they were incubated in parallel for 24 h. The treatment conditions were as follows: control \u2013 unadjusted KFSM media at 277 mOsm/, T1 and T2 \u2013 KFSM media adjusted to 377 mOsm/L 477 and mOsm/L respectively. \n\nEach hyperosmotic medium was prepared by the addition of 2 M NaCl prepared in PBS to commercial KFSM. Osmolarity measurements were performed using a vapour pressure osmometer (Vapro, Wescor Inc)."
+                    },
+                    "name": {
+                        "_value": "Sample collection"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Sample collection"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID405eb707-ba44-4ccf-93b3-03964bd4ea6d",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "Five sets of cells were grown in 6-well plates and treated with control, T1 and T2 treatment media. Cells were washed twice with cold PBS (4\u00b0C) and lysed by the addition of 1.5 mL of methanol maintained at \u221280\u00b0C. Plates were scraped over a dry ice bath, and each lysate was transferred to a microcentrifuge tube. Lysates were vortex-mixed at 1200 rpm for 5 min and centrifuged for 10 min at 16,000 g (4\u00b0C). The supernatants were concentrated in a vacuum concentrator and freeze-dried subsequently."
+                    },
+                    "name": {
+                        "_value": "Extraction"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Post Extraction"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Derivatization"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Extraction"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID595e8a02-f049-4f38-8b51-64a32eef9ed3",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "Analysis was performed on a Prominence UFLC system (Shimadzu) coupled to a TripleTOF 5600 mass spectrometer (AB Sciex). A Waters T3 C18 2.1 \u00d7 100 mm, 3 \u03bcm column (Waters) was used for separation. Each sample was reconstituted in 50 \u00b5L of water and 10 \u00b5L was injected for each analysis in positive and negative ionization mode. The mobile phase for positive ionization mode was 0.1% formic acid (FA) in water (eluent A) and 0.1% FA in acetonitrile (eluent B). The gradient profile was 2% B from 0 to 2 min, 15% B at 8 min, 50% B at 14 min, 90% B from 18 to 20.5 min, and 2% B from 21 to 27 min. The mobile phase for negative ionization mode was 5 mM ammonium formate and 0.05% FA in water (eluent A) and 5 mM ammonium formate and 0.05% FA in 9:1 acetonitrile/water (eluent B). The gradient profile was 2% B from 0 to 2 min, 15% B at 8 min, 50% B at 14 min, 100% B from 18 to 20.5 min, and 2% B from 21 to 27 min. The flow rate in both chromatographic methods was 0.3 mL/min."
+                    },
+                    "name": {
+                        "_value": "Chromatography"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Chromatography Instrument"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Column type"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Column model"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Chromatography"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID373e5ef5-d759-4c1d-99c5-29eb5c7b690d",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "Acquisition of MS/MS spectra in both ionization modes was controlled by the information-dependent-acquisition (IDA) function of the Analyst TF software (AB Sciex). One TOF MS survey scan (150 ms) was followed by 25 MS/MS scans (50 ms each). The mass range TOF-MS and MS/MS were 50\u20131000 and 25\u20131000 m/z respectively. The following parameters were applied: dynamic background subtraction, charge monitoring to exclude multiply charged ions and isotopes, and dynamic exclusion of former target ions for 5 s. Collision energy (CE) was ramped from 20\u201330V in MS/MS scans."
+                    },
+                    "name": {
+                        "_value": "Mass spectrometry"
+                    },
+                    "protocolParameter": [
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Scan polarity"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Scan m/z range"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Instrument"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Mass analyzer"
+                            }
+                        },
+                        {
+                            "description": {
+                                "_value": ""
+                            },
+                            "name": {
+                                "_value": "Ion source"
+                            }
+                        }
+                    ],
+                    "type": {
+                        "_value": "Mass spectrometry"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID2c2f472f-689e-44ae-b605-02227a5ffe09",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "MarkerView (AB Sciex) was used for peak detection and alignment of raw chromatographic data obtained from acquisition in positive and negative ionization mode respectively. One peak table comprising the mass to charge ratio (m/z), retention time (RT) and integrated peak area of detected peaks in the analyzed samples was generated for each ionization mode. The following peak classes were excluded from subsequent analysis: i) peaks attributed to isotopes, ii) peaks with an average area that were less than 3 times the average area in blank injections and iii) peaks with a coefficient of variation greater than 80% among replicates. The samples in each peak table were normalized to their respective 90th percentile peak area sums."
+                    },
+                    "name": {
+                        "_value": "Data transformation"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Data transformation"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                },
+                {
+                    "@id": "https://repo.metadatacenter.org/UUID9422f74f-fd6b-4eaa-9378-5c02dc9459e1",
+                    "@type": "https://repo.metadatacenter.org/model/StudyProtocol",
+                    "description": {
+                        "_value": "The m/z values of each marker peak were queried in the METLIN metabolite database25 to obtain its putative metabolite identifications. For this step, the batch search mode was adopted, with mass accuracy set to 12 ppm. The following adducts were applied to the m/z values of marker peaks obtained via positive ionization mode: [M+H]+, [M+NH4]+ [M+Na]+, [M+K]+, [M\u2212H2O+H]+. Similarly, [M\u2212H]\u2212, [M\u2212H2O\u2212H]\u2212, [M+Cl]\u2212, [M+FA\u2212H]\u2212 were applied to m/z values obtained via the negative ionization mode. Metabolite identities were confirmed by retrieval of experimental MS/MS spectra and comparison with the respective entries in METLIN or MassBank spectra databases. Selected metabolites were verified with standards. Unresolved metabolites with the same molecular formula were reported as mixtures."
+                    },
+                    "name": {
+                        "_value": "Metabolite identification"
+                    },
+                    "protocolParameter": [],
+                    "type": {
+                        "_value": "Metabolite identification"
+                    },
+                    "uRI": {
+                        "_value": ""
+                    },
+                    "version": {
+                        "_value": ""
+                    }
+                }
+            ],
+            "submissionDate": {
+                "_value": "2015-07-31"
+            },
+            "title": {
+                "_value": "Global Metabonomic and Proteomic Analysis of Human Conjunctival Epithelial Cells (IOBA-NHC) in Response to Hyperosmotic Stress"
+            }
+        }
+    ],
+    "submissionDate": {
+        "_value": ""
+    },
+    "title": {
+        "_value": "Investigation"
+    }
+}
