@@ -193,7 +193,29 @@
             },
             "required": [ "description", "title", "inputType" ]
         },
-        "jsonLDContextField" : {
+        "templateJSONLDContextField" : {
+            "type": "object",
+            "title": "CEDAR schema for JSON-LD @context field",
+            "description": "A schema that describes a JSON-LD @context field",
+            "properties": {
+                "@context": {
+                    "type": "object"
+                }
+            },
+            "required": [ "@type" ]
+        },
+        "templateElementJSONLDContextField" : {
+            "type": "object",
+            "title": "CEDAR schema for JSON-LD @context field",
+            "description": "A schema that describes a JSON-LD @context field",
+            "properties": {
+                "@context": {
+                    "type": "object"
+                }
+            },
+            "required": [ "@type" ]
+        },
+        "templateFieldJSONLDContextField" : {
             "type": "object",
             "title": "CEDAR schema for JSON-LD @context field",
             "description": "A schema that describes a JSON-LD @context field",
@@ -270,6 +292,7 @@
         "templateFieldObject": {
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaTemplateFieldFields" },
+                { "$ref": "#/definitions/templateFieldJSONLDContextField" },
                 { "$ref": "#/definitions/templateFieldJSONLDTypeField" },
                 { "$ref": "#/definitions/jsonLDIDField" },
                 { "_ui": { "$ref": "#/definitions/templateFieldUIField" } },
@@ -292,6 +315,7 @@
         "templateElementObject": {
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaTemplateElementFields" },
+                { "$ref": "#/definitions/templateElementJSONLDContextField" },
                 { "$ref": "#/definitions/templateElementJSONLDTypeField" },
                 { "$ref": "#/definitions/jsonLDIDField" },
                 { "_ui": { "$ref": "#/definitions/templateElementUIField" } },
@@ -315,6 +339,7 @@
         "templateObject": {
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaTemplateFields" },
+                { "$ref": "#/definitions/templateJSONLDContextField" },
                 { "$ref": "#/definitions/templateJSONLDTypeField" },
                 { "$ref": "#/definitions/jsonLDIDField" },
                 { "_ui": { "$ref": "#/definitions/templateUIField" } },
@@ -324,7 +349,7 @@
                           "type": "object",
                           "minProperties": 0,
                           "patternProperties": {
-                              "^*$": { "$ref": "#/definitions/templateFieldOrElementObject" }
+                              "^*$": { "type": "object" }
                           }
                       }
                   },
