@@ -50,13 +50,9 @@
                   {
                       "required": {
                           "type": "array",
-                          "minItems": 3,
-                          "maxItems": 3,
+                          "minItems": 2,
+                          "maxItems": 2,
                           "items": [
-                              {
-                                  "type": "string",
-                                  "enum": [ "@type" ]
-                              },
                               {
                                   "type": "string",
                                   "enum": [ "@id" ]
@@ -85,12 +81,8 @@
                   {
                       "required": {
                           "type": "array",
-                          "minItems": 2,
+                          "minItems": 1,
                           "items": [
-                              {
-                                  "type": "string",
-                                  "enum": [ "@type" ]
-                              },
                               {
                                   "type": "string",
                                   "enum": [ "@id" ]
@@ -115,12 +107,8 @@
                   {
                       "required": {
                           "type": "array",
-                          "minItems": 2,
+                          "minItems": 1,
                           "items": [
-                              {
-                                  "type": "string",
-                                  "enum": [ "@type" ]
-                              },
                               {
                                   "type": "string",
                                   "enum": [ "@id" ]
