@@ -211,6 +211,12 @@
                 }
             ]
         },
+        "templateFieldOrElementObject": {
+          "oneOf": [
+            { "$ref": "#/definitions/templateElementObject" },
+            { "$ref": "#/definitions/templateFieldObject" }
+          ]
+        },
         "templateObject": {
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaFields" },
@@ -221,10 +227,10 @@
                   {             
                       "properties": {
                           "type": "object",
-                          "additionalProperties": {
-                              "type": "object"
-                          },
-                          "minProperties": 1
+                          "minProperties": 0,
+                          "patternProperties": {
+                            "^*$": { "type": "object" }
+                          }
                       }
                   },
                   "required": [ "_ui" ]
