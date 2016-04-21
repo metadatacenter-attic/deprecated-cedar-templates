@@ -28,15 +28,27 @@
                     "minLength": 1
                 },
                 "additionalProperties": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "enum": [ false ]
                 },
                 "required": {
                     "type": "array",
-                    "minItems": 1,
-                    "items": {
-                        "type": "string",
-                        "format": "string"
-                    },
+                    "minItems": 3,
+                    "maxItems": 3,
+                    "items": [
+                        {
+                            "type": "string",
+                            "enum": [ "@type" ]
+                        },
+                        {
+                            "type": "string",
+                            "enum": [ "@id" ]
+                        },
+                        {
+                            "type": "string",
+                            "enum": [ "_templateId" ]
+                        }
+                    ],
                     "uniqueItems": true
                 }
             },
