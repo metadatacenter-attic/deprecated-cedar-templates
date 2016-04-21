@@ -123,6 +123,29 @@
                 }
             ]
         },
+        "provenanceFields": {
+            "type": "object",
+            "title": "CEDAR provenance fields schema",
+            "description": "A schema that describes CEDAR provenance fields schema",
+            "properties": {
+                "pav:createdOn": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "pav:createdBy": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "pav:lastUpdatedOn": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "cedar:lastUpdatedBy": {
+                    "type": "string",
+                    "format": "uri"
+                }
+            }
+        },
         "templateUIField": {
             "type": "object",
             "title": "CEDAR schema for _ui field in a template",
@@ -212,16 +235,15 @@
                     "type": "object"
                 }
             },
-            "required": [ "@type" ]
+            "required": [ "@context" ]
         },
         "jsonLDTypeField" : {
             "type": "object",
             "title": "CEDAR schema for JSON-LD @type field",
             "description": "A schema that describes a JSON-LD @type field",
             "properties": {
-                "@id": {
-                    "type": "string",
-                    "format": "uri"
+                "@type": {
+                    "type": "string", "format": "uri"
                 }
             },
             "required": [ "@type" ]
@@ -232,8 +254,7 @@
             "description": "A schema that describes a JSON-LD @id field",
             "properties": {
                 "@id": {
-                    "type": "string",
-                    "format": "uri"
+                    "type": "string", "format": "uri"
                 }
             },
             "required": [ "@id" ]
@@ -331,11 +352,16 @@
                 { "$ref": "#/definitions/templateJSONLDTypeField" },
                 { "$ref": "#/definitions/jsonLDIDField" },
                 { "_ui": { "$ref": "#/definitions/templateUIField" } },
+                { "$ref": "#/definitions/provenanceFields" },
                 { "properties":
                   {             
                       "properties": {
                           "type": "object",
                           "minProperties": 0,
+                          "@context": { "type": "object" },
+                          "@type": { "type": "object" },
+                          "@id": { "type": "object" },                          
+                          "_templateId": { "type": "object" },
                           "patternProperties": {
                               "^*$": { "type": "object" }
                           }
