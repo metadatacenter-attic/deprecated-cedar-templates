@@ -5,10 +5,9 @@
     "description": "A schema that describes a CEDAR template schema",
     "definitions": {
         "coreJSONSchemaFields": {
-            "$schema": "http://json-schema.org/draft-04/schema#",
             "type": "object",
-            "title": "CEDAR Core Template Schema Schema",
-            "description": "A schema that describes core CEDAR template schema fields",
+            "title": "CEDAR Core JSON Schema fields schema",
+            "description": "A schema that describes core CEDAR JSON Schema fields' schema",
             "properties": {
                 "$schema": {
                     "type": "string",
@@ -31,26 +30,6 @@
                     "type": "boolean",
                     "enum": [ false ]
                 },
-                "required": {
-                    "type": "array",
-                    "minItems": 3,
-                    "maxItems": 3,
-                    "items": [
-                        {
-                            "type": "string",
-                            "enum": [ "@type" ]
-                        },
-                        {
-                            "type": "string",
-                            "enum": [ "@id" ]
-                        },
-                        {
-                            "type": "string",
-                            "enum": [ "_templateId" ]
-                        }
-                    ],
-                    "uniqueItems": true
-                }
             },
             "required": [
                 "$schema",
@@ -58,8 +37,42 @@
                 "title",
                 "description",
                 "properties",
-                "additionalProperties",
-                "required"
+                "additionalProperties"
+            ]
+        },
+        "coreJSONSchemaTemplateFields": {
+            "type": "object",
+            "title": "CEDAR Core JSON Schema Template fields schema",
+            "description": "A schema that describes core CEDAR JSON Schema Template fields schema",
+            "allOf": [
+                { "$ref": "#/definitions/coreJSONSchemaFields" },
+                { "properties":
+                  {
+                      "required": {
+                          "type": "array",
+                          "minItems": 3,
+                          "maxItems": 3,
+                          "items": [
+                              {
+                                  "type": "string",
+                                  "enum": [ "@type" ]
+                              },
+                              {
+                                  "type": "string",
+                                  "enum": [ "@id" ]
+                              },
+                              {
+                                  "type": "string",
+                                  "enum": [ "_templateId" ]
+                              }
+                          ],
+                          "uniqueItems": true
+                      }
+                  },
+                  "required": [
+                      "required"
+                  ]
+                }
             ]
         },
         "templateUIField": {
@@ -212,14 +225,14 @@
             ]
         },
         "templateFieldOrElementObject": {
-          "oneOf": [
-            { "$ref": "#/definitions/templateElementObject" },
-            { "$ref": "#/definitions/templateFieldObject" }
-          ]
+            "oneOf": [
+                { "$ref": "#/definitions/templateElementObject" },
+                { "$ref": "#/definitions/templateFieldObject" }
+            ]
         },
         "templateObject": {
             "allOf": [
-                { "$ref": "#/definitions/coreJSONSchemaFields" },
+                { "$ref": "#/definitions/coreJSONSchemaTemplateFields" },
                 { "$ref": "#/definitions/templateJSONLDTypeField" },
                 { "$ref": "#/definitions/jsonLDIDField" },
                 { "_ui": { "$ref": "#/definitions/templateUIField" } },
@@ -229,7 +242,7 @@
                           "type": "object",
                           "minProperties": 0,
                           "patternProperties": {
-                            "^*$": { "type": "object" }
+                              "^*$": { "type": "object" }
                           }
                       }
                   },
