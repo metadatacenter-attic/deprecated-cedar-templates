@@ -7,7 +7,7 @@
         "coreJSONSchemaFields": {
             "type": "object",
             "title": "CEDAR Core JSON Schema fields schema",
-            "description": "A schema that describes core CEDAR JSON Schema fields' schema",
+            "description": "A schema that describes core CEDAR JSON Schema fields schema",
             "properties": {
                 "$schema": {
                     "type": "string",
@@ -64,6 +64,66 @@
                               {
                                   "type": "string",
                                   "enum": [ "_templateId" ]
+                              }
+                          ],
+                          "uniqueItems": true
+                      }
+                  },
+                  "required": [
+                      "required"
+                  ]
+                }
+            ]
+        },
+        "coreJSONSchemaTemplateElementFields": {
+            "type": "object",
+            "title": "CEDAR Core JSON Schema Template Element fields schema",
+            "description": "A schema that describes core CEDAR JSON Schema Template Element fields schema",
+            "allOf": [
+                { "$ref": "#/definitions/coreJSONSchemaFields" },
+                { "properties":
+                  {
+                      "required": {
+                          "type": "array",
+                          "minItems": 2,
+                          "items": [
+                              {
+                                  "type": "string",
+                                  "enum": [ "@type" ]
+                              },
+                              {
+                                  "type": "string",
+                                  "enum": [ "@id" ]
+                              }
+                          ],
+                          "uniqueItems": true
+                      }
+                  },
+                  "required": [
+                      "required"
+                  ]
+                }
+            ]
+        },
+        "coreJSONSchemaTemplateFieldFields": {
+            "type": "object",
+            "title": "CEDAR Core JSON Schema Template Field fields schema",
+            "description": "A schema that describes core CEDAR JSON Schema Template Field fields schema",
+            "allOf": [
+                { "$ref": "#/definitions/coreJSONSchemaFields" },
+                { "properties":
+                  {
+                      "required": {
+                          "type": "array",
+                          "minItems": 2,
+                          "items": [
+                              {
+                                  "type": "string",
+                                  "enum": [ "@type" ]
+                              },
+                              {
+                                  "type": "string",
+                                  "enum": [ "@id" ]
                               }
                           ],
                           "uniqueItems": true
@@ -186,7 +246,7 @@
         },
         "templateFieldObject": {
             "allOf": [
-                { "$ref": "#/definitions/coreJSONSchemaFields" },
+                { "$ref": "#/definitions/coreJSONSchemaTemplateFieldFields" },
                 { "$ref": "#/definitions/templateFieldJSONLDTypeField" },
                 { "$ref": "#/definitions/jsonLDIDField" },
                 { "_ui": { "$ref": "#/definitions/templateFieldUIField" } },
@@ -206,7 +266,7 @@
         },
         "templateElementObject": {
             "allOf": [
-                { "$ref": "#/definitions/coreJSONSchemaFields" },
+                { "$ref": "#/definitions/coreJSONSchemaTemplateElementFields" },
                 { "$ref": "#/definitions/templateElementJSONLDTypeField" },
                 { "$ref": "#/definitions/jsonLDIDField" },
                 { "_ui": { "$ref": "#/definitions/templateElementUIField" } },
