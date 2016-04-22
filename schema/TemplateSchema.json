@@ -213,7 +213,7 @@
                     "type": "object"
                 }
             },
-            "required": [ "@type" ]
+            "required": [ "@context" ]
         },
         "templateElementJSONLDContextField" : {
             "type": "object",
@@ -221,10 +221,10 @@
             "description": "A schema that describes a JSON-LD @context field",
             "properties": {
                 "@context": {
-                    "type": "object"
+                    "type": "context"
                 }
             },
-            "required": [ "@type" ]
+            "required": [ "@context" ]
         },
         "templateFieldJSONLDContextField" : {
             "type": "object",
@@ -298,7 +298,7 @@
             },
             "required": [ "@type" ]
         },
-        "templateFieldObject": {
+        "templateField": {
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaTemplateFieldFields" },
                 { "$ref": "#/definitions/templateFieldJSONLDContextField" },
@@ -310,18 +310,22 @@
                   {             
                       "properties": {
                           "type": "object",
+                          "properties": {
+                              "@type": { "type": "object" },
+                              "_value": { "type": "object" }
+                          }
                       },
                       "required":  {
                           "type": "array", "minItems": 1, "maxItems": 1,
                           "items": { "type": "string", "enum": [ "_value" ] }
-                      }
+                      },
 
                   },
-                  "required": [ "_ui", "properties", "required" ]
+                  "required": [ "@type", "@id", "_ui", "properties", "required" ]
                 }
             ]
         },
-        "templateElementObject": {
+        "templateElement": {
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaTemplateElementFields" },
                 { "$ref": "#/definitions/templateElementJSONLDContextField" },
@@ -332,20 +336,22 @@
                   {             
                       "properties": {
                           "type": "object",
-                          "minProperties": 0
+                          "properties": {
+
+                          }
                       }
                   },
-                  "required": [ "_ui" ]
+                  "required": [ "@context", "@type", "@id", "_ui" ]
                 }
             ]
         },
-        "templateFieldOrElementObject": {
+        "templateFieldOrElement": {
             "oneOf": [
-                { "$ref": "#/definitions/templateFieldObject" },
-                { "$ref": "#/definitions/templateElementObject" }
+                { "$ref": "#/definitions/templateField" },
+                { "$ref": "#/definitions/templateElement" }
             ]
         },
-        "templateObject": {
+        "template": {
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaTemplateFields" },
                 { "$ref": "#/definitions/templateJSONLDContextField" },
@@ -353,28 +359,29 @@
                 { "$ref": "#/definitions/jsonLDIDField" },
                 { "_ui": { "$ref": "#/definitions/templateUIField" } },
                 { "$ref": "#/definitions/provenanceFields" },
-                { "properties":
-                  {             
-                      "properties": {
-                          "type": "object",
-                          "minProperties": 0,
-                          "@context": { "type": "object" },
-                          "@type": { "type": "object" },
-                          "@id": { "type": "object" },                          
-                          "_templateId": { "type": "object" },
-                          "patternProperties": {
-                              "^*$": { "type": "object" }
-                          }
-                      }
-                  },
-                  "required": [ "_ui" ]
+                {
+                    "properties":
+                    {             
+                        "properties":
+                        {
+                            "type": "object",
+                            "properties":
+                            {
+                                "@id": { "type": "object" },
+                                "@type": { "type": "object" },
+                                "_templateId": { "type": "object" }
+                            },
+                            "patternProperties": {
+                                "^(?!@id)(?!@type)(?!_templateId).*$": { "$ref": "#/definitions/templateField" }
+                            }
+                        }
+                    },
+                    "required": [ "_ui" ]
                 }
             ]
         }
     },
     "oneOf": [
-        { "$ref": "#/definitions/templateObject" },
-        { "$ref": "#/definitions/templateElementObject" },
-        { "$ref": "#/definitions/templateFieldObject" }
+        { "$ref": "#/definitions/template" }
     ]
 }
