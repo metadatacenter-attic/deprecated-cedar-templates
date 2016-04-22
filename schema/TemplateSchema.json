@@ -322,7 +322,7 @@
             "patternProperties": {
                 "^(?!@id)(?!@type)(?!_templateId).*$": { "$ref": "#/definitions/templateFieldOrElement" }
             },
-           "required": [ "@type", "@id", "_templateId" ]
+            "required": [ "@type", "@id", "_templateId" ]
         },
         "templateElementPropertiesField": {
             "description": "Schema for a 'properties' field in a template",
@@ -335,7 +335,7 @@
             "patternProperties": {
                 "^(?!@id)(?!@type).*$": { "$ref": "#/definitions/templateFieldOrElement" }
             },
-           "required": [ "@type", "@id" ]
+            "required": [ "@type", "@id" ]
         },
         "templateField": {
             "allOf": [
@@ -352,11 +352,11 @@
                           "type": "object",
                           "properties": {
                               "@type": {
-                                  "description": "TODO: Schema for the @type field in a template field",
+                                  "description": "TODO: Schema for the '@type' field in a template field",
                                   "type": "object"
                               },
                               "_value": {
-                                  "description": "TODO: Schema for the _value field in a template field",
+                                  "description": "TODO: Schema for the '_value' field in a template field",
                                   "type": "object"
                               }
                           }
@@ -366,6 +366,15 @@
                 }
             ]
         },
+        "templateFieldArray": {
+            "type": "object",
+            "properties": {
+                "type": { "type": "string", "enum": [ "array" ] },
+                "minItems": { "type": "number" },
+                "maxItems": { "type": "number" },
+                "items": { "$ref": "#/definitions/templateField" },
+            }
+        }, 
         "templateElement": {
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaTemplateElementFields" },
@@ -375,22 +384,27 @@
                 { "_ui": { "$ref": "#/definitions/templateElementUIField" } },
                 { "properties":
                   {             
-                      "properties": {
-                          "description": "Schema for a template element's properties field",
-                          "type": "object",
-                          "properties": {
-                             "properties": { "$ref": "#/definitions/templateElementPropertiesField" }
-                          }
-                      }
+                      "properties": { "$ref": "#/definitions/templateElementPropertiesField" }
                   },
                   "required": [ "_ui" ]
                 }
             ]
         },
+        "templateElementArray": {
+            "type": "object",
+            "properties": {
+                "type": { "type": "string", "enum": [ "array" ] },
+                "minItems": { "type": "number" },
+                "maxItems": { "type": "number" },
+                "items": { "$ref": "#/definitions/templateElement" },
+            }
+        }, 
         "templateFieldOrElement": {
             "oneOf": [
                 { "$ref": "#/definitions/templateField" },
-                { "$ref": "#/definitions/templateElement" }
+                { "$ref": "#/definitions/templateFieldArray" },
+                { "$ref": "#/definitions/templateElement" },
+                { "$ref": "#/definitions/templateElementArray" }
             ]
         },
         "template": {
