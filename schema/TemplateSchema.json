@@ -9,26 +9,31 @@
             "description": "A schema that describes core CEDAR JSON Schema fields schema",
             "properties": {
                 "$schema": {
+                    "description": "Schema describing the JSON Schema '$schema' field in a template, element, and field",
                     "type": "string",
                     "format": "uri",
                     "enum": [ "http://json-schema.org/draft-04/schema#" ]
                 },
                 "type": {
+                    "description": "Schema describing the JSON Schema 'type' field in a template, element, and field",
                     "type": "string",
                     "enum": [ "object" ]
                 },
                 "title": {
+                    "description": "Schema describing the JSON Schema 'title' field in a template, element, and field",
                     "type": "string",
                     "minLength": 1
                 },
                 "description": {
+                    "description": "Schema describing the JSON Schema 'description' field in a template, element, and field",
                     "type": "string",
                     "minLength": 1
                 },
                 "additionalProperties": {
+                    "description": "Schema describing the JSON Schema 'additionalProperties' field in a template, element, and field",
                     "type": "boolean",
                     "enum": [ false ]
-                },
+                }
             },
             "required": [
                 "$schema",
@@ -292,7 +297,6 @@
         },
         "templateElementJSONLDTypeField" : {
             "type": "object",
-            "title": "CEDAR schema for template element JSON-LD @type field",
             "description": "A schema that describes a template element's JSON-LD @type field",
             "properties": {
                 "@type": {
@@ -306,7 +310,6 @@
         },
         "templateFieldJSONLDTypeField" : {
             "type": "object",
-            "title": "CEDAR schema for template field JSON-LD @type field",
             "description": "A schema that describes a template field's JSON-LD @type field",
             "properties": {
                 "@type": {
@@ -323,29 +326,66 @@
             "type": "object",
             "properties":
             {
-                "@context": { "type": "object" },
-                "@id": { "type": "object" },
-                "@type": { "type": "object" },
-                "_templateId": { "type": "object" }
+                "@context": {
+                    "description": "TODO: Schema for an '@context' field in a 'properties' field in a template",
+                    "type": "object"
+                },
+                "@id": {
+                    "description": "TODO: Schema for an '@id' field in a 'properties' field in a template",
+                    "type": "object"
+                },
+                "@type": {
+                    "description": "TODO: Schema for a '@type' field in a 'properties' field in a template",
+                    "type": "object"
+                },
+                "_templateID": {
+                    "description": "TODO: Schema for a '_templateID' field in a 'properties' field in a template",
+                    "type": "object"
+                }
             },
             "patternProperties": {
                 "^(?!@context)(?!@id)(?!@type)(?!_templateId).*$": { "$ref": "#/definitions/templateFieldOrElement" }
             },
-            "required": [ "@type", "@id", "_templateId" ]
+            "required": [ "@context", "@type", "@id", "_templateId" ]
         },
         "templateElementPropertiesField": {
-            "description": "Schema for a 'properties' field in a template",
+            "description": "Schema for a 'properties' field in a template element",
             "type": "object",
             "properties":
             {
-                "@context": { "type": "object" },
-                "@id": { "type": "object" },
-                "@type": { "type": "object" }
+                "@context": {
+                    "description": "TODO: Schema for an '@context' field in a 'properties' field in a template element",
+                    "type": "object"
+                },
+                "@id": {
+                    "description": "TODO: Schema for an '@id' field in a 'properties' field in a template element",
+                    "type": "object"
+                },
+                "@type": {
+                    "description": "TODO: Schema for a '@type' field in a 'properties' field in a template element",
+                    "type": "object"
+                }
             },
             "patternProperties": {
                 "^(?!@context)(?!@id)(?!@type).*$": { "$ref": "#/definitions/templateFieldOrElement" }
             },
-            "required": [ "@type", "@id" ]
+            "required": [ "@context", "@type", "@id" ]
+        },
+        "templateFieldPropertiesField": {
+            "description": "Schema for a 'properties' field in a template field",
+            "type": "object",
+            "properties":
+            {
+                "@type": {
+                    "description": "TODO: Schema for a '@type' field in a 'properties' field in a template field",
+                    "type": "object"
+                },
+                "_value": {
+                    "description": "TODO: Schema for a '_value' field in a 'properties' field in a template field",
+                    "type": "object"
+                }
+            },
+            "required": [ "@type", "_value" ]
         },
         "templateField": {
             "allOf": [
@@ -357,22 +397,9 @@
                 { "_valueConstraints": { "$ref": "#/definitions/valueConstraintsField" } },
                 { "properties":
                   {             
-                      "properties": {
-                          "description": "Schema for a template fields's properties field",
-                          "type": "object",
-                          "properties": {
-                              "@type": {
-                                  "description": "TODO: Schema for the '@type' field in a template field",
-                                  "type": "object"
-                              },
-                              "_value": {
-                                  "description": "TODO: Schema for the '_value' field in a template field",
-                                  "type": "object"
-                              }
-                          }
-                      }
+                      "properties": { "$ref": "#/definitions/templateFieldPropertiesField" }
                   },
-                  "required": [ "@type", "@id", "_ui", "properties" ]
+                  "required": [ "_ui", "properties" ]
                 }
             ]
         },
