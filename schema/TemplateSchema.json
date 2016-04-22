@@ -364,10 +364,14 @@
                 "@type": {
                     "description": "TODO: Schema for a '@type' field in a 'properties' field in a template element",
                     "type": "object"
+                },
+                "_tmp": {
+                    "description": "TEMPORARY: Schema for a '_tmp' field. THIS FIELD SHOULD NOT BE THERE!",
+                    "type": "object"
                 }
             },
             "patternProperties": {
-                "^(?!@context)(?!@id)(?!@type).*$": { "$ref": "#/definitions/templateFieldOrElement" }
+                "^(?!@context)(?!@id)(?!@type)(?!_tmp).*$": { "$ref": "#/definitions/templateFieldOrElement" }
             },
             "required": [ "@context", "@type", "@id" ]
         },
