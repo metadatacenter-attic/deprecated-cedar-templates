@@ -321,7 +321,8 @@
             },
             "patternProperties": {
                 "^(?!@id)(?!@type)(?!_templateId).*$": { "$ref": "#/definitions/templateFieldOrElement" }
-            }
+            },
+           "required": [ "@type", "@id", "_templateId" ]
         },
         "templateElementPropertiesField": {
             "description": "Schema for a 'properties' field in a template",
@@ -333,7 +334,8 @@
             },
             "patternProperties": {
                 "^(?!@id)(?!@type).*$": { "$ref": "#/definitions/templateFieldOrElement" }
-            }
+            },
+           "required": [ "@type", "@id" ]
         },
         "templateField": {
             "allOf": [
@@ -377,11 +379,11 @@
                           "description": "Schema for a template element's properties field",
                           "type": "object",
                           "properties": {
-
+                             "properties": { "$ref": "#/definitions/templateElementPropertiesField" }
                           }
                       }
                   },
-                  "required": [ "@context", "@type", "@id", "_ui" ]
+                  "required": [ "_ui" ]
                 }
             ]
         },
