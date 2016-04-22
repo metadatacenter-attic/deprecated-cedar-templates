@@ -315,12 +315,13 @@
             "type": "object",
             "properties":
             {
+                "@context": { "type": "object" },
                 "@id": { "type": "object" },
                 "@type": { "type": "object" },
                 "_templateId": { "type": "object" }
             },
             "patternProperties": {
-                "^(?!@id)(?!@type)(?!_templateId).*$": { "$ref": "#/definitions/templateFieldOrElement" }
+                "^(?!@context)(?!@id)(?!@type)(?!_templateId).*$": { "$ref": "#/definitions/templateFieldOrElement" }
             },
             "required": [ "@type", "@id", "_templateId" ]
         },
@@ -329,11 +330,12 @@
             "type": "object",
             "properties":
             {
+                "@context": { "type": "object" },
                 "@id": { "type": "object" },
                 "@type": { "type": "object" }
             },
             "patternProperties": {
-                "^(?!@id)(?!@type).*$": { "$ref": "#/definitions/templateFieldOrElement" }
+                "^(?!@context)(?!@id)(?!@type).*$": { "$ref": "#/definitions/templateFieldOrElement" }
             },
             "required": [ "@type", "@id" ]
         },
