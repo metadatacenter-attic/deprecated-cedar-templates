@@ -47,6 +47,7 @@
                 { "properties":
                   {
                       "required": {
+                          "description": "Schema describing the 'required' field in a template",
                           "type": "array",
                           "minItems": 2,
                           "maxItems": 2,
@@ -110,7 +111,7 @@
                           "items": [
                               {
                                   "type": "string",
-                                  "enum": [ "@id" ]
+                                  "enum": [ "_value" ]
                               }
                           ],
                           "uniqueItems": true
@@ -332,15 +333,9 @@
                                   "type": "object"
                               }
                           }
-                      },
-                      "required":  {
-                          "description": "Schema for the required field in a template field",
-                          "type": "array", "minItems": 1, "maxItems": 1,
-                          "items": [ { "type": "string", "enum": [ "_value" ] } ]
-                      },
-
+                      }
                   },
-                  "required": [ "@type", "@id", "_ui", "properties", "required" ]
+                  "required": [ "@type", "@id", "_ui", "properties" ]
                 }
             ]
         },
