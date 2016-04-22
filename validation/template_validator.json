@@ -1,12 +1,12 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
-    "title": "CEDAR Template Schema Schema",
-    "description": "A schema that describes a CEDAR template schema",
+    "title": "CEDAR Template Validation Schema",
+    "description": "A JSON Schema document that describes the CEDAR template schema and can be used to validate it",
     "definitions": {
         "coreJSONSchemaFields": {
             "type": "object",
-            "description": "A schema that describes core CEDAR JSON Schema fields schema",
+            "description": "A schema that describes core JSON Schema fields",
             "properties": {
                 "$schema": {
                     "description": "Schema describing the JSON Schema '$schema' field in a template, element, and field",
@@ -46,7 +46,7 @@
         },
         "coreJSONSchemaTemplateFields": {
             "type": "object",
-            "description": "A schema that describes core CEDAR JSON Schema Template fields schema",
+            "description": "A schema that describes JSON Schema template fields",
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaFields" },
                 { "properties":
@@ -77,7 +77,7 @@
         },
         "coreJSONSchemaTemplateElementFields": {
             "type": "object",
-            "description": "A schema that describes core CEDAR JSON Schema Template Element fields schema",
+            "description": "A schema that describes JSON Schema template element fields",
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaFields" },
                 { "properties":
@@ -104,7 +104,7 @@
         "coreJSONSchemaTemplateFieldFields": {
             "type": "object",
             "title": "CEDAR Core JSON Schema Template Field fields schema",
-            "description": "A schema that describes core CEDAR JSON Schema Template Field fields schema",
+            "description": "A schema that describes JSON Schema template field fields",
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaFields" },
                 { "properties":
@@ -130,8 +130,7 @@
         },
         "provenanceFields": {
             "type": "object",
-            "title": "CEDAR provenance fields schema",
-            "description": "A schema that describes CEDAR provenance fields schema",
+            "description": "A schema that describes CEDAR provenance fields",
             "properties": {
                 "pav:createdOn": {
                     "type": "string",
@@ -153,7 +152,7 @@
         },
         "templateUIField": {
             "type": "object",
-            "description": "A schema that describes a _ui field in a template",
+            "description": "A schema that describes a '_ui' field in a template",
             "properties": {
                 "description": { "type": "string" },
                 "title": { "type": "string" },
@@ -178,7 +177,7 @@
         },
         "templateElementUIField": {
             "type": "object",
-            "description": "A schema that describes a _ui field in a template element",
+            "description": "A schema that describes a '_ui' field in a template element",
             "properties": {
                 "order": {
                     "description": "Schema describing the contents of the 'order' field in a template element '_ui' field",
@@ -207,22 +206,22 @@
         },
         "valueConstraintsField": {
             "type": "object",
-            "description": "A schema that describes a _valueConstraints field in a template field",
+            "description": "A schema that describes a '_valueConstraints' field in a template field",
             "properties": {
                 "ontologies": {
-                    "description": "TODO: Schema that describes the ontologies field in a _valueConstraints field",
+                    "description": "TODO: Schema that describes the 'ontologies' field in a '_valueConstraints' field",
                     "type": "array"
                 },
                 "valueSets": {
-                    "description": "TODO: Schema that describes the valueSets field in a _valueConstraints field",
+                    "description": "TODO: Schema that describes the 'valueSets' field in a '_valueConstraints' field",
                     "type": "array"
                 },
                 "classes": {
-                    "description": "TODO: Schema that describes the classes field in a _valueConstraints field",
+                    "description": "TODO: Schema that describes the 'classes' field in a '_valueConstraints' field",
                     "type": "array"
                 },
                 "branches": {
-                    "description": "TODO: Schema that describes the branches field in a _valueConstraints field",
+                    "description": "TODO: Schema that describes the 'branches' field in a '_valueConstraints' field",
                     "type": "array"
                 },
                 "requiredValue": { "type": "boolean" }
@@ -231,7 +230,7 @@
         },
         "templateJSONLDContextField" : {
             "type": "object",
-            "description": "A schema that describes a JSON-LD @context field in a template",
+            "description": "A schema that describes a JSON-LD '@context' field in a template",
             "properties": {
                 "@context": {
                     "description": "TODO: Schema describing the contents of the '@context' field in a template",
@@ -242,7 +241,7 @@
         },
         "templateElementJSONLDContextField" : {
             "type": "object",
-            "description": "A schema that describes a JSON-LD @context field in a template element",
+            "description": "A schema that describes a JSON-LD '@context' field in a template element",
             "properties": {
                 "@context": {
                     "description": "TODO: Schema describing the contents of the '@context' field in a template element",
@@ -253,7 +252,7 @@
         },
         "templateFieldJSONLDContextField" : {
             "type": "object",
-            "description": "A schema that describes a JSON-LD @context field in a template field",
+            "description": "A schema that describes a JSON-LD '@context' field in a template field",
             "properties": {
                 "@context": {
                     "description": "TODO: Schema describing the contents of the '@context' field in a template field",
@@ -264,7 +263,7 @@
         },
         "jsonLDTypeField" : {
             "type": "object",
-            "description": "A schema that describes a JSON-LD @type field",
+            "description": "A schema that describes a JSON-LD '@type' field",
             "properties": {
                 "@type": {
                     "type": "string", "format": "uri"
@@ -274,7 +273,7 @@
         },
         "jsonLDIDField" : {
             "type": "object",
-            "description": "A schema that describes a JSON-LD @id field",
+            "description": "A schema that describes a JSON-LD '@id' field",
             "properties": {
                 "@id": {
                     "type": "string", "format": "uri"
@@ -284,7 +283,7 @@
         },
         "templateJSONLDTypeField" : {
             "type": "object",
-            "description": "A schema that describes a template's JSON-LD @type field",
+            "description": "A schema that describes a template's JSON-LD '@type' field",
             "properties": {
                 "@type": {
                     "description": "Schema for the @type field in a template",
@@ -297,7 +296,7 @@
         },
         "templateElementJSONLDTypeField" : {
             "type": "object",
-            "description": "A schema that describes a template element's JSON-LD @type field",
+            "description": "A schema that describes a template element's JSON-LD '@type' field",
             "properties": {
                 "@type": {
                     "description": "Schema for the @type field in a template element",
@@ -310,7 +309,7 @@
         },
         "templateFieldJSONLDTypeField" : {
             "type": "object",
-            "description": "A schema that describes a template field's JSON-LD @type field",
+            "description": "A schema that describes a template field's JSON-LD '@type' field",
             "properties": {
                 "@type": {
                     "description": "Schema for the @type field in a template field",
