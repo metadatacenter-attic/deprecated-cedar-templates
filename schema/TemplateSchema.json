@@ -153,7 +153,7 @@
         },
         "templateUIField": {
             "type": "object",
-            "description": "A schema that describes a CEDAR _ui field in a template",
+            "description": "A schema that describes a _ui field in a template",
             "properties": {
                 "description": { "type": "string" },
                 "title": { "type": "string" },
@@ -175,30 +175,6 @@
                 }
             },
             "required": [ "title", "description", "order" ]
-        },
-        "valueConstraintsField": {
-            "type": "object",
-            "description": "A schema that describes a _valueConstraints field in a template field",
-            "properties": {
-                "ontologies": {
-                    "description": "TODO: Schema that describes the ontologies field in a _valueConstraints field",
-                    "type": "array"
-                },
-                "valueSets": {
-                    "description": "TODO: Schema that describes the valueSets field in a _valueConstraints field",
-                    "type": "array"
-                },
-                "classes": {
-                    "description": "TODO: Schema that describes the classes field in a _valueConstraints field",
-                    "type": "array"
-                },
-                "branches": {
-                    "description": "TODO: Schema that describes the branches field in a _valueConstraints field",
-                    "type": "array"
-                },
-                "requiredValue": { "type": "boolean" }
-            },
-            "required": [ "requiredValue" ]
         },
         "templateElementUIField": {
             "type": "object",
@@ -228,6 +204,30 @@
                 }
             },
             "required": [ "description", "title", "inputType" ]
+        },
+        "valueConstraintsField": {
+            "type": "object",
+            "description": "A schema that describes a _valueConstraints field in a template field",
+            "properties": {
+                "ontologies": {
+                    "description": "TODO: Schema that describes the ontologies field in a _valueConstraints field",
+                    "type": "array"
+                },
+                "valueSets": {
+                    "description": "TODO: Schema that describes the valueSets field in a _valueConstraints field",
+                    "type": "array"
+                },
+                "classes": {
+                    "description": "TODO: Schema that describes the classes field in a _valueConstraints field",
+                    "type": "array"
+                },
+                "branches": {
+                    "description": "TODO: Schema that describes the branches field in a _valueConstraints field",
+                    "type": "array"
+                },
+                "requiredValue": { "type": "boolean" }
+            },
+            "required": [ "requiredValue" ]
         },
         "templateJSONLDContextField" : {
             "type": "object",
@@ -338,8 +338,8 @@
                     "description": "TODO: Schema for a '@type' field in a 'properties' field in a template",
                     "type": "object"
                 },
-                "_templateID": {
-                    "description": "TODO: Schema for a '_templateID' field in a 'properties' field in a template",
+                "_templateId": {
+                    "description": "TODO: Schema for a '_templateId' field in a 'properties' field in a template",
                     "type": "object"
                 }
             },
@@ -387,7 +387,11 @@
                 "_value": {
                     "description": "TODO: Schema for a '_value' field in a 'properties' field in a template field",
                     "type": "object"
-                }
+                },
+                "_tmp": {
+                    "description": "TEMPORARY: Schema for a '_tmp' field. THIS FIELD SHOULD NOT BE THERE!",
+                    "type": "object"
+                }                
             },
             "required": [ "@type", "_value" ]
         },
