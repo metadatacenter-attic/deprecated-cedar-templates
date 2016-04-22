@@ -6,7 +6,6 @@
     "definitions": {
         "coreJSONSchemaFields": {
             "type": "object",
-            "title": "CEDAR Core JSON Schema fields schema",
             "description": "A schema that describes core CEDAR JSON Schema fields schema",
             "properties": {
                 "$schema": {
@@ -42,7 +41,6 @@
         },
         "coreJSONSchemaTemplateFields": {
             "type": "object",
-            "title": "CEDAR Core JSON Schema Template fields schema",
             "description": "A schema that describes core CEDAR JSON Schema Template fields schema",
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaFields" },
@@ -73,13 +71,13 @@
         },
         "coreJSONSchemaTemplateElementFields": {
             "type": "object",
-            "title": "CEDAR Core JSON Schema Template Element fields schema",
             "description": "A schema that describes core CEDAR JSON Schema Template Element fields schema",
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaFields" },
                 { "properties":
                   {
                       "required": {
+                          "description": "Schema describing the contents of the 'required' field in a template element",
                           "type": "array",
                           "minItems": 1,
                           "items": [
@@ -106,6 +104,7 @@
                 { "properties":
                   {
                       "required": {
+                          "description": "Schema describing the contents of the 'required' field in a template field",
                           "type": "array",
                           "minItems": 1,
                           "items": [
@@ -148,7 +147,6 @@
         },
         "templateUIField": {
             "type": "object",
-            "title": "CEDAR schema for _ui field in a template",
             "description": "A schema that describes a CEDAR _ui field in a template",
             "properties": {
                 "description": { "type": "string" },
@@ -166,23 +164,34 @@
         },
         "valueConstraintsField": {
             "type": "object",
-            "title": "CEDAR schema for a CEDAR _valueConstraints field in a template field",
-            "description": "A schema that describes a CEDAR _valueConstraints field in a template",
+            "description": "A schema that describes a _valueConstraints field in a template field",
             "properties": {
-                "ontologies": { "type": "array" },
-                "valueSets": { "type": "array" },
-                "classes": { "type": "array" },
-                "branches": { "type": "array" },
+                "ontologies": {
+                    "description": "TODO: Schema that describes the ontologies field in a _valueConstraints field",
+                    "type": "array"
+                },
+                "valueSets": {
+                    "description": "TODO: Schema that describes the valueSets field in a _valueConstraints field",
+                    "type": "array"
+                },
+                "classes": {
+                    "description": "TODO: Schema that describes the classes field in a _valueConstraints field",
+                    "type": "array"
+                },
+                "branches": {
+                    "description": "TODO: Schema that describes the branches field in a _valueConstraints field",
+                    "type": "array"
+                },
                 "requiredValue": { "type": "boolean" }
             },
             "required": [ "requiredValue" ]
         },
         "templateElementUIField": {
             "type": "object",
-            "title": "CEDAR schema for _ui field in a template element",
-            "description": "A schema that describes a CEDAR _ui field in a template element",
+            "description": "A schema that describes a _ui field in a template element",
             "properties": {
                 "order": {
+                    "description": "Schema describing the contents of the 'order' field in a template element '_ui' field",
                     "type": "array",
                     "minItems": 1,
                     "items": {
@@ -195,21 +204,23 @@
         },
         "templateFieldUIField": {
             "type": "object",
-            "title": "CEDAR schema for _ui field in a template field",
-            "description": "A schema that describes a CEDAR _ui field in a template field",
+            "description": "A schema that describes a _ui field in a template field",
             "properties": {
                 "description": { "type": "string" },
-                "title": { "type": "string" },
-                "inputType": { "type": "string", "enum": [ "textfield", "textarea" ] }
+                "title": { "type": "string", "minLength": 1 },
+                "inputType": {
+                    "description": "Schema describing the contents of the 'inputType' field in a template '_ui' field",
+                    "type": "string", "enum": [ "textfield", "textarea" ]
+                }
             },
             "required": [ "description", "title", "inputType" ]
         },
         "templateJSONLDContextField" : {
             "type": "object",
-            "title": "CEDAR schema for JSON-LD @context field",
-            "description": "A schema that describes a JSON-LD @context field",
+            "description": "A schema that describes a JSON-LD @context field in a template",
             "properties": {
                 "@context": {
+                    "description": "TODO: Schema describing the contents of the '@context' field in a template",
                     "type": "object"
                 }
             },
@@ -217,21 +228,21 @@
         },
         "templateElementJSONLDContextField" : {
             "type": "object",
-            "title": "CEDAR schema for JSON-LD @context field",
-            "description": "A schema that describes a JSON-LD @context field",
+            "description": "A schema that describes a JSON-LD @context field in a template element",
             "properties": {
                 "@context": {
-                    "type": "context"
+                    "description": "TODO: Schema describing the contents of the '@context' field in a template element",
+                    "type": "object"
                 }
             },
             "required": [ "@context" ]
         },
         "templateFieldJSONLDContextField" : {
             "type": "object",
-            "title": "CEDAR schema for JSON-LD @context field",
-            "description": "A schema that describes a JSON-LD @context field",
+            "description": "A schema that describes a JSON-LD @context field in a template field",
             "properties": {
                 "@context": {
+                    "description": "TODO: Schema describing the contents of the '@context' field in a template field",
                     "type": "object"
                 }
             },
@@ -239,7 +250,6 @@
         },
         "jsonLDTypeField" : {
             "type": "object",
-            "title": "CEDAR schema for JSON-LD @type field",
             "description": "A schema that describes a JSON-LD @type field",
             "properties": {
                 "@type": {
@@ -250,7 +260,6 @@
         },
         "jsonLDIDField" : {
             "type": "object",
-            "title": "CEDAR schema for JSON-LD @id field",
             "description": "A schema that describes a JSON-LD @id field",
             "properties": {
                 "@id": {
@@ -261,10 +270,10 @@
         },
         "templateJSONLDTypeField" : {
             "type": "object",
-            "title": "CEDAR schema for template JSON-LD @type field",
             "description": "A schema that describes a template's JSON-LD @type field",
             "properties": {
                 "@type": {
+                    "description": "Schema for the @type field in a template",
                     "type": "string",
                     "format": "uri",
                     "enum": [ "https://schema.metadatacenter.org/core/Template" ]
@@ -278,6 +287,7 @@
             "description": "A schema that describes a template element's JSON-LD @type field",
             "properties": {
                 "@type": {
+                    "description": "Schema for the @type field in a template element",
                     "type": "string",
                     "format": "uri",
                     "enum": [ "https://schema.metadatacenter.org/core/TemplateElement" ]
@@ -291,6 +301,7 @@
             "description": "A schema that describes a template field's JSON-LD @type field",
             "properties": {
                 "@type": {
+                    "description": "Schema for the @type field in a template field",
                     "type": "string",
                     "format": "uri",
                     "enum": [ "https://schema.metadatacenter.org/core/TemplateField" ]
@@ -309,15 +320,23 @@
                 { "properties":
                   {             
                       "properties": {
+                          "description": "Schema for a template fields's properties field",
                           "type": "object",
                           "properties": {
-                              "@type": { "type": "object" },
-                              "_value": { "type": "object" }
+                              "@type": {
+                                  "description": "TODO: Schema for the @type field in a template field",
+                                  "type": "object"
+                              },
+                              "_value": {
+                                  "description": "TODO: Schema for the _value field in a template field",
+                                  "type": "object"
+                              }
                           }
                       },
                       "required":  {
+                          "description": "Schema for the required field in a template field",
                           "type": "array", "minItems": 1, "maxItems": 1,
-                          "items": { "type": "string", "enum": [ "_value" ] }
+                          "items": [ { "type": "string", "enum": [ "_value" ] } ]
                       },
 
                   },
@@ -335,6 +354,7 @@
                 { "properties":
                   {             
                       "properties": {
+                          "description": "Schema for a template element's properties field",
                           "type": "object",
                           "properties": {
 
@@ -364,6 +384,7 @@
                     {             
                         "properties":
                         {
+                            "description": "Schema for a 'properties' field in a template",
                             "type": "object",
                             "properties":
                             {
