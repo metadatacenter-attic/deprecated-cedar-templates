@@ -159,6 +159,14 @@
                         "type": "string"
                     },
                     "uniqueItems": true
+                },
+                "pages": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                        "type": "string"
+                    },
+                    "uniqueItems": true
                 }
             },
             "required": [ "title", "description", "order" ]
