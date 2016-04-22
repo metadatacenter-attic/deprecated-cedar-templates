@@ -310,6 +310,31 @@
             },
             "required": [ "@type" ]
         },
+        "templatePropertiesField": {
+            "description": "Schema for a 'properties' field in a template",
+            "type": "object",
+            "properties":
+            {
+                "@id": { "type": "object" },
+                "@type": { "type": "object" },
+                "_templateId": { "type": "object" }
+            },
+            "patternProperties": {
+                "^(?!@id)(?!@type)(?!_templateId).*$": { "$ref": "#/definitions/templateFieldOrElement" }
+            }
+        },
+        "templateElementPropertiesField": {
+            "description": "Schema for a 'properties' field in a template",
+            "type": "object",
+            "properties":
+            {
+                "@id": { "type": "object" },
+                "@type": { "type": "object" }
+            },
+            "patternProperties": {
+                "^(?!@id)(?!@type).*$": { "$ref": "#/definitions/templateFieldOrElement" }
+            }
+        },
         "templateField": {
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaTemplateFieldFields" },
@@ -377,20 +402,7 @@
                 {
                     "properties":
                     {             
-                        "properties":
-                        {
-                            "description": "Schema for a 'properties' field in a template",
-                            "type": "object",
-                            "properties":
-                            {
-                                "@id": { "type": "object" },
-                                "@type": { "type": "object" },
-                                "_templateId": { "type": "object" }
-                            },
-                            "patternProperties": {
-                                "^(?!@id)(?!@type)(?!_templateId).*$": { "$ref": "#/definitions/templateField" }
-                            }
-                        }
+                        "properties": { "$ref": "#/definitions/templatePropertiesField" }
                     },
                     "required": [ "_ui" ]
                 }
