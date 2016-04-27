@@ -438,7 +438,7 @@
                 "type": { "type": "string", "enum": [ "array" ] },
                 "minItems": { "type": "number" },
                 "maxItems": { "type": "number" },
-                "items": { "$ref": "#/definitions/templateFieldOrElement" },
+                "items": { "$ref": "#/definitions/templateFieldOrElement" }
             },
             "required": [ "type", "minItems", "items" ]
         }, 
