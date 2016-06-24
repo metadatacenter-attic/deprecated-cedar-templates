@@ -1,0 +1,468 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "title": "CEDAR Template Validation Schema",
+    "description": "A JSON Schema document that describes the CEDAR template schema and can be used to validate it",
+    "definitions": {
+        "coreJSONSchemaFields": {
+            "type": "object",
+            "description": "A schema that describes core JSON Schema fields",
+            "properties": {
+                "$schema": {
+                    "description": "Schema describing the JSON Schema '$schema' field in a template, element, and field",
+                    "type": "string",
+                    "format": "uri",
+                    "enum": [ "http://json-schema.org/draft-04/schema#" ]
+                },
+                "type": {
+                    "description": "Schema describing the JSON Schema 'type' field in a template, element, and field",
+                    "type": "string",
+                    "enum": [ "object" ]
+                },
+                "title": {
+                    "description": "Schema describing the JSON Schema 'title' field in a template, element, and field",
+                    "type": "string",
+                    "minLength": 1
+                },
+                "description": {
+                    "description": "Schema describing the JSON Schema 'description' field in a template, element, and field",
+                    "type": "string",
+                    "minLength": 1
+                },
+                "additionalProperties": {
+                    "description": "Schema describing the JSON Schema 'additionalProperties' field in a template, element, and field",
+                    "type": "boolean",
+                    "enum": [ false ]
+                }
+            },
+            "required": [
+                "$schema",
+                "type",
+                "title",
+                "description",
+                "properties",
+                "additionalProperties"
+            ]
+        },
+        "coreJSONSchemaTemplateFields": {
+            "type": "object",
+            "description": "A schema that describes JSON Schema template fields",
+            "allOf": [
+                { "$ref": "#/definitions/coreJSONSchemaFields" },
+                { "properties":
+                  {
+                      "required": {
+                          "description": "Schema describing the 'required' field in a template",
+                          "type": "array",
+                          "minItems": 2,
+                          "maxItems": 2,
+                          "items": [
+                              {
+                                  "type": "string",
+                                  "enum": [ "@id" ]
+                              },
+                              {
+                                  "type": "string",
+                                  "enum": [ "_templateId" ]
+                              }
+                          ],
+                          "uniqueItems": true
+                      }
+                  },
+                  "required": [
+                      "required"
+                  ]
+                }
+            ]
+        },
+        "coreJSONSchemaTemplateElementFields": {
+            "type": "object",
+            "description": "A schema that describes JSON Schema template element fields",
+            "allOf": [
+                { "$ref": "#/definitions/coreJSONSchemaFields" },
+                { "properties":
+                  {
+                      "required": {
+                          "description": "Schema describing the contents of the 'required' field in a template element",
+                          "type": "array",
+                          "minItems": 1,
+                          "items": [
+                              {
+                                  "type": "string",
+                                  "enum": [ "@id" ]
+                              }
+                          ],
+                          "uniqueItems": true
+                      }
+                  },
+                  "required": [
+                      "required"
+                  ]
+                }
+            ]
+        },
+        "coreJSONSchemaTemplateFieldFields": {
+            "type": "object",
+            "title": "CEDAR Core JSON Schema Template Field fields schema",
+            "description": "A schema that describes JSON Schema template field fields",
+            "allOf": [
+                { "$ref": "#/definitions/coreJSONSchemaFields" },
+                { "properties":
+                  {
+                      "required": {
+                          "description": "Schema describing the contents of the 'required' field in a template field",
+                          "type": "array",
+                          "minItems": 1,
+                          "items": [
+                              {
+                                  "type": "string",
+                                  "enum": [ "_value" ]
+                              }
+                          ],
+                          "uniqueItems": true
+                      }
+                  },
+                  "required": [
+                      "required"
+                  ]
+                }
+            ]
+        },
+        "provenanceFields": {
+            "type": "object",
+            "description": "A schema that describes CEDAR provenance fields",
+            "properties": {
+                "pav:createdOn": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "pav:createdBy": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "pav:lastUpdatedOn": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "cedar:lastUpdatedBy": {
+                    "type": "string",
+                    "format": "uri"
+                }
+            }
+        },
+        "templateUIField": {
+            "type": "object",
+            "description": "A schema that describes a '_ui' field in a template",
+            "properties": {
+                "description": { "type": "string" },
+                "title": { "type": "string" },
+                "order": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                        "type": "string"
+                    },
+                    "uniqueItems": true
+                },
+                "pages": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                        "type": "string"
+                    },
+                    "uniqueItems": true
+                }
+            },
+            "required": [ "title", "description", "order" ]
+        },
+        "templateElementUIField": {
+            "type": "object",
+            "description": "A schema that describes a '_ui' field in a template element",
+            "properties": {
+                "order": {
+                    "description": "Schema describing the contents of the 'order' field in a template element '_ui' field",
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                        "type": "string"
+                    },
+                    "uniqueItems": true
+                }
+            },
+            "required": [ "title", "description",  "order" ]
+        },
+        "templateFieldUIField": {
+            "type": "object",
+            "description": "A schema that describes a _ui field in a template field",
+            "properties": {
+                "description": { "type": "string" },
+                "title": { "type": "string", "minLength": 1 },
+                "inputType": {
+                    "description": "Schema describing the contents of the 'inputType' field in a template '_ui' field",
+                    "type": "string", "enum": [ "textfield", "textarea" ]
+                }
+            },
+            "required": [ "description", "title", "inputType" ]
+        },
+        "valueConstraintsField": {
+            "type": "object",
+            "description": "A schema that describes a '_valueConstraints' field in a template field",
+            "properties": {
+                "ontologies": {
+                    "description": "TODO: Schema that describes the 'ontologies' field in a '_valueConstraints' field",
+                    "type": "array"
+                },
+                "valueSets": {
+                    "description": "TODO: Schema that describes the 'valueSets' field in a '_valueConstraints' field",
+                    "type": "array"
+                },
+                "classes": {
+                    "description": "TODO: Schema that describes the 'classes' field in a '_valueConstraints' field",
+                    "type": "array"
+                },
+                "branches": {
+                    "description": "TODO: Schema that describes the 'branches' field in a '_valueConstraints' field",
+                    "type": "array"
+                },
+                "requiredValue": { "type": "boolean" }
+            },
+            "required": [ "requiredValue" ]
+        },
+        "templateJSONLDContextField" : {
+            "type": "object",
+            "description": "A schema that describes a JSON-LD '@context' field in a template",
+            "properties": {
+                "@context": {
+                    "description": "TODO: Schema describing the contents of the '@context' field in a template",
+                    "type": "object"
+                }
+            },
+            "required": [ "@context" ]
+        },
+        "templateElementJSONLDContextField" : {
+            "type": "object",
+            "description": "A schema that describes a JSON-LD '@context' field in a template element",
+            "properties": {
+                "@context": {
+                    "description": "TODO: Schema describing the contents of the '@context' field in a template element",
+                    "type": "object"
+                }
+            },
+            "required": [ "@context" ]
+        },
+        "templateFieldJSONLDContextField" : {
+            "type": "object",
+            "description": "A schema that describes a JSON-LD '@context' field in a template field",
+            "properties": {
+                "@context": {
+                    "description": "TODO: Schema describing the contents of the '@context' field in a template field",
+                    "type": "object"
+                }
+            },
+            "required": [ "@context" ]
+        },
+        "jsonLDTypeField" : {
+            "type": "object",
+            "description": "A schema that describes a JSON-LD '@type' field",
+            "properties": {
+                "@type": {
+                    "type": "string", "format": "uri"
+                }
+            },
+            "required": [ "@type" ]
+        },
+        "jsonLDIDField" : {
+            "type": "object",
+            "description": "A schema that describes a JSON-LD '@id' field",
+            "properties": {
+                "@id": {
+                    "type": "string", "format": "uri"
+                }
+            },
+            "required": [ "@id" ]
+        },
+        "templateJSONLDTypeField" : {
+            "type": "object",
+            "description": "A schema that describes a template's JSON-LD '@type' field",
+            "properties": {
+                "@type": {
+                    "description": "Schema for the @type field in a template",
+                    "type": "string",
+                    "format": "uri",
+                    "enum": [ "https://schema.metadatacenter.org/core/Template" ]
+                }
+            },
+            "required": [ "@type" ]
+        },
+        "templateElementJSONLDTypeField" : {
+            "type": "object",
+            "description": "A schema that describes a template element's JSON-LD '@type' field",
+            "properties": {
+                "@type": {
+                    "description": "Schema for the @type field in a template element",
+                    "type": "string",
+                    "format": "uri",
+                    "enum": [ "https://schema.metadatacenter.org/core/TemplateElement" ]
+                }
+            },
+            "required": [ "@type" ]
+        },
+        "templateFieldJSONLDTypeField" : {
+            "type": "object",
+            "description": "A schema that describes a template field's JSON-LD '@type' field",
+            "properties": {
+                "@type": {
+                    "description": "Schema for the @type field in a template field",
+                    "type": "string",
+                    "format": "uri",
+                    "enum": [ "https://schema.metadatacenter.org/core/TemplateField" ]
+                }
+            },
+            "required": [ "@type" ]
+        },
+        "templatePropertiesField": {
+            "description": "Schema for a 'properties' field in a template",
+            "type": "object",
+            "properties":
+            {
+                "@context": {
+                    "description": "TODO: Schema for an '@context' field in a 'properties' field in a template",
+                    "type": "object"
+                },
+                "@id": {
+                    "description": "TODO: Schema for an '@id' field in a 'properties' field in a template",
+                    "type": "object"
+                },
+                "@type": {
+                    "description": "TODO: Schema for a '@type' field in a 'properties' field in a template",
+                    "type": "object"
+                },
+                "_templateId": {
+                    "description": "TODO: Schema for a '_templateId' field in a 'properties' field in a template",
+                    "type": "object"
+                }
+            },
+            "patternProperties": {
+                "^(?!@context)(?!@id)(?!@type)(?!_templateId).*$": { "$ref": "#/definitions/templateFieldOrElement" }
+            },
+            "required": [ "@context", "@type", "@id", "_templateId" ]
+        },
+        "templateElementPropertiesField": {
+            "description": "Schema for a 'properties' field in a template element",
+            "type": "object",
+            "properties":
+            {
+                "@context": {
+                    "description": "TODO: Schema for an '@context' field in a 'properties' field in a template element",
+                    "type": "object"
+                },
+                "@id": {
+                    "description": "TODO: Schema for an '@id' field in a 'properties' field in a template element",
+                    "type": "object"
+                },
+                "@type": {
+                    "description": "TODO: Schema for a '@type' field in a 'properties' field in a template element",
+                    "type": "object"
+                },
+                "_tmp": {
+                    "description": "TEMPORARY: Schema for a '_tmp' field. THIS FIELD SHOULD NOT BE THERE!",
+                    "type": "object"
+                }
+            },
+            "patternProperties": {
+                "^(?!@context)(?!@id)(?!@type)(?!_tmp).*$": { "$ref": "#/definitions/templateFieldOrElement" }
+            },
+            "required": [ "@context", "@type", "@id" ]
+        },
+        "templateFieldPropertiesField": {
+            "description": "Schema for a 'properties' field in a template field",
+            "type": "object",
+            "properties":
+            {
+                "@type": {
+                    "description": "TODO: Schema for a '@type' field in a 'properties' field in a template field",
+                    "type": "object"
+                },
+                "_value": {
+                    "description": "TODO: Schema for a '_value' field in a 'properties' field in a template field",
+                    "type": "object"
+                },
+                "_tmp": {
+                    "description": "TEMPORARY: Schema for a '_tmp' field. THIS FIELD SHOULD NOT BE THERE!",
+                    "type": "object"
+                }                
+            },
+            "required": [ "@type", "_value" ]
+        },
+        "templateField": {
+            "allOf": [
+                { "$ref": "#/definitions/coreJSONSchemaTemplateFieldFields" },
+                { "$ref": "#/definitions/templateFieldJSONLDContextField" },
+                { "$ref": "#/definitions/templateFieldJSONLDTypeField" },
+                { "$ref": "#/definitions/jsonLDIDField" },
+                { "_ui": { "$ref": "#/definitions/templateFieldUIField" } },
+                { "_valueConstraints": { "$ref": "#/definitions/valueConstraintsField" } },
+                { "properties":
+                  {             
+                      "properties": { "$ref": "#/definitions/templateFieldPropertiesField" }
+                  },
+                  "required": [ "_ui", "properties" ]
+                }
+            ]
+        },
+        "templateElement": {
+            "allOf": [
+                { "$ref": "#/definitions/coreJSONSchemaTemplateElementFields" },
+                { "$ref": "#/definitions/templateElementJSONLDContextField" },
+                { "$ref": "#/definitions/templateElementJSONLDTypeField" },
+                { "$ref": "#/definitions/jsonLDIDField" },
+                { "_ui": { "$ref": "#/definitions/templateElementUIField" } },
+                { "properties":
+                  {             
+                      "properties": { "$ref": "#/definitions/templateElementPropertiesField" }
+                  },
+                  "required": [ "_ui" ]
+                }
+            ]
+        },
+        "templateFieldOrElement": {
+            "oneOf": [
+                { "$ref": "#/definitions/templateField" },
+                { "$ref": "#/definitions/templateElement" },
+                { "$ref": "#/definitions/templateFieldOrElementArray" }
+            ]
+        },
+        "templateFieldOrElementArray": {
+            "type": "object",
+            "properties": {
+                "type": { "type": "string", "enum": [ "array" ] },
+                "minItems": { "type": "number" },
+                "maxItems": { "type": "number" },
+                "items": { "$ref": "#/definitions/templateFieldOrElement" }
+            },
+            "required": [ "type", "minItems", "items" ]
+        }, 
+        "template": {
+            "allOf": [
+                { "$ref": "#/definitions/coreJSONSchemaTemplateFields" },
+                { "$ref": "#/definitions/templateJSONLDContextField" },
+                { "$ref": "#/definitions/templateJSONLDTypeField" },
+                { "$ref": "#/definitions/jsonLDIDField" },
+                { "_ui": { "$ref": "#/definitions/templateUIField" } },
+                { "$ref": "#/definitions/provenanceFields" },
+                {
+                    "properties":
+                    {             
+                        "properties": { "$ref": "#/definitions/templatePropertiesField" }
+                    },
+                    "required": [ "_ui" ]
+                }
+            ]
+        }
+    },
+    "oneOf": [
+        { "$ref": "#/definitions/template" },
+        { "$ref": "#/definitions/templateElement" },
+        { "$ref": "#/definitions/templateField" }
+    ]
+}
