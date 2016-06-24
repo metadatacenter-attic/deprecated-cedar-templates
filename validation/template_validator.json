@@ -154,17 +154,17 @@
             "type": "object",
             "description": "A schema that describes a '_ui' field in a template",
             "properties": {
+                "_ui": { "$ref": "#/definitions/templateUIFieldValue" }
+            },
+            "required": [ "_ui" ]
+        },
+        "templateUIFieldValue": {
+            "type": "object",
+            "description": "A schema that describes a '_ui' field value in a template",
+            "properties": {
+                "title": { "type": "string", "minLength": 1 },
                 "description": { "type": "string" },
-                "title": { "type": "string" },
                 "order": {
-                    "type": "array",
-                    "minItems": 1,
-                    "items": {
-                        "type": "string"
-                    },
-                    "uniqueItems": true
-                },
-                "pages": {
                     "type": "array",
                     "minItems": 1,
                     "items": {
@@ -179,6 +179,16 @@
             "type": "object",
             "description": "A schema that describes a '_ui' field in a template element",
             "properties": {
+                "_ui": { "$ref": "#/definitions/templateElementUIFieldValue" }
+            },
+            "required": [ "_ui" ]
+        },
+        "templateElementUIFieldValue": {
+            "type": "object",
+            "description": "A schema that describes a '_ui' field in a template element",
+            "properties": {
+                "title": { "type": "string", "minLength": 1 },
+                "description": { "type": "string" },
                 "order": {
                     "description": "Schema describing the contents of the 'order' field in a template element '_ui' field",
                     "type": "array",
@@ -189,17 +199,25 @@
                     "uniqueItems": true
                 }
             },
-            "required": [ "title", "description",  "order" ]
+            "required": [ "title", "description", "order" ]
         },
         "templateFieldUIField": {
             "type": "object",
-            "description": "A schema that describes a _ui field in a template field",
+            "description": "A schema that describes a '_ui' field in a template field",
             "properties": {
-                "description": { "type": "string" },
+                "_ui": { "$ref": "#/definitions/templateFieldUIFieldValue" }
+            },
+            "required": [ "_ui" ]
+        },
+        "templateFieldUIFieldValue": {
+            "type": "object",
+            "description": "A schema that describes a _ui field in a template field value",
+            "properties": {
                 "title": { "type": "string", "minLength": 1 },
+                "description": { "type": "string" },
                 "inputType": {
                     "description": "Schema describing the contents of the 'inputType' field in a template '_ui' field",
-                    "type": "string", "enum": [ "textfield", "textarea" ]
+                    "type": "string", "enum": [ "textfield", "textarea", "radio", "checkbox", "date", "email", "list", "numeric", "phone-number", "section-break", "richtext", "image", "youtube" ]
                 }
             },
             "required": [ "description", "title", "inputType" ]
@@ -208,25 +226,38 @@
             "type": "object",
             "description": "A schema that describes a '_valueConstraints' field in a template field",
             "properties": {
-                "ontologies": {
-                    "description": "TODO: Schema that describes the 'ontologies' field in a '_valueConstraints' field",
-                    "type": "array"
-                },
-                "valueSets": {
-                    "description": "TODO: Schema that describes the 'valueSets' field in a '_valueConstraints' field",
-                    "type": "array"
-                },
-                "classes": {
-                    "description": "TODO: Schema that describes the 'classes' field in a '_valueConstraints' field",
-                    "type": "array"
-                },
-                "branches": {
-                    "description": "TODO: Schema that describes the 'branches' field in a '_valueConstraints' field",
-                    "type": "array"
-                },
-                "requiredValue": { "type": "boolean" }
+                "_valueConstraints": { "$ref": "#/definitions/valueConstraintsFieldValue" }
+            },
+            "required": [ "_valueConstraints" ]
+        },
+        "valueConstraintsFieldValue": {
+            "type": "object",
+            "description": "A schema that describes a '_valueConstraints' field in a template field",
+            "properties": {
+                "ontologies": { "$ref": "#/definitions/valueConstraintsOntologiesFieldValue" },
+                "valueSets": {  "$ref": "#/definitions/valueConstraintsValueSetsFieldValue" },
+                "classes": {  "$ref": "#/definitions/valueConstraintsClassesFieldValue" },
+                "branches": {  "$ref": "#/definitions/valueConstraintsBranchesFieldValue" },
+                "requiredValue": { "type": "boolean" },
+                "multipleChoice": { "type": "boolean" }
             },
             "required": [ "requiredValue" ]
+        },
+        "valueConstraintsOntologiesFieldValue": {
+            "description": "Schema that describes the 'ontologies' field value in a '_valueConstraints' field",
+            "type": "array",
+        },
+        "valueConstraintsValueSetsFieldValue": {
+            "description": "Schema that describes the 'valueSets' field value in a '_valueConstraints' field",
+            "type": "array",
+        },
+        "valueConstraintsClassesFieldValue": {
+            "description": "Schema that describes the 'classes' field value in a '_valueConstraints' field",
+            "type": "array",
+        },
+        "valueConstraintsBranchesFieldValue": {
+            "description": "Schema that describes the 'branches' field value in a '_valueConstraints' field",
+            "type": "array",
         },
         "templateJSONLDContextField" : {
             "type": "object",
@@ -321,7 +352,14 @@
             "required": [ "@type" ]
         },
         "templatePropertiesField": {
-            "description": "Schema for a 'properties' field in a template",
+            "properties":
+            {             
+                "properties": { "$ref": "#/definitions/templatePropertiesFieldValue" }
+            },
+            "required": [ ]
+        },
+        "templatePropertiesFieldValue": {
+            "description": "Schema for a 'properties' field value in a template",
             "type": "object",
             "properties":
             {
@@ -348,7 +386,14 @@
             "required": [ "@context", "@type", "@id", "_templateId" ]
         },
         "templateElementPropertiesField": {
-            "description": "Schema for a 'properties' field in a template element",
+            "properties":
+            {             
+                "properties": { "$ref": "#/definitions/templateElementPropertiesFieldValue" }
+            },
+            "required": [ ]
+        },
+        "templateElementPropertiesFieldValue": {
+            "description": "Schema for a 'properties' field value in a template element",
             "type": "object",
             "properties":
             {
@@ -375,7 +420,14 @@
             "required": [ "@context", "@type", "@id" ]
         },
         "templateFieldPropertiesField": {
-            "description": "Schema for a 'properties' field in a template field",
+            "properties":
+            {             
+                "properties": { "$ref": "#/definitions/templateFieldPropertiesFieldValue" }
+            },
+            "required": [ ]
+        },
+        "templateFieldPropertiesFieldValue": {
+            "description": "Schema for a 'properties' field value in a template field",
             "type": "object",
             "properties":
             {
@@ -400,14 +452,9 @@
                 { "$ref": "#/definitions/templateFieldJSONLDContextField" },
                 { "$ref": "#/definitions/templateFieldJSONLDTypeField" },
                 { "$ref": "#/definitions/jsonLDIDField" },
-                { "_ui": { "$ref": "#/definitions/templateFieldUIField" } },
-                { "_valueConstraints": { "$ref": "#/definitions/valueConstraintsField" } },
-                { "properties":
-                  {             
-                      "properties": { "$ref": "#/definitions/templateFieldPropertiesField" }
-                  },
-                  "required": [ "_ui", "properties" ]
-                }
+                { "$ref": "#/definitions/templateFieldUIField" },
+                { "$ref": "#/definitions/valueConstraintsField" },
+                { "$ref": "#/definitions/templateFieldPropertiesField" }
             ]
         },
         "templateElement": {
@@ -416,13 +463,8 @@
                 { "$ref": "#/definitions/templateElementJSONLDContextField" },
                 { "$ref": "#/definitions/templateElementJSONLDTypeField" },
                 { "$ref": "#/definitions/jsonLDIDField" },
-                { "_ui": { "$ref": "#/definitions/templateElementUIField" } },
-                { "properties":
-                  {             
-                      "properties": { "$ref": "#/definitions/templateElementPropertiesField" }
-                  },
-                  "required": [ "_ui" ]
-                }
+                { "$ref": "#/definitions/templateElementUIField" },
+                { "$ref": "#/definitions/templateElementPropertiesField" }
             ]
         },
         "templateFieldOrElement": {
@@ -441,22 +483,16 @@
                 "items": { "$ref": "#/definitions/templateFieldOrElement" }
             },
             "required": [ "type", "minItems", "items" ]
-        }, 
+        },
         "template": {
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaTemplateFields" },
                 { "$ref": "#/definitions/templateJSONLDContextField" },
                 { "$ref": "#/definitions/templateJSONLDTypeField" },
                 { "$ref": "#/definitions/jsonLDIDField" },
-                { "_ui": { "$ref": "#/definitions/templateUIField" } },
+                { "$ref": "#/definitions/templateUIField" },
                 { "$ref": "#/definitions/provenanceFields" },
-                {
-                    "properties":
-                    {             
-                        "properties": { "$ref": "#/definitions/templatePropertiesField" }
-                    },
-                    "required": [ "_ui" ]
-                }
+                { "$ref": "#/definitions/templatePropertiesField" }
             ]
         }
     },
