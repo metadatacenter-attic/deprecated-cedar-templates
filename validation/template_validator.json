@@ -393,6 +393,10 @@
                 "@context": { "$ref": "#/definitions/templatePropertiesContextFieldValue" },
                 "@type": { "$ref": "#/definitions/templatePropertiesTypeFieldValue" },
                 "@id": { "$ref": "#/definitions/templatePropertiesIDFieldValue" },
+                "pav:createdOn": { "$ref": "#/definitions/templatePropertiesPAVCreatedOnFieldValue" },
+                "pav:createdBy": { "$ref": "#/definitions/templatePropertiesPAVCreatedByFieldValue" },
+                "pav:lastUpdatedOn:": { "$ref": "#/definitions/templatePropertiesPAVLastUpdatedOnFieldValue" },
+                "cedar:lastUpdatedBy": { "$ref": "#/definitions/templatePropertiesCEDARLastUpdatedByFieldValue" },
                 "_templateID": { "$ref": "#/definitions/templatePropertiesTemplateIDFieldValue" }
             },
             "patternProperties": {
@@ -413,8 +417,49 @@
             "type": "object"
         },
         "templatePropertiesTemplateIDFieldValue": {
-            "description": "TODO: Schema for the contents of a '_templateID' field in a 'properties' field in a template",
-            "type": "object"
+            "description": "Schema for the contents of a '_templateID' field in a 'properties' field in a template",
+            "type": "object",
+            "properties": {
+                "type": { "type": "string", "enum": [ "string" ] },
+                "format": { "type": "string", "enum": [ "uri" ] }
+            },
+            "required": [ "type", "format" ]
+        },
+        "templatePropertiesPAVCreatedOnFieldValue": {
+            "description": "Schema for the contents of a 'pav:createdOn' field in a 'properties' field in a template",
+            "type": "object",
+            "properties": {
+                "type": { "type": "string", "enum": [ "string" ] },
+                "format": { "type": "string", "enum": [ "date-time" ] }
+            },
+            "required": [ "type", "format" ]
+        },
+        "templatePropertiesPAVCreatedByFieldValue": {
+            "description": "Schema for the contents of a 'pav:createdBy' field in a 'properties' field in a template",
+            "type": "object",
+            "properties": {
+                "type": { "type": "string", "enum": [ "string" ] },
+                "format": { "type": "string", "enum": [ "uri" ] }
+            },
+            "required": [ "type", "format" ]
+        },
+        "templatePropertiesPAVLastUpdatedOnFieldValue": {
+            "description": "Schema for the contents of a 'pav:lastUpdatedOn' field in a 'properties' field in a template",
+            "type": "object",
+            "properties": {
+                "type": { "type": "string", "enum": [ "string" ] },
+                "format": { "type": "string", "enum": [ "date-time" ] }
+            },
+            "required": [ "type", "format" ]
+        },
+        "templatePropertiesCEDARLastUpdatedByFieldValue": {
+            "description": "Schema for the contents of a 'cedar:lastUpdatedBy' field in a 'properties' field in a template",
+            "type": "object",
+            "properties": {
+                "type": { "type": "string", "enum": [ "string" ] },
+                "format": { "type": "string", "enum": [ "uri" ] }
+            },
+            "required": [ "type", "format" ]
         },
         "templateElementPropertiesField": {
             "properties":
