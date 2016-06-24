@@ -244,19 +244,19 @@
             "required": [ "requiredValue" ]
         },
         "valueConstraintsOntologiesFieldValue": {
-            "description": "Schema that describes the 'ontologies' field value in a '_valueConstraints' field",
+            "description": "TODO Schema that describes the contents of the 'ontologies' field value in a '_valueConstraints' field",
             "type": "array",
         },
         "valueConstraintsValueSetsFieldValue": {
-            "description": "Schema that describes the 'valueSets' field value in a '_valueConstraints' field",
+            "description": "TODO Schema that describes the contents of the 'valueSets' field value in a '_valueConstraints' field",
             "type": "array",
         },
         "valueConstraintsClassesFieldValue": {
-            "description": "Schema that describes the 'classes' field value in a '_valueConstraints' field",
+            "description": "TODO Schema that describes the contents of the 'classes' field value in a '_valueConstraints' field",
             "type": "array",
         },
         "valueConstraintsBranchesFieldValue": {
-            "description": "Schema that describes the 'branches' field value in a '_valueConstraints' field",
+            "description": "TODO Schema that describes the contents of the 'branches' field value in a '_valueConstraints' field",
             "type": "array",
         },
         "templateJSONLDContextField" : {
@@ -309,7 +309,7 @@
         "templateFieldJSONLDContextFieldValue": {
             "description": "Schema describing the contents of the '@context' field in a template field",
             "type": "object",
-                        "properties": {
+            "properties": {
                 "pav": { "type": "string", "format": "uri", "enum": [ "http://purl.org/pav/" ] },
                 "cedar": { "type": "string", "format": "uri", "enum": [ "https://schema.metadatacenter.org/core/" ] }
             },
@@ -390,27 +390,31 @@
             "type": "object",
             "properties":
             {
-                "@context": {
-                    "description": "TODO: Schema for an '@context' field in a 'properties' field in a template",
-                    "type": "object"
-                },
-                "@id": {
-                    "description": "TODO: Schema for an '@id' field in a 'properties' field in a template",
-                    "type": "object"
-                },
-                "@type": {
-                    "description": "TODO: Schema for a '@type' field in a 'properties' field in a template",
-                    "type": "object"
-                },
-                "_templateId": {
-                    "description": "TODO: Schema for a '_templateId' field in a 'properties' field in a template",
-                    "type": "object"
-                }
+                "@context": { "$ref": "#/definitions/templatePropertiesContextFieldValue" },
+                "@type": { "$ref": "#/definitions/templatePropertiesTypeFieldValue" },
+                "@id": { "$ref": "#/definitions/templatePropertiesIDFieldValue" },
+                "_templateID": { "$ref": "#/definitions/templatePropertiesTemplateIDFieldValue" }
             },
             "patternProperties": {
                 "^(?!@context)(?!@id)(?!@type)(?!_templateId).*$": { "$ref": "#/definitions/templateFieldOrElement" }
             },
             "required": [ "@context", "@type", "@id", "_templateId" ]
+        },
+        "templatePropertiesContextFieldValue": {
+            "description": "TODO: Schema for the contents of a '@context' field in a 'properties' field in a template",
+            "type": "object"
+        },
+        "templatePropertiesTypeFieldValue": {
+            "description": "TODO: Schema for the contents of a '@type' field in a 'properties' field in a template",
+            "type": "object"
+        },
+        "templatePropertiesIDFieldValue": {
+            "description": "TODO: Schema for the contents of a '@id' field in a 'properties' field in a template",
+            "type": "object"
+        },
+        "templatePropertiesTemplateIDFieldValue": {
+            "description": "TODO: Schema for the contents of a '_templateID' field in a 'properties' field in a template",
+            "type": "object"
         },
         "templateElementPropertiesField": {
             "properties":
@@ -424,18 +428,9 @@
             "type": "object",
             "properties":
             {
-                "@context": {
-                    "description": "TODO: Schema for an '@context' field in a 'properties' field in a template element",
-                    "type": "object"
-                },
-                "@id": {
-                    "description": "TODO: Schema for an '@id' field in a 'properties' field in a template element",
-                    "type": "object"
-                },
-                "@type": {
-                    "description": "TODO: Schema for a '@type' field in a 'properties' field in a template element",
-                    "type": "object"
-                },
+                "@context": { "$ref": "#/definitions/templateElementPropertiesContextFieldValue" },
+                "@type": { "$ref": "#/definitions/templateElementPropertiesTypeFieldValue" },
+                "@id": { "$ref": "#/definitions/templateElementPropertiesIDFieldValue" },
                 "_tmp": {
                     "description": "TEMPORARY: Schema for a '_tmp' field. THIS FIELD SHOULD NOT BE THERE!",
                     "type": "object"
@@ -445,6 +440,18 @@
                 "^(?!@context)(?!@id)(?!@type)(?!_tmp).*$": { "$ref": "#/definitions/templateFieldOrElement" }
             },
             "required": [ "@context", "@type", "@id" ]
+        },
+        "templateElementPropertiesContextFieldValue": {
+            "description": "TODO: Schema for the contents of a '@context' field in a 'properties' field in a template element",
+            "type": "object"
+        },
+        "templateElementPropertiesTypeFieldValue": {
+            "description": "TODO: Schema for the contents of a '@type' field in a 'properties' field in a template element",
+            "type": "object"
+        },
+        "templateElementPropertiesIDFieldValue": {
+            "description": "TODO: Schema for the contents of a '@id' field in a 'properties' field in a template element",
+            "type": "object"
         },
         "templateFieldPropertiesField": {
             "properties":
@@ -458,12 +465,10 @@
             "type": "object",
             "properties":
             {
-                "@type": {
-                    "description": "TODO: Schema for a '@type' field in a 'properties' field in a template field",
-                    "type": "object"
-                },
+                "@type": { "$ref": "#/definitions/templateFieldPropertiesTypeFieldValue" },
+                "@id": { "$ref": "#/definitions/templateFieldPropertiesIDFieldValue" },
                 "_value": {
-                    "description": "TODO: Schema for a '_value' field in a 'properties' field in a template field",
+                    "description": "TODO: Schema for the contents of a '_value' field in a 'properties' field in a template field. WILL BE UNNEEDED WHEN @value USED",
                     "type": "object"
                 },
                 "_tmp": {
@@ -472,6 +477,14 @@
                 }                
             },
             "required": [ "@type", "_value" ]
+        },
+        "templateFieldPropertiesTypeFieldValue": {
+            "description": "TODO: Schema for the contents of a '@type' field in a 'properties' field in a template field",
+            "type": "object"
+        },
+        "templateFieldPropertiesIDFieldValue": {
+            "description": "TODO: Schema for the contents of a '@id' field in a 'properties' field in a template field",
+            "type": "object"
         },
         "templateField": {
             "allOf": [
