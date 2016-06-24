@@ -409,8 +409,46 @@
             "type": "object"
         },
         "templatePropertiesTypeFieldValue": {
-            "description": "TODO: Schema for the contents of a '@type' field in a 'properties' field in a template",
-            "type": "object"
+            "description": "Schema for the contents of a '@type' field in a 'properties' field in a template",
+            "type": "object",
+            "properties": {
+                "oneOf": {
+                    "type": "array",
+                    "items": [
+                        { "$ref": "#/definitions/uriOrArrayOfURIsSchema" }
+                    ]
+                }
+            },
+            "required": [ "oneOf" ]
+        },
+        "uriOrArrayOfURIsSchema": {
+            "oneOf": [
+                { "$ref": "#/definitions/uriSchema" },
+                { "$ref": "#/definitions/arrayOfURIsSchema" }
+            ]
+        },
+        "uriSchema": {
+            "description": "Schema for URI field value",
+            "type": "object",
+            "properties": {
+                "type": { "type": "string", "enum": [ "string" ] },
+                "format": { "type": "string", "enum": [ "uri" ] }
+            },
+            "required": [ "type", "format" ]            
+        },
+        "arrayOfURIsSchema": {
+            "description": "TODO Schema for an array of URIs",
+            "type": "array",
+            "minItems": 1
+        },
+        "dateTimeSchema": {
+            "description": "Schema for a date-time field value",
+            "type": "object",
+            "properties": {
+                "type": { "type": "string", "enum": [ "string" ] },
+                "format": { "type": "string", "enum": [ "date-time" ] }
+            },
+            "required": [ "type", "format" ]            
         },
         "templatePropertiesIDFieldValue": {
             "description": "Schema for the contents of a '@id' field in a 'properties' field in a template",
@@ -538,7 +576,7 @@
             "type": "object"
         },
         "templateFieldPropertiesIDFieldValue": {
-            "description": "TODO: Schema for the contents of a '@id' field in a 'properties' field in a template field",
+            "description": "Schema for the contents of a '@id' field in a 'properties' field in a template field",
             "type": "object",
             "properties": {
                 "type": { "type": "string", "enum": [ "string" ] },
