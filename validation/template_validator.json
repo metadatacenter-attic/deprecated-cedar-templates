@@ -263,34 +263,61 @@
             "type": "object",
             "description": "A schema that describes a JSON-LD '@context' field in a template",
             "properties": {
-                "@context": {
-                    "description": "TODO: Schema describing the contents of the '@context' field in a template",
-                    "type": "object"
-                }
+                "@context": { "$ref": "#/definitions/templateJSONLDContextFieldValue" }
             },
             "required": [ "@context" ]
+        },
+        "templateJSONLDContextFieldValue": {
+            "description": "Schema describing the contents of the '@context' field in a template",
+            "type": "object",
+            "properties": {
+                "pav": { "type": "string", "format": "uri", "enum": [ "http://purl.org/pav/" ] },
+                "cedar": { "type": "string", "format": "uri", "enum": [ "https://schema.metadatacenter.org/core/" ] }
+            },
+            "required": [ "pav", "cedar" ],
+            "additionalProperties": false
         },
         "templateElementJSONLDContextField" : {
             "type": "object",
             "description": "A schema that describes a JSON-LD '@context' field in a template element",
             "properties": {
-                "@context": {
-                    "description": "TODO: Schema describing the contents of the '@context' field in a template element",
-                    "type": "object"
-                }
+                "@context": { "$ref": "#/definitions/templateElementJSONLDContextFieldValue" }
             },
             "required": [ "@context" ]
+        },
+        "templateElementJSONLDContextFieldValue": {
+            "description": "Schema describing the contents of the '@context' field in a template element",
+            "type": "object",
+            "properties": {
+                "pav": { "type": "string", "format": "uri", "enum": [ "http://purl.org/pav/" ] },
+                "cedar": { "type": "string", "format": "uri", "enum": [ "https://schema.metadatacenter.org/core/" ] }
+            },
+            "patternProperties": {
+                "^(?!pav)(?!cedar).*$": { "type": "string", "format": "uri" }
+            },
+            "required": [ "pav", "cedar" ],
+            "additionalProperties": false
         },
         "templateFieldJSONLDContextField" : {
             "type": "object",
             "description": "A schema that describes a JSON-LD '@context' field in a template field",
             "properties": {
-                "@context": {
-                    "description": "TODO: Schema describing the contents of the '@context' field in a template field",
-                    "type": "object"
-                }
+                "@context": { "$ref": "#/definitions/templateFieldJSONLDContextFieldValue" }
             },
             "required": [ "@context" ]
+        },
+        "templateFieldJSONLDContextFieldValue": {
+            "description": "Schema describing the contents of the '@context' field in a template field",
+            "type": "object",
+                        "properties": {
+                "pav": { "type": "string", "format": "uri", "enum": [ "http://purl.org/pav/" ] },
+                "cedar": { "type": "string", "format": "uri", "enum": [ "https://schema.metadatacenter.org/core/" ] }
+            },
+            "patternProperties": {
+                "^(?!pav)(?!cedar).*$": { "type": "string", "format": "uri" }
+            },
+            "required": [ "pav", "cedar" ],
+            "additionalProperties": false
         },
         "jsonLDTypeField" : {
             "type": "object",
