@@ -154,11 +154,11 @@
             "type": "object",
             "description": "A schema that describes a '_ui' field in a template",
             "properties": {
-                "_ui": { "$ref": "#/definitions/templateUIFieldSchema" }
+                "_ui": { "$ref": "#/definitions/templateUIFieldValue" }
             },
             "required": [ "_ui" ]
         },
-        "templateUIFieldSchema": {
+        "templateUIFieldValue": {
             "type": "object",
             "description": "A schema that describes a '_ui' field value in a template",
             "properties": {
@@ -179,11 +179,11 @@
             "type": "object",
             "description": "A schema that describes a '_ui' field in a template element",
             "properties": {
-                "_ui": { "$ref": "#/definitions/templateElementUIFieldSchema" }
+                "_ui": { "$ref": "#/definitions/templateElementUIFieldValue" }
             },
             "required": [ "_ui" ]
         },
-        "templateElementUIFieldSchema": {
+        "templateElementUIFieldValue": {
             "type": "object",
             "description": "A schema that describes a '_ui' field in a template element",
             "properties": {
@@ -205,11 +205,11 @@
             "type": "object",
             "description": "A schema that describes a '_ui' field in a template field",
             "properties": {
-                "_ui": { "$ref": "#/definitions/templateFieldUIFieldSchema" }
+                "_ui": { "$ref": "#/definitions/templateFieldUIFieldValue" }
             },
             "required": [ "_ui" ]
         },
-        "templateFieldUIFieldSchema": {
+        "templateFieldUIFieldValue": {
             "type": "object",
             "description": "A schema that describes a _ui field in a template field value",
             "properties": {
@@ -226,36 +226,36 @@
             "type": "object",
             "description": "A schema that describes a '_valueConstraints' field in a template field",
             "properties": {
-                "_valueConstraints": { "$ref": "#/definitions/valueConstraintsFieldSchema" }
+                "_valueConstraints": { "$ref": "#/definitions/valueConstraintsFieldValue" }
             },
             "required": [ "_valueConstraints" ]
         },
-        "valueConstraintsFieldSchema": {
+        "valueConstraintsFieldValue": {
             "type": "object",
             "description": "A schema that describes a '_valueConstraints' field in a template field",
             "properties": {
-                "ontologies": { "$ref": "#/definitions/valueConstraintsOntologiesFieldSchema" },
-                "valueSets": {  "$ref": "#/definitions/valueConstraintsValueSetsFieldSchema" },
-                "classes": {  "$ref": "#/definitions/valueConstraintsClassesFieldSchema" },
-                "branches": {  "$ref": "#/definitions/valueConstraintsBranchesFieldSchema" },
+                "ontologies": { "$ref": "#/definitions/valueConstraintsOntologiesFieldValue" },
+                "valueSets": {  "$ref": "#/definitions/valueConstraintsValueSetsFieldValue" },
+                "classes": {  "$ref": "#/definitions/valueConstraintsClassesFieldValue" },
+                "branches": {  "$ref": "#/definitions/valueConstraintsBranchesFieldValue" },
                 "requiredValue": { "type": "boolean" },
                 "multipleChoice": { "type": "boolean" }
             },
             "required": [ "requiredValue" ]
         },
-        "valueConstraintsOntologiesFieldSchema": {
+        "valueConstraintsOntologiesFieldValue": {
             "description": "TODO Schema that describes the contents of the 'ontologies' field value in a '_valueConstraints' field",
             "type": "array",
         },
-        "valueConstraintsValueSetsFieldSchema": {
+        "valueConstraintsValueSetsFieldValue": {
             "description": "TODO Schema that describes the contents of the 'valueSets' field value in a '_valueConstraints' field",
             "type": "array",
         },
-        "valueConstraintsClassesFieldSchema": {
+        "valueConstraintsClassesFieldValue": {
             "description": "TODO Schema that describes the contents of the 'classes' field value in a '_valueConstraints' field",
             "type": "array",
         },
-        "valueConstraintsBranchesFieldSchema": {
+        "valueConstraintsBranchesFieldValue": {
             "description": "TODO Schema that describes the contents of the 'branches' field value in a '_valueConstraints' field",
             "type": "array",
         },
@@ -263,11 +263,11 @@
             "type": "object",
             "description": "A schema that describes a JSON-LD '@context' field in a template",
             "properties": {
-                "@context": { "$ref": "#/definitions/templateJSONLDContextFieldSchema" }
+                "@context": { "$ref": "#/definitions/templateJSONLDContextFieldValue" }
             },
             "required": [ "@context" ]
         },
-        "templateJSONLDContextFieldSchema": {
+        "templateJSONLDContextFieldValue": {
             "description": "Schema describing the contents of the '@context' field in a template",
             "type": "object",
             "properties": {
@@ -281,11 +281,11 @@
             "type": "object",
             "description": "A schema that describes a JSON-LD '@context' field in a template element",
             "properties": {
-                "@context": { "$ref": "#/definitions/templateElementJSONLDContextFieldSchema" }
+                "@context": { "$ref": "#/definitions/templateElementJSONLDContextFieldValue" }
             },
             "required": [ "@context" ]
         },
-        "templateElementJSONLDContextFieldSchema": {
+        "templateElementJSONLDContextFieldValue": {
             "description": "Schema describing the contents of the '@context' field in a template element",
             "type": "object",
             "properties": {
@@ -302,11 +302,11 @@
             "type": "object",
             "description": "A schema that describes a JSON-LD '@context' field in a template field",
             "properties": {
-                "@context": { "$ref": "#/definitions/templateFieldJSONLDContextFieldSchema" }
+                "@context": { "$ref": "#/definitions/templateFieldJSONLDContextFieldValue" }
             },
             "required": [ "@context" ]
         },
-        "templateFieldJSONLDContextFieldSchema": {
+        "templateFieldJSONLDContextFieldValue": {
             "description": "Schema describing the contents of the '@context' field in a template field",
             "type": "object",
             "properties": {
@@ -381,53 +381,53 @@
         "templatePropertiesField": {
             "properties":
             {             
-                "properties": { "$ref": "#/definitions/templatePropertiesFieldSchema" }
+                "properties": { "$ref": "#/definitions/templatePropertiesFieldValue" }
             },
             "required": [ ]
         },
-        "templatePropertiesFieldSchema": {
+        "templatePropertiesFieldValue": {
             "description": "Schema for a 'properties' field value in a template",
             "type": "object",
             "properties":
             {
-                "@context": { "$ref": "#/definitions/templatePropertiesContextFieldSchema" },
-                "@type": { "$ref": "#/definitions/templatePropertiesTypeFieldSchema" },
-                "@id": { "$ref": "#/definitions/templatePropertiesIDFieldSchema" },
-                "pav:createdOn": { "$ref": "#/definitions/templatePropertiesPAVCreatedOnFieldSchema" },
-                "pav:createdBy": { "$ref": "#/definitions/templatePropertiesPAVCreatedByFieldSchema" },
-                "pav:lastUpdatedOn:": { "$ref": "#/definitions/templatePropertiesPAVLastUpdatedOnFieldSchema" },
-                "cedar:lastUpdatedBy": { "$ref": "#/definitions/templatePropertiesCEDARLastUpdatedByFieldSchema" },
-                "_templateID": { "$ref": "#/definitions/templatePropertiesTemplateIDFieldSchema" }
+                "@context": { "$ref": "#/definitions/templatePropertiesContextFieldValue" },
+                "@type": { "$ref": "#/definitions/templatePropertiesTypeFieldValue" },
+                "@id": { "$ref": "#/definitions/idFieldValue" },
+                "pav:createdOn": { "$ref": "#/definitions/templatePropertiesPAVCreatedOnFieldValue" },
+                "pav:createdBy": { "$ref": "#/definitions/templatePropertiesPAVCreatedByFieldValue" },
+                "pav:lastUpdatedOn:": { "$ref": "#/definitions/templatePropertiesPAVLastUpdatedOnFieldValue" },
+                "cedar:lastUpdatedBy": { "$ref": "#/definitions/templatePropertiesCEDARLastUpdatedByFieldValue" },
+                "_templateID": { "$ref": "#/definitions/templatePropertiesTemplateIDFieldValue" }
             },
             "patternProperties": {
                 "^(?!@context)(?!@id)(?!@type)(?!_templateId).*$": { "$ref": "#/definitions/templateFieldOrElement" }
             },
             "required": [ "@context", "@type", "@id", "_templateId" ]
         },
-        "templatePropertiesContextFieldSchema": {
+        "templatePropertiesContextFieldValue": {
             "description": "TODO: Schema for the contents of a '@context' field in a 'properties' field in a template",
             "type": "object"
         },
-        "templatePropertiesTypeFieldSchema": {
+        "templatePropertiesTypeFieldValue": {
             "description": "Schema for the contents of a '@type' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
                 "oneOf": {
                     "type": "array",
                     "items": [
-                        { "$ref": "#/definitions/uriOrArrayOfURIsFieldSchema" }
+                        { "$ref": "#/definitions/uriOrArrayOfURIsFieldValue" }
                     ]
                 }
             },
             "required": [ "oneOf" ]
         },
-        "uriOrArrayOfURIsFieldSchema": {
+        "uriOrArrayOfURIsFieldValue": {
             "oneOf": [
-                { "$ref": "#/definitions/uriFieldSchema" },
-                { "$ref": "#/definitions/arrayOfURIsFieldSchema" }
+                { "$ref": "#/definitions/uriFieldValue" },
+                { "$ref": "#/definitions/arrayOfURIsFieldValue" }
             ]
         },
-        "uriFieldSchema": {
+        "uriFieldValue": {
             "description": "Schema for URI field value",
             "type": "object",
             "properties": {
@@ -436,12 +436,12 @@
             },
             "required": [ "type", "format" ]            
         },
-        "arrayOfURIsFieldSchema": {
+        "arrayOfURIsFieldValue": {
             "description": "TODO Schema for an array of URIs field value",
             "type": "array",
             "minItems": 1
         },
-        "dateTimeFieldSchema": {
+        "dateTimeFieldValue": {
             "description": "Schema for a date-time field value",
             "type": "object",
             "properties": {
@@ -450,8 +450,8 @@
             },
             "required": [ "type", "format" ]            
         },
-        "templatePropertiesIDFieldSchema": {
-            "description": "Schema for the contents of a '@id' field in a 'properties' field in a template",
+        "idFieldValue": {
+            "description": "Schema for the contents of a '@id' field",
             "type": "object",
             "properties": {
                 "type": { "type": "string", "enum": [ "string" ] },
@@ -459,7 +459,7 @@
             },
             "required": [ "type", "format" ]            
         },
-        "templatePropertiesTemplateIDFieldSchema": {
+        "templatePropertiesTemplateIDFieldValue": {
             "description": "Schema for the contents of a '_templateID' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
@@ -468,7 +468,7 @@
             },
             "required": [ "type", "format" ]
         },
-        "templatePropertiesPAVCreatedOnFieldSchema": {
+        "templatePropertiesPAVCreatedOnFieldValue": {
             "description": "Schema for the contents of a 'pav:createdOn' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
@@ -477,7 +477,7 @@
             },
             "required": [ "type", "format" ]
         },
-        "templatePropertiesPAVCreatedByFieldSchema": {
+        "templatePropertiesPAVCreatedByFieldValue": {
             "description": "Schema for the contents of a 'pav:createdBy' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
@@ -486,7 +486,7 @@
             },
             "required": [ "type", "format" ]
         },
-        "templatePropertiesPAVLastUpdatedOnFieldSchema": {
+        "templatePropertiesPAVLastUpdatedOnFieldValue": {
             "description": "Schema for the contents of a 'pav:lastUpdatedOn' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
@@ -495,7 +495,7 @@
             },
             "required": [ "type", "format" ]
         },
-        "templatePropertiesCEDARLastUpdatedByFieldSchema": {
+        "templatePropertiesCEDARLastUpdatedByFieldValue": {
             "description": "Schema for the contents of a 'cedar:lastUpdatedBy' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
@@ -507,18 +507,18 @@
         "templateElementPropertiesField": {
             "properties":
             {             
-                "properties": { "$ref": "#/definitions/templateElementPropertiesFieldSchema" }
+                "properties": { "$ref": "#/definitions/templateElementPropertiesFieldValue" }
             },
             "required": [ ]
         },
-        "templateElementPropertiesFieldSchema": {
+        "templateElementPropertiesFieldValue": {
             "description": "Schema for a 'properties' field value in a template element",
             "type": "object",
             "properties":
             {
-                "@context": { "$ref": "#/definitions/templateElementPropertiesContextFieldSchema" },
-                "@type": { "$ref": "#/definitions/templateElementPropertiesTypeFieldSchema" },
-                "@id": { "$ref": "#/definitions/templateElementPropertiesIDFieldSchema" },
+                "@context": { "$ref": "#/definitions/templateElementPropertiesContextFieldValue" },
+                "@type": { "$ref": "#/definitions/templateElementPropertiesTypeFieldValue" },
+                "@id": { "$ref": "#/definitions/idFieldValue" },
                 "_tmp": {
                     "description": "TEMPORARY: Schema for a '_tmp' field. THIS FIELD SHOULD NOT BE THERE!",
                     "type": "object"
@@ -529,37 +529,28 @@
             },
             "required": [ "@context", "@type", "@id" ]
         },
-        "templateElementPropertiesContextFieldSchema": {
+        "templateElementPropertiesContextFieldValue": {
             "description": "TODO: Schema for the contents of a '@context' field in a 'properties' field in a template element",
             "type": "object"
         },
-        "templateElementPropertiesTypeFieldSchema": {
+        "templateElementPropertiesTypeFieldValue": {
             "description": "TODO: Schema for the contents of a '@type' field in a 'properties' field in a template element",
             "type": "object"
-        },
-        "templateElementPropertiesIDFieldSchema": {
-            "description": "Schema for the contents of a '@id' field in a 'properties' field in a template element",
-            "type": "object",
-            "properties": {
-                "type": { "type": "string", "enum": [ "string" ] },
-                "format": { "type": "string", "enum": [ "uri" ] }
-            },
-            "required": [ "type", "format" ]            
         },
         "templateFieldPropertiesField": {
             "properties":
             {             
-                "properties": { "$ref": "#/definitions/templateFieldPropertiesFieldSchema" }
+                "properties": { "$ref": "#/definitions/templateFieldPropertiesFieldValue" }
             },
             "required": [ ]
         },
-        "templateFieldPropertiesFieldSchema": {
+        "templateFieldPropertiesFieldValue": {
             "description": "Schema for a 'properties' field value in a template field",
             "type": "object",
             "properties":
             {
-                "@type": { "$ref": "#/definitions/templateFieldPropertiesTypeFieldSchema" },
-                "@id": { "$ref": "#/definitions/templateFieldPropertiesIDFieldSchema" },
+                "@type": { "$ref": "#/definitions/templateFieldPropertiesTypeFieldValue" },
+                "@id": { "$ref": "#/definitions/idFieldValue" },
                 "_value": {
                     "description": "TODO: Schema for the contents of a '_value' field in a 'properties' field in a template field. WILL BE UNNEEDED WHEN @value USED",
                     "type": "object"
@@ -571,18 +562,9 @@
             },
             "required": [ "@type", "_value" ]
         },
-        "templateFieldPropertiesTypeFieldSchema": {
+        "templateFieldPropertiesTypeFieldValue": {
             "description": "TODO: Schema for the contents of a '@type' field in a 'properties' field in a template field",
             "type": "object"
-        },
-        "templateFieldPropertiesIDFieldSchema": {
-            "description": "Schema for the contents of a '@id' field in a 'properties' field in a template field",
-            "type": "object",
-            "properties": {
-                "type": { "type": "string", "enum": [ "string" ] },
-                "format": { "type": "string", "enum": [ "uri" ] }
-            },
-            "required": [ "type", "format" ]            
         },
         "templateField": {
             "allOf": [
