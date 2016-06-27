@@ -83,7 +83,7 @@
                 { "properties":
                   {
                       "required": {
-                          "description": "Schema describing the contents of the 'required' field in a template element",
+                          "description": "Schema describing the schema of the 'required' field in a template element",
                           "type": "array",
                           "minItems": 1,
                           "items": [
@@ -110,7 +110,7 @@
                 { "properties":
                   {
                       "required": {
-                          "description": "Schema describing the contents of the 'required' field in a template field",
+                          "description": "Schema describing the schema of the 'required' field in a template field",
                           "type": "array",
                           "minItems": 1,
                           "items": [
@@ -160,7 +160,7 @@
         },
         "templateUIFieldContent": {
             "type": "object",
-            "description": "Schema that describes the contents of a '_ui' field in a template",
+            "description": "Schema that describes the schema of a '_ui' field in a template",
             "properties": {
                 "title": { "type": "string", "minLength": 1 },
                 "description": { "type": "string" },
@@ -185,12 +185,12 @@
         },
         "templateElementUIFieldContent": {
             "type": "object",
-            "description": "Schema that describes the contents of a '_ui' field in a template element",
+            "description": "Schema that describes the schema of a '_ui' field in a template element",
             "properties": {
                 "title": { "type": "string", "minLength": 1 },
                 "description": { "type": "string" },
                 "order": {
-                    "description": "Schema describing the contents of the 'order' field in a template element '_ui' field",
+                    "description": "Schema describing the schema of the 'order' field in a template element '_ui' field",
                     "type": "array",
                     "minItems": 1,
                     "items": {
@@ -216,7 +216,7 @@
                 "title": { "type": "string", "minLength": 1 },
                 "description": { "type": "string" },
                 "inputType": {
-                    "description": "Schema describing the contents of the 'inputType' field in a template '_ui' field",
+                    "description": "Schema describing the schema of the 'inputType' field in a template '_ui' field",
                     "type": "string", "enum": [ "textfield", "textarea", "radio", "checkbox", "date", "email", "list", "numeric", "phone-number", "section-break", "richtext", "image", "youtube" ]
                 }
             },
@@ -244,19 +244,19 @@
             "required": [ "requiredValue" ]
         },
         "valueConstraintsOntologiesFieldContent": {
-            "description": "TODO Schema that describes the contents of the 'ontologies' field value in a '_valueConstraints' field",
+            "description": "TODO Schema that describes the 'ontologies' field value in a '_valueConstraints' field",
             "type": "array",
         },
         "valueConstraintsValueSetsFieldContent": {
-            "description": "TODO Schema that describes the contents of the 'valueSets' field value in a '_valueConstraints' field",
+            "description": "TODO Schema that describes the 'valueSets' field value in a '_valueConstraints' field",
             "type": "array",
         },
         "valueConstraintsClassesFieldContent": {
-            "description": "TODO Schema that describes the contents of the 'classes' field value in a '_valueConstraints' field",
+            "description": "TODO Schema that describes the 'classes' field value in a '_valueConstraints' field",
             "type": "array",
         },
         "valueConstraintsBranchesFieldContent": {
-            "description": "TODO Schema that describes the contents of the 'branches' field value in a '_valueConstraints' field",
+            "description": "TODO Schema that describes the 'branches' field value in a '_valueConstraints' field",
             "type": "array",
         },
         "templateJSONLDContextField" : {
@@ -268,7 +268,7 @@
             "required": [ "@context" ]
         },
         "templateJSONLDContextFieldContent": {
-            "description": "Schema describing the contents of the '@context' field in a template",
+            "description": "Schema describing the schema of the '@context' field in a template",
             "type": "object",
             "properties": {
                 "pav": { "type": "string", "format": "uri", "enum": [ "http://purl.org/pav/" ] },
@@ -286,7 +286,7 @@
             "required": [ "@context" ]
         },
         "templateElementJSONLDContextFieldContent": {
-            "description": "Schema describing the contents of the '@context' field in a template element",
+            "description": "Schema describing the schema of the '@context' field in a template element",
             "type": "object",
             "properties": {
                 "pav": { "type": "string", "format": "uri", "enum": [ "http://purl.org/pav/" ] },
@@ -307,7 +307,7 @@
             "required": [ "@context" ]
         },
         "templateFieldJSONLDContextFieldContent": {
-            "description": "Schema describing the contents of the '@context' field in a template field",
+            "description": "Schema describing the schema of the '@context' field in a template field",
             "type": "object",
             "properties": {
                 "pav": { "type": "string", "format": "uri", "enum": [ "http://purl.org/pav/" ] },
@@ -405,30 +405,25 @@
             "required": [ "@context", "@type", "@id", "_templateId" ]
         },
         "templatePropertiesContextFieldContent": {
-            "description": "TODO: Schema that describes the contents of a '@context' field in a 'properties' field in a template",
+            "description": "TODO: Schema that describes the schema of a '@context' field in a 'properties' field in a template",
             "type": "object"
         },
         "templatePropertiesTypeFieldContent": {
-            "description": "Schema that describes the contents of a '@type' field in a 'properties' field in a template",
+            "description": "Schema that describes the schema of a '@type' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
                 "oneOf": {
                     "type": "array",
                     "items": [
-                        { "$ref": "#/definitions/uriOrArrayOfURIsFieldContent" }
+                        { "$ref": "#/definitions/uriFieldContent" },
+                        { "$ref": "#/definitions/arrayOfURIsFieldContent" }
                     ]
                 }
             },
             "required": [ "oneOf" ]
         },
-        "uriOrArrayOfURIsFieldContent": {
-            "oneOf": [
-                { "$ref": "#/definitions/uriFieldContent" },
-                { "$ref": "#/definitions/arrayOfURIsFieldContent" }
-            ]
-        },
         "uriFieldContent": {
-            "description": "Schema for URI field value",
+            "description": "Schema that specifies the schema for a URI field",
             "type": "object",
             "properties": {
                 "type": { "type": "string", "enum": [ "string" ] },
@@ -437,12 +432,18 @@
             "required": [ "type", "format" ]            
         },
         "arrayOfURIsFieldContent": {
-            "description": "TODO Schema that specifies an array of URIs fields",
-            "type": "array",
-            "minItems": 1
+            "description": "Schema that specifies the schema of an array of URIs field",
+            "type": "object",
+            "properties": {
+                "type": { "type": "string", "enum": [ "array" ] },
+                "minItems": { "type": "number", "enum": [ 1 ] },
+                "items": { "$ref": "#/definitions/uriFieldContent" },
+                "uniqueItems": { "type": "boolean", "enum": [ true ] }
+            },
+            "required": [ "type", "minItems", "items", "uniqueItems" ]            
         },
         "dateTimeFieldContent": {
-            "description": "Schema that specifies a date-time field",
+            "description": "Schema that specifies the schema for a date-time field",
             "type": "object",
             "properties": {
                 "type": { "type": "string", "enum": [ "string" ] },
@@ -451,7 +452,7 @@
             "required": [ "type", "format" ]            
         },
         "idFieldContent": {
-            "description": "Schema that describes the contents of a '@id' field",
+            "description": "Schema that describes the schema for a '@id' field",
             "type": "object",
             "properties": {
                 "type": { "type": "string", "enum": [ "string" ] },
@@ -460,7 +461,7 @@
             "required": [ "type", "format" ]            
         },
         "templatePropertiesTemplateIDFieldContent": {
-            "description": "Schema that describes the contents of a '_templateID' field in a 'properties' field in a template",
+            "description": "Schema that describes the schema for a '_templateID' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
                 "type": { "type": "string", "enum": [ "string" ] },
@@ -469,7 +470,7 @@
             "required": [ "type", "format" ]
         },
         "templatePropertiesPAVCreatedOnFieldContent": {
-            "description": "Schema that describes the contents of a 'pav:createdOn' field in a 'properties' field in a template",
+            "description": "Schema that describes the schema of a 'pav:createdOn' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
                 "type": { "type": "string", "enum": [ "string" ] },
@@ -478,7 +479,7 @@
             "required": [ "type", "format" ]
         },
         "templatePropertiesPAVCreatedByFieldContent": {
-            "description": "Schema that describes the contents of a 'pav:createdBy' field in a 'properties' field in a template",
+            "description": "Schema that describes the schema of a 'pav:createdBy' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
                 "type": { "type": "string", "enum": [ "string" ] },
@@ -487,7 +488,7 @@
             "required": [ "type", "format" ]
         },
         "templatePropertiesPAVLastUpdatedOnFieldContent": {
-            "description": "Schema that describes the contents of a 'pav:lastUpdatedOn' field in a 'properties' field in a template",
+            "description": "Schema that describes the schema of a 'pav:lastUpdatedOn' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
                 "type": { "type": "string", "enum": [ "string" ] },
@@ -496,7 +497,7 @@
             "required": [ "type", "format" ]
         },
         "templatePropertiesCEDARLastUpdatedByFieldContent": {
-            "description": "Schema that describes the contents of a 'cedar:lastUpdatedBy' field in a 'properties' field in a template",
+            "description": "Schema that describes the schema of a 'cedar:lastUpdatedBy' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
                 "type": { "type": "string", "enum": [ "string" ] },
@@ -512,7 +513,7 @@
             "required": [ ]
         },
         "templateElementPropertiesFieldContent": {
-            "description": "Schema that describes the contents of a 'properties' field in a template element",
+            "description": "Schema that describes the schema of a 'properties' field in a template element",
             "type": "object",
             "properties":
             {
@@ -530,11 +531,11 @@
             "required": [ "@context", "@type", "@id" ]
         },
         "templateElementPropertiesContextFieldContent": {
-            "description": "TODO: Schema that describes the contents of a '@context' field in a 'properties' field in a template element",
+            "description": "TODO: Schema that describes the schema of a '@context' field in a 'properties' field in a template element",
             "type": "object"
         },
         "templateElementPropertiesTypeFieldContent": {
-            "description": "TODO: Schema that describes the contents of a '@type' field in a 'properties' field in a template element",
+            "description": "TODO: Schema that describes the schema of a '@type' field in a 'properties' field in a template element",
             "type": "object"
         },
         "templateFieldPropertiesField": {
@@ -552,7 +553,7 @@
                 "@type": { "$ref": "#/definitions/templateFieldPropertiesTypeFieldContent" },
                 "@id": { "$ref": "#/definitions/idFieldContent" },
                 "_value": {
-                    "description": "TODO: Schema that describes the contents of a '_value' field in a 'properties' field in a template field. WILL BE UNNEEDED WHEN @value USED",
+                    "description": "TODO: Schema that describes the schema of a '_value' field in a 'properties' field in a template field. WILL BE UNNEEDED WHEN @value USED",
                     "type": "object"
                 },
                 "_tmp": {
@@ -563,7 +564,7 @@
             "required": [ "@type", "_value" ]
         },
         "templateFieldPropertiesTypeFieldContent": {
-            "description": "TODO: Schema that describes the contents of a '@type' field in a 'properties' field in a template field",
+            "description": "TODO: Schema that describes the schema of a '@type' field in a 'properties' field in a template field",
             "type": "object"
         },
         "templateField": {
