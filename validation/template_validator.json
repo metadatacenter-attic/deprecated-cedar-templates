@@ -391,7 +391,7 @@
             "properties":
             {
                 "@context": { "$ref": "#/definitions/templatePropertiesContextFieldContent" },
-                "@type": { "$ref": "#/definitions/templatePropertiesTypeFieldContent" },
+                "@type": { "$ref": "#/definitions/propertiesTypeFieldContent" },
                 "@id": { "$ref": "#/definitions/idFieldContent" },
                 "pav:createdOn": { "$ref": "#/definitions/templatePropertiesPAVCreatedOnFieldContent" },
                 "pav:createdBy": { "$ref": "#/definitions/templatePropertiesPAVCreatedByFieldContent" },
@@ -408,8 +408,8 @@
             "description": "TODO: Schema that describes the schema of a '@context' field in a 'properties' field in a template",
             "type": "object"
         },
-        "templatePropertiesTypeFieldContent": {
-            "description": "Schema that describes the schema of a '@type' field in a 'properties' field in a template",
+        "propertiesTypeFieldContent": {
+            "description": "Schema that describes the schema of a '@type' field in a 'properties' field in a template, element or field",
             "type": "object",
             "properties": {
                 "oneOf": {
@@ -518,7 +518,7 @@
             "properties":
             {
                 "@context": { "$ref": "#/definitions/templateElementPropertiesContextFieldContent" },
-                "@type": { "$ref": "#/definitions/templateElementPropertiesTypeFieldContent" },
+                "@type": { "$ref": "#/definitions/propertiesTypeFieldContent" },
                 "@id": { "$ref": "#/definitions/idFieldContent" },
                 "_tmp": {
                     "description": "TEMPORARY: Schema for a '_tmp' field. THIS FIELD SHOULD NOT BE THERE!",
@@ -534,10 +534,6 @@
             "description": "TODO: Schema that describes the schema of a '@context' field in a 'properties' field in a template element",
             "type": "object"
         },
-        "templateElementPropertiesTypeFieldContent": {
-            "description": "TODO: Schema that describes the schema of a '@type' field in a 'properties' field in a template element",
-            "type": "object"
-        },
         "templateFieldPropertiesField": {
             "properties":
             {             
@@ -550,7 +546,7 @@
             "type": "object",
             "properties":
             {
-                "@type": { "$ref": "#/definitions/templateFieldPropertiesTypeFieldContent" },
+                "@type": { "$ref": "#/definitions/propertiesTypeFieldContent" },
                 "@id": { "$ref": "#/definitions/idFieldContent" },
                 "_value": {
                     "description": "TODO: Schema that describes the schema of a '_value' field in a 'properties' field in a template field. WILL BE UNNEEDED WHEN @value USED",
@@ -562,10 +558,6 @@
                 }                
             },
             "required": [ "@type", "_value" ]
-        },
-        "templateFieldPropertiesTypeFieldContent": {
-            "description": "TODO: Schema that describes the schema of a '@type' field in a 'properties' field in a template field",
-            "type": "object"
         },
         "templateField": {
             "allOf": [
