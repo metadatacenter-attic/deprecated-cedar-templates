@@ -168,7 +168,7 @@
                     "type": "array",
                     "minItems": 1,
                     "items": {
-                        "type": "string"
+                        "type": "string", "minLength": 1,
                     },
                     "uniqueItems": true
                 }
@@ -194,7 +194,7 @@
                     "type": "array",
                     "minItems": 1,
                     "items": {
-                        "type": "string"
+                        "type": "string", "minLength": 1,
                     },
                     "uniqueItems": true
                 }
@@ -244,20 +244,65 @@
             "required": [ "requiredValue" ]
         },
         "valueConstraintsOntologiesFieldContent": {
-            "description": "TODO Schema that describes the 'ontologies' field value in a '_valueConstraints' field",
+            "description": "Schema that describes the schema of the 'ontologies' field in a '_valueConstraints' field",
             "type": "array",
+            "items": {
+                "properties": {
+                    "uri": { "type": "string", "format": "uri" },
+                    "exclusions": {
+                        "type": "array",
+                        "items": { "type": "string", "format": "uri" },
+                        "uniqueItems": true
+                    }
+                },
+                "required": [ "uri" ]
+            },
+            "uniqueItems": true
         },
         "valueConstraintsValueSetsFieldContent": {
-            "description": "TODO Schema that describes the 'valueSets' field value in a '_valueConstraints' field",
+            "description": "Schema that describes the schema of 'valueSets' field in a '_valueConstraints' field",
             "type": "array",
+            "items": {
+                "properties": {
+                    "uri": { "type": "string", "format": "uri" },
+                    "exclusions": {
+                        "type": "array",
+                        "items": { "type": "string", "format": "uri" },
+                        "uniqueItems": true
+                    }
+                },
+                "required": [ "uri" ]
+            },
+            "uniqueItems": true
         },
         "valueConstraintsClassesFieldContent": {
-            "description": "TODO Schema that describes the 'classes' field value in a '_valueConstraints' field",
+            "description": "Schema that describes the schema of the 'classes' field in a '_valueConstraints' field",
             "type": "array",
+            "items": {
+                "properties": {
+                    "uri": { "type": "string", "format": "uri" },
+                    "prefLabel": { "type": "string", "minLength": 1 },
+                    "type": { "type": "string", "minLength": 1 },
+                    "label": { "type": "string", "minLength": 1 },
+                    "default": { "type": "boolean", "minLength": 1 },
+                    "source": { "type": "string", "minLength": 1 },
+                },
+                "required": [ "uri", "prefLabel", "type", "label", "default", "source" ]
+            },
+            "uniqueItems": true
         },
         "valueConstraintsBranchesFieldContent": {
-            "description": "TODO Schema that describes the 'branches' field value in a '_valueConstraints' field",
+            "description": "Schema that describes the schema of the 'branches' field in a '_valueConstraints' field",
             "type": "array",
+            "items": {
+                "properties": {
+                    "uri": { "type": "string", "format": "uri" },
+                    "maxDepth": { "type": "number" },
+                    "includesRoot": { "type": "boolean" }
+                },
+                "required": [ "uri", "maxDepth", "includesRoot" ]
+            },
+            "uniqueItems": true
         },
         "templateJSONLDContextField" : {
             "type": "object",
@@ -422,7 +467,7 @@
                         }
                     },
                 },
-                "required": { "type": "array", "items": { "type": "string", "uniqueItems": true } },
+                "required": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
                 "additionalProperties": { "type": "boolean", "enum": [ false ] }
             },
             "required": [ "properties", "required", "additionalProperties" ]
@@ -564,7 +609,7 @@
                 "@type": { "$ref": "#/definitions/typeFieldContent" },
                 "@id": { "$ref": "#/definitions/idFieldContent" },
                 "_value": {
-                    "description": "TODO: Schema that describes the schema of a '_value' field in a 'properties' field in a template field. WILL BE UNNEEDED WHEN @value USED",
+                    "description": "Schema that describes the schema of a '_value' field in a 'properties' field in a template field. WILL BE UNNEEDED WHEN @value USED",
                     "type": "object"
                 },
                 "_tmp": {
