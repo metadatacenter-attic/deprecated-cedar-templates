@@ -168,7 +168,7 @@
                     "type": "array",
                     "minItems": 1,
                     "items": {
-                        "type": "string", "minLength": 1,
+                        "type": "string", "minLength": 1
                     },
                     "uniqueItems": true
                 }
@@ -194,7 +194,7 @@
                     "type": "array",
                     "minItems": 1,
                     "items": {
-                        "type": "string", "minLength": 1,
+                        "type": "string", "minLength": 1
                     },
                     "uniqueItems": true
                 }
@@ -285,7 +285,7 @@
                     "type": { "type": "string", "minLength": 1 },
                     "label": { "type": "string", "minLength": 1 },
                     "default": { "type": "boolean", "minLength": 1 },
-                    "source": { "type": "string", "minLength": 1 },
+                    "source": { "type": "string", "minLength": 1 }
                 },
                 "required": [ "uri", "prefLabel", "type", "label", "default", "source" ]
             },
@@ -428,7 +428,7 @@
             {             
                 "properties": { "$ref": "#/definitions/templatePropertiesFieldContent" }
             },
-            "required": [ ]
+            "required": [ "properties" ]
         },
         "templatePropertiesFieldContent": {
             "description": "Schema that describes the schema of a 'properties' field in a template",
@@ -465,7 +465,7 @@
                             },
                             "required": [ "enum" ]
                         }
-                    },
+                    }
                 },
                 "required": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
                 "additionalProperties": { "type": "boolean", "enum": [ false ] }
@@ -574,7 +574,7 @@
             {             
                 "properties": { "$ref": "#/definitions/templateElementPropertiesFieldContent" }
             },
-            "required": [ ]
+            "required": [ "properties" ]
         },
         "templateElementPropertiesFieldContent": {
             "description": "Schema that describes the schema of a 'properties' field in a template element",
@@ -599,7 +599,7 @@
             {             
                 "properties": { "$ref": "#/definitions/templateFieldPropertiesFieldContent" }
             },
-            "required": [ ]
+            "required": [ "properties" ]
         },
         "templateFieldPropertiesFieldContent": {
             "description": "Schema that describes the schema of a 'properties' field  in a template field",
