@@ -44,35 +44,71 @@
                 "additionalProperties"
             ]
         },
+        "templateRequiredField": {
+            "description": "Schema describing the 'required' field in a template",
+            "type": "object",
+            "properties":
+            {
+                "required": {
+                    "description": "Schema describing the 'required' field in a template",
+                    "type": "array",
+                    "minItems": 3,
+                    "maxItems": 3,
+                    "items": [
+                        {
+                            "type": "string",
+                            "enum": [ "@type" ]
+                        },
+                        {
+                            "type": "string",
+                            "enum": [ "@id" ]
+                        },
+                        {
+                            "type": "string",
+                            "enum": [ "_templateId" ]
+                        }
+                    ],
+                    "uniqueItems": true
+                }
+            },
+            "required": [
+                "required"
+            ]
+            
+        },
         "coreJSONSchemaTemplateFields": {
             "type": "object",
             "description": "A schema that describes JSON Schema template fields",
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaFields" },
-                { "properties":
-                  {
-                      "required": {
-                          "description": "Schema describing the 'required' field in a template",
-                          "type": "array",
-                          "minItems": 2,
-                          "maxItems": 2,
-                          "items": [
-                              {
-                                  "type": "string",
-                                  "enum": [ "@id" ]
-                              },
-                              {
-                                  "type": "string",
-                                  "enum": [ "_templateId" ]
-                              }
-                          ],
-                          "uniqueItems": true
-                      }
-                  },
-                  "required": [
-                      "required"
-                  ]
+                { "$ref": "#/definitions/templateRequiredField" }
+            ]
+        },
+        "templateElementRequiredField": {
+            "description": "Schema describing the 'required' field in a template element",
+            "type": "object",
+            "properties":
+            {
+                "required": {
+                    "description": "Schema describing the schema of the 'required' field in a template element",
+                    "type": "array",
+                    "minItems": 2,
+                    "maxItems": 2,
+                    "items": [
+                        {
+                            "type": "string",
+                            "enum": [ "@type" ]
+                        },
+                        {
+                            "type": "string",
+                            "enum": [ "@id" ]
+                        }
+                    ],
+                    "uniqueItems": true
                 }
+            },
+            "required": [
+                "required"
             ]
         },
         "coreJSONSchemaTemplateElementFields": {
@@ -80,52 +116,38 @@
             "description": "A schema that describes JSON Schema template element fields",
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaFields" },
-                { "properties":
-                  {
-                      "required": {
-                          "description": "Schema describing the schema of the 'required' field in a template element",
-                          "type": "array",
-                          "minItems": 1,
-                          "items": [
-                              {
-                                  "type": "string",
-                                  "enum": [ "@id" ]
-                              }
-                          ],
-                          "uniqueItems": true
-                      }
-                  },
-                  "required": [
-                      "required"
-                  ]
-                }
+                { "$ref": "#/definitions/templateElementRequiredField" }
             ]
         },
+        "templateFieldRequiredField":        {
+            "description": "Schema describing the 'required' field in a template field",
+            "type": "object",
+            "properties":
+            {
+                "required": {
+                    "description": "Schema describing the schema of the 'required' field in a template field",
+                    "type": "array",
+                    "minItems": 1,
+                    "items": [
+                        {
+                            "type": "string",
+                            "enum": [ "_value" ]
+                        }
+                    ],
+                    "uniqueItems": true
+                }
+            },
+            "required": [
+                "required"
+            ]
+        },        
         "coreJSONSchemaTemplateFieldFields": {
             "type": "object",
             "title": "CEDAR Core JSON Schema Template Field fields schema",
             "description": "A schema that describes JSON Schema template field fields",
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaFields" },
-                { "properties":
-                  {
-                      "required": {
-                          "description": "Schema describing the schema of the 'required' field in a template field",
-                          "type": "array",
-                          "minItems": 1,
-                          "items": [
-                              {
-                                  "type": "string",
-                                  "enum": [ "_value" ]
-                              }
-                          ],
-                          "uniqueItems": true
-                      }
-                  },
-                  "required": [
-                      "required"
-                  ]
-                }
+                { "$ref": "#/definitions/templateFieldRequiredField" }
             ]
         },
         "provenanceFields": {
@@ -167,9 +189,7 @@
                 "order": {
                     "type": "array",
                     "minItems": 1,
-                    "items": {
-                        "type": "string", "minLength": 1
-                    },
+                    "items": { "type": "string", "minLength": 1 },
                     "uniqueItems": true
                 }
             },
@@ -284,7 +304,7 @@
                     "prefLabel": { "type": "string", "minLength": 1 },
                     "type": { "type": "string", "minLength": 1 },
                     "label": { "type": "string", "minLength": 1 },
-                    "default": { "type": "boolean", "minLength": 1 },
+                    "default": { "type": "boolean" },
                     "source": { "type": "string", "minLength": 1 }
                 },
                 "required": [ "uri", "prefLabel", "type", "label", "default", "source" ]
@@ -297,7 +317,7 @@
             "items": {
                 "properties": {
                     "uri": { "type": "string", "format": "uri" },
-                    "maxDepth": { "type": "number" },
+                    "maxDepth": { "type": "integer", "minimum": 1 },
                     "includesRoot": { "type": "boolean" }
                 },
                 "required": [ "uri", "maxDepth", "includesRoot" ]
@@ -478,6 +498,8 @@
             "properties": {
                 "oneOf": {
                     "type": "array",
+                    "minItems": 2,
+                    "maxItems": 2,
                     "items": [
                         { "$ref": "#/definitions/uriFieldContent" },
                         { "$ref": "#/definitions/arrayOfURIsFieldContent" }
@@ -500,7 +522,7 @@
             "type": "object",
             "properties": {
                 "type": { "type": "string", "enum": [ "array" ] },
-                "minItems": { "type": "number", "enum": [ 1 ] },
+                "minItems": { "type": "integer", "enum": [ 1 ] },
                 "items": { "$ref": "#/definitions/uriFieldContent" },
                 "uniqueItems": { "type": "boolean", "enum": [ true ] }
             },
@@ -620,6 +642,8 @@
             "required": [ "@type", "_value" ]
         },
         "templateField": {
+            "description": "Schema that describes a template field",
+            "type": "object",
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaTemplateFieldFields" },
                 { "$ref": "#/definitions/templateFieldJSONLDContextField" },
@@ -631,6 +655,8 @@
             ]
         },
         "templateElement": {
+            "description": "Schema that describes a template element",
+            "type": "object",
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaTemplateElementFields" },
                 { "$ref": "#/definitions/templateElementJSONLDContextField" },
@@ -651,13 +677,15 @@
             "type": "object",
             "properties": {
                 "type": { "type": "string", "enum": [ "array" ] },
-                "minItems": { "type": "number" },
-                "maxItems": { "type": "number" },
+                "minItems": { "type": "integer", "minimum": 0 },
+                "maxItems": { "type": "integer", "minimum": 1 },
                 "items": { "$ref": "#/definitions/templateFieldOrElement" }
             },
             "required": [ "type", "minItems", "items" ]
         },
         "template": {
+            "description": "Schema that describes a template",
+            "type": "object",
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaTemplateFields" },
                 { "$ref": "#/definitions/templateJSONLDContextField" },
