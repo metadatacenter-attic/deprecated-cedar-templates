@@ -35,46 +35,26 @@
                     "enum": [ false ]
                 }
             },
-            "required": [
-                "$schema",
-                "type",
-                "title",
-                "description",
-                "properties",
-                "additionalProperties"
-            ]
+            "required": [ "$schema", "type", "title", "description", "properties", "additionalProperties" ]
         },
         "templateRequiredField": {
             "description": "Schema describing the 'required' field in a template",
             "type": "object",
-            "properties":
-            {
+            "properties": {
                 "required": {
                     "description": "Schema describing the 'required' field in a template",
                     "type": "array",
                     "minItems": 3,
                     "maxItems": 3,
                     "items": [
-                        {
-                            "type": "string",
-                            "enum": [ "@type" ]
-                        },
-                        {
-                            "type": "string",
-                            "enum": [ "@id" ]
-                        },
-                        {
-                            "type": "string",
-                            "enum": [ "_templateId" ]
-                        }
+                        { "type": "string", "enum": [ "@type" ] },
+                        { "type": "string", "enum": [ "@id" ] },
+                        { "type": "string", "enum": [ "_templateId" ] }
                     ],
                     "uniqueItems": true
                 }
             },
-            "required": [
-                "required"
-            ]
-            
+            "required": [ "required" ]            
         },
         "coreJSONSchemaTemplateFields": {
             "type": "object",
@@ -87,29 +67,20 @@
         "templateElementRequiredField": {
             "description": "Schema describing the 'required' field in a template element",
             "type": "object",
-            "properties":
-            {
+            "properties": {
                 "required": {
                     "description": "Schema describing the schema of the 'required' field in a template element",
                     "type": "array",
                     "minItems": 2,
                     "maxItems": 2,
                     "items": [
-                        {
-                            "type": "string",
-                            "enum": [ "@type" ]
-                        },
-                        {
-                            "type": "string",
-                            "enum": [ "@id" ]
-                        }
+                        { "type": "string", "enum": [ "@type" ] },
+                        { "type": "string", "enum": [ "@id" ] }
                     ],
                     "uniqueItems": true
                 }
             },
-            "required": [
-                "required"
-            ]
+            "required": [ "required" ]
         },
         "coreJSONSchemaTemplateElementFields": {
             "type": "object",
@@ -122,24 +93,18 @@
         "templateFieldRequiredField":        {
             "description": "Schema describing the 'required' field in a template field",
             "type": "object",
-            "properties":
-            {
+            "properties":            {
                 "required": {
                     "description": "Schema describing the schema of the 'required' field in a template field",
                     "type": "array",
                     "minItems": 1,
                     "items": [
-                        {
-                            "type": "string",
-                            "enum": [ "_value" ]
-                        }
+                        { "type": "string", "enum": [ "_value" ] }
                     ],
                     "uniqueItems": true
                 }
             },
-            "required": [
-                "required"
-            ]
+            "required": [ "required" ]
         },        
         "coreJSONSchemaTemplateFieldFields": {
             "type": "object",
@@ -154,22 +119,10 @@
             "type": "object",
             "description": "A schema that describes CEDAR provenance fields",
             "properties": {
-                "pav:createdOn": {
-                    "type": "string",
-                    "format": "date-time"
-                },
-                "pav:createdBy": {
-                    "type": "string",
-                    "format": "uri"
-                },
-                "pav:lastUpdatedOn": {
-                    "type": "string",
-                    "format": "date-time"
-                },
-                "cedar:lastUpdatedBy": {
-                    "type": "string",
-                    "format": "uri"
-                }
+                "pav:createdOn": { "type": "string", "format": "date-time" },
+                "pav:createdBy": { "type": "string", "format": "uri" },
+                "pav:lastUpdatedOn": { "type": "string", "format": "date-time" },
+                "cedar:lastUpdatedBy": { "type": "string", "format": "uri" }
             }
         },
         "templateUIField": {
@@ -213,9 +166,7 @@
                     "description": "Schema describing the schema of the 'order' field in a template element '_ui' field",
                     "type": "array",
                     "minItems": 1,
-                    "items": {
-                        "type": "string", "minLength": 1
-                    },
+                    "items": {  "type": "string", "minLength": 1 },
                     "uniqueItems": true
                 }
             },
@@ -388,9 +339,7 @@
             "type": "object",
             "description": "A schema that describes a JSON-LD '@type' field",
             "properties": {
-                "@type": {
-                    "type": "string", "format": "uri"
-                }
+                "@type": { "type": "string", "format": "uri" }
             },
             "required": [ "@type" ]
         },
@@ -398,9 +347,7 @@
             "type": "object",
             "description": "A schema that describes a JSON-LD '@id' field",
             "properties": {
-                "@id": {
-                    "type": "string", "format": "uri"
-                }
+                "@id": { "type": "string", "format": "uri" }
             },
             "required": [ "@id" ]
         },
@@ -444,8 +391,7 @@
             "required": [ "@type" ]
         },
         "templatePropertiesField": {
-            "properties":
-            {             
+            "properties": {             
                 "properties": { "$ref": "#/definitions/templatePropertiesFieldContent" }
             },
             "required": [ "properties" ]
@@ -453,8 +399,7 @@
         "templatePropertiesFieldContent": {
             "description": "Schema that describes the schema of a 'properties' field in a template",
             "type": "object",
-            "properties":
-            {
+            "properties": {
                 "_templateID": { "$ref": "#/definitions/templateIDFieldContent" },
                 "@context": { "$ref": "#/definitions/contextFieldContent" },
                 "@type": { "$ref": "#/definitions/typeFieldContent" },
@@ -594,8 +539,7 @@
             "required": [ "type", "format" ]
         },
         "templateElementPropertiesField": {
-            "properties":
-            {             
+            "properties": {             
                 "properties": { "$ref": "#/definitions/templateElementPropertiesFieldContent" }
             },
             "required": [ "properties" ]
@@ -603,8 +547,7 @@
         "templateElementPropertiesFieldContent": {
             "description": "Schema that describes the schema of a 'properties' field in a template element",
             "type": "object",
-            "properties":
-            {
+            "properties": {
                 "@context": { "$ref": "#/definitions/contextFieldContent" },
                 "@type": { "$ref": "#/definitions/typeFieldContent" },
                 "@id": { "$ref": "#/definitions/idFieldContent" },
@@ -619,8 +562,7 @@
             "required": [ "@context", "@type", "@id" ]
         },
         "templateFieldPropertiesField": {
-            "properties":
-            {             
+            "properties": {             
                 "properties": { "$ref": "#/definitions/templateFieldPropertiesFieldContent" }
             },
             "required": [ "properties" ]
@@ -628,8 +570,7 @@
         "templateFieldPropertiesFieldContent": {
             "description": "Schema that describes the schema of a 'properties' field  in a template field",
             "type": "object",
-            "properties":
-            {
+            "properties": {
                 "@type": { "$ref": "#/definitions/typeFieldContent" },
                 "@id": { "$ref": "#/definitions/idFieldContent" },
                 "_value": {
