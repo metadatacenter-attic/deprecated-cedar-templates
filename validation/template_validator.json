@@ -215,16 +215,21 @@
         "valueConstraintsOntologiesFieldContent": {
             "description": "Schema that describes the schema of the 'ontologies' field in a '_valueConstraints' field",
             "type": "array",
-            "items": {
-                "description": "Schema that describes the schema of each entry in the 'ontologies' field array in a '_valueConstraints' field",
-                "type": "object",
-                "properties": {
-                    "uri": { "type": "string", "format": "uri" },
-                    "exclusions": { "$ref": "#/definitions/valueConstraintsOntologiesExclusionsFieldContent" }
-                },
-                "required": [ "uri" ]
-            },
+            "items": {  "$ref": "#/definitions/valueConstraintsOntologiesFieldItemContent" },
             "uniqueItems": true
+        },
+        "valueConstraintsOntologiesFieldItemContent": {
+            "description": "Schema that describes the schema of each entry in the 'ontologies' field array in a '_valueConstraints' field",
+            "type": "object",
+            "properties": {
+                "uri": { "type": "string", "format": "uri" },
+                "acronym": { "type": "string", "minLength": 1 },
+                "name": { "type": "string", "minLength": 1 },
+                "numChildren": { "type": "integer", "minimum": 1 },
+                "exclusions": { "$ref": "#/definitions/valueConstraintsOntologiesExclusionsFieldContent" }
+            },
+            "required": [ "uri" ],
+            "additionalProperties": false
         },
         "valueConstraintsOntologiesExclusionsFieldContent": {
             "description": "Schema that describes the schema of the 'ontologies.exclusions' field in a '_valueConstraints' field",
@@ -235,19 +240,20 @@
         "valueConstraintsValueSetsFieldContent": {
             "description": "Schema that describes the schema of 'valueSets' field in a '_valueConstraints' field",
             "type": "array",
-            "items": {
-                "description": "Schema that describes the schema of each entry in the 'valueSets' field array in a '_valueConstraints' field",
-                "type": "object",
-                "properties": {
-                    "uri": { "type": "string", "format": "uri" },
-                    "name": { "type": "string", "minLength": 1 },
-                    "vsCollection": { "type": "string", "format": "uri" },
-                    "exclusions": { "$ref": "#/definitions/valueConstraintsValueSetsExclusionsFieldContent" }
-                },
-                "required": [ "uri" ],
-                "additionalProperties": false
-            },
+            "items": { "$ref": "#/definitions/valueConstraintsValueSetsFieldItemContent" },
             "uniqueItems": true
+        },
+        "valueConstraintsValueSetsFieldItemContent": {
+            "description": "Schema that describes the schema of each entry in the 'valueSets' field array in a '_valueConstraints' field",
+            "type": "object",
+            "properties": {
+                "uri": { "type": "string", "format": "uri" },
+                "name": { "type": "string", "minLength": 1 },
+                "vsCollection": { "type": "string", "format": "uri" },
+                "exclusions": { "$ref": "#/definitions/valueConstraintsValueSetsExclusionsFieldContent" }
+            },
+            "required": [ "uri" ],
+            "additionalProperties": false
         },
         "valueConstraintsValueSetsExclusionsFieldContent": {
             "description": "Schema that describes the schema of the 'valueSets.exclusions' field in a '_valueConstraints' field",
