@@ -141,7 +141,7 @@
             "properties": {
                 "title": { "type": "string", "minLength": 1 },
                 "description": { "type": "string" },
-                "order": { "$ref": "#/definitions/nonEmptyStringArray" }
+                "order": { "$ref": "#/definitions/stringArray" }
             },
             "required": [ "title", "description", "order" ]
         },
@@ -159,16 +159,9 @@
             "properties": {
                 "title": { "type": "string", "minLength": 1 },
                 "description": { "type": "string" },
-                "order": { "$ref": "#/definitions/templateElementUIOrderFieldContent" }
+                "order": { "$ref": "#/definitions/stringArray" }
             },
             "required": [ "title", "description", "order" ]
-        },
-        "templateElementUIOrderFieldContent": {
-            "description": "Schema describing the schema of the 'order' field in a template element '_ui' field",
-            "type": "array",
-            "minItems": 1,
-            "items": {  "type": "string", "minLength": 1 },
-            "uniqueItems": true
         },
         "templateFieldUIField": {
             "description": "A schema that describes a '_ui' field in a template field",
@@ -399,17 +392,17 @@
             "description": "Schema that describes the schema of the content of a 'properties' field in a template",
             "type": "object",
             "properties": {
-                "_templateID": { "$ref": "#/definitions/templateIDFieldContent" },
                 "@context": { "$ref": "#/definitions/contextFieldContent" },
                 "@type": { "$ref": "#/definitions/typeFieldContent" },
                 "@id": { "$ref": "#/definitions/idFieldContent" },
+                "_templateId": { "$ref": "#/definitions/templateIDFieldContent" },
                 "pav:createdOn": { "$ref": "#/definitions/pavCreatedOnFieldContent" },
                 "pav:createdBy": { "$ref": "#/definitions/pavCreatedByFieldContent" },
                 "pav:lastUpdatedOn:": { "$ref": "#/definitions/pavLastUpdatedOnFieldContent" },
                 "cedar:lastUpdatedBy": { "$ref": "#/definitions/cedarLastUpdatedByFieldContent" }
             },
             "patternProperties": {
-                "^(?!@context)(?!@id)(?!@type)(?!_templateId).*$": { "$ref": "#/definitions/templateFieldOrElement" }
+                "^[a-zA-Z][a-zA-Z0-9]+$": { "$ref": "#/definitions/templateFieldOrElement" }
             },
             "required": [ "@context", "@type", "@id", "_templateId" ]
         },
@@ -417,7 +410,7 @@
             "description": "A '@context' field has entries consisting of a name followed by an enum specifying the URI corresponding to that name",
             "type": "object",
             "patternProperties": {
-                "^(?!@context)(?!@id)(?!@type)(?!_templateId).*$": { "$ref": "#/definitions/enumSpecifyingOneURI" }                
+                "^[a-zA-Z][a-zA-Z0-9]+$": { "$ref": "#/definitions/enumSpecifyingOneURI" }                
             }
         },
         "enumSpecifyingOneURI": {
@@ -449,6 +442,12 @@
             "description": "Schema that describes the schema of a non-empty string array",
             "type": "array",
             "minItems": 1,
+            "items": { "type": "string", "minLength": 1 },
+            "uniqueItems": true 
+        },
+        "stringArray": {
+            "description": "Schema that describes the schema of a non-empty string array",
+            "type": "array",
             "items": { "type": "string", "minLength": 1 },
             "uniqueItems": true 
         },
@@ -509,7 +508,7 @@
             "required": [ "type", "format" ]            
         },
         "templateIDFieldContent": {
-            "description": "Schema that describes the schema for a '_templateID' field in a 'properties' field in a template",
+            "description": "Schema that describes the schema for a '_templateId' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
                 "type": { "type": "string", "enum": [ "string" ] },
@@ -574,7 +573,7 @@
                 }
             },
             "patternProperties": {
-                "^(?!@context)(?!@id)(?!@type)(?!_tmp).*$": { "$ref": "#/definitions/templateFieldOrElement" }
+                "^[a-zA-Z][a-zA-Z0-9]+$": { "$ref": "#/definitions/templateFieldOrElement" }
             },
             "required": [ "@context", "@type", "@id" ]
         },
