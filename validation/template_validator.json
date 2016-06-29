@@ -5,7 +5,7 @@
     "type": "object",
     "definitions": {
         "coreJSONSchemaFields": {
-            "description": "A schema that describes core JSON Schema fields",
+            "description": "A schema that describes core JSON Schema fields used in templates, elements, and fields",
             "type": "object",
             "properties": {
                 "$schema": {
@@ -41,23 +41,24 @@
             "description": "Schema describing the 'required' field in a template",
             "type": "object",
             "properties": {
-                "required": {
-                    "description": "Schema describing the 'required' field in a template",
-                    "type": "array",
-                    "minItems": 3,
-                    "maxItems": 3,
-                    "items": [
-                        { "type": "string", "enum": [ "@type" ] },
-                        { "type": "string", "enum": [ "@id" ] },
-                        { "type": "string", "enum": [ "_templateId" ] }
-                    ],
-                    "uniqueItems": true
-                }
+                "required": { "$ref": "#/definitions/templateRequiredFieldContent" }
             },
             "required": [ "required" ]            
         },
+        "templateRequiredFieldContent": {
+            "description": "Schema describing the schema of the 'required' field in a template",
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+                { "type": "string", "enum": [ "@type" ] },
+                { "type": "string", "enum": [ "@id" ] },
+                { "type": "string", "enum": [ "_templateId" ] }
+            ],
+            "uniqueItems": true
+        },
         "coreJSONSchemaTemplateFields": {
-            "description": "A schema that describes JSON Schema template fields",
+            "description": "A schema that describes the core JSON Schema fields in a template",
             "type": "object",
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaFields" },
@@ -68,19 +69,20 @@
             "description": "Schema describing the 'required' field in a template element",
             "type": "object",
             "properties": {
-                "required": {
-                    "description": "Schema describing the schema of the 'required' field in a template element",
-                    "type": "array",
-                    "minItems": 2,
-                    "maxItems": 2,
-                    "items": [
-                        { "type": "string", "enum": [ "@type" ] },
-                        { "type": "string", "enum": [ "@id" ] }
-                    ],
-                    "uniqueItems": true
-                }
+                "required": { "$ref": "#/definitions/templateElementRequiredFieldContent" }
             },
             "required": [ "required" ]
+        },
+        "templateElementRequiredFieldContent": {
+            "description": "Schema describing the schema of the 'required' field in a template element",
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": [
+                { "type": "string", "enum": [ "@type" ] },
+                { "type": "string", "enum": [ "@id" ] }
+            ],
+            "uniqueItems": true
         },
         "coreJSONSchemaTemplateElementFields": {
             "description": "A schema that describes JSON Schema template element fields",
@@ -90,25 +92,26 @@
                 { "$ref": "#/definitions/templateElementRequiredField" }
             ]
         },
-        "templateFieldRequiredField":        {
+        "templateFieldRequiredField": {
             "description": "Schema describing the 'required' field in a template field",
             "type": "object",
-            "properties":            {
-                "required": {
-                    "description": "Schema describing the schema of the 'required' field in a template field",
-                    "type": "array",
-                    "minItems": 1,
-                    "items": [
-                        { "type": "string", "enum": [ "_value" ] }
-                    ],
-                    "uniqueItems": true
-                }
+            "properties": {
+                "required": { "$ref": "#/definitions/templateFieldRequiredFieldContent" }
             },
             "required": [ "required" ]
         },        
+        "templateFieldRequiredFieldContent": {
+            "description": "Schema describing the schema of the 'required' field in a template field",
+            "type": "array",
+            "minItems": 1,
+            "items": [
+                { "type": "string", "enum": [ "_value" ] }
+            ],
+            "uniqueItems": true
+        },
         "coreJSONSchemaTemplateFieldFields": {
+            "description": "A schema that describes the core JSON Schema field in a template fields",
             "type": "object",
-            "description": "A schema that describes JSON Schema template field fields",
             "allOf": [
                 { "$ref": "#/definitions/coreJSONSchemaFields" },
                 { "$ref": "#/definitions/templateFieldRequiredField" }
@@ -161,15 +164,16 @@
             "properties": {
                 "title": { "type": "string", "minLength": 1 },
                 "description": { "type": "string" },
-                "order": {
-                    "description": "Schema describing the schema of the 'order' field in a template element '_ui' field",
-                    "type": "array",
-                    "minItems": 1,
-                    "items": {  "type": "string", "minLength": 1 },
-                    "uniqueItems": true
-                }
+                "order": { "$ref": "#/definitions/templateElementUIOrderFieldContent" }
             },
             "required": [ "title", "description", "order" ]
+        },
+        "templateElementUIOrderFieldContent": {
+            "description": "Schema describing the schema of the 'order' field in a template element '_ui' field",
+            "type": "array",
+            "minItems": 1,
+            "items": {  "type": "string", "minLength": 1 },
+            "uniqueItems": true
         },
         "templateFieldUIField": {
             "description": "A schema that describes a '_ui' field in a template field",
@@ -185,12 +189,14 @@
             "properties": {
                 "title": { "type": "string", "minLength": 1 },
                 "description": { "type": "string" },
-                "inputType": {
-                    "description": "Schema describing the schema of the 'inputType' field in a template '_ui' field",
-                    "type": "string", "enum": [ "textfield", "textarea", "radio", "checkbox", "date", "email", "list", "numeric", "phone-number", "section-break", "richtext", "image", "youtube" ]
-                }
+                "inputType": { "$ref": "#/definitions/templateFieldUIInputTypeFieldContent" }
             },
             "required": [ "description", "title", "inputType" ]
+        },
+        "templateFieldUIInputTypeFieldContent": {
+            "description": "Schema describing the schema of the 'inputType' field in a template field '_ui' field",
+            "type": "string",
+            "enum": [ "textfield", "textarea", "radio", "checkbox", "date", "email", "list", "numeric", "phone-number", "section-break", "richtext", "image", "youtube" ]
         },
         "valueConstraintsField": {
             "description": "A schema that describes a '_valueConstraints' field in a template field",
@@ -221,10 +227,16 @@
                 "type": "object",
                 "properties": {
                     "uri": { "type": "string", "format": "uri" },
-                    "exclusions": { "type": "array", "items": { "type": "string", "format": "uri" }, "uniqueItems": true }
+                    "exclusions": { "$ref": "#/definitions/valueConstraintsOntologiesExclusionsFieldContent" }
                 },
                 "required": [ "uri" ]
             },
+            "uniqueItems": true
+        },
+        "valueConstraintsOntologiesExclusionsFieldContent": {
+            "description": "Schema that describes the schema of the 'ontologies.exclusions' field in a '_valueConstraints' field",
+            "type": "array",
+            "items": { "type": "string", "format": "uri" },
             "uniqueItems": true
         },
         "valueConstraintsValueSetsFieldContent": {
@@ -235,10 +247,16 @@
                 "type": "object",
                 "properties": {
                     "uri": { "type": "string", "format": "uri" },
-                    "exclusions": { "type": "array", "items": { "type": "string", "format": "uri" }, "uniqueItems": true }
+                    "exclusions": { "$ref": "#/definitions/valueConstraintsValueSetsExclusionsFieldContent" }
                 },
                 "required": [ "uri" ]
             },
+            "uniqueItems": true
+        },
+        "valueConstraintsValueSetsExclusionsFieldContent": {
+            "description": "Schema that describes the schema of the 'valueSets.exclusions' field in a '_valueConstraints' field",
+            "type": "array",
+            "items": { "type": "string", "format": "uri" },
             "uniqueItems": true
         },
         "valueConstraintsClassesFieldContent": {
@@ -354,12 +372,7 @@
             "description": "A schema that describes a template's JSON-LD '@type' field",
             "type": "object",
             "properties": {
-                "@type": {
-                    "description": "Schema for the @type field in a template",
-                    "type": "string",
-                    "format": "uri",
-                    "enum": [ "https://schema.metadatacenter.org/core/Template" ]
-                }
+                "@type": { "type": "string", "format": "uri", "enum": [ "https://schema.metadatacenter.org/core/Template" ] }
             },
             "required": [ "@type" ]
         },
@@ -367,12 +380,7 @@
             "description": "A schema that describes a template element's JSON-LD '@type' field",
             "type": "object",
             "properties": {
-                "@type": {
-                    "description": "Schema for the @type field in a template element",
-                    "type": "string",
-                    "format": "uri",
-                    "enum": [ "https://schema.metadatacenter.org/core/TemplateElement" ]
-                }
+                "@type": { "type": "string", "format": "uri", "enum": [ "https://schema.metadatacenter.org/core/TemplateElement" ] }
             },
             "required": [ "@type" ]
         },
@@ -380,12 +388,7 @@
             "description": "A schema that describes a template field's JSON-LD '@type' field",
             "type": "object",
             "properties": {
-                "@type": {
-                    "description": "Schema for the @type field in a template field",
-                    "type": "string",
-                    "format": "uri",
-                    "enum": [ "https://schema.metadatacenter.org/core/TemplateField" ]
-                }
+                "@type": { "type": "string", "format": "uri", "enum": [ "https://schema.metadatacenter.org/core/TemplateField" ] }
             },
             "required": [ "@type" ]
         },
@@ -415,6 +418,13 @@
             },
             "required": [ "@context", "@type", "@id", "_templateId" ]
         },
+        "contextFieldContentEntry": {
+            "description": "A '@context' field has entries consisting of a name followed by an enum specifying the URI corresponding to that name",
+            "type": "object",
+            "patternProperties": {
+                "^(?!@context)(?!@id)(?!@type)(?!_templateId).*$": { "$ref": "#/definitions/enumSpecifyingOneURI" }                
+            }
+        },
         "enumSpecifyingOneURI": {
             "description": "Schema describing an 'enum' field with an array value with exactly one URI",
             "type": "object",
@@ -422,13 +432,6 @@
                 "enum": { "type": "array", "minItems": 1, "maxItems": 1, "items": { "type": "string", "format": "uri" } }
             },
             "required": [ "enum" ]
-        },
-        "contextFieldContentEntry": {
-            "description": "A '@context' field has entries consisting of a name followed by an enum specifying the URI corresponding to that name",
-            "type": "object",
-            "patternProperties": {
-                "^(?!@context)(?!@id)(?!@type)(?!_templateId).*$": { "$ref": "#/definitions/enumSpecifyingOneURI" }                
-            }
         },
         "contextFieldContent": {
             "description": "Schema that describes the schema of a '@context' field in a 'properties' field in a template or element",
