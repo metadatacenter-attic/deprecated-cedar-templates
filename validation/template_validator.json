@@ -264,39 +264,41 @@
         "valueConstraintsClassesFieldContent": {
             "description": "Schema that describes the schema of the 'classes' field in a '_valueConstraints' field",
             "type": "array",
-            "items": {
-                "description": "Schema that describes the schema of each entry in the 'classes' field array in a '_valueConstraints' field",
-                "type": "object",
-                "properties": {
-                    "uri": { "type": "string", "format": "uri" },
-                    "prefLabel": { "type": "string", "minLength": 1 },
-                    "type": { "type": "string", "minLength": 1 },
-                    "label": { "type": "string", "minLength": 1 },
-                    "default": { "type": "boolean" },
-                    "source": { "type": "string", "minLength": 1 }
-                },
-                "required": [ "uri", "prefLabel", "type", "label", "default", "source" ],
-                "additionalProperties": false
-            },
+            "items": {},
             "uniqueItems": true
+        },
+        "valueConstraintsClassesFieldItemContent": {
+            "description": "Schema that describes the schema of each entry in the 'classes' field array in a '_valueConstraints' field",
+            "type": "object",
+            "properties": {
+                "uri": { "type": "string", "format": "uri" },
+                "prefLabel": { "type": "string", "minLength": 1 },
+                "type": { "type": "string", "minLength": 1 },
+                "label": { "type": "string", "minLength": 1 },
+                "default": { "type": "boolean" },
+                "source": { "type": "string", "minLength": 1 }
+            },
+            "required": [ "uri", "prefLabel", "type", "label", "default", "source" ],
+            "additionalProperties": false
         },
         "valueConstraintsBranchesFieldContent": {
             "description": "Schema that describes the schema of the 'branches' field in a '_valueConstraints' field",
             "type": "array",
-            "items": {
-                "description": "Schema that describes the schema of each entry in the 'branches' field array in a '_valueConstraints' field",
-                "type": "object",
-                "properties": {
-                    "source": { "type": "string", "minLength": 1 },
-                    "acronym": { "type": "string", "minLength": 1 },
-                    "name": { "type": "string", "minLength": 1 },
-                    "uri": { "type": "string", "format": "uri" },
-                    "maxDepth": { "type": "integer", "minimum": 1 }
-                },
-                "required": [ "source", "acronym", "name", "uri", "maxDepth" ],
-                "additionalProperties": false
-            },
+            "items": {  "$ref": "#/definitions/valueConstraintsBranchesFieldItemContent"  },
             "uniqueItems": true
+        },
+        "valueConstraintsBranchesFieldItemContent": {
+            "description": "Schema that describes the schema of each entry in the 'branches' field array in a '_valueConstraints' field",
+            "type": "object",
+            "properties": {
+                "source": { "type": "string", "minLength": 1 },
+                "acronym": { "type": "string", "minLength": 1 },
+                "name": { "type": "string", "minLength": 1 },
+                "uri": { "type": "string", "format": "uri" },
+                "maxDepth": { "type": "integer", "minimum": 1 }
+            },
+            "required": [ "source", "acronym", "name", "uri", "maxDepth" ],
+            "additionalProperties": false
         },
         "templateJSONLDContextField" : {
             "description": "A schema that describes a JSON-LD '@context' field in a template",
