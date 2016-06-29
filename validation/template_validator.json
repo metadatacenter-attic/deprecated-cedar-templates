@@ -1,8 +1,4 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "CEDAR Template Validation Schema",
-    "description": "A JSON Schema document that fully describes the schema of CEDAR templates, elements, and fields",
-    "type": "object",
     "definitions": {
         "coreJSONSchemaFields": {
             "description": "A schema that describes core JSON Schema fields used in templates, elements, and fields",
@@ -681,6 +677,8 @@
             ]
         },
         "templateFieldOrElement": {
+            "description": "Schema that describes a template field, element, or a field or elementt array",
+            "type": "object",
             "oneOf": [
                 { "$ref": "#/definitions/templateField" },
                 { "$ref": "#/definitions/templateElement" },
@@ -712,6 +710,10 @@
             ]
         }
     },
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "CEDAR Template Validation Schema",
+    "description": "A JSON Schema document that fully describes the schema of CEDAR templates, elements, and fields",
+    "type": "object",
     "oneOf": [
         { "$ref": "#/definitions/template" },
         { "$ref": "#/definitions/templateElement" },
