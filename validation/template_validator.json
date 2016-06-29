@@ -143,7 +143,8 @@
                 "description": { "type": "string" },
                 "order": { "$ref": "#/definitions/stringArray" }
             },
-            "required": [ "title", "description", "order" ]
+            "required": [ "title", "description", "order" ],
+            "additionalProperties": false
         },
         "templateElementUIField": {
             "description": "A schema that describes a '_ui' field in a template element",
@@ -161,7 +162,8 @@
                 "description": { "type": "string" },
                 "order": { "$ref": "#/definitions/stringArray" }
             },
-            "required": [ "title", "description", "order" ]
+            "required": [ "title", "description", "order" ],
+            "additionalProperties": false
         },
         "templateFieldUIField": {
             "description": "A schema that describes a '_ui' field in a template field",
@@ -179,7 +181,8 @@
                 "description": { "type": "string" },
                 "inputType": { "$ref": "#/definitions/templateFieldUIInputTypeFieldContent" }
             },
-            "required": [ "description", "title", "inputType" ]
+            "required": [ "description", "title", "inputType" ],
+            "additionalProperties": false           
         },
         "templateFieldUIInputTypeFieldContent": {
             "description": "Schema describing the schema of the 'inputType' field in a template field '_ui' field",
@@ -205,7 +208,8 @@
                 "requiredValue": { "type": "boolean" },
                 "multipleChoice": { "type": "boolean" }
             },
-            "required": [ "requiredValue" ]
+            "required": [ "requiredValue" ],
+            "additionalProperties": false
         },
         "valueConstraintsOntologiesFieldContent": {
             "description": "Schema that describes the schema of the 'ontologies' field in a '_valueConstraints' field",
@@ -235,9 +239,12 @@
                 "type": "object",
                 "properties": {
                     "uri": { "type": "string", "format": "uri" },
+                    "name": { "type": "string", "minLength": 1 },
+                    "vsCollection": { "type": "string", "format": "uri" },
                     "exclusions": { "$ref": "#/definitions/valueConstraintsValueSetsExclusionsFieldContent" }
                 },
-                "required": [ "uri" ]
+                "required": [ "uri" ],
+                "additionalProperties": false
             },
             "uniqueItems": true
         },
@@ -261,7 +268,8 @@
                     "default": { "type": "boolean" },
                     "source": { "type": "string", "minLength": 1 }
                 },
-                "required": [ "uri", "prefLabel", "type", "label", "default", "source" ]
+                "required": [ "uri", "prefLabel", "type", "label", "default", "source" ],
+                "additionalProperties": false
             },
             "uniqueItems": true
         },
@@ -276,7 +284,8 @@
                     "maxDepth": { "type": "integer", "minimum": 1 },
                     "includesRoot": { "type": "boolean" }
                 },
-                "required": [ "uri", "maxDepth", "includesRoot" ]
+                "required": [ "uri", "maxDepth", "includesRoot" ],
+                "additionalProperties": false
             },
             "uniqueItems": true
         },
@@ -437,7 +446,8 @@
                 "required": { "$ref": "#/definitions/nonEmptyStringArray" },
                 "additionalProperties": { "type": "boolean", "enum": [ false ] }
             },
-            "required": [ "properties", "required", "additionalProperties" ]
+            "required": [ "properties", "required", "additionalProperties" ],
+            "additionalProperties": false
         },
         "nonEmptyStringArray": {
             "description": "Schema that describes the schema of a non-empty string array",
@@ -458,7 +468,8 @@
             "properties": {
                 "oneOf": { "$ref": "#/definitions/typeFieldOneOfFieldContent" }
             },
-            "required": [ "oneOf" ]
+            "required": [ "oneOf" ],
+            "additionalProperties": false
         },
         "typeFieldOneOfFieldContent": {
             "description": "Schema that describes the schema of the contents of a '@type.oneOf' field in a 'properties' field in a template, element or field",
@@ -466,29 +477,38 @@
             "minItems": 2,
             "maxItems": 2,
             "items": [
-                { "$ref": "#/definitions/uriFieldContent" },
-                { "$ref": "#/definitions/arrayOfURIsFieldContent" }
+                { "$ref": "#/definitions/uriEnumContent" },
+                { "$ref": "#/definitions/uriArrayContent" }
             ]
         },
-        "uriFieldContent": {
-            "description": "Schema that specifies the schema of a URI field",
+        "arrayOfURIs": {
+            "description": "Schema that describes an array of URIs",
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "format": "uri" }
+        },
+        "uriEnumContent": {
+            "description": "Schema that specifies the schema of a type field oneOf URI field",
             "type": "object",
             "properties": {
                 "type": { "type": "string", "enum": [ "string" ] },
-                "format": { "type": "string", "enum": [ "uri" ] }
+                "format": { "type": "string", "enum": [ "uri" ] },
+                "enum": { "$ref": "#/definitions/arrayOfURIs" }
             },
-            "required": [ "type", "format" ]            
+            "required": [ "type", "format" ],
+            "additionalProperties": false
         },
-        "arrayOfURIsFieldContent": {
+        "uriArrayContent": {
             "description": "Schema that specifies the schema of an array of URIs field",
             "type": "object",
             "properties": {
                 "type": { "type": "string", "enum": [ "array" ] },
                 "minItems": { "type": "integer", "enum": [ 1 ] },
-                "items": { "$ref": "#/definitions/uriFieldContent" },
+                "items": { "$ref": "#/definitions/uriEnumContent" },
                 "uniqueItems": { "type": "boolean", "enum": [ true ] }
             },
-            "required": [ "type", "minItems", "items", "uniqueItems" ]            
+            "required": [ "type", "minItems", "items", "uniqueItems" ],
+            "additionalProperties": false
         },
         "dateTimeFieldContent": {
             "description": "Schema that specifies the schema for a date-time field",
@@ -497,7 +517,8 @@
                 "type": { "type": "string", "enum": [ "string" ] },
                 "format": { "type": "string", "enum": [ "date-time" ] }
             },
-            "required": [ "type", "format" ]            
+            "required": [ "type", "format" ],
+            "additionalProperties": false
         },
         "idFieldContent": {
             "description": "Schema that describes the schema for a '@id' field",
@@ -506,7 +527,8 @@
                 "type": { "type": "string", "enum": [ "string" ] },
                 "format": { "type": "string", "enum": [ "uri" ] }
             },
-            "required": [ "type", "format" ]            
+            "required": [ "type", "format" ],
+            "additionalProperties": false
         },
         "templateIDFieldContent": {
             "description": "Schema that describes the schema for a '_templateId' field in a 'properties' field in a template",
@@ -515,7 +537,8 @@
                 "type": { "type": "string", "enum": [ "string" ] },
                 "format": { "type": "string", "enum": [ "uri" ] }
             },
-            "required": [ "type", "format" ]
+            "required": [ "type", "format" ],
+            "additionalProperties": false
         },
         "pavCreatedOnFieldContent": {
             "description": "Schema that describes the schema of a 'pav:createdOn' field in a 'properties' field in a template",
@@ -524,7 +547,8 @@
                 "type": { "type": "string", "enum": [ "string" ] },
                 "format": { "type": "string", "enum": [ "date-time" ] }
             },
-            "required": [ "type", "format" ]
+            "required": [ "type", "format" ],
+            "additionalProperties": false
         },
         "pavCreatedByFieldContent": {
             "description": "Schema that describes the schema of a 'pav:createdBy' field in a 'properties' field in a template",
@@ -533,7 +557,8 @@
                 "type": { "type": "string", "enum": [ "string" ] },
                 "format": { "type": "string", "enum": [ "uri" ] }
             },
-            "required": [ "type", "format" ]
+            "required": [ "type", "format" ],
+            "additionalProperties": false
         },
         "pavLastUpdatedOnFieldContent": {
             "description": "Schema that describes the schema of a 'pav:lastUpdatedOn' field in a 'properties' field in a template",
@@ -542,7 +567,8 @@
                 "type": { "type": "string", "enum": [ "string" ] },
                 "format": { "type": "string", "enum": [ "date-time" ] }
             },
-            "required": [ "type", "format" ]
+            "required": [ "type", "format" ],
+            "additionalProperties": false
         },
         "cedarLastUpdatedByFieldContent": {
             "description": "Schema that describes the schema of a 'cedar:lastUpdatedBy' field in a 'properties' field in a template",
@@ -551,7 +577,8 @@
                 "type": { "type": "string", "enum": [ "string" ] },
                 "format": { "type": "string", "enum": [ "uri" ] }
             },
-            "required": [ "type", "format" ]
+            "required": [ "type", "format" ],
+            "additionalProperties": false
         },
         "templateElementPropertiesField": {
             "description": "Schema that describes the schema of a 'properties' field in a template element",

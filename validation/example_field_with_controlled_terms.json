@@ -1,0 +1,83 @@
+{
+    "@type": "https://schema.metadatacenter.org/core/TemplateField",
+    "@context": {
+        "pav": "http://purl.org/pav/",
+        "cedar": "https://schema.metadatacenter.org/core/"
+    },
+    "type": "object",
+    "title": "d",
+    "description": "d",
+    "_ui": {
+        "title": "f",
+        "description": "a field",
+        "inputType": "textfield"
+    },
+    "_valueConstraints": {
+        "requiredValue": false,
+        "ontologies": [],
+        "valueSets": [
+            {
+                "name": "Abdominal Aortic Aneurysm",
+                "vsCollection": "http://data.bioontology.org/ontologies/NLMVS",
+                "uri": "http://purl.bioontology.org/ontology/NLMVS/2.16.840.1.113762.1.4.1047.17"
+            }
+        ],
+        "classes": [],
+        "branches": [],
+        "multipleChoice": false
+    },
+    "properties": {
+        "@type": {
+            "oneOf": [
+                {
+                    "type": "string",
+                    "format": "uri",
+                    "enum": [
+                        "http://data.bioontology.org/ontologies/LOINC/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FLNC%2FMTHU011987"
+                    ]
+                },
+                {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                        "type": "string",
+                        "format": "uri",
+                        "enum": [
+                            "http://data.bioontology.org/ontologies/LOINC/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FLNC%2FMTHU011987"
+                        ]
+                    },
+                    "uniqueItems": true
+                }
+            ]
+        },
+        "_value": {
+            "type": "string"
+        },
+        "pav:createdOn": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "pav:createdBy": {
+            "type": "string",
+            "format": "uri"
+        },
+        "pav:lastUpdatedOn": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "cedar:lastUpdatedBy": {
+            "type": "string",
+            "format": "uri"
+        }
+    },
+    "required": [
+        "_value"
+    ],
+    "pav:createdOn": "2016-06-29T12:47:12-0700",
+    "pav:createdBy": "https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232",
+    "pav:lastUpdatedOn": "2016-06-29T12:48:28-0700",
+    "cedar:lastUpdatedBy": "https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232",
+    "additionalProperties": false,
+    "@id": "https://repo.metadatacenter.net/template-fields/fe596576-7cde-4412-b84f-d696165f6da6",
+    "$schema": "http://json-schema.org/draft-04/schema#"
+}
