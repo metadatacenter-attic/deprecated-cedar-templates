@@ -398,13 +398,14 @@
                 "_templateId": { "$ref": "#/definitions/templateIDFieldContent" },
                 "pav:createdOn": { "$ref": "#/definitions/pavCreatedOnFieldContent" },
                 "pav:createdBy": { "$ref": "#/definitions/pavCreatedByFieldContent" },
-                "pav:lastUpdatedOn:": { "$ref": "#/definitions/pavLastUpdatedOnFieldContent" },
+                "pav:lastUpdatedOn": { "$ref": "#/definitions/pavLastUpdatedOnFieldContent" },
                 "cedar:lastUpdatedBy": { "$ref": "#/definitions/cedarLastUpdatedByFieldContent" }
             },
             "patternProperties": {
                 "^[a-zA-Z][a-zA-Z0-9]+$": { "$ref": "#/definitions/templateFieldOrElement" }
             },
-            "required": [ "@context", "@type", "@id", "_templateId" ]
+            "required": [ "@context", "@type", "@id", "_templateId" ],
+            "additionalProperties": false            
         },
         "contextFieldContentEntry": {
             "description": "A '@context' field has entries consisting of a name followed by an enum specifying the URI corresponding to that name",
@@ -567,6 +568,10 @@
                 "@context": { "$ref": "#/definitions/contextFieldContent" },
                 "@type": { "$ref": "#/definitions/typeFieldContent" },
                 "@id": { "$ref": "#/definitions/idFieldContent" },
+                "pav:createdOn": { "$ref": "#/definitions/pavCreatedOnFieldContent" },
+                "pav:createdBy": { "$ref": "#/definitions/pavCreatedByFieldContent" },
+                "pav:lastUpdatedOn": { "$ref": "#/definitions/pavLastUpdatedOnFieldContent" },
+                "cedar:lastUpdatedBy": { "$ref": "#/definitions/cedarLastUpdatedByFieldContent" },
                 "_tmp": {
                     "description": "TEMPORARY: Schema for a '_tmp' field. THIS FIELD SHOULD NOT BE HERE!",
                     "type": "object"
@@ -575,7 +580,8 @@
             "patternProperties": {
                 "^[a-zA-Z][a-zA-Z0-9]+$": { "$ref": "#/definitions/templateFieldOrElement" }
             },
-            "required": [ "@context", "@type", "@id" ]
+            "required": [ "@context", "@type", "@id" ],
+            "additionalProperties": false
         },
         "templateFieldPropertiesField": {
             "description": "Schema that describes the schema of a 'properties' field in a template field",
@@ -591,8 +597,12 @@
             "properties": {
                 "@type": { "$ref": "#/definitions/typeFieldContent" },
                 "@id": { "$ref": "#/definitions/idFieldContent" },
+                "pav:createdOn": { "$ref": "#/definitions/pavCreatedOnFieldContent" },
+                "pav:createdBy": { "$ref": "#/definitions/pavCreatedByFieldContent" },
+                "pav:lastUpdatedOn": { "$ref": "#/definitions/pavLastUpdatedOnFieldContent" },
+                "cedar:lastUpdatedBy": { "$ref": "#/definitions/cedarLastUpdatedByFieldContent" },
                 "_value": {
-                    "description": "Schema that describes the schema of a '_value' field in a 'properties' field in a template field. WILL BE UNNEEDED WHEN @value USED",
+                    "description": "WILL BE UNNEEDED WHEN @value USED",
                     "type": "object"
                 },
                 "_tmp": {
@@ -600,7 +610,8 @@
                     "type": "object"
                 }                
             },
-            "required": [ "@type", "_value" ]
+            "required": [ "@type", "_value" ],
+            "additionalProperties": false
         },
         "templateField": {
             "description": "Schema that describes a template field",
@@ -612,6 +623,7 @@
                 { "$ref": "#/definitions/jsonLDIDField" },
                 { "$ref": "#/definitions/templateFieldUIField" },
                 { "$ref": "#/definitions/valueConstraintsField" },
+                { "$ref": "#/definitions/provenanceFields" },
                 { "$ref": "#/definitions/templateFieldPropertiesField" }
             ]
         },
@@ -624,6 +636,7 @@
                 { "$ref": "#/definitions/templateElementJSONLDTypeField" },
                 { "$ref": "#/definitions/jsonLDIDField" },
                 { "$ref": "#/definitions/templateElementUIField" },
+                { "$ref": "#/definitions/provenanceFields" },
                 { "$ref": "#/definitions/templateElementPropertiesField" }
             ]
         },
