@@ -414,7 +414,7 @@
                 "cedar:lastUpdatedBy": { "$ref": "#/definitions/cedarLastUpdatedByFieldContent" }
             },
             "patternProperties": {
-                "^[a-zA-Z][a-zA-Z0-9]+$": { "$ref": "#/definitions/templateFieldOrElement" }
+                "^[a-zA-Z][a-zA-Z0-9]*$": { "$ref": "#/definitions/templateFieldOrElement" }
             },
             "required": [ "@context", "@type", "@id", "_templateId" ],
             "additionalProperties": false            
@@ -423,7 +423,7 @@
             "description": "A '@context' field has entries consisting of a name followed by an enum specifying the URI corresponding to that name",
             "type": "object",
             "patternProperties": {
-                "^[a-zA-Z][a-zA-Z0-9]+$": { "$ref": "#/definitions/enumSpecifyingOneURI" }                
+                "^[a-zA-Z][a-zA-Z0-9]*$": { "$ref": "#/definitions/enumSpecifyingOneURI" }                
             }
         },
         "enumSpecifyingOneURI": {
@@ -608,7 +608,7 @@
                 }
             },
             "patternProperties": {
-                "^[a-zA-Z][a-zA-Z0-9]+$": { "$ref": "#/definitions/templateFieldOrElement" }
+                "^[a-zA-Z][a-zA-Z0-9]*$": { "$ref": "#/definitions/templateFieldOrElement" }
             },
             "required": [ "@context", "@type", "@id" ],
             "additionalProperties": false
