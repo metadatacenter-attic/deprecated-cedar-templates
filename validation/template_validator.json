@@ -141,12 +141,7 @@
             "properties": {
                 "title": { "type": "string", "minLength": 1 },
                 "description": { "type": "string" },
-                "order": {
-                    "type": "array",
-                    "minItems": 1,
-                    "items": { "type": "string", "minLength": 1 },
-                    "uniqueItems": true
-                }
+                "order": { "$ref": "#/definitions/nonEmptyStringArray" }
             },
             "required": [ "title", "description", "order" ]
         },
@@ -429,35 +424,51 @@
             "description": "Schema describing an 'enum' field with an array value with exactly one URI",
             "type": "object",
             "properties": {
-                "enum": { "type": "array", "minItems": 1, "maxItems": 1, "items": { "type": "string", "format": "uri" } }
+                "enum": { "$ref": "#/definitions/singleURIArray" }
             },
             "required": [ "enum" ]
+        },
+        "singleURIArray": {
+            "Description": "Schema describing an array of URIs",
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 1,
+            "items": { "type": "string", "format": "uri" } 
         },
         "contextFieldContent": {
             "description": "Schema that describes the schema of a '@context' field in a 'properties' field in a template or element",
             "type": "object",
             "properties": {
                 "properties": { "$ref": "#/definitions/contextFieldContentEntry" },
-                "required": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+                "required": { "$ref": "#/definitions/nonEmptyStringArray" },
                 "additionalProperties": { "type": "boolean", "enum": [ false ] }
             },
             "required": [ "properties", "required", "additionalProperties" ]
+        },
+        "nonEmptyStringArray": {
+            "description": "Schema that describes the schema of a non-empty string array",
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "minLength": 1 },
+            "uniqueItems": true 
         },
         "typeFieldContent": {
             "description": "Schema that describes the schema of the contents of a '@type' field in a 'properties' field in a template, element or field",
             "type": "object",
             "properties": {
-                "oneOf": {
-                    "type": "array",
-                    "minItems": 2,
-                    "maxItems": 2,
-                    "items": [
-                        { "$ref": "#/definitions/uriFieldContent" },
-                        { "$ref": "#/definitions/arrayOfURIsFieldContent" }
-                    ]
-                }
+                "oneOf": { "$ref": "#/definitions/typeFIledOneOfFieldContent" }
             },
             "required": [ "oneOf" ]
+        },
+        "typeFieldOneOfFieldContent": {
+            "description": "Schema that describes the schema of the contents of a '@type.oneOf' field in a 'properties' field in a template, element or field",
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": [
+                { "$ref": "#/definitions/uriFieldContent" },
+                { "$ref": "#/definitions/arrayOfURIsFieldContent" }
+            ]
         },
         "uriFieldContent": {
             "description": "Schema that specifies the schema of a URI field",
