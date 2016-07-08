@@ -39,7 +39,7 @@
             "properties": {
                 "required": { "$ref": "#/definitions/templateRequiredFieldContent" }
             },
-            "required": [ "required" ]
+            "required": [ "required" ]            
         },
         "templateRequiredFieldContent": {
             "description": "Schema describing the schema of the 'required' field in a template",
@@ -80,11 +80,7 @@
             "maxItems": 2,
             "items": [
                 { "type": "string", "enum": [ "@type" ] },
-                { "type": "string", "enum": [ "@id" ] },
-                { "type": "string", "enum": [ "pav:createdOn" ] },
-                { "type": "string", "enum": [ "pav:createdBy" ] },
-                { "type": "string", "enum": [ "pav:lastUpdatedOn" ] },
-                { "type": "string", "enum": [ "cedar:lastUpdatedBy" ] }
+                { "type": "string", "enum": [ "@id" ] }
             ],
             "uniqueItems": true
         },
@@ -103,18 +99,14 @@
                 "required": { "$ref": "#/definitions/templateFieldRequiredFieldContent" }
             },
             "required": [ "required" ]
-        },
+        },        
         "templateFieldRequiredFieldContent": {
             "description": "Schema describing the schema of the 'required' field in a template field",
             "type": "array",
             "minItems": 1,
             "maxItems": 1,
             "items": [
-                { "type": "string", "enum": [ "_value" ] },
-                { "type": "string", "enum": [ "pav:createdOn" ] },
-                { "type": "string", "enum": [ "pav:createdBy" ] },
-                { "type": "string", "enum": [ "pav:lastUpdatedOn" ] },
-                { "type": "string", "enum": [ "cedar:lastUpdatedBy" ] }
+                { "type": "string", "enum": [ "_value" ] }
             ],
             "uniqueItems": true
         },
@@ -192,7 +184,7 @@
                 "inputType": { "$ref": "#/definitions/templateFieldUIInputTypeFieldContent" }
             },
             "required": [ "description", "title", "inputType" ],
-            "additionalProperties": false
+            "additionalProperties": false           
         },
         "templateFieldUIInputTypeFieldContent": {
             "description": "Schema describing the schema of the 'inputType' field in a template field '_ui' field",
@@ -412,7 +404,7 @@
         "templatePropertiesField": {
             "description": "Schema that describes the schema of a 'properties' field in a template",
             "type": "object",
-            "properties": {
+            "properties": {             
                 "properties": { "$ref": "#/definitions/templatePropertiesFieldContent" }
             },
             "required": [ "properties" ]
@@ -434,13 +426,13 @@
                 "^[a-zA-Z][a-zA-Z0-9]*$": { "$ref": "#/definitions/templateFieldOrElement" }
             },
             "required": [ "@context", "@type", "@id", "_templateId" ],
-            "additionalProperties": false
+            "additionalProperties": false            
         },
         "contextFieldContentEntry": {
             "description": "A '@context' field has entries consisting of a name followed by an enum specifying the URI corresponding to that name",
             "type": "object",
             "patternProperties": {
-                "^[a-zA-Z][a-zA-Z0-9]*$": { "$ref": "#/definitions/enumSpecifyingOneURI" }
+                "^[a-zA-Z][a-zA-Z0-9]*$": { "$ref": "#/definitions/enumSpecifyingOneURI" }                
             }
         },
         "enumSpecifyingOneURI": {
@@ -475,13 +467,13 @@
             "type": "array",
             "minItems": 1,
             "items": { "type": "string", "minLength": 1 },
-            "uniqueItems": true
+            "uniqueItems": true 
         },
         "stringArray": {
             "description": "Schema that describes the schema of a non-empty string array",
             "type": "array",
             "items": { "type": "string", "minLength": 1 },
-            "uniqueItems": true
+            "uniqueItems": true 
         },
         "typeFieldContent": {
             "description": "Schema that describes the schema of a '@type' field in a 'properties' field in a template, element or field",
@@ -544,13 +536,13 @@
         },
         "stringAndNullTypeContent": {
            "description": "Schema that describes the schema for an array containing strings 'string' and 'null'",
-           "type": "array",
-           "minItems": 2,
-           "maxItems": 2,
-           "items": [
+           "type": "array", 
+           "minItems": 2, 
+           "maxItems": 2, 
+           "items": [ 
                 { "type": "string", "enum": [ "string" ] },
                 { "type": "string", "enum": [ "null" ] }
-           ]
+           ] 
         },
         "idFieldContent": {
             "description": "Schema that describes the schema for a '@id' field",
@@ -615,7 +607,7 @@
         "templateElementPropertiesField": {
             "description": "Schema that describes the schema of a 'properties' field in a template element",
             "type": "object",
-            "properties": {
+            "properties": {             
                 "properties": { "$ref": "#/definitions/templateElementPropertiesFieldContent" }
             },
             "required": [ "properties" ]
@@ -645,7 +637,7 @@
         "templateFieldPropertiesField": {
             "description": "Schema that describes the schema of a 'properties' field in a template field",
             "type": "object",
-            "properties": {
+            "properties": {             
                 "properties": { "$ref": "#/definitions/templateFieldPropertiesFieldContent" }
             },
             "required": [ "properties" ]
@@ -667,7 +659,7 @@
                 "_tmp": {
                     "description": "TEMPORARY: Schema for a '_tmp' field. THIS FIELD SHOULD NOT BE THERE!",
                     "type": "object"
-                }
+                }                
             },
             "required": [ "@type", "_value" ],
             "additionalProperties": false
