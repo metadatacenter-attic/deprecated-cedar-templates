@@ -126,7 +126,8 @@
                 "pav:createdBy":  { "type": [ "string", "null" ], "format": "uri" },
                 "pav:lastUpdatedOn":  { "type": [ "string", "null" ], "format": "date-time" },
                 "cedar:lastUpdatedBy": { "type": [ "string", "null" ], "format": "uri" }
-            }
+            },
+            "required": [ "pav:createdOn", "pav:createdBy", "pav:lastUpdatedOn", "cedar:lastUpdatedBy" ]
         },
         "templateUIField": {
             "description": "A schema that describes a '_ui' field in a template",
