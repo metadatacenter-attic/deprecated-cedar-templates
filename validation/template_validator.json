@@ -44,12 +44,16 @@
         "templateRequiredFieldContent": {
             "description": "Schema describing the schema of the 'required' field in a template",
             "type": "array",
-            "minItems": 3,
-            "maxItems": 3,
+            "minItems": 7,
+            "maxItems": 7,
             "items": [
+                { "type": "string", "enum": [ "_templateId" ] },
                 { "type": "string", "enum": [ "@type" ] },
                 { "type": "string", "enum": [ "@id" ] },
-                { "type": "string", "enum": [ "_templateId" ] }
+                { "type": "string", "enum": [ "pav:createdOn" ] },
+                { "type": "string", "enum": [ "pav:createdBy" ] },
+                { "type": "string", "enum": [ "pav:lastUpdatedOn" ] },
+                { "type": "string", "enum": [ "cedar:lastUpdatedBy" ] }
             ],
             "uniqueItems": true
         },
@@ -72,11 +76,15 @@
         "templateElementRequiredFieldContent": {
             "description": "Schema describing the schema of the 'required' field in a template element",
             "type": "array",
-            "minItems": 2,
-            "maxItems": 2,
+            "minItems": 6,
+            "maxItems": 6,
             "items": [
                 { "type": "string", "enum": [ "@type" ] },
-                { "type": "string", "enum": [ "@id" ] }
+                { "type": "string", "enum": [ "@id" ] },
+                { "type": "string", "enum": [ "pav:createdOn" ] },
+                { "type": "string", "enum": [ "pav:createdBy" ] },
+                { "type": "string", "enum": [ "pav:lastUpdatedOn" ] },
+                { "type": "string", "enum": [ "cedar:lastUpdatedBy" ] }
             ],
             "uniqueItems": true
         },
@@ -99,9 +107,14 @@
         "templateFieldRequiredFieldContent": {
             "description": "Schema describing the schema of the 'required' field in a template field",
             "type": "array",
-            "minItems": 1,
+            "minItems": 5,
+            "maxItems": 5,
             "items": [
-                { "type": "string", "enum": [ "_value" ] }
+                { "type": "string", "enum": [ "_value" ] },
+                { "type": "string", "enum": [ "pav:createdOn" ] },
+                { "type": "string", "enum": [ "pav:createdBy" ] },
+                { "type": "string", "enum": [ "pav:lastUpdatedOn" ] },
+                { "type": "string", "enum": [ "cedar:lastUpdatedBy" ] }
             ],
             "uniqueItems": true
         },
@@ -117,10 +130,10 @@
             "description": "A schema that describes CEDAR provenance fields",
             "type": "object",
             "properties": {
-                "pav:createdOn": { "type": "string", "format": "date-time" },
-                "pav:createdBy": { "type": "string", "format": "uri" },
-                "pav:lastUpdatedOn": { "type": "string", "format": "date-time" },
-                "cedar:lastUpdatedBy": { "type": "string", "format": "uri" }
+                "pav:createdOn": { "type": [ "string", "null" ], "format": "date-time" },
+                "pav:createdBy":  { "type": [ "string", "null" ], "format": "uri" },
+                "pav:lastUpdatedOn":  { "type": [ "string", "null" ], "format": "date-time" },
+                "cedar:lastUpdatedBy": { "type": [ "string", "null" ], "format": "uri" }
             }
         },
         "templateUIField": {
@@ -368,7 +381,7 @@
             "description": "A schema that describes a JSON-LD '@id' field",
             "type": "object",
             "properties": {
-                "@id": { "type": "string", "format": "uri" }
+                "@id": { "type": [ "string", "null" ], "format": "uri" }
             },
             "required": [ "@id" ]
         },
@@ -553,7 +566,8 @@
             "description": "Schema that describes the schema of a 'pav:createdOn' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
-                "type": { "type": "string", "enum": [ "string" ] },
+                "type": { "type": "array", "minItems": 1, "maxItems": 1, "items": [ "string", "null" ] },
+                "type": { "type": "array", "minItems": 1, "maxItems": 1, "items": [ "string", "null" ] },
                 "format": { "type": "string", "enum": [ "date-time" ] }
             },
             "required": [ "type", "format" ],
@@ -563,7 +577,7 @@
             "description": "Schema that describes the schema of a 'pav:createdBy' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
-                "type": { "type": "string", "enum": [ "string" ] },
+                "type": { "type": "array", "minItems": 1, "maxItems": 1, "items": [ "string", "null" ] },
                 "format": { "type": "string", "enum": [ "uri" ] }
             },
             "required": [ "type", "format" ],
@@ -573,7 +587,7 @@
             "description": "Schema that describes the schema of a 'pav:lastUpdatedOn' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
-                "type": { "type": "string", "enum": [ "string" ] },
+                "type": { "type": "array", "minItems": 1, "maxItems": 1, "items": [ "string", "null" ] },
                 "format": { "type": "string", "enum": [ "date-time" ] }
             },
             "required": [ "type", "format" ],
