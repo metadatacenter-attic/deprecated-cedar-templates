@@ -534,11 +534,21 @@
             "required": [ "type", "format" ],
             "additionalProperties": false
         },
+        "stringAndNullTypeContent": {
+           "description": "Schema that describes the schema for an array containing strings 'string' and 'null'",
+           "type": "array", 
+           "minItems": 2, 
+           "maxItems": 2, 
+           "items": [ 
+                { "type": "string", "enum": [ "string" ] },
+                { "type": "string", "enum": [ "null" ] }
+           ] 
+        },
         "idFieldContent": {
             "description": "Schema that describes the schema for a '@id' field",
             "type": "object",
             "properties": {
-                "type": { "type": "string", "enum": [ "string" ] },
+                "type": { "$ref": "#/definitions/stringAndNullTypeContent" },
                 "format": { "type": "string", "enum": [ "uri" ] }
             },
             "required": [ "type", "format" ],
@@ -553,16 +563,6 @@
             },
             "required": [ "type", "format" ],
             "additionalProperties": false
-        },
-        "stringAndNullTypeContent": {
-           "description": "Schema that describes the schema for an array containing strings 'string' and 'null'",
-           "type": "array", 
-           "minItems": 2, 
-           "maxItems": 2, 
-           "items": [ 
-                { "type": "string", "enum": [ "string" ] },
-                { "type": "string", "enum": [ "null" ] }
-           ] 
         },
         "pavCreatedOnFieldContent": {
             "description": "Schema that describes the schema of a 'pav:createdOn' field in a 'properties' field in a template",

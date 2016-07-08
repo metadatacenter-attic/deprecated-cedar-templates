@@ -30,8 +30,8 @@
             "additionalProperties": false
         },
         "@id": {
-            "format": "uri",
-            "type": "string"
+            "type": [ "string", "null" ],
+            "format": "uri"
         },
         "@type": {
             "oneOf": [
@@ -98,8 +98,8 @@
                     "additionalProperties": false
                 },
                 "@id": {
-                    "format": "uri",
-                    "type": "string"
+                    "type": [ "string", "null" ],
+                    "format": "uri"
                 },
                 "@type": {
                     "oneOf": [
