@@ -37,24 +37,24 @@
           "type": "string"
         },
         "pav:createdOn": {
-          "type": "string",
+          "type": [ "string", "null" ],
           "format": "date-time"
         },
         "pav:createdBy": {
-          "type": "string",
+          "type": [ "string", "null" ],
           "format": "uri"
         },
         "pav:lastUpdatedOn": {
-          "type": "string",
+          "type": [ "string", "null" ],
           "format": "date-time"
         },
         "cedar:lastUpdatedBy": {
-          "type": "string",
+          "type": [ "string", "null" ],
           "format": "uri"
         }
       },
       "required": [
-        "_value"
+        "_value",
       ],
     "pav:createdOn": "2016-06-29T12:47:12-0700",
     "pav:createdBy": "https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232",

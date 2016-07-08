@@ -51,19 +51,19 @@
             ]
         },
         "pav:createdOn": {
-            "type": "string",
+            "type": [ "string", "null" ],
             "format": "date-time"
         },
         "pav:createdBy": {
-            "type": "string",
+            "type": [ "string", "null" ],
             "format": "uri"
         },
         "pav:lastUpdatedOn": {
-            "type": "string",
+            "type": [ "string", "null" ],
             "format": "date-time"
         },
         "cedar:lastUpdatedBy": {
-            "type": "string",
+            "type": [ "string", "null" ],
             "format": "uri"
         },
         "e1": {
@@ -119,19 +119,19 @@
                     ]
                 },
                 "pav:createdOn": {
-                    "type": "string",
+                    "type": [ "string", "null" ],
                     "format": "date-time"
                 },
                 "pav:createdBy": {
-                    "type": "string",
+                    "type": [ "string", "null" ],
                     "format": "uri"
                 },
                 "pav:lastUpdatedOn": {
-                    "type": "string",
+                    "type": [ "string", "null" ],
                     "format": "date-time"
                 },
                 "cedar:lastUpdatedBy": {
-                    "type": "string",
+                    "type": [ "string", "null" ],
                     "format": "uri"
                 },
                 "f": {
@@ -214,19 +214,19 @@
                             "type": "string"
                         },
                         "pav:createdOn": {
-                            "type": "string",
+                            "type": [ "string", "null" ],
                             "format": "date-time"
                         },
                         "pav:createdBy": {
-                            "type": "string",
+                            "type": [ "string", "null" ],
                             "format": "uri"
                         },
                         "pav:lastUpdatedOn": {
-                            "type": "string",
+                            "type": [ "string", "null" ],
                             "format": "date-time"
                         },
                         "cedar:lastUpdatedBy": {
-                            "type": "string",
+                            "type": [ "string", "null" ],
                             "format": "uri"
                         }
                     },
@@ -254,7 +254,8 @@
         }
     },
     "required": [
-        "@type", "@id"
+        "@type", 
+        "@id"
     ],
     "pav:createdOn": "2016-06-29T14:13:01-0700",
     "pav:createdBy": "https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232",

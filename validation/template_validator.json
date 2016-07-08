@@ -76,15 +76,11 @@
         "templateElementRequiredFieldContent": {
             "description": "Schema describing the schema of the 'required' field in a template element",
             "type": "array",
-            "minItems": 6,
-            "maxItems": 6,
+            "minItems": 2,
+            "maxItems": 2,
             "items": [
                 { "type": "string", "enum": [ "@type" ] },
-                { "type": "string", "enum": [ "@id" ] },
-                { "type": "string", "enum": [ "pav:createdOn" ] },
-                { "type": "string", "enum": [ "pav:createdBy" ] },
-                { "type": "string", "enum": [ "pav:lastUpdatedOn" ] },
-                { "type": "string", "enum": [ "cedar:lastUpdatedBy" ] }
+                { "type": "string", "enum": [ "@id" ] }
             ],
             "uniqueItems": true
         },
@@ -107,14 +103,10 @@
         "templateFieldRequiredFieldContent": {
             "description": "Schema describing the schema of the 'required' field in a template field",
             "type": "array",
-            "minItems": 5,
-            "maxItems": 5,
+            "minItems": 1,
+            "maxItems": 1,
             "items": [
-                { "type": "string", "enum": [ "_value" ] },
-                { "type": "string", "enum": [ "pav:createdOn" ] },
-                { "type": "string", "enum": [ "pav:createdBy" ] },
-                { "type": "string", "enum": [ "pav:lastUpdatedOn" ] },
-                { "type": "string", "enum": [ "cedar:lastUpdatedBy" ] }
+                { "type": "string", "enum": [ "_value" ] }
             ],
             "uniqueItems": true
         },
@@ -562,12 +554,21 @@
             "required": [ "type", "format" ],
             "additionalProperties": false
         },
+        "stringAndNullTypeContent": {
+           "description": "Schema that describes the schema for an array containing strings 'string' and 'null'",
+           "type": "array", 
+           "minItems": 2, 
+           "maxItems": 2, 
+           "items": [ 
+                { "type": "string", "enum": [ "string" ] },
+                { "type": "string", "enum": [ "null" ] }
+           ] 
+        },
         "pavCreatedOnFieldContent": {
             "description": "Schema that describes the schema of a 'pav:createdOn' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
-                "type": { "type": "array", "minItems": 1, "maxItems": 1, "items": [ "string", "null" ] },
-                "type": { "type": "array", "minItems": 1, "maxItems": 1, "items": [ "string", "null" ] },
+                "type": { "$ref": "#/definitions/stringAndNullTypeContent" },
                 "format": { "type": "string", "enum": [ "date-time" ] }
             },
             "required": [ "type", "format" ],
@@ -577,7 +578,7 @@
             "description": "Schema that describes the schema of a 'pav:createdBy' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
-                "type": { "type": "array", "minItems": 1, "maxItems": 1, "items": [ "string", "null" ] },
+                "type": { "$ref": "#/definitions/stringAndNullTypeContent" },
                 "format": { "type": "string", "enum": [ "uri" ] }
             },
             "required": [ "type", "format" ],
@@ -587,7 +588,7 @@
             "description": "Schema that describes the schema of a 'pav:lastUpdatedOn' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
-                "type": { "type": "array", "minItems": 1, "maxItems": 1, "items": [ "string", "null" ] },
+                "type": { "$ref": "#/definitions/stringAndNullTypeContent" },
                 "format": { "type": "string", "enum": [ "date-time" ] }
             },
             "required": [ "type", "format" ],
@@ -597,7 +598,7 @@
             "description": "Schema that describes the schema of a 'cedar:lastUpdatedBy' field in a 'properties' field in a template",
             "type": "object",
             "properties": {
-                "type": { "type": "string", "enum": [ "string" ] },
+                "type": { "$ref": "#/definitions/stringAndNullTypeContent" },
                 "format": { "type": "string", "enum": [ "uri" ] }
             },
             "required": [ "type", "format" ],

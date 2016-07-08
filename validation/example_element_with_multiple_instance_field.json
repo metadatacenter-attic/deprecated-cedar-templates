@@ -58,19 +58,19 @@
             ]
         },
         "pav:createdOn": {
-            "type": "string",
+            "type": [ "string", "null" ],
             "format": "date-time"
         },
         "pav:createdBy": {
-            "type": "string",
+            "type": [ "string", "null" ],
             "format": "uri"
         },
         "pav:lastUpdatedOn": {
-            "type": "string",
+            "type": [ "string", "null" ],
             "format": "date-time"
         },
         "cedar:lastUpdatedBy": {
-            "type": "string",
+            "type": [ "string", "null" ],
             "format": "uri"
         },
         "untitled": {
@@ -120,19 +120,19 @@
                         "type": "string"
                     },
                     "pav:createdOn": {
-                        "type": "string",
+                        "type": [ "string", "null" ],
                         "format": "date-time"
                     },
                     "pav:createdBy": {
-                        "type": "string",
+                        "type": [ "string", "null" ],
                         "format": "uri"
                     },
                     "pav:lastUpdatedOn": {
-                        "type": "string",
+                        "type": [ "string", "null" ],
                         "format": "date-time"
                     },
                     "cedar:lastUpdatedBy": {
-                        "type": "string",
+                        "type": [ "string", "null" ],
                         "format": "uri"
                     }
                 },
