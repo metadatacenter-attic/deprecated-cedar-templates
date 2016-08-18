@@ -12,4 +12,4 @@ Creating a MongoDB dump:
 
 `mongodump -d cedar`
 
-This will create a ./data directory with subdirectories for the dumped database(s). 
+This will create a ./data directory with subdirectories for the dumped database(s).
