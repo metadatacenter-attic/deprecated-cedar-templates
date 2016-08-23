@@ -18,6 +18,16 @@
     "properties": {
         "@context": {
             "properties": {
+                "pav": {
+                    "enum": [
+                        "http://purl.org/pav/"
+                    ]
+                },
+                "cedar": {
+                    "enum": [
+                        "https://schema.metadatacenter.org/core/"
+                    ]
+                },
                 "f1": {
                     "enum": [
                         "https://schema.metadatacenter.net/properties/f1"
@@ -30,7 +40,6 @@
                 }
             },
             "required": [
-                "_value",
                 "f1",
                 "untitled"
             ],
@@ -119,8 +128,8 @@
                       ],
                       "format": "uri"
                     },
-                    "_value": {
-                        "type": "string"
+                    "@value": {
+                      "type": [ "string", "null" ]
                     },
                     "pav:createdOn": {
                         "type": [ "string", "null" ],
@@ -139,16 +148,14 @@
                         "format": "uri"
                     }
                 },
-                "required": [
-                    "_value"
-                ],
+                "required": [ "@id", "@value" ],
                 "additionalProperties": false,
                 "@id": "https://repo.metadatacenter.net/template-fields/2aad90a4-1f4b-4bdd-854a-cb6c52f906da",
                 "$schema": "http://json-schema.org/draft-04/schema#",
                 "pav:createdOn": "2016-06-29T10:58:26-0700",
                 "pav:createdBy": "https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232",
                 "pav:lastUpdatedOn": "2016-06-29T12:41:23-0700",
-                "cedar:lastUpdatedBy": "https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232",
+                "cedar:lastUpdatedBy": "https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232"
             }
         }
     },

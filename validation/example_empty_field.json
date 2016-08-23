@@ -42,8 +42,11 @@
       ],
       "format": "uri"
     },
-    "_value": {
-      "type": "string"
+    "@value": {
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "pav:createdOn": {
       "type": [
@@ -75,7 +78,7 @@
     }
   },
   "required": [
-    "_value"
+      "@id", "@value"
   ],
   "additionalProperties": false,
   "pav:createdOn": "2016-06-29T12:47:12-0700",

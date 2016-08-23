@@ -112,10 +112,11 @@
         "templateFieldRequiredFieldContent": {
             "description": "Schema describing the schema of the 'required' field in a template field",
             "type": "array",
-            "minItems": 1,
-            "maxItems": 1,
+            "minItems": 2,
+            "maxItems": 2,
             "items": [
-                { "type": "string", "enum": [ "_value" ] }
+                { "type": "string", "enum": [ "@id" ] },
+                { "type": "string", "enum": [ "@value" ] }
             ],
             "uniqueItems": true
         },
@@ -326,6 +327,9 @@
                 "pav": { "type": "string", "format": "uri", "enum": [ "http://purl.org/pav/" ] },
                 "cedar": { "type": "string", "format": "uri", "enum": [ "https://schema.metadatacenter.org/core/" ] }
             },
+            "patternProperties": {
+                "^(?!pav)(?!cedar)[a-zA-Z][a-zA-Z0-9]*$": { "type": "string", "format": "uri" }
+            },
             "required": [ "pav", "cedar" ],
             "additionalProperties": false
         },
@@ -423,10 +427,10 @@
             "description": "Schema that describes the schema of a 'properties' field in a template",
             "type": "object",
             "properties": {
+                "_templateId": { "$ref": "#/definitions/templateIDFieldContent" },
                 "@type": { "$ref": "#/definitions/typeFieldContent" },
                 "@id": { "$ref": "#/definitions/idFieldContent" },
                 "@context": { "$ref": "#/definitions/contextFieldContent" },
-                "_templateId": { "$ref": "#/definitions/templateIDFieldContent" },
                 "pav:createdOn": { "$ref": "#/definitions/pavCreatedOnFieldContent" },
                 "pav:createdBy": { "$ref": "#/definitions/pavCreatedByFieldContent" },
                 "pav:lastUpdatedOn": { "$ref": "#/definitions/pavLastUpdatedOnFieldContent" },
@@ -443,7 +447,8 @@
             "type": "object",
             "patternProperties": {
                 "^[a-zA-Z][a-zA-Z0-9]*$": { "$ref": "#/definitions/enumSpecifyingOneURI" }                
-            }
+            },
+            "additionalProperties": false
         },
         "enumSpecifyingOneURI": {
             "description": "Schema describing an 'enum' field with an array value with exactly one URI",
@@ -454,7 +459,7 @@
             "required": [ "enum" ]
         },
         "singleURIArray": {
-            "Description": "Schema describing an array of URIs",
+            "description": "Schema describing an array of URIs",
             "type": "array",
             "minItems": 1,
             "maxItems": 1,
@@ -545,14 +550,14 @@
             "additionalProperties": false
         },
         "stringAndNullTypeContent": {
-           "description": "Schema that describes the schema for an array containing strings 'string' and 'null'",
-           "type": "array", 
-           "minItems": 2, 
-           "maxItems": 2, 
-           "items": [ 
+            "description": "Schema that describes the schema for an array containing strings 'string' and 'null'",
+            "type": "array", 
+            "minItems": 2, 
+            "maxItems": 2, 
+            "items": [ 
                 { "type": "string", "enum": [ "string" ] },
                 { "type": "string", "enum": [ "null" ] }
-           ] 
+            ] 
         },
         "idFieldContent": {
             "description": "Schema that describes the schema for a '@id' field",
@@ -632,11 +637,7 @@
                 "pav:createdOn": { "$ref": "#/definitions/pavCreatedOnFieldContent" },
                 "pav:createdBy": { "$ref": "#/definitions/pavCreatedByFieldContent" },
                 "pav:lastUpdatedOn": { "$ref": "#/definitions/pavLastUpdatedOnFieldContent" },
-                "cedar:lastUpdatedBy": { "$ref": "#/definitions/cedarLastUpdatedByFieldContent" },
-                "_tmp": {
-                    "description": "TEMPORARY: Schema for a '_tmp' field. THIS FIELD SHOULD NOT BE HERE!",
-                    "type": "object"
-                }
+                "cedar:lastUpdatedBy": { "$ref": "#/definitions/cedarLastUpdatedByFieldContent" }
             },
             "patternProperties": {
                 "^[a-zA-Z][a-zA-Z0-9]*$": { "$ref": "#/definitions/templateFieldOrElement" }
@@ -652,30 +653,28 @@
             },
             "required": [ "properties" ]
         },
+        "valueFieldContent": {
+            "description": "Schema that describes the schema for a '@value' field",
+            "type": "object",
+            "properties": {
+                "type": { "$ref": "#/definitions/stringAndNullTypeContent" }
+            },
+            "required": [ "type" ],
+            "additionalProperties": false
+        },
         "templateFieldPropertiesFieldContent": {
             "description": "Schema that describes the schema of 'properties' field in a template field",
             "type": "object",
             "properties": {
                 "@type": { "$ref": "#/definitions/typeFieldContent" },
                 "@id": { "$ref": "#/definitions/idFieldContent" },
+                "@value": { "$ref": "#/definitions/valueFieldContent" },
                 "pav:createdOn": { "$ref": "#/definitions/pavCreatedOnFieldContent" },
                 "pav:createdBy": { "$ref": "#/definitions/pavCreatedByFieldContent" },
                 "pav:lastUpdatedOn": { "$ref": "#/definitions/pavLastUpdatedOnFieldContent" },
-                "cedar:lastUpdatedBy": { "$ref": "#/definitions/cedarLastUpdatedByFieldContent" },
-                "_value": {
-                    "description": "WILL BE UNNEEDED WHEN @value USED",
-                    "type": "object",
-                    "properties": {
-                      "type": { "type": "string", "enum": [ "string" ] }
-                    },
-                    "required": [ "type" ]
-                },
-                "_tmp": {
-                    "description": "TEMPORARY: Schema for a '_tmp' field. THIS FIELD SHOULD NOT BE THERE!",
-                    "type": "object"
-                }                
+                "cedar:lastUpdatedBy": { "$ref": "#/definitions/cedarLastUpdatedByFieldContent" }
             },
-            "required": [ "@type", "@id", "pav:createdOn", "pav:createdBy", "pav:lastUpdatedOn", "cedar:lastUpdatedBy", "_value" ],
+            "required": [ "@type", "@id", "@value", "pav:createdOn", "pav:createdBy", "pav:lastUpdatedOn", "cedar:lastUpdatedBy" ],
             "additionalProperties": false
         },
         "templateField": {
@@ -687,9 +686,9 @@
                 { "$ref": "#/definitions/templateFieldJSONLDContextField" },
                 { "$ref": "#/definitions/coreJSONSchemaTemplateFieldFields" },
                 { "$ref": "#/definitions/templateFieldUIField" },
-                { "$ref": "#/definitions/valueConstraintsField" },
                 { "$ref": "#/definitions/templateFieldPropertiesField" },
-                { "$ref": "#/definitions/provenanceFields" }
+                { "$ref": "#/definitions/provenanceFields" },
+                { "$ref": "#/definitions/valueConstraintsField" }
             ]
         },
         "templateElement": {

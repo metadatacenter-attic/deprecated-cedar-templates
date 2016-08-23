@@ -76,10 +76,10 @@
         },
         "@id": {
             "type": [ "string", "null" ],
-            "format": "uri",
+            "format": "uri"
         },
-        "_value": {
-            "type": "string"
+        "@value": {
+            "type": [ "string", "null" ]
         },
         "pav:createdOn": {
             "type": [ "string", "null" ],
@@ -98,9 +98,7 @@
             "format": "uri"
         }
     },
-    "required": [
-        "_value"
-    ],
+    "required": [ "@id", "@value" ],
     "pav:createdOn": "2016-06-29T12:47:12-0700",
     "pav:createdBy": "https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232",
     "pav:lastUpdatedOn": "2016-06-29T12:48:28-0700",

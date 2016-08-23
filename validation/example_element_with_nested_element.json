@@ -18,6 +18,16 @@
     "properties": {
         "@context": {
             "properties": {
+                "pav": {
+                    "enum": [
+                        "http://purl.org/pav/"
+                    ]
+                },
+                "cedar": {
+                    "enum": [
+                        "https://schema.metadatacenter.org/core/"
+                    ]
+                },
                 "e1": {
                     "enum": [
                         "https://schema.metadatacenter.net/properties/e1"
@@ -86,6 +96,16 @@
             "properties": {
                 "@context": {
                     "properties": {
+                        "pav": {
+                            "enum": [
+                                "http://purl.org/pav/"
+                            ]
+                        },
+                        "cedar": {
+                            "enum": [
+                                "https://schema.metadatacenter.org/core/"
+                            ]
+                        },
                         "f": {
                             "enum": [
                                 "https://schema.metadatacenter.net/properties/f"
@@ -210,8 +230,12 @@
                                 }
                             ]
                         },
-                        "_value": {
-                            "type": "string"
+                        "@id": {
+                            "type": [ "string", "null" ],
+                            "format": "uri"
+                        },
+                        "@value": {
+                            "type": [ "string", "null" ]
                         },
                         "pav:createdOn": {
                             "type": [ "string", "null" ],
@@ -230,9 +254,7 @@
                             "format": "uri"
                         }
                     },
-                    "required": [
-                        "_value"
-                    ],
+                    "required": [ "@id", "@value" ],
                     "pav:createdOn": "2016-06-29T14:13:01-0700",
                     "pav:createdBy": "https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232",
                     "pav:lastUpdatedOn": "2016-06-29T14:13:01-0700",
@@ -242,9 +264,7 @@
                     "$schema": "http://json-schema.org/draft-04/schema#"
                 }
             },
-            "required": [
-                "@type", "@id"
-            ],
+            "required": [ "@type", "@id" ],
             "pav:createdOn": "2016-06-29T12:47:12-0700",
             "pav:createdBy": "https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232",
             "pav:lastUpdatedOn": "2016-06-29T13:59:38-0700",
@@ -253,10 +273,7 @@
             "$schema": "http://json-schema.org/draft-04/schema#"
         }
     },
-    "required": [
-        "@type", 
-        "@id"
-    ],
+    "required": [ "@type", "@id" ],
     "pav:createdOn": "2016-06-29T14:13:01-0700",
     "pav:createdBy": "https://repo.metadatacenter.net/users/6d21a887-b704-49a9-922a-aa71632f3232",
     "pav:lastUpdatedOn": "2016-06-29T14:13:01-0700",
