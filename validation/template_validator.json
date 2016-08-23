@@ -53,11 +53,10 @@
         "templateRequiredFieldContent": {
             "description": "Schema describing the schema of the 'required' field in a template",
             "type": "array",
-            "minItems": 7,
-            "maxItems": 7,
+            "minItems": 6,
+            "maxItems": 6,
             "items": [
                 { "type": "string", "enum": [ "_templateId" ] },
-                { "type": "string", "enum": [ "@type" ] },
                 { "type": "string", "enum": [ "@id" ] },
                 { "type": "string", "enum": [ "pav:createdOn" ] },
                 { "type": "string", "enum": [ "pav:createdBy" ] },
@@ -74,31 +73,11 @@
                 { "$ref": "#/definitions/templateRequiredField" }
             ]
         },
-        "templateElementRequiredField": {
-            "description": "Schema describing the 'required' field in a template element",
-            "type": "object",
-            "properties": {
-                "required": { "$ref": "#/definitions/templateElementRequiredFieldContent" }
-            },
-            "required": [ "required" ]
-        },
-        "templateElementRequiredFieldContent": {
-            "description": "Schema describing the schema of the 'required' field in a template element",
-            "type": "array",
-            "minItems": 2,
-            "maxItems": 2,
-            "items": [
-                { "type": "string", "enum": [ "@type" ] },
-                { "type": "string", "enum": [ "@id" ] }
-            ],
-            "uniqueItems": true
-        },
         "coreJSONSchemaTemplateElementFields": {
             "description": "A schema that describes JSON Schema template element fields",
             "type": "object",
             "allOf": [
-                { "$ref": "#/definitions/coreJSONSchemaFields" },
-                { "$ref": "#/definitions/templateElementRequiredField" }
+                { "$ref": "#/definitions/coreJSONSchemaFields" }
             ]
         },
         "templateFieldRequiredField": {
@@ -110,12 +89,11 @@
             "required": [ "required" ]
         },        
         "templateFieldRequiredFieldContent": {
-            "description": "Schema describing the schema of the 'required' field in a template field",
+            "description": "Schema describing the schema of the 'required' field in a template field TODO - allow array",
             "type": "array",
-            "minItems": 2,
-            "maxItems": 2,
+            "minItems": 1,
+            "maxItems": 1,
             "items": [
-                { "type": "string", "enum": [ "@id" ] },
                 { "type": "string", "enum": [ "@value" ] }
             ],
             "uniqueItems": true
