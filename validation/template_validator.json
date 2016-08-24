@@ -659,24 +659,24 @@
             "description": "Schema that describes a template field",
             "type": "object",
             "allOf": [
+                { "$ref": "#/definitions/coreJSONSchemaTemplateFieldFields" },
+                { "$ref": "#/definitions/templateFieldJSONLDContextField" },
                 { "$ref": "#/definitions/templateFieldJSONLDTypeField" },
                 { "$ref": "#/definitions/jsonLDIDField" },
-                { "$ref": "#/definitions/templateFieldJSONLDContextField" },
-                { "$ref": "#/definitions/coreJSONSchemaTemplateFieldFields" },
                 { "$ref": "#/definitions/templateFieldUIField" },
+                { "$ref": "#/definitions/valueConstraintsField" },
                 { "$ref": "#/definitions/templateFieldPropertiesField" },
-                { "$ref": "#/definitions/provenanceFields" },
-                { "$ref": "#/definitions/valueConstraintsField" }
+                { "$ref": "#/definitions/provenanceFields" }
             ]
         },
         "templateElement": {
             "description": "Schema that describes a template element",
             "type": "object",
             "allOf": [
+                { "$ref": "#/definitions/coreJSONSchemaTemplateElementFields" },
+                { "$ref": "#/definitions/templateElementJSONLDContextField" },
                 { "$ref": "#/definitions/templateElementJSONLDTypeField" },
                 { "$ref": "#/definitions/jsonLDIDField" },
-                { "$ref": "#/definitions/templateElementJSONLDContextField" },
-                { "$ref": "#/definitions/coreJSONSchemaTemplateElementFields" },
                 { "$ref": "#/definitions/templateElementUIField" },
                 { "$ref": "#/definitions/templateElementPropertiesField" },
                 { "$ref": "#/definitions/provenanceFields" }
@@ -706,10 +706,10 @@
             "description": "Schema that describes a template",
             "type": "object",
             "allOf": [
+                { "$ref": "#/definitions/coreJSONSchemaTemplateFields" },
+                { "$ref": "#/definitions/templateJSONLDContextField" },
                 { "$ref": "#/definitions/templateJSONLDTypeField" },
                 { "$ref": "#/definitions/jsonLDIDField" },
-                { "$ref": "#/definitions/templateJSONLDContextField" },
-                { "$ref": "#/definitions/coreJSONSchemaTemplateFields" },
                 { "$ref": "#/definitions/templateUIField" },
                 { "$ref": "#/definitions/templatePropertiesField" },
                 { "$ref": "#/definitions/provenanceFields" }
