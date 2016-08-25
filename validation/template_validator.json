@@ -15,14 +15,12 @@
             "properties": {
                 "$schema": {
                     "description": "Schema describing the JSON Schema '$schema' field in a template, element, and field",
-                    "type": "string",
-                    "format": "uri",
+                    "type": "string", "format": "uri",
                     "enum": [ "http://json-schema.org/draft-04/schema#" ]
                 },
                 "type": {
                     "description": "Schema describing the JSON Schema 'type' field in a template, element, and field",
-                    "type": "string",
-                    "enum": [ "object" ]
+                    "type": "string", "enum": [ "object" ]
                 },
                 "title": {
                     "description": "Schema describing the JSON Schema 'title' field in a template, element, and field",
@@ -31,13 +29,11 @@
                 },
                 "description": {
                     "description": "Schema describing the JSON Schema 'description' field in a template, element, and field",
-                    "type": "string",
-                    "minLength": 1
+                    "type": "string", "minLength": 1
                 },
                 "additionalProperties": {
                     "description": "Schema describing the JSON Schema 'additionalProperties' field in a template, element, and field",
-                    "type": "boolean",
-                    "enum": [ false ]
+                    "type": "boolean", "enum": [ false ]
                 }
             },
             "required": [ "$schema", "type", "title", "description", "properties", "additionalProperties" ]
@@ -52,9 +48,7 @@
         },
         "templateRequiredFieldContent": {
             "description": "Schema describing the schema of the 'required' field in a template",
-            "type": "array",
-            "minItems": 6,
-            "maxItems": 6,
+            "type": "array", "minItems": 6, "maxItems": 6, "uniqueItems": true,
             "items": [
                 { "type": "string", "enum": [ "_templateId" ] },
                 { "type": "string", "enum": [ "@id" ] },
@@ -62,8 +56,7 @@
                 { "type": "string", "enum": [ "pav:createdBy" ] },
                 { "type": "string", "enum": [ "pav:lastUpdatedOn" ] },
                 { "type": "string", "enum": [ "cedar:lastUpdatedBy" ] }
-            ],
-            "uniqueItems": true
+            ]
         },
         "coreJSONSchemaTemplateFields": {
             "description": "A schema that describes the core JSON Schema fields in a template",
@@ -90,13 +83,8 @@
         },        
         "templateFieldRequiredFieldContent": {
             "description": "Schema describing the schema of the 'required' field in a template field TODO - allow array",
-            "type": "array",
-            "minItems": 1,
-            "maxItems": 1,
-            "items": [
-                { "type": "string", "enum": [ "@value" ] }
-            ],
-            "uniqueItems": true
+            "type": "array", "minItems": 1, "maxItems": 1, "uniqueItems": true,
+            "items": [ { "type": "string", "enum": [ "@value" ] } ]
         },
         "coreJSONSchemaTemplateFieldFields": {
             "description": "A schema that describes the core JSON Schema fields in a template field",
@@ -204,9 +192,8 @@
         },
         "valueConstraintsOntologiesFieldContent": {
             "description": "Schema that describes the schema of the 'ontologies' field in a '_valueConstraints' field",
-            "type": "array",
-            "items": {  "$ref": "#/definitions/valueConstraintsOntologiesFieldItemContent" },
-            "uniqueItems": true
+            "type": "array", "uniqueItems": true,
+            "items": {  "$ref": "#/definitions/valueConstraintsOntologiesFieldItemContent" }
         },
         "valueConstraintsOntologiesFieldItemContent": {
             "description": "Schema that describes the schema of each entry in the 'ontologies' field array in a '_valueConstraints' field",
@@ -223,15 +210,13 @@
         },
         "valueConstraintsOntologiesExclusionsFieldContent": {
             "description": "Schema that describes the schema of the 'ontologies.exclusions' field in a '_valueConstraints' field",
-            "type": "array",
-            "items": { "type": "string", "format": "uri" },
-            "uniqueItems": true
+            "type": "array", "uniqueItems": true,
+            "items": { "type": "string", "format": "uri" }
         },
         "valueConstraintsValueSetsFieldContent": {
             "description": "Schema that describes the schema of 'valueSets' field in a '_valueConstraints' field",
-            "type": "array",
-            "items": { "$ref": "#/definitions/valueConstraintsValueSetsFieldItemContent" },
-            "uniqueItems": true
+            "type": "array", "uniqueItems": true,
+            "items": { "$ref": "#/definitions/valueConstraintsValueSetsFieldItemContent" }
         },
         "valueConstraintsValueSetsFieldItemContent": {
             "description": "Schema that describes the schema of each entry in the 'valueSets' field array in a '_valueConstraints' field",
@@ -247,15 +232,13 @@
         },
         "valueConstraintsValueSetsExclusionsFieldContent": {
             "description": "Schema that describes the schema of the 'valueSets.exclusions' field in a '_valueConstraints' field",
-            "type": "array",
-            "items": { "type": "string", "format": "uri" },
-            "uniqueItems": true
+            "type": "array", "uniqueItems": true,
+            "items": { "type": "string", "format": "uri" }
         },
         "valueConstraintsClassesFieldContent": {
             "description": "Schema that describes the schema of the 'classes' field in a '_valueConstraints' field",
-            "type": "array",
-            "items": { "$ref": "#/definitions/valueConstraintsClassesFieldItemContent"},
-            "uniqueItems": true
+            "type": "array", "uniqueItems": true,
+            "items": { "$ref": "#/definitions/valueConstraintsClassesFieldItemContent"}            
         },
         "valueConstraintsClassesFieldItemContent": {
             "description": "Schema that describes the schema of each entry in the 'classes' field array in a '_valueConstraints' field",
@@ -273,9 +256,8 @@
         },
         "valueConstraintsBranchesFieldContent": {
             "description": "Schema that describes the schema of the 'branches' field in a '_valueConstraints' field",
-            "type": "array",
-            "items": {  "$ref": "#/definitions/valueConstraintsBranchesFieldItemContent"  },
-            "uniqueItems": true
+            "type": "array", "uniqueItems": true,
+            "items": {  "$ref": "#/definitions/valueConstraintsBranchesFieldItemContent"  }            
         },
         "valueConstraintsBranchesFieldItemContent": {
             "description": "Schema that describes the schema of each entry in the 'branches' field array in a '_valueConstraints' field",
@@ -430,11 +412,8 @@
         },
         "singleURIArray": {
             "description": "Schema describing an array of URIs",
-            "type": "array",
-            "minItems": 1,
-            "maxItems": 1,
-            "items": { "type": "string", "format": "uri" },
-            "uniqueItems": true
+            "type": "array", "minItems": 1, "maxItems": 1, "uniqueItems": true,
+            "items": { "type": "string", "format": "uri" }
         },
         "jsonLDContextFieldContent": {
             "description": "Schema that describes the schema of a '@context' field in a 'properties' field in a template or element or field",
@@ -467,16 +446,13 @@
         },
         "nonEmptyStringArray": {
             "description": "Schema that describes the schema of a non-empty string array",
-            "type": "array",
-            "minItems": 1,
-            "items": { "type": "string", "minLength": 1 },
-            "uniqueItems": true 
+            "type": "array", "minItems": 1, "uniqueItems": true,
+            "items": { "type": "string", "minLength": 1 }            
         },
         "stringArray": {
             "description": "Schema that describes the schema of a non-empty string array",
-            "type": "array",
-            "items": { "type": "string", "minLength": 1 },
-            "uniqueItems": true 
+            "type": "array", "uniqueItems": true,
+            "items": { "type": "string", "minLength": 1 }            
         },
         "jsonLDTypeFieldContent": {
             "description": "Schema that describes the schema of a '@type' field in a 'properties' field in a template, element or field",
@@ -489,9 +465,7 @@
         },
         "jsonLDTypeFieldOneOfFieldContent": {
             "description": "Schema that describes the schema of a '@type.oneOf' field in a 'properties' field in a template, element or field",
-            "type": "array",
-            "minItems": 2,
-            "maxItems": 2,
+            "type": "array", "minItems": 2, "maxItems": 2,
             "items": [
                 { "$ref": "#/definitions/uriEnumContent" },
                 { "$ref": "#/definitions/uriEnumArrayContent" }
@@ -499,10 +473,8 @@
         },
         "arrayOfURIs": {
             "description": "Schema that describes an array of URIs",
-            "type": "array",
-            "minItems": 1,
-            "items": { "type": "string", "format": "uri" },
-            "uniqueItems": true
+            "type": "array", "minItems": 1, "uniqueItems": true,
+            "items": { "type": "string", "format": "uri" }
         },
         "uriEnumContent": {
             "description": "Schema that specifies the schema of a type field oneOf URI field with an optional 'enum'",
@@ -539,9 +511,7 @@
         },
         "stringAndNullTypeContent": {
             "description": "Schema that describes the schema for an array containing strings 'string' and 'null'",
-            "type": "array", 
-            "minItems": 2, 
-            "maxItems": 2, 
+            "type": "array",  "minItems": 2,  "maxItems": 2, 
             "items": [ 
                 { "type": "string", "enum": [ "string" ] },
                 { "type": "string", "enum": [ "null" ] }
