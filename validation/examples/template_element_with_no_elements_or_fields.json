@@ -27,18 +27,14 @@
                     ]
                 }
             },
-            "required": [
-                "pav",
-                "cedar"
-            ],
+            "patternProperties": {
+                "^[a-zA-Z][a-zA-Z0-9]*$": { "type": "string", "format": "uri" }
+            },
+            "required": [ "pav", "cedar" ],
             "additionalProperties": false
         },
         "@id": {
-            "type": [
-                "string",
-                "null"
-            ],
-            "format": "uri"
+            "type": [ "string", "null" ], "format": "uri"
         },
         "@type": {
             "oneOf": [

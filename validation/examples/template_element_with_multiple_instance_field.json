@@ -39,21 +39,19 @@
                     ]
                 }
             },
-            "required": [
-                "f1",
-                "untitled"
-            ],
+            "patternProperties": {
+                "^[a-zA-Z][a-zA-Z0-9]*$": { "type": "string", "format": "uri" }
+            },
+            "required": [ "pav", "cedar", "f1", "untitled" ],
             "additionalProperties": false
         },
         "@id": {
-            "type": [ "string", "null" ],
-            "format": "uri"
+            "type": [ "string", "null" ], "format": "uri"
         },
         "@type": {
             "oneOf": [
                 {
-                    "type": "string",
-                    "format": "uri"
+                    "type": "string", "format": "uri"
                 },
                 {
                     "type": "array",

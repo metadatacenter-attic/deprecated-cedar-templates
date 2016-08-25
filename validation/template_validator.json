@@ -4,8 +4,8 @@
     "description": "A JSON Schema document that fully describes the schema of CEDAR templates, elements, and fields",
     "type": "object",
     "oneOf": [
-        { "$ref": "#/definitions/template" },
         { "$ref": "#/definitions/templateElement" },
+        { "$ref": "#/definitions/template" },
         { "$ref": "#/definitions/templateField" }
     ],
     "definitions": {
@@ -437,14 +437,24 @@
             "uniqueItems": true
         },
         "jsonLDContextFieldContent": {
-            "description": "Schema that describes the schema of a '@context' field in a 'properties' field in a template or element",
+            "description": "Schema that describes the schema of a '@context' field in a 'properties' field in a template or element or field",
             "type": "object",
             "properties": {
                 "properties": { "$ref": "#/definitions/jsonLDContextFieldContentEntry" },
+                "patternProperties": { "$ref": "#/definitions/jsonLDContextFieldPatternPropertiesContent" },
                 "required": { "$ref": "#/definitions/nonEmptyStringArray" },
                 "additionalProperties": { "type": "boolean", "enum": [ false ] }
             },
-            "required": [ "properties", "required", "additionalProperties" ],
+            "required": [ "properties", "patternProperties", "required", "additionalProperties" ],
+            "additionalProperties": false
+        },
+        "jsonLDContextFieldPatternPropertiesContent": {
+            "description": "Schema that describes a 'patternProperties field in a '@context' field in a 'properties' field in template or element or field",
+            "type": "object",
+            "properties": {
+                "^[a-zA-Z][a-zA-Z0-9]*$": { "$ref": "#/definitions/uriEnumContent" }
+            },
+            "requiredProperties": [ "^[a-zA-Z][a-zA-Z0-9]*$" ],
             "additionalProperties": false
         },
         "jsonLDContextFieldContentEntry": {
@@ -472,19 +482,19 @@
             "description": "Schema that describes the schema of a '@type' field in a 'properties' field in a template, element or field",
             "type": "object",
             "properties": {
-                "oneOf": { "$ref": "#/definitions/typeFieldOneOfFieldContent" }
+                "oneOf": { "$ref": "#/definitions/jsonLDTypeFieldOneOfFieldContent" }
             },
             "required": [ "oneOf" ],
             "additionalProperties": false
         },
-        "typeFieldOneOfFieldContent": {
+        "jsonLDTypeFieldOneOfFieldContent": {
             "description": "Schema that describes the schema of a '@type.oneOf' field in a 'properties' field in a template, element or field",
             "type": "array",
             "minItems": 2,
             "maxItems": 2,
             "items": [
                 { "$ref": "#/definitions/uriEnumContent" },
-                { "$ref": "#/definitions/uriArrayContent" }
+                { "$ref": "#/definitions/uriEnumArrayContent" }
             ]
         },
         "arrayOfURIs": {
@@ -495,7 +505,7 @@
             "uniqueItems": true
         },
         "uriEnumContent": {
-            "description": "Schema that specifies the schema of a type field oneOf URI field",
+            "description": "Schema that specifies the schema of a type field oneOf URI field with an optional 'enum'",
             "type": "object",
             "properties": {
                 "type": { "type": "string", "enum": [ "string" ] },
@@ -505,8 +515,8 @@
             "required": [ "type", "format" ],
             "additionalProperties": false
         },
-        "uriArrayContent": {
-            "description": "Schema that specifies the schema of an array of URIs field",
+        "uriEnumArrayContent": {
+            "description": "Schema that specifies the schema of an array of URIs field with optional 'enum'",
             "type": "object",
             "properties": {
                 "type": { "type": "string", "enum": [ "array" ] },
@@ -628,7 +638,7 @@
             "type": "object",
             "oneOf": [
                 { "$ref": "#/definitions/templateFieldValueContent" },
-                { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/templateFieldContent" }, "uniqueItems": true }
+                { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/templateFieldValueContent" }, "uniqueItems": true }
             ]
         },
         "templateFieldValueContent": {
@@ -643,6 +653,7 @@
             "description": "Schema that describes the schema of 'properties' field of a value of a template field",
             "type": "object",
             "properties": {
+                "@context": { "$ref": "#/definitions/jsonLDContextFieldContent" },
                 "@type": { "$ref": "#/definitions/jsonLDTypeFieldContent" },
                 "@id": { "$ref": "#/definitions/jsonLDIDFieldContent" },
                 "@value": { "$ref": "#/definitions/jsonLDValueFieldContent" },

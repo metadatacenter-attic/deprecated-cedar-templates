@@ -10,6 +10,17 @@
         "cedar": "https://schema.metadatacenter.org/core/"
     },
     "properties": {
+        "@context": {
+            "properties": {
+                "pav": { "enum": [ "http://purl.org/pav/" ] },
+                "cedar": { "enum": [ "https://schema.metadatacenter.org/core/" ] }
+            },
+            "patternProperties": {
+                "^[a-zA-Z][a-zA-Z0-9]*$": { "type": "string", "format": "uri" }
+            },
+            "required": [ "pav", "cedar" ],
+            "additionalProperties": false
+        },
         "@type": {
             "oneOf": [
                 { "type": "string", "format": "uri" },
@@ -24,7 +35,7 @@
         "@value": { "type": [ "string", "null" ] },
         "pav:createdOn": { "type": [ "string", "null" ], "format": "date-time" },
         "pav:createdBy": { "type": [ "string", "null" ], "format": "uri" },
-        "pav:lastUpdatedOn": {"type": [ "string", "null" ], "format": "date-time" },
+        "pav:lastUpdatedOn": { "type": [ "string", "null" ], "format": "date-time" },
         "cedar:lastUpdatedBy": { "type": [ "string", "null" ], "format": "uri" }
     },
     "required": [ "@value" ],

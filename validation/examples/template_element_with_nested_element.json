@@ -11,37 +11,23 @@
     "_ui": {
         "title": "e2",
         "description": "An element",
-        "order": [
-            "e1"
-        ]
+        "order": [ "e1" ]
     },
     "properties": {
         "@context": {
             "properties": {
-                "pav": {
-                    "enum": [
-                        "http://purl.org/pav/"
-                    ]
-                },
-                "cedar": {
-                    "enum": [
-                        "https://schema.metadatacenter.org/core/"
-                    ]
-                },
-                "e1": {
-                    "enum": [
-                        "https://schema.metadatacenter.net/properties/e1"
-                    ]
-                }
+                "pav": { "enum": [ "http://purl.org/pav/" ] },
+                "cedar": { "enum": [ "https://schema.metadatacenter.org/core/" ] },
+                "e1": { "enum": [ "https://schema.metadatacenter.net/properties/e1" ] }
             },
-            "required": [
-                "e1"
-            ],
+            "patternProperties": {
+                "^[a-zA-Z][a-zA-Z0-9]*$": { "type": "string", "format": "uri" }
+            },
+            "required": [ "pav", "cedar", "e1" ],
             "additionalProperties": false
         },
         "@id": {
-            "type": [ "string", "null" ],
-            "format": "uri"
+            "type": [ "string", "null" ], "format": "uri"
         },
         "@type": {
             "oneOf": [
@@ -96,30 +82,18 @@
             "properties": {
                 "@context": {
                     "properties": {
-                        "pav": {
-                            "enum": [
-                                "http://purl.org/pav/"
-                            ]
-                        },
-                        "cedar": {
-                            "enum": [
-                                "https://schema.metadatacenter.org/core/"
-                            ]
-                        },
-                        "f": {
-                            "enum": [
-                                "https://schema.metadatacenter.net/properties/f"
-                            ]
-                        }
+                        "pav": { "enum": [ "http://purl.org/pav/" ] },
+                        "cedar": { "enum": [ "https://schema.metadatacenter.org/core/" ] },
+                        "e1": { "enum": [ "https://schema.metadatacenter.net/properties/e1" ] }
                     },
-                    "required": [
-                        "f"
-                    ],
+                    "patternProperties": {
+                        "^[a-zA-Z][a-zA-Z0-9]*$": { "type": "string", "format": "uri" }
+                    },
+                    "required": [ "pav", "cedar", "f" ],
                     "additionalProperties": false
                 },
                 "@id": {
-                    "type": [ "string", "null" ],
-                    "format": "uri"
+                    "type": [ "string", "null" ], "format": "uri"
                 },
                 "@type": {
                     "oneOf": [
@@ -207,6 +181,17 @@
                         "multipleChoice": false
                     },
                     "properties": {
+                        "@context": {
+                            "properties": {
+                                "pav": { "enum": [ "http://purl.org/pav/" ] },
+                                "cedar": { "enum": [ "https://schema.metadatacenter.org/core/" ] }
+                            },
+                            "patternProperties": {
+                                "^[a-zA-Z][a-zA-Z0-9]*$": { "type": "string", "format": "uri" }
+                            },
+                            "required": [ "pav", "cedar", ],
+                            "additionalProperties": false
+                        },
                         "@type": {
                             "oneOf": [
                                 {

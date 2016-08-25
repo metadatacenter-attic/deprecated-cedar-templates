@@ -1,7 +1,9 @@
 
-To validate all example templates, elements and instances:
+To validate all example templates, elements and fields:
 
-for i in example*.json; do jsvalid.py -s template_validator.json -i $i; done
+for i in ./examples/template_*.json; do jsvalid.py -s template_validator.json -i $i; done
+
+To validate all instances agains 
 
 This validator and associated examples works with:
 
